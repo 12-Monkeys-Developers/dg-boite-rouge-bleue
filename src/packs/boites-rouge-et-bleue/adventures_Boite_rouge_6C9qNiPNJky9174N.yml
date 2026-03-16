@@ -453,7 +453,7 @@ journal:
         category: null
         flags: {}
         _stats:
-          compendiumSource: JournalEntry.I0jLQRFpKZfhQLRM.JournalEntryPage.pufaiggDmSWDGlNd
+          compendiumSource: null
           duplicateSource: null
           exportSource: null
           coreVersion: '13.351'
@@ -461,6 +461,43 @@ journal:
           systemVersion: '#{VERSION}#'
           createdTime: 1773696467784
           modifiedTime: 1773696494670
+          lastModifiedBy: dnTXRdn3dIcSOJ86
+        ownership:
+          default: -1
+      - sort: 1300000
+        name: La pièce secrète
+        type: text
+        _id: iFy4cNPa9rL4iFHp
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <p> Un examen attentif de la cave de l’Albergo permet de découvrir
+            une porte étroite, dissimulée par une imposante armoire à roulettes.
+            Elle s’ouvre sur un petit bureau très encombré, d’à peine dix mètres
+            carrés. Sur une table en bois sont posés un ordinateur portable, une
+            imprimante et une pile de livres. Une vitrine vermoulue occupe le
+            fond de la pièce. L’ensemble des murs sont recouverts de
+            photographies gribouillées au feutre rouge.</p>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+          coreVersion: '13.351'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: 1773697594094
+          modifiedTime: 1773697654940
           lastModifiedBy: dnTXRdn3dIcSOJ86
         ownership:
           default: -1
@@ -11321,7 +11358,105 @@ scenes:
               arc: 0
               fill: null
               fillGradientStops: null
-    tokens: []
+    tokens:
+      - name: Personnage
+        displayName: 0
+        actorLink: true
+        width: 1
+        height: 1
+        texture:
+          src: icons/svg/mystery-man.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          offsetX: 0
+          offsetY: 0
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          rotation: 0
+          tint: '#ffffff'
+          alphaThreshold: 0.75
+        lockRotation: false
+        rotation: 0
+        alpha: 1
+        disposition: 1
+        displayBars: 0
+        bar1:
+          attribute: hp
+        bar2:
+          attribute: abilities.str
+        light:
+          negative: false
+          priority: 0
+          alpha: 0.5
+          angle: 360
+          bright: 0
+          color: null
+          coloration: 1
+          dim: 0
+          attenuation: 0.5
+          luminosity: 0.5
+          saturation: 0
+          contrast: 0
+          shadows: 0
+          animation:
+            type: null
+            speed: 5
+            intensity: 5
+            reverse: false
+          darkness:
+            min: 0
+            max: 1
+        sight:
+          enabled: true
+          range: 50
+          angle: 360
+          visionMode: basic
+          color: null
+          attenuation: 0.1
+          brightness: 0
+          saturation: 0
+          contrast: 0
+        detectionModes: []
+        occludable:
+          radius: 0
+        ring:
+          enabled: false
+          colors:
+            ring: null
+            background: null
+          effects: 0
+          subject:
+            scale: 1
+            texture: null
+        turnMarker:
+          mode: 1
+          animation: null
+          src: null
+          disposition: false
+        movementAction: null
+        flags: {}
+        actorId: 7GJyFiE4GvqaCji4
+        hidden: false
+        sort: 0
+        shape: 4
+        _id: B84ph0Fto8XnQwzc
+        delta:
+          _id: B84ph0Fto8XnQwzc
+          name: null
+          type: null
+          img: null
+          system: {}
+          items: []
+          effects: []
+          ownership: null
+          flags: {}
+        x: 2800
+        'y': 1900
+        elevation: 0
+        locked: false
+        _movementHistory: []
+        _regions: []
     lights: []
     notes:
       - entryId: I0jLQRFpKZfhQLRM
@@ -11620,6 +11755,33 @@ scenes:
         textColor: '#ffffff'
         textAnchor: 1
         _id: Nlmvzf8wfnXRelME
+        flags: {}
+      - entryId: I0jLQRFpKZfhQLRM
+        pageId: iFy4cNPa9rL4iFHp
+        global: false
+        x: 2852
+        'y': 2279
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          offsetX: 0
+          offsetY: 0
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          rotation: 0
+          alphaThreshold: 0
+        text: La pièce secrète
+        fontFamily: Signika
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: vNvoIaThQkeumnOE
         flags: {}
     sounds: []
     regions:
@@ -19571,7 +19733,7 @@ folders:
     sort: 0
     flags: {}
     _stats:
-      compendiumSource: Folder.mzBsD4FM83eRyFPG
+      compendiumSource: null
       duplicateSource: null
       exportSource: null
       coreVersion: '13.351'
@@ -19591,6 +19753,6 @@ _stats:
   systemId: dangerousgary
   systemVersion: '#{VERSION}#'
   createdTime: 1773686639098
-  modifiedTime: 1773696994693
+  modifiedTime: 1773697719077
   lastModifiedBy: dnTXRdn3dIcSOJ86
 _key: '!adventures!6C9qNiPNJky9174N'
