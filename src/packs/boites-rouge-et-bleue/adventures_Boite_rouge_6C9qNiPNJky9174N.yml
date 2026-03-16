@@ -6,7 +6,479 @@ sort: 0
 actors: []
 combats: []
 items: []
-journal: []
+journal:
+  - folder: mzBsD4FM83eRyFPG
+    name: l’Albergo
+    _id: I0jLQRFpKZfhQLRM
+    pages:
+      - sort: 100000
+        name: Hall
+        type: text
+        _id: YBwBQGWid5JtF5Nq
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <p>Un grand vestibule tout en longueur. Le parquet est en chêne
+            massif.</p><p>Les murs sont recouverts de lambris de bois noir qui
+            assombrissent considérablement la pièce. L’escalier, lui aussi en
+            bois, est une superbe pièce Art nouveau dont la rampe en fer forgé
+            reproduit les ondulations de pampres de vigne. De nombreux cartons
+            encombrent la pièce. Ils contiennent des affaires appartenant à
+            Ludovic : de l’équipement de spéléologie (lampes-torches, sacs,
+            piolets, cordes, etc.), ainsi que des couteaux de chasse. Oscar ne
+            connaissait pas le goût de Ludovic pour ces activités…</p>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+          coreVersion: '13.351'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: 1773696073082
+          modifiedTime: 1773696122549
+          lastModifiedBy: dnTXRdn3dIcSOJ86
+        ownership:
+          default: -1
+      - sort: 200000
+        name: Salon
+        type: text
+        _id: nWrOrVOZt7INgq3z
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <p>Une vaste pièce lumineuse dominée au nord par une grande
+            bow-window et au sud par une cheminée de marbre, dont le montant est
+            sculpté de motifs végétaux. Un immense et confortable canapé vert
+            sapin occupe le centre du salon. Les autres meubles sont de style
+            Empire. Les murs sont décorés de tableaux peints par Ludovic,
+            représentant des paysages de la côte.</p>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+          coreVersion: '13.351'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: 1773696135856
+          modifiedTime: 1773696151106
+          lastModifiedBy: dnTXRdn3dIcSOJ86
+        ownership:
+          default: -1
+      - sort: 300000
+        name: Salle à manger
+        type: text
+        _id: YONBQ883keHzEuF5
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <p>Une pièce assez semblable au salon. La table semble tout droit
+            sortie d’une ferme normande. Des portraits d’individus anonymes du
+            XIXe siècle sont accrochés aux murs.</p>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+          coreVersion: '13.351'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: 1773696163677
+          modifiedTime: 1773696171539
+          lastModifiedBy: dnTXRdn3dIcSOJ86
+        ownership:
+          default: -1
+      - sort: 400000
+        name: Bibliothèque
+        type: text
+        _id: DnuxkgdFOmT6FnAu
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <p>Certainement la plus belle pièce de la demeure. Les rayonnages en
+            chêne mouluré ont l’âge de la maison et sont encore en très bon
+            état. L’endroit est dans le plus grand désordre. Les livres traitent
+            de nombreux sujets : architecture, histoire et folklore... On peut
+            aussi y trouver quelques manuels de survie.</p>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+          coreVersion: '13.351'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: 1773696182407
+          modifiedTime: 1773696194007
+          lastModifiedBy: dnTXRdn3dIcSOJ86
+        ownership:
+          default: -1
+      - sort: 500000
+        name: Cuisine
+        type: text
+        _id: PwlqSAK6WleQT9Mx
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <p>Un espace rustique et très vétuste. Un grand meuble contient des
+            conserves et des rations de survie, pour la plupart périmées. Un
+            étroit escalier mène à la cave. </p><section class="secret"
+            id="secret-0WKo26hjlf0bIQlN"><p>Le Passage s’ouvre au milieu des
+            marches.</p></section><p></p>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+          coreVersion: '13.351'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: 1773696210866
+          modifiedTime: 1773696386802
+          lastModifiedBy: dnTXRdn3dIcSOJ86
+        ownership:
+          default: -1
+      - sort: 600000
+        name: Chambre bleue
+        type: text
+        _id: VBAAInpRBKQcIg71
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <p>La chambre de maître où s’est installé Oscar. La vue sur mer est
+            à couper le souffle. Les murs sont recouverts d’une tapisserie
+            anglaise bleue aux motifs végétaux. Le lit est métallique et peu
+            confortable.</p><p>Une immense armoire normande occupe le mur ouest.
+            Un étrange tableau signé par Ludovic est accroché en face du lit :
+            il représente un labyrinthe unicursal (à un seul chemin) dont le
+            centre est une serrure.</p>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+          coreVersion: '13.351'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: 1773696226446
+          modifiedTime: 1773696293473
+          lastModifiedBy: dnTXRdn3dIcSOJ86
+        ownership:
+          default: -1
+      - sort: 700000
+        name: Chambre jaune
+        type: text
+        _id: SwRwm4zUdUeHclyF
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <p>Une chambre décorée d’une tapisserie jaune, aux motifs passés par
+            le soleil. Un meuble bas contient une vraie pharmacie : bandages,
+            antibiotiques, attelles, etc.</p>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+          coreVersion: '13.351'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: 1773696233732
+          modifiedTime: 1773696269986
+          lastModifiedBy: dnTXRdn3dIcSOJ86
+        ownership:
+          default: -1
+      - sort: 800000
+        name: Chambre verte
+        type: text
+        _id: nyH2rkYGTzHw6nM3
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <p>Une chambre identique à la précédente. La tapisserie est cette
+            fois vert pomme. Y sont stockées plusieurs dizaines de toiles,
+            essentiellement (mais pas uniquement) des paysages marins.</p>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+          coreVersion: '13.351'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: 1773696240143
+          modifiedTime: 1773696258410
+          lastModifiedBy: dnTXRdn3dIcSOJ86
+        ownership:
+          default: -1
+      - sort: 900000
+        name: Bureau et atelier
+        type: text
+        _id: mfYoc16VeiO6Zb9Y
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <p>Un bureau que Ludovic avait transformé en atelier.</p><p>Le
+            parquet est maculé de taches de peinture. Un bureau empire (qui vaut
+            une petite fortune) est poussé le long du mur nord. Un grand album
+            photo est rangé dans l’un des tiroirs. Des étagères croulent sous
+            les pinceaux, les tubes de gouache et les revues. Plusieurs toiles
+            sont posées le long des murs.</p>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+          coreVersion: '13.351'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: 1773696301400
+          modifiedTime: 1773696315073
+          lastModifiedBy: dnTXRdn3dIcSOJ86
+        ownership:
+          default: -1
+      - sort: 1000000
+        name: Salle de bain
+        type: text
+        _id: ioVuNtktdopI59Vp
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <p>Une petite salle de bain, aux carreaux et à la robinetterie
+            d’époque.</p>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+          coreVersion: '13.351'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: 1773696321067
+          modifiedTime: 1773696333337
+          lastModifiedBy: dnTXRdn3dIcSOJ86
+        ownership:
+          default: -1
+      - sort: 1100000
+        name: Cave
+        type: text
+        _id: XfAMp5lB0YpQa1I3
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <p>Accessible de la cuisine, elle court sous une partie de la
+            maison.</p><p>Basse de plafonds, elle est encombrée de caisses et de
+            meubles démontés. L’ensemble est plongé dans la pénombre :
+            l’éclairage électrique fonctionne mal.</p>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+          coreVersion: '13.351'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: 1773696338422
+          modifiedTime: 1773696354655
+          lastModifiedBy: dnTXRdn3dIcSOJ86
+        ownership:
+          default: -1
+      - sort: 1200000
+        name: Grenier
+        type: text
+        _id: 4fg0WqsRY3wiSuqu
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <p>On y entre par une trappe située dans le hall du premier
+            étage.</p><p>Il est entièrement vide.</p>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+          coreVersion: '13.351'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: 1773696406572
+          modifiedTime: 1773696417005
+          lastModifiedBy: dnTXRdn3dIcSOJ86
+        ownership:
+          default: -1
+      - sort: 0
+        name: Extérieur
+        type: text
+        _id: pufaiggDmSWDGlNd
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <p>La propriété se situe sur les hauteurs d’Houlgate, au milieu des
+            arbres, non loin de la falaise des Vaches noires. On y accède par un
+            étroit chemin en pente. La vue sur la Manche est extraordinaire. La
+            maison marie le style néo-normand avec son toit à pignon et ses
+            parements de bois d’un vert tendre, et le style Art nouveau
+            reconnaissable notamment aux formes arrondies et végétales des
+            bow-windows. Le jardin n’est pas très grand et en friche : il n’est
+            plus entretenu depuis des années. </p>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        flags: {}
+        _stats:
+          compendiumSource: JournalEntry.I0jLQRFpKZfhQLRM.JournalEntryPage.pufaiggDmSWDGlNd
+          duplicateSource: null
+          exportSource: null
+          coreVersion: '13.351'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: 1773696467784
+          modifiedTime: 1773696494670
+          lastModifiedBy: dnTXRdn3dIcSOJ86
+        ownership:
+          default: -1
+    categories: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dangerousgary
+      systemVersion: '#{VERSION}#'
+      createdTime: 1773696018883
+      modifiedTime: 1773696018883
+      lastModifiedBy: dnTXRdn3dIcSOJ86
+    ownership:
+      default: 0
 scenes:
   - folder: 40Sy1HIb6Mpb5pWf
     name: La Banque
@@ -25,7 +497,8 @@ scenes:
       alphaThreshold: 0
     foreground: null
     foregroundElevation: null
-    thumb: modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/G0ERf77GSwW0nkvB-thumb.webp
+    thumb: >-
+      modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/G0ERf77GSwW0nkvB-thumb.webp
     width: 6900
     height: 9750
     padding: 0.1
@@ -9323,9 +9796,9 @@ scenes:
       coreVersion: '13.351'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
-      createdTime: 1773686159225
-      modifiedTime: 1773686484265
-      lastModifiedBy: 0S70ztYD5DCJAxAg
+      createdTime: 1773695066510
+      modifiedTime: 1773695387479
+      lastModifiedBy: dnTXRdn3dIcSOJ86
     navName: ''
     _id: G0ERf77GSwW0nkvB
     navOrder: 0
@@ -9349,7 +9822,8 @@ scenes:
       alphaThreshold: 0
     foreground: null
     foregroundElevation: null
-    thumb: modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/53mjbACcLgTiaFom-thumb.webp
+    thumb: >-
+      modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/53mjbACcLgTiaFom-thumb.webp
     width: 2600
     height: 3500
     padding: 0.25
@@ -10849,7 +11323,304 @@ scenes:
               fillGradientStops: null
     tokens: []
     lights: []
-    notes: []
+    notes:
+      - entryId: I0jLQRFpKZfhQLRM
+        pageId: pufaiggDmSWDGlNd
+        global: false
+        x: 1650
+        'y': 1050
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          offsetX: 0
+          offsetY: 0
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          rotation: 0
+          alphaThreshold: 0
+        text: Extérieur
+        fontFamily: Signika
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: 4vwIQCUb49d1yKTu
+        flags: {}
+      - entryId: I0jLQRFpKZfhQLRM
+        pageId: DnuxkgdFOmT6FnAu
+        global: false
+        x: 1242
+        'y': 1697
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          offsetX: 0
+          offsetY: 0
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          rotation: 0
+          alphaThreshold: 0
+        text: Bibliothèque
+        fontFamily: Signika
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: ozKFqaESaLVVuhoQ
+        flags: {}
+      - entryId: I0jLQRFpKZfhQLRM
+        pageId: YONBQ883keHzEuF5
+        global: false
+        x: 1253
+        'y': 2267
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          offsetX: 0
+          offsetY: 0
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          rotation: 0
+          alphaThreshold: 0
+        text: Salle à manger
+        fontFamily: Signika
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: Gr0BwPCnbTgApPEJ
+        flags: {}
+      - entryId: I0jLQRFpKZfhQLRM
+        pageId: PwlqSAK6WleQT9Mx
+        global: false
+        x: 2037
+        'y': 1692
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          offsetX: 0
+          offsetY: 0
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          rotation: 0
+          alphaThreshold: 0
+        text: Cuisine
+        fontFamily: Signika
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        flags: {}
+        _id: Z0kRP0qEyt4O3VvT
+      - entryId: I0jLQRFpKZfhQLRM
+        pageId: YBwBQGWid5JtF5Nq
+        global: false
+        x: 1658
+        'y': 1980
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          offsetX: 0
+          offsetY: 0
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          rotation: 0
+          alphaThreshold: 0
+        text: Hall
+        fontFamily: Signika
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: Lq0i9gwa79vTBIuX
+        flags: {}
+      - entryId: I0jLQRFpKZfhQLRM
+        pageId: nWrOrVOZt7INgq3z
+        global: false
+        x: 2042
+        'y': 2337
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          offsetX: 0
+          offsetY: 0
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          rotation: 0
+          alphaThreshold: 0
+        text: Salon
+        fontFamily: Signika
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: BLzYlIdGIbIXh3HY
+        flags: {}
+      - entryId: I0jLQRFpKZfhQLRM
+        pageId: SwRwm4zUdUeHclyF
+        global: false
+        x: 2048
+        'y': 3202
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          offsetX: 0
+          offsetY: 0
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          rotation: 0
+          alphaThreshold: 0
+        text: Chambre jaune
+        fontFamily: Signika
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: UF8Gtjmiv13OyTbh
+        flags: {}
+      - entryId: I0jLQRFpKZfhQLRM
+        pageId: nyH2rkYGTzHw6nM3
+        global: false
+        x: 1245
+        'y': 3207
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          offsetX: 0
+          offsetY: 0
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          rotation: 0
+          alphaThreshold: 0
+        text: Chambre verte
+        fontFamily: Signika
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: WGMmaoKfFLgYmMb6
+        flags: {}
+      - entryId: I0jLQRFpKZfhQLRM
+        pageId: mfYoc16VeiO6Zb9Y
+        global: false
+        x: 1250
+        'y': 3786
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          offsetX: 0
+          offsetY: 0
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          rotation: 0
+          alphaThreshold: 0
+        text: Bureau
+        fontFamily: Signika
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: EIt7vr1BU4hYskUJ
+        flags: {}
+      - entryId: I0jLQRFpKZfhQLRM
+        pageId: ioVuNtktdopI59Vp
+        global: false
+        x: 2047
+        'y': 3384
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          offsetX: 0
+          offsetY: 0
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          rotation: 0
+          alphaThreshold: 0
+        text: Salle de bain
+        fontFamily: Signika
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: MzATWuh7hwshmT2t
+        flags: {}
+      - entryId: I0jLQRFpKZfhQLRM
+        pageId: VBAAInpRBKQcIg71
+        global: false
+        x: 2055
+        'y': 3873
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          offsetX: 0
+          offsetY: 0
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          rotation: 0
+          alphaThreshold: 0
+        text: Chambre bleue
+        fontFamily: Signika
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: Nlmvzf8wfnXRelME
+        flags: {}
     sounds: []
     regions:
       - name: escalier cave haut
@@ -14875,15 +15646,15 @@ scenes:
     folder: 40Sy1HIb6Mpb5pWf
     flags: {}
     _stats:
-      compendiumSource: Compendium.dg-boite-rouge-bleue.donjons.Scene.53mjbACcLgTiaFom
+      compendiumSource: Compendium.dg-boite-rouge-bleue.donjons.Scene.Kpwadb44D2KvWuFD
       duplicateSource: null
       exportSource: null
       coreVersion: '13.351'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
-      createdTime: 1773686159225
-      modifiedTime: 1773686480578
-      lastModifiedBy: 0S70ztYD5DCJAxAg
+      createdTime: 1773695066510
+      modifiedTime: 1773695400561
+      lastModifiedBy: dnTXRdn3dIcSOJ86
     navName: ''
     _id: 53mjbACcLgTiaFom
     navOrder: 0
@@ -14907,7 +15678,8 @@ scenes:
       alphaThreshold: 0
     foreground: null
     foregroundElevation: null
-    thumb: modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/7HOXzj3flvYgbE83-thumb.webp
+    thumb: >-
+      modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/7HOXzj3flvYgbE83-thumb.webp
     width: 3300
     height: 2300
     padding: 0.25
@@ -18755,9 +19527,9 @@ scenes:
       coreVersion: '13.351'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
-      createdTime: 1773686159225
-      modifiedTime: 1773686482446
-      lastModifiedBy: 0S70ztYD5DCJAxAg
+      createdTime: 1773695066510
+      modifiedTime: 1773695387479
+      lastModifiedBy: dnTXRdn3dIcSOJ86
     navName: ''
     _id: 7HOXzj3flvYgbE83
     navOrder: 0
@@ -18770,7 +19542,7 @@ macros: []
 cards: []
 playlists: []
 folders:
-  - name: DG Donjons Boite rouge
+  - name: Boite rouge
     type: Scene
     color: null
     _id: 40Sy1HIb6Mpb5pWf
@@ -18786,9 +19558,28 @@ folders:
       coreVersion: '13.351'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
-      createdTime: 1773686159003
-      modifiedTime: 1773686620262
-      lastModifiedBy: 0S70ztYD5DCJAxAg
+      createdTime: 1773695066671
+      modifiedTime: 1773696983902
+      lastModifiedBy: dnTXRdn3dIcSOJ86
+  - type: JournalEntry
+    folder: null
+    name: Boite rouge
+    color: null
+    sorting: m
+    _id: mzBsD4FM83eRyFPG
+    description: ''
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: Folder.mzBsD4FM83eRyFPG
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dangerousgary
+      systemVersion: '#{VERSION}#'
+      createdTime: 1773696007381
+      modifiedTime: 1773696007381
+      lastModifiedBy: dnTXRdn3dIcSOJ86
 _id: 6C9qNiPNJky9174N
 folder: null
 flags: {}
@@ -18800,6 +19591,6 @@ _stats:
   systemId: dangerousgary
   systemVersion: '#{VERSION}#'
   createdTime: 1773686639098
-  modifiedTime: 1773686639098
-  lastModifiedBy: 0S70ztYD5DCJAxAg
+  modifiedTime: 1773696994693
+  lastModifiedBy: dnTXRdn3dIcSOJ86
 _key: '!adventures!6C9qNiPNJky9174N'
