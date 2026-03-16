@@ -2,7 +2,7 @@ name: l'Albergo
 navigation: false
 navOrder: 0
 background:
-  src: modules/dg-boite-rouge-bleue/assets/scene_albergo_avec_cave.png
+  src: modules/dg-boite-rouge-bleue/assets/dg-scenes/albergo.webp
   anchorX: 0
   anchorY: 0
   offsetX: 0
@@ -15,7 +15,7 @@ background:
   alphaThreshold: 0
 foreground: null
 foregroundElevation: null
-thumb: modules/dg-boite-rouge-bleue/assets/scenes/5mTgMM6zi6omXmY4-thumb.webp
+thumb: worlds/dangerous-gary/assets/scenes/C92uwWUt8r6o2vEJ-thumb.webp
 width: 2600
 height: 3500
 padding: 0.25
@@ -69,8 +69,1471 @@ environment:
     luminosity: -0.25
     saturation: 0
     shadows: 0
-drawings: []
-tokens:  []
+drawings:
+  - author: KGwL4biCTVq5qfeL
+    shape:
+      type: r
+      width: 393
+      height: 67
+      radius: null
+      points: []
+    x: 2000
+    'y': 1300
+    elevation: 0
+    sort: 0
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#ffffff'
+    fillAlpha: 0.1
+    strokeWidth: 0
+    strokeColor: '#ffffff'
+    strokeAlpha: 1
+    texture: null
+    text: Rez-de-chaussée
+    fontFamily: Modesto Condensed
+    fontSize: 100
+    textColor: '#b30000'
+    textAlpha: 1
+    hidden: true
+    locked: true
+    interface: false
+    flags:
+      advanced-drawing-tools:
+        invisible: false
+        lineStyle:
+          dash: null
+          dashEnabled: false
+        fillStyle:
+          texture:
+            width: null
+            height: null
+          transform:
+            position:
+              x: 0
+              'y': 0
+            pivot:
+              x: 0
+              'y': 0
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            skew:
+              x: 0
+              'y': 0
+        textStyle:
+          fontStyle: italic
+          fontVariant: normal
+          fontWeight: normal
+          leading: 0
+          letterSpacing: 0
+          wordWrapWidth: 100%
+          fillGradientType: 0
+          align: ''
+          stroke: ''
+          strokeThickness: null
+          dropShadow: true
+          dropShadowBlur: null
+          dropShadowDistance: 0
+          dropShadowAngle: 0
+          dropShadowColor: '#000000'
+          dropShadowAlpha: 1
+          arc: 0
+          fill: null
+          fillGradientStops: null
+    _id: bCLlhs97E1KLP2xs
+    _key: '!scenes.drawings!Kpwadb44D2KvWuFD.bCLlhs97E1KLP2xs'
+  - author: KGwL4biCTVq5qfeL
+    shape:
+      type: r
+      width: 393
+      height: 67
+      radius: null
+      points: []
+    x: 2000
+    'y': 2800
+    elevation: 0
+    sort: 0
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#ffffff'
+    fillAlpha: 0.1
+    strokeWidth: 0
+    strokeColor: '#ffffff'
+    strokeAlpha: 1
+    texture: null
+    text: 1er Étage
+    fontFamily: Modesto Condensed
+    fontSize: 100
+    textColor: '#b30000'
+    textAlpha: 1
+    hidden: true
+    locked: true
+    interface: false
+    flags:
+      advanced-drawing-tools:
+        invisible: false
+        lineStyle:
+          dash: null
+          dashEnabled: false
+        fillStyle:
+          texture:
+            width: null
+            height: null
+          transform:
+            position:
+              x: 0
+              'y': 0
+            pivot:
+              x: 0
+              'y': 0
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            skew:
+              x: 0
+              'y': 0
+        textStyle:
+          fontStyle: italic
+          fontVariant: normal
+          fontWeight: normal
+          leading: 0
+          letterSpacing: 0
+          wordWrapWidth: 100%
+          fillGradientType: 0
+          align: ''
+          stroke: ''
+          strokeThickness: null
+          dropShadow: true
+          dropShadowBlur: null
+          dropShadowDistance: 0
+          dropShadowAngle: 0
+          dropShadowColor: '#000000'
+          dropShadowAlpha: 1
+          arc: 0
+          fill: null
+          fillGradientStops: null
+    _id: EwsndhrrYUokVFSJ
+    _key: '!scenes.drawings!Kpwadb44D2KvWuFD.EwsndhrrYUokVFSJ'
+  - author: KGwL4biCTVq5qfeL
+    shape:
+      type: r
+      width: 393
+      height: 67
+      radius: null
+      points: []
+    x: 1837.5
+    'y': 1575
+    elevation: 0
+    sort: 0
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#ffffff'
+    fillAlpha: 0.1
+    strokeWidth: 0
+    strokeColor: '#ffffff'
+    strokeAlpha: 1
+    texture: null
+    text: Cuisine
+    fontFamily: Modesto Condensed
+    fontSize: 80
+    textColor: '#420000'
+    textAlpha: 1
+    hidden: true
+    locked: true
+    interface: false
+    flags:
+      advanced-drawing-tools:
+        invisible: false
+        lineStyle:
+          dash: null
+          dashEnabled: false
+        fillStyle:
+          texture:
+            width: null
+            height: null
+          transform:
+            position:
+              x: 0
+              'y': 0
+            pivot:
+              x: 0
+              'y': 0
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            skew:
+              x: 0
+              'y': 0
+        textStyle:
+          fontStyle: italic
+          fontVariant: normal
+          fontWeight: normal
+          leading: 0
+          letterSpacing: 0
+          wordWrapWidth: 100%
+          fillGradientType: 0
+          align: ''
+          stroke: ''
+          strokeThickness: 0
+          dropShadow: true
+          dropShadowBlur: null
+          dropShadowDistance: 0
+          dropShadowAngle: 0
+          dropShadowColor: '#000000'
+          dropShadowAlpha: 1
+          arc: 0
+          fill: null
+          fillGradientStops: null
+    _id: hFt8yVefmMtQE4E6
+    _key: '!scenes.drawings!Kpwadb44D2KvWuFD.hFt8yVefmMtQE4E6'
+  - author: KGwL4biCTVq5qfeL
+    shape:
+      type: r
+      width: 393
+      height: 67
+      radius: null
+      points: []
+    x: 1038
+    'y': 1575
+    elevation: 0
+    sort: 0
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#ffffff'
+    fillAlpha: 0.1
+    strokeWidth: 0
+    strokeColor: '#ffffff'
+    strokeAlpha: 1
+    texture: null
+    text: Bibliothèque
+    fontFamily: Modesto Condensed
+    fontSize: 80
+    textColor: '#420000'
+    textAlpha: 1
+    hidden: true
+    locked: true
+    interface: false
+    flags:
+      advanced-drawing-tools:
+        invisible: false
+        lineStyle:
+          dash: null
+          dashEnabled: false
+        fillStyle:
+          texture:
+            width: null
+            height: null
+          transform:
+            position:
+              x: 0
+              'y': 0
+            pivot:
+              x: 0
+              'y': 0
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            skew:
+              x: 0
+              'y': 0
+        textStyle:
+          fontStyle: italic
+          fontVariant: normal
+          fontWeight: normal
+          leading: 0
+          letterSpacing: 0
+          wordWrapWidth: 100%
+          fillGradientType: 0
+          align: ''
+          stroke: ''
+          strokeThickness: 0
+          dropShadow: true
+          dropShadowBlur: null
+          dropShadowDistance: 0
+          dropShadowAngle: 0
+          dropShadowColor: '#000000'
+          dropShadowAlpha: 1
+          arc: 0
+          fill: null
+          fillGradientStops: null
+    _id: qcIoUZ9pVUXbn1vv
+    _key: '!scenes.drawings!Kpwadb44D2KvWuFD.qcIoUZ9pVUXbn1vv'
+  - author: KGwL4biCTVq5qfeL
+    shape:
+      type: r
+      width: 393
+      height: 67
+      radius: null
+      points: []
+    x: 1050
+    'y': 2100
+    elevation: 0
+    sort: 0
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#ffffff'
+    fillAlpha: 0.1
+    strokeWidth: 0
+    strokeColor: '#ffffff'
+    strokeAlpha: 1
+    texture: null
+    text: |-
+      Salle à
+      manger
+    fontFamily: Modesto Condensed
+    fontSize: 80
+    textColor: '#420000'
+    textAlpha: 1
+    hidden: true
+    locked: true
+    interface: false
+    flags:
+      advanced-drawing-tools:
+        invisible: false
+        lineStyle:
+          dash: null
+          dashEnabled: false
+        fillStyle:
+          texture:
+            width: null
+            height: null
+          transform:
+            position:
+              x: 0
+              'y': 0
+            pivot:
+              x: 0
+              'y': 0
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            skew:
+              x: 0
+              'y': 0
+        textStyle:
+          fontStyle: italic
+          fontVariant: normal
+          fontWeight: normal
+          leading: 0
+          letterSpacing: 0
+          wordWrapWidth: 100%
+          fillGradientType: 0
+          align: center
+          stroke: ''
+          strokeThickness: 0
+          dropShadow: true
+          dropShadowBlur: null
+          dropShadowDistance: 0
+          dropShadowAngle: 0
+          dropShadowColor: '#000000'
+          dropShadowAlpha: 1
+          arc: 0
+          fill: null
+          fillGradientStops: null
+    _id: AntPHQJLtRgpIm45
+    _key: '!scenes.drawings!Kpwadb44D2KvWuFD.AntPHQJLtRgpIm45'
+  - author: KGwL4biCTVq5qfeL
+    shape:
+      type: r
+      width: 289
+      height: 67
+      radius: null
+      points: []
+    x: 1512.5
+    'y': 1837.5
+    elevation: 0
+    sort: 0
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#ffffff'
+    fillAlpha: 0.1
+    strokeWidth: 0
+    strokeColor: '#ffffff'
+    strokeAlpha: 1
+    texture: null
+    text: Hall
+    fontFamily: Modesto Condensed
+    fontSize: 80
+    textColor: '#420000'
+    textAlpha: 1
+    hidden: true
+    locked: true
+    interface: false
+    flags:
+      advanced-drawing-tools:
+        invisible: false
+        lineStyle:
+          dash: null
+          dashEnabled: false
+        fillStyle:
+          texture:
+            width: null
+            height: null
+          transform:
+            position:
+              x: 0
+              'y': 0
+            pivot:
+              x: 0
+              'y': 0
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            skew:
+              x: 0
+              'y': 0
+        textStyle:
+          fontStyle: italic
+          fontVariant: normal
+          fontWeight: normal
+          leading: 0
+          letterSpacing: 0
+          wordWrapWidth: 100%
+          fillGradientType: 0
+          align: ''
+          stroke: ''
+          strokeThickness: 0
+          dropShadow: true
+          dropShadowBlur: null
+          dropShadowDistance: 0
+          dropShadowAngle: 0
+          dropShadowColor: '#000000'
+          dropShadowAlpha: 1
+          arc: 0
+          fill: null
+          fillGradientStops: null
+    _id: JrSKCmcyMufZu7ju
+    _key: '!scenes.drawings!Kpwadb44D2KvWuFD.JrSKCmcyMufZu7ju'
+  - author: KGwL4biCTVq5qfeL
+    shape:
+      type: r
+      width: 143
+      height: 67
+      radius: null
+      points: []
+    x: 1950
+    'y': 1837.5
+    elevation: 0
+    sort: 0
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#ffffff'
+    fillAlpha: 0.1
+    strokeWidth: 0
+    strokeColor: '#ffffff'
+    strokeAlpha: 1
+    texture: null
+    text: WC
+    fontFamily: Modesto Condensed
+    fontSize: 80
+    textColor: '#420000'
+    textAlpha: 1
+    hidden: true
+    locked: true
+    interface: false
+    flags:
+      advanced-drawing-tools:
+        invisible: false
+        lineStyle:
+          dash: null
+          dashEnabled: false
+        fillStyle:
+          texture:
+            width: null
+            height: null
+          transform:
+            position:
+              x: 0
+              'y': 0
+            pivot:
+              x: 0
+              'y': 0
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            skew:
+              x: 0
+              'y': 0
+        textStyle:
+          fontStyle: italic
+          fontVariant: normal
+          fontWeight: normal
+          leading: 0
+          letterSpacing: 0
+          wordWrapWidth: 100%
+          fillGradientType: 0
+          align: ''
+          stroke: ''
+          strokeThickness: 0
+          dropShadow: true
+          dropShadowBlur: null
+          dropShadowDistance: 0
+          dropShadowAngle: 0
+          dropShadowColor: '#000000'
+          dropShadowAlpha: 1
+          arc: 0
+          fill: null
+          fillGradientStops: null
+    _id: TDmzA1z3F3gf7Pas
+    _key: '!scenes.drawings!Kpwadb44D2KvWuFD.TDmzA1z3F3gf7Pas'
+  - author: KGwL4biCTVq5qfeL
+    shape:
+      type: r
+      width: 289
+      height: 67
+      radius: null
+      points: []
+    x: 1900
+    'y': 2213
+    elevation: 0
+    sort: 0
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#ffffff'
+    fillAlpha: 0.1
+    strokeWidth: 0
+    strokeColor: '#ffffff'
+    strokeAlpha: 1
+    texture: null
+    text: Salon
+    fontFamily: Modesto Condensed
+    fontSize: 80
+    textColor: '#420000'
+    textAlpha: 1
+    hidden: true
+    locked: true
+    interface: false
+    flags:
+      advanced-drawing-tools:
+        invisible: false
+        lineStyle:
+          dash: null
+          dashEnabled: false
+        fillStyle:
+          texture:
+            width: null
+            height: null
+          transform:
+            position:
+              x: 0
+              'y': 0
+            pivot:
+              x: 0
+              'y': 0
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            skew:
+              x: 0
+              'y': 0
+        textStyle:
+          fontStyle: italic
+          fontVariant: normal
+          fontWeight: normal
+          leading: 0
+          letterSpacing: 0
+          wordWrapWidth: 100%
+          fillGradientType: 0
+          align: ''
+          stroke: ''
+          strokeThickness: 0
+          dropShadow: true
+          dropShadowBlur: null
+          dropShadowDistance: 0
+          dropShadowAngle: 0
+          dropShadowColor: '#000000'
+          dropShadowAlpha: 1
+          arc: 0
+          fill: null
+          fillGradientStops: null
+    _id: 6Oik8lUf0fdGtH2U
+    _key: '!scenes.drawings!Kpwadb44D2KvWuFD.6Oik8lUf0fdGtH2U'
+  - author: KGwL4biCTVq5qfeL
+    shape:
+      type: r
+      width: 289
+      height: 67
+      radius: null
+      points: []
+    x: 1487.5
+    'y': 1312.5
+    elevation: 0
+    sort: 0
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#ffffff'
+    fillAlpha: 0.1
+    strokeWidth: 0
+    strokeColor: '#ffffff'
+    strokeAlpha: 1
+    texture: null
+    text: Perron
+    fontFamily: Modesto Condensed
+    fontSize: 80
+    textColor: '#420000'
+    textAlpha: 1
+    hidden: true
+    locked: true
+    interface: false
+    flags:
+      advanced-drawing-tools:
+        invisible: false
+        lineStyle:
+          dash: null
+          dashEnabled: false
+        fillStyle:
+          texture:
+            width: null
+            height: null
+          transform:
+            position:
+              x: 0
+              'y': 0
+            pivot:
+              x: 0
+              'y': 0
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            skew:
+              x: 0
+              'y': 0
+        textStyle:
+          fontStyle: italic
+          fontVariant: normal
+          fontWeight: normal
+          leading: 0
+          letterSpacing: 0
+          wordWrapWidth: 100%
+          fillGradientType: 0
+          align: ''
+          stroke: ''
+          strokeThickness: 0
+          dropShadow: true
+          dropShadowBlur: null
+          dropShadowDistance: 0
+          dropShadowAngle: 0
+          dropShadowColor: '#000000'
+          dropShadowAlpha: 1
+          arc: 0
+          fill: null
+          fillGradientStops: null
+    _id: XGARilVlf0gDNpnT
+    _key: '!scenes.drawings!Kpwadb44D2KvWuFD.XGARilVlf0gDNpnT'
+  - author: KGwL4biCTVq5qfeL
+    shape:
+      type: r
+      width: 289
+      height: 67
+      radius: null
+      points: []
+    x: 1900
+    'y': 3050
+    elevation: 0
+    sort: 0
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#ffffff'
+    fillAlpha: 0.1
+    strokeWidth: 0
+    strokeColor: '#ffffff'
+    strokeAlpha: 1
+    texture: null
+    text: |-
+      Chambre
+      Jaune
+    fontFamily: Modesto Condensed
+    fontSize: 80
+    textColor: '#420000'
+    textAlpha: 1
+    hidden: true
+    locked: true
+    interface: false
+    flags:
+      advanced-drawing-tools:
+        invisible: false
+        lineStyle:
+          dash: null
+          dashEnabled: false
+        fillStyle:
+          texture:
+            width: null
+            height: null
+          transform:
+            position:
+              x: 0
+              'y': 0
+            pivot:
+              x: 0
+              'y': 0
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            skew:
+              x: 0
+              'y': 0
+        textStyle:
+          fontStyle: italic
+          fontVariant: normal
+          fontWeight: normal
+          leading: 0
+          letterSpacing: 0
+          wordWrapWidth: 100%
+          fillGradientType: 0
+          align: center
+          stroke: ''
+          strokeThickness: 0
+          dropShadow: true
+          dropShadowBlur: null
+          dropShadowDistance: 0
+          dropShadowAngle: 0
+          dropShadowColor: '#000000'
+          dropShadowAlpha: 1
+          arc: 0
+          fill: null
+          fillGradientStops: null
+    _id: wiSL1dyxa74lgHVS
+    _key: '!scenes.drawings!Kpwadb44D2KvWuFD.wiSL1dyxa74lgHVS'
+  - author: KGwL4biCTVq5qfeL
+    shape:
+      type: r
+      width: 289
+      height: 67
+      radius: null
+      points: []
+    x: 1100
+    'y': 3063
+    elevation: 0
+    sort: 0
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#ffffff'
+    fillAlpha: 0.1
+    strokeWidth: 0
+    strokeColor: '#ffffff'
+    strokeAlpha: 1
+    texture: null
+    text: |-
+      Chambre
+      Verte
+    fontFamily: Modesto Condensed
+    fontSize: 80
+    textColor: '#420000'
+    textAlpha: 1
+    hidden: true
+    locked: true
+    interface: false
+    flags:
+      advanced-drawing-tools:
+        invisible: false
+        lineStyle:
+          dash: null
+          dashEnabled: false
+        fillStyle:
+          texture:
+            width: null
+            height: null
+          transform:
+            position:
+              x: 0
+              'y': 0
+            pivot:
+              x: 0
+              'y': 0
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            skew:
+              x: 0
+              'y': 0
+        textStyle:
+          fontStyle: italic
+          fontVariant: normal
+          fontWeight: normal
+          leading: 0
+          letterSpacing: 0
+          wordWrapWidth: 100%
+          fillGradientType: 0
+          align: center
+          stroke: ''
+          strokeThickness: 0
+          dropShadow: true
+          dropShadowBlur: null
+          dropShadowDistance: 0
+          dropShadowAngle: 0
+          dropShadowColor: '#000000'
+          dropShadowAlpha: 1
+          arc: 0
+          fill: null
+          fillGradientStops: null
+    _id: 9UPgRexFw0oVqYmG
+    _key: '!scenes.drawings!Kpwadb44D2KvWuFD.9UPgRexFw0oVqYmG'
+  - author: KGwL4biCTVq5qfeL
+    shape:
+      type: r
+      width: 289
+      height: 67
+      radius: null
+      points: []
+    x: 1113
+    'y': 3675
+    elevation: 0
+    sort: 0
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#ffffff'
+    fillAlpha: 0.1
+    strokeWidth: 0
+    strokeColor: '#ffffff'
+    strokeAlpha: 1
+    texture: null
+    text: Bureau
+    fontFamily: Modesto Condensed
+    fontSize: 80
+    textColor: '#420000'
+    textAlpha: 1
+    hidden: true
+    locked: true
+    interface: false
+    flags:
+      advanced-drawing-tools:
+        invisible: false
+        lineStyle:
+          dash: null
+          dashEnabled: false
+        fillStyle:
+          texture:
+            width: null
+            height: null
+          transform:
+            position:
+              x: 0
+              'y': 0
+            pivot:
+              x: 0
+              'y': 0
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            skew:
+              x: 0
+              'y': 0
+        textStyle:
+          fontStyle: italic
+          fontVariant: normal
+          fontWeight: normal
+          leading: 0
+          letterSpacing: 0
+          wordWrapWidth: 100%
+          fillGradientType: 0
+          align: center
+          stroke: ''
+          strokeThickness: 0
+          dropShadow: true
+          dropShadowBlur: null
+          dropShadowDistance: 0
+          dropShadowAngle: 0
+          dropShadowColor: '#000000'
+          dropShadowAlpha: 1
+          arc: 0
+          fill: null
+          fillGradientStops: null
+    _id: RssR57fsqlkPEvq0
+    _key: '!scenes.drawings!Kpwadb44D2KvWuFD.RssR57fsqlkPEvq0'
+  - author: KGwL4biCTVq5qfeL
+    shape:
+      type: r
+      width: 289
+      height: 67
+      radius: null
+      points: []
+    x: 1913
+    'y': 3725
+    elevation: 0
+    sort: 0
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#ffffff'
+    fillAlpha: 0.1
+    strokeWidth: 0
+    strokeColor: '#ffffff'
+    strokeAlpha: 1
+    texture: null
+    text: |-
+      Chambre
+      Bleue
+    fontFamily: Modesto Condensed
+    fontSize: 80
+    textColor: '#420000'
+    textAlpha: 1
+    hidden: true
+    locked: true
+    interface: false
+    flags:
+      advanced-drawing-tools:
+        invisible: false
+        lineStyle:
+          dash: null
+          dashEnabled: false
+        fillStyle:
+          texture:
+            width: null
+            height: null
+          transform:
+            position:
+              x: 0
+              'y': 0
+            pivot:
+              x: 0
+              'y': 0
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            skew:
+              x: 0
+              'y': 0
+        textStyle:
+          fontStyle: italic
+          fontVariant: normal
+          fontWeight: normal
+          leading: 0
+          letterSpacing: 0
+          wordWrapWidth: 100%
+          fillGradientType: 0
+          align: center
+          stroke: ''
+          strokeThickness: 0
+          dropShadow: true
+          dropShadowBlur: null
+          dropShadowDistance: 0
+          dropShadowAngle: 0
+          dropShadowColor: '#000000'
+          dropShadowAlpha: 1
+          arc: 0
+          fill: null
+          fillGradientStops: null
+    _id: fiSp9LfL9WmzaIi3
+    _key: '!scenes.drawings!Kpwadb44D2KvWuFD.fiSp9LfL9WmzaIi3'
+  - author: KGwL4biCTVq5qfeL
+    shape:
+      type: r
+      width: 289
+      height: 67
+      radius: null
+      points: []
+    x: 2025
+    'y': 3350
+    elevation: 0
+    sort: 0
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#ffffff'
+    fillAlpha: 0.1
+    strokeWidth: 0
+    strokeColor: '#ffffff'
+    strokeAlpha: 1
+    texture: null
+    text: |-
+      Salle de
+      bain
+    fontFamily: Modesto Condensed
+    fontSize: 80
+    textColor: '#420000'
+    textAlpha: 1
+    hidden: true
+    locked: true
+    interface: false
+    flags:
+      advanced-drawing-tools:
+        invisible: false
+        lineStyle:
+          dash: null
+          dashEnabled: false
+        fillStyle:
+          texture:
+            width: null
+            height: null
+          transform:
+            position:
+              x: 0
+              'y': 0
+            pivot:
+              x: 0
+              'y': 0
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            skew:
+              x: 0
+              'y': 0
+        textStyle:
+          fontStyle: italic
+          fontVariant: normal
+          fontWeight: normal
+          leading: 0
+          letterSpacing: 0
+          wordWrapWidth: 100%
+          fillGradientType: 0
+          align: center
+          stroke: ''
+          strokeThickness: 0
+          dropShadow: true
+          dropShadowBlur: null
+          dropShadowDistance: 0
+          dropShadowAngle: 0
+          dropShadowColor: '#000000'
+          dropShadowAlpha: 1
+          arc: 0
+          fill: null
+          fillGradientStops: null
+    _id: zGgB4NY5u5BJV8UB
+    _key: '!scenes.drawings!Kpwadb44D2KvWuFD.zGgB4NY5u5BJV8UB'
+  - author: KGwL4biCTVq5qfeL
+    shape:
+      type: r
+      width: 289
+      height: 67
+      radius: null
+      points: []
+    x: 2700
+    'y': 1925
+    elevation: 0
+    sort: 0
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#ffffff'
+    fillAlpha: 0.1
+    strokeWidth: 0
+    strokeColor: '#ffffff'
+    strokeAlpha: 1
+    texture: null
+    text: Cave
+    fontFamily: Modesto Condensed
+    fontSize: 80
+    textColor: '#420000'
+    textAlpha: 1
+    hidden: true
+    locked: true
+    interface: false
+    flags:
+      advanced-drawing-tools:
+        invisible: false
+        lineStyle:
+          dash: null
+          dashEnabled: false
+        fillStyle:
+          texture:
+            width: null
+            height: null
+          transform:
+            position:
+              x: 0
+              'y': 0
+            pivot:
+              x: 0
+              'y': 0
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            skew:
+              x: 0
+              'y': 0
+        textStyle:
+          fontStyle: italic
+          fontVariant: normal
+          fontWeight: normal
+          leading: 0
+          letterSpacing: 0
+          wordWrapWidth: 100%
+          fillGradientType: 0
+          align: center
+          stroke: ''
+          strokeThickness: 0
+          dropShadow: true
+          dropShadowBlur: null
+          dropShadowDistance: 0
+          dropShadowAngle: 0
+          dropShadowColor: '#000000'
+          dropShadowAlpha: 1
+          arc: 0
+          fill: null
+          fillGradientStops: null
+    _id: 4XLRcNfXQnCsloW2
+    _key: '!scenes.drawings!Kpwadb44D2KvWuFD.4XLRcNfXQnCsloW2'
+  - author: KGwL4biCTVq5qfeL
+    shape:
+      type: r
+      width: 289
+      height: 67
+      radius: null
+      points: []
+    x: 2702.1138309930066
+    'y': 2164.2095743341106
+    elevation: 0
+    sort: 0
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#ffffff'
+    fillAlpha: 0.1
+    strokeWidth: 0
+    strokeColor: '#ffffff'
+    strokeAlpha: 1
+    texture: null
+    text: |-
+      Bureau
+      secret
+    fontFamily: Modesto Condensed
+    fontSize: 70
+    textColor: '#420000'
+    textAlpha: 1
+    hidden: true
+    locked: true
+    interface: false
+    flags:
+      advanced-drawing-tools:
+        invisible: false
+        lineStyle:
+          dash: null
+          dashEnabled: false
+        fillStyle:
+          texture:
+            width: null
+            height: null
+          transform:
+            position:
+              x: 0
+              'y': 0
+            pivot:
+              x: 0
+              'y': 0
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            skew:
+              x: 0
+              'y': 0
+        textStyle:
+          fontStyle: italic
+          fontVariant: normal
+          fontWeight: normal
+          leading: 0
+          letterSpacing: 0
+          wordWrapWidth: 100%
+          fillGradientType: 0
+          align: center
+          stroke: ''
+          strokeThickness: 0
+          dropShadow: true
+          dropShadowBlur: null
+          dropShadowDistance: 0
+          dropShadowAngle: 0
+          dropShadowColor: '#000000'
+          dropShadowAlpha: 1
+          arc: 0
+          fill: null
+          fillGradientStops: null
+    _id: Z9SkIqOkCGlIuXqS
+    _key: '!scenes.drawings!Kpwadb44D2KvWuFD.Z9SkIqOkCGlIuXqS'
+  - author: KGwL4biCTVq5qfeL
+    shape:
+      type: r
+      width: 189
+      height: 64
+      radius: null
+      points: []
+    x: 1900
+    'y': 1425
+    elevation: 0
+    sort: 0
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#ffffff'
+    fillAlpha: 0.1
+    strokeWidth: 0
+    strokeColor: '#ffffff'
+    strokeAlpha: 1
+    texture: null
+    text: vers Cave
+    fontFamily: Modesto Condensed
+    fontSize: 40
+    textColor: '#420000'
+    textAlpha: 1
+    hidden: true
+    locked: true
+    interface: false
+    flags:
+      advanced-drawing-tools:
+        invisible: false
+        lineStyle:
+          dash: null
+          dashEnabled: false
+        fillStyle:
+          texture:
+            width: null
+            height: null
+          transform:
+            position:
+              x: 0
+              'y': 0
+            pivot:
+              x: 0
+              'y': 0
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            skew:
+              x: 0
+              'y': 0
+        textStyle:
+          fontStyle: italic
+          fontVariant: normal
+          fontWeight: normal
+          leading: 0
+          letterSpacing: 0
+          wordWrapWidth: 100%
+          fillGradientType: 0
+          align: center
+          stroke: ''
+          strokeThickness: 0
+          dropShadow: true
+          dropShadowBlur: null
+          dropShadowDistance: 0
+          dropShadowAngle: 0
+          dropShadowColor: '#000000'
+          dropShadowAlpha: 1
+          arc: 0
+          fill: null
+          fillGradientStops: null
+    _id: MvLpBNx3I4frsH8D
+    _key: '!scenes.drawings!Kpwadb44D2KvWuFD.MvLpBNx3I4frsH8D'
+  - author: KGwL4biCTVq5qfeL
+    shape:
+      type: r
+      width: 189
+      height: 64
+      radius: null
+      points: []
+    x: 1587.5
+    'y': 2962.5
+    elevation: 0
+    sort: 0
+    rotation: 0
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#ffffff'
+    fillAlpha: 0.1
+    strokeWidth: 0
+    strokeColor: '#ffffff'
+    strokeAlpha: 1
+    texture: null
+    text: vers Grenier
+    fontFamily: Modesto Condensed
+    fontSize: 40
+    textColor: '#420000'
+    textAlpha: 1
+    hidden: true
+    locked: true
+    interface: false
+    flags:
+      advanced-drawing-tools:
+        invisible: false
+        lineStyle:
+          dash: null
+          dashEnabled: false
+        fillStyle:
+          texture:
+            width: null
+            height: null
+          transform:
+            position:
+              x: 0
+              'y': 0
+            pivot:
+              x: 0
+              'y': 0
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            skew:
+              x: 0
+              'y': 0
+        textStyle:
+          fontStyle: italic
+          fontVariant: normal
+          fontWeight: normal
+          leading: 0
+          letterSpacing: 0
+          wordWrapWidth: 100%
+          fillGradientType: 0
+          align: center
+          stroke: ''
+          strokeThickness: 0
+          dropShadow: true
+          dropShadowBlur: null
+          dropShadowDistance: 0
+          dropShadowAngle: 0
+          dropShadowColor: '#000000'
+          dropShadowAlpha: 1
+          arc: 0
+          fill: null
+          fillGradientStops: null
+    _id: mbX0BicyLP0CC8AS
+    _key: '!scenes.drawings!Kpwadb44D2KvWuFD.mbX0BicyLP0CC8AS'
+  - author: KGwL4biCTVq5qfeL
+    shape:
+      type: p
+      width: 56
+      height: 53
+      radius: null
+      points:
+        - 46.72916973442825
+        - 53.440101468799426
+        - 56
+        - 0.4275208117503954
+        - 0.37501840656946683
+        - 0.4275208117503954
+        - 0.37501840656946683
+        - 0
+    x: 3017.0873311529717
+    'y': 1713.417466230594
+    elevation: 0
+    sort: 2
+    rotation: 105
+    bezierFactor: 0
+    fillType: 0
+    fillColor: '#ffffff'
+    fillAlpha: 0
+    strokeWidth: 8
+    strokeColor: '#b30000'
+    strokeAlpha: 1
+    texture: null
+    text: ''
+    fontFamily: Signika
+    fontSize: 25
+    textColor: '#5e0599'
+    textAlpha: 1
+    hidden: false
+    locked: true
+    interface: false
+    flags: {}
+    _id: 9gAmzwnn4EF0QSyV
+    _key: '!scenes.drawings!Kpwadb44D2KvWuFD.9gAmzwnn4EF0QSyV'
+  - _id: 6QAW2eCfJmodoEhO
+    author: KGwL4biCTVq5qfeL
+    shape:
+      type: p
+      width: 72
+      height: 120
+      radius: null
+      points:
+        - 0
+        - 0
+        - 50
+        - 37.5
+        - 71.8267874158364
+        - 120.46585451547526
+    x: 2987.5
+    'y': 1650
+    elevation: 0
+    sort: 3
+    rotation: 0
+    bezierFactor: 0.5
+    fillType: 0
+    fillColor: '#ffffff'
+    fillAlpha: 0
+    strokeWidth: 8
+    strokeColor: '#b30000'
+    strokeAlpha: 1
+    texture: null
+    text: ''
+    fontFamily: Signika
+    fontSize: 25
+    textColor: '#5e0599'
+    textAlpha: 1
+    hidden: false
+    locked: true
+    interface: false
+    flags:
+      advanced-drawing-tools:
+        invisible: false
+        lineStyle:
+          dash: null
+          dashEnabled: false
+        fillStyle:
+          texture:
+            width: null
+            height: null
+          transform:
+            position:
+              x: 0
+              'y': 0
+            pivot:
+              x: 0
+              'y': 0
+            scale:
+              x: 1
+              'y': 1
+            rotation: 0
+            skew:
+              x: 0
+              'y': 0
+        textStyle:
+          fontStyle: normal
+          fontVariant: normal
+          fontWeight: normal
+          leading: 0
+          letterSpacing: 0
+          wordWrapWidth: 100%
+          fillGradientType: 0
+          align: ''
+          stroke: ''
+          strokeThickness: null
+          dropShadow: true
+          dropShadowBlur: null
+          dropShadowDistance: 0
+          dropShadowAngle: 0
+          dropShadowColor: '#000000'
+          dropShadowAlpha: 1
+          arc: 0
+          fill: null
+          fillGradientStops: null
+    _key: '!scenes.drawings!Kpwadb44D2KvWuFD.6QAW2eCfJmodoEhO'
+tokens: []
 lights: []
 notes: []
 sounds: []
@@ -108,14 +1571,14 @@ regions:
           exportSource: null
           coreVersion: '13.351'
           systemId: dangerousgary
-          systemVersion: '#{VERSION}#'
+          systemVersion: 1.1.1
           lastModifiedBy: null
         _key: >-
-          !scenes.regions.behaviors!t8mksTOEfZWFi0jV.f3NT9hTGxQCdTNQG.3yLalbE6lupQqm5P
-    visibility: 0
+          !scenes.regions.behaviors!Kpwadb44D2KvWuFD.f3NT9hTGxQCdTNQG.3yLalbE6lupQqm5P
+    visibility: 1
     locked: false
     flags: {}
-    _key: '!scenes.regions!t8mksTOEfZWFi0jV.f3NT9hTGxQCdTNQG'
+    _key: '!scenes.regions!Kpwadb44D2KvWuFD.f3NT9hTGxQCdTNQG'
   - name: Escalier cave bas
     color: '#28cc55'
     shapes:
@@ -145,14 +1608,14 @@ regions:
           exportSource: null
           coreVersion: '13.351'
           systemId: dangerousgary
-          systemVersion: '#{VERSION}#'
+          systemVersion: 1.1.1
           lastModifiedBy: null
         _key: >-
-          !scenes.regions.behaviors!t8mksTOEfZWFi0jV.ZmxR2MGRfhD1Q2ZA.TiTs8FxWrwaltO7K
-    visibility: 0
+          !scenes.regions.behaviors!Kpwadb44D2KvWuFD.ZmxR2MGRfhD1Q2ZA.TiTs8FxWrwaltO7K
+    visibility: 1
     locked: false
     flags: {}
-    _key: '!scenes.regions!t8mksTOEfZWFi0jV.ZmxR2MGRfhD1Q2ZA'
+    _key: '!scenes.regions!Kpwadb44D2KvWuFD.ZmxR2MGRfhD1Q2ZA'
   - name: Escalier hall bas
     color: '#cc2846'
     shapes:
@@ -186,17 +1649,17 @@ regions:
           exportSource: null
           coreVersion: '13.351'
           systemId: dangerousgary
-          systemVersion: '#{VERSION}#'
+          systemVersion: 1.1.1
           lastModifiedBy: null
         _key: >-
-          !scenes.regions.behaviors!t8mksTOEfZWFi0jV.UHlAhjgR5X2OzJkY.UjQBU61sdCiYyFdu
-    visibility: 0
+          !scenes.regions.behaviors!Kpwadb44D2KvWuFD.UHlAhjgR5X2OzJkY.UjQBU61sdCiYyFdu
+    visibility: 1
     locked: false
     flags: {}
-    _key: '!scenes.regions!t8mksTOEfZWFi0jV.UHlAhjgR5X2OzJkY'
+    _key: '!scenes.regions!Kpwadb44D2KvWuFD.UHlAhjgR5X2OzJkY'
   - name: Escalier hall haut
     _id: cBI4ndCC0LmTe3iB
-    color: '#28cca3'
+    color: '#cc2846'
     shapes:
       - points:
           - 1800
@@ -227,16 +1690,86 @@ regions:
           exportSource: null
           coreVersion: '13.351'
           systemId: dangerousgary
-          systemVersion: '#{VERSION}#'
+          systemVersion: 1.1.1
           lastModifiedBy: null
         _key: >-
-          !scenes.regions.behaviors!t8mksTOEfZWFi0jV.cBI4ndCC0LmTe3iB.3yOZ78cKm0pkKzIm
-    visibility: 0
+          !scenes.regions.behaviors!Kpwadb44D2KvWuFD.cBI4ndCC0LmTe3iB.3yOZ78cKm0pkKzIm
+    visibility: 1
     locked: false
     flags: {}
-    _key: '!scenes.regions!t8mksTOEfZWFi0jV.cBI4ndCC0LmTe3iB'
+    _key: '!scenes.regions!Kpwadb44D2KvWuFD.cBI4ndCC0LmTe3iB'
 templates: []
-tiles: []
+tiles:
+  - texture:
+      src: modules/dg-boite-rouge-bleue/assets/dg-scenes/titre_albergo.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 2626
+    'y': 2662
+    width: 650
+    height: 222
+    elevation: 0
+    sort: 0
+    occlusion:
+      mode: 0
+      alpha: 0
+    _id: j2XZO6mbIvm6MFlE
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: false
+    restrictions:
+      light: false
+      weather: false
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    _key: '!scenes.tiles!Kpwadb44D2KvWuFD.j2XZO6mbIvm6MFlE'
+  - texture:
+      src: modules/dg-boite-rouge-bleue/assets/dg-scenes/titre_passage.webp
+      anchorX: 0.5
+      anchorY: 0.5
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+      tint: '#ffffff'
+      alphaThreshold: 0.75
+    x: 2643
+    'y': 1590
+    width: 350
+    height: 97
+    elevation: 0
+    sort: 1
+    occlusion:
+      mode: 0
+      alpha: 0
+    _id: EPQiHbeGBjKxS7YM
+    rotation: 0
+    alpha: 1
+    hidden: false
+    locked: true
+    restrictions:
+      light: false
+      weather: false
+    video:
+      loop: true
+      autoplay: true
+      volume: 0
+    flags: {}
+    _key: '!scenes.tiles!Kpwadb44D2KvWuFD.EPQiHbeGBjKxS7YM'
 walls:
   - light: 20
     sight: 20
@@ -258,7 +1791,7 @@ walls:
     animation: null
     flags: {}
     _id: mx5CqoMfJBx2TICL
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.mx5CqoMfJBx2TICL'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.mx5CqoMfJBx2TICL'
   - light: 20
     sight: 20
     sound: 20
@@ -279,7 +1812,7 @@ walls:
     animation: null
     flags: {}
     _id: oI9si8pqwJwUDwFQ
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.oI9si8pqwJwUDwFQ'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.oI9si8pqwJwUDwFQ'
   - light: 30
     sight: 30
     sound: 20
@@ -300,7 +1833,7 @@ walls:
     animation: null
     flags: {}
     _id: 8Bb0NY2amSWpnPOj
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.8Bb0NY2amSWpnPOj'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.8Bb0NY2amSWpnPOj'
   - light: 20
     sight: 20
     sound: 20
@@ -321,7 +1854,7 @@ walls:
     animation: null
     flags: {}
     _id: csZfGwC4vZ8OF6k1
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.csZfGwC4vZ8OF6k1'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.csZfGwC4vZ8OF6k1'
   - light: 20
     sight: 20
     sound: 20
@@ -342,7 +1875,7 @@ walls:
     animation: null
     flags: {}
     _id: YI4U5lGq6pcxzXaV
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.YI4U5lGq6pcxzXaV'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.YI4U5lGq6pcxzXaV'
   - light: 20
     sight: 20
     sound: 20
@@ -362,7 +1895,7 @@ walls:
       attenuation: false
     animation:
       type: swing
-      texture: modules/dg-boite-rouge-bleue/assets/porte_metal_poussant_droit.png
+      texture: modules/dg-boite-rouge-bleue/assets/dg-scenes/portes/porte_metal.webp
       flip: false
       double: false
       direction: 1
@@ -371,7 +1904,7 @@ walls:
     flags: {}
     doorSound: woodHeavy
     _id: GEsIpgM86ZelxXhb
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.GEsIpgM86ZelxXhb'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.GEsIpgM86ZelxXhb'
   - light: 20
     sight: 20
     sound: 20
@@ -392,7 +1925,7 @@ walls:
     animation: null
     flags: {}
     _id: ioZ2NBxv4H7Pg8W6
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.ioZ2NBxv4H7Pg8W6'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.ioZ2NBxv4H7Pg8W6'
   - light: 30
     sight: 30
     sound: 20
@@ -413,7 +1946,7 @@ walls:
     animation: null
     flags: {}
     _id: KxrHjtUQJn6uQBT5
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.KxrHjtUQJn6uQBT5'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.KxrHjtUQJn6uQBT5'
   - light: 20
     sight: 20
     sound: 20
@@ -434,7 +1967,7 @@ walls:
     animation: null
     flags: {}
     _id: hmB3eL4liFkU4Eub
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.hmB3eL4liFkU4Eub'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.hmB3eL4liFkU4Eub'
   - light: 30
     sight: 30
     sound: 20
@@ -455,7 +1988,7 @@ walls:
     animation: null
     flags: {}
     _id: hqLISTcmb0as2DqO
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.hqLISTcmb0as2DqO'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.hqLISTcmb0as2DqO'
   - light: 20
     sight: 20
     sound: 20
@@ -476,7 +2009,7 @@ walls:
     animation: null
     flags: {}
     _id: yM9L4h3WviPxdVLa
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.yM9L4h3WviPxdVLa'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.yM9L4h3WviPxdVLa'
   - light: 20
     sight: 20
     sound: 20
@@ -497,7 +2030,7 @@ walls:
     animation: null
     flags: {}
     _id: Vbex9GJHqemiUKGr
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.Vbex9GJHqemiUKGr'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.Vbex9GJHqemiUKGr'
   - light: 30
     sight: 30
     sound: 20
@@ -518,7 +2051,7 @@ walls:
     animation: null
     flags: {}
     _id: H0G3jnqqWEyOFfPu
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.H0G3jnqqWEyOFfPu'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.H0G3jnqqWEyOFfPu'
   - light: 20
     sight: 20
     sound: 20
@@ -539,7 +2072,7 @@ walls:
     animation: null
     flags: {}
     _id: p95rDRdA9SW1Kt6s
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.p95rDRdA9SW1Kt6s'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.p95rDRdA9SW1Kt6s'
   - light: 20
     sight: 20
     sound: 20
@@ -560,7 +2093,7 @@ walls:
     animation: null
     flags: {}
     _id: 9IRkKk813048Jf3G
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.9IRkKk813048Jf3G'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.9IRkKk813048Jf3G'
   - light: 20
     sight: 20
     sound: 20
@@ -581,7 +2114,7 @@ walls:
     animation: null
     flags: {}
     _id: ZEJnYTBLMwt5XSLp
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.ZEJnYTBLMwt5XSLp'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.ZEJnYTBLMwt5XSLp'
   - light: 20
     sight: 20
     sound: 20
@@ -602,7 +2135,7 @@ walls:
     animation: null
     flags: {}
     _id: aWGtHpIvgeyJwqxo
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.aWGtHpIvgeyJwqxo'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.aWGtHpIvgeyJwqxo'
   - light: 30
     sight: 30
     sound: 20
@@ -623,7 +2156,7 @@ walls:
     animation: null
     flags: {}
     _id: 3X1THB2dj8kR7BSF
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.3X1THB2dj8kR7BSF'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.3X1THB2dj8kR7BSF'
   - light: 30
     sight: 30
     sound: 20
@@ -644,7 +2177,7 @@ walls:
     animation: null
     flags: {}
     _id: Pbr4K0mQle48JPZl
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.Pbr4K0mQle48JPZl'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.Pbr4K0mQle48JPZl'
   - light: 20
     sight: 20
     sound: 20
@@ -665,7 +2198,7 @@ walls:
     animation: null
     flags: {}
     _id: RabRVRZE0wZNPtrK
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.RabRVRZE0wZNPtrK'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.RabRVRZE0wZNPtrK'
   - light: 20
     sight: 20
     sound: 20
@@ -686,7 +2219,7 @@ walls:
     animation: null
     flags: {}
     _id: V6cDUAZCWIaTqLUx
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.V6cDUAZCWIaTqLUx'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.V6cDUAZCWIaTqLUx'
   - light: 30
     sight: 30
     sound: 20
@@ -707,7 +2240,7 @@ walls:
     animation: null
     flags: {}
     _id: ZjZ1obDXrLYfwOIW
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.ZjZ1obDXrLYfwOIW'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.ZjZ1obDXrLYfwOIW'
   - light: 20
     sight: 20
     sound: 20
@@ -728,7 +2261,7 @@ walls:
     animation: null
     flags: {}
     _id: z2kGphGuVzIlaqu5
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.z2kGphGuVzIlaqu5'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.z2kGphGuVzIlaqu5'
   - light: 30
     sight: 30
     sound: 20
@@ -749,7 +2282,7 @@ walls:
     animation: null
     flags: {}
     _id: lBa4JWTg4Hk2VWRy
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.lBa4JWTg4Hk2VWRy'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.lBa4JWTg4Hk2VWRy'
   - light: 20
     sight: 20
     sound: 20
@@ -770,7 +2303,7 @@ walls:
     animation: null
     flags: {}
     _id: JFQ1TeD0mx4LvuL9
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.JFQ1TeD0mx4LvuL9'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.JFQ1TeD0mx4LvuL9'
   - light: 30
     sight: 30
     sound: 20
@@ -791,7 +2324,7 @@ walls:
     animation: null
     flags: {}
     _id: E5LtXVdBsTKTYA0N
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.E5LtXVdBsTKTYA0N'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.E5LtXVdBsTKTYA0N'
   - light: 20
     sight: 20
     sound: 20
@@ -812,7 +2345,7 @@ walls:
     animation: null
     flags: {}
     _id: 6VE4VOR5k3KOWdjV
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.6VE4VOR5k3KOWdjV'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.6VE4VOR5k3KOWdjV'
   - light: 20
     sight: 20
     sound: 20
@@ -833,7 +2366,7 @@ walls:
     animation: null
     flags: {}
     _id: 1KXJXxGSPYEpqXYj
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.1KXJXxGSPYEpqXYj'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.1KXJXxGSPYEpqXYj'
   - light: 20
     sight: 20
     sound: 20
@@ -854,7 +2387,7 @@ walls:
     animation: null
     flags: {}
     _id: mqu7iTTK66DqOfBP
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.mqu7iTTK66DqOfBP'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.mqu7iTTK66DqOfBP'
   - light: 20
     sight: 20
     sound: 20
@@ -875,7 +2408,7 @@ walls:
     animation: null
     flags: {}
     _id: 4RsPImc54oAYK629
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.4RsPImc54oAYK629'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.4RsPImc54oAYK629'
   - light: 30
     sight: 30
     sound: 20
@@ -896,7 +2429,7 @@ walls:
     animation: null
     flags: {}
     _id: 4RuyUE2fZHi3c2pM
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.4RuyUE2fZHi3c2pM'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.4RuyUE2fZHi3c2pM'
   - light: 20
     sight: 20
     sound: 20
@@ -917,7 +2450,7 @@ walls:
     animation: null
     flags: {}
     _id: ZyezQ2ZkJw1RHASM
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.ZyezQ2ZkJw1RHASM'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.ZyezQ2ZkJw1RHASM'
   - light: 20
     sight: 20
     sound: 20
@@ -938,7 +2471,7 @@ walls:
     animation: null
     flags: {}
     _id: l0m7IuvIMjnceYg3
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.l0m7IuvIMjnceYg3'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.l0m7IuvIMjnceYg3'
   - light: 30
     sight: 30
     sound: 20
@@ -959,7 +2492,7 @@ walls:
     animation: null
     flags: {}
     _id: CFlpFmnVEMD9s223
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.CFlpFmnVEMD9s223'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.CFlpFmnVEMD9s223'
   - light: 20
     sight: 20
     sound: 20
@@ -980,7 +2513,7 @@ walls:
     animation: null
     flags: {}
     _id: lOe98PscGe3GgvLT
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.lOe98PscGe3GgvLT'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.lOe98PscGe3GgvLT'
   - light: 30
     sight: 30
     sound: 20
@@ -1001,7 +2534,7 @@ walls:
     animation: null
     flags: {}
     _id: t8ycwFYeUWaxpsWR
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.t8ycwFYeUWaxpsWR'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.t8ycwFYeUWaxpsWR'
   - light: 20
     sight: 20
     sound: 20
@@ -1022,7 +2555,7 @@ walls:
     animation: null
     flags: {}
     _id: 4oiEGd7fOz3YobWF
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.4oiEGd7fOz3YobWF'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.4oiEGd7fOz3YobWF'
   - light: 30
     sight: 30
     sound: 20
@@ -1043,7 +2576,7 @@ walls:
     animation: null
     flags: {}
     _id: IOGYyhf7DCCO88rO
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.IOGYyhf7DCCO88rO'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.IOGYyhf7DCCO88rO'
   - light: 20
     sight: 20
     sound: 20
@@ -1064,7 +2597,7 @@ walls:
     animation: null
     flags: {}
     _id: UOIvne6Hhfh3iVje
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.UOIvne6Hhfh3iVje'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.UOIvne6Hhfh3iVje'
   - light: 30
     sight: 30
     sound: 20
@@ -1085,7 +2618,7 @@ walls:
     animation: null
     flags: {}
     _id: yw5aKpJZYkrMRNVf
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.yw5aKpJZYkrMRNVf'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.yw5aKpJZYkrMRNVf'
   - light: 20
     sight: 20
     sound: 20
@@ -1106,7 +2639,7 @@ walls:
     animation: null
     flags: {}
     _id: 4KOvKf6uV3fgG3fa
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.4KOvKf6uV3fgG3fa'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.4KOvKf6uV3fgG3fa'
   - light: 30
     sight: 30
     sound: 20
@@ -1127,7 +2660,7 @@ walls:
     animation: null
     flags: {}
     _id: r27T8pcwzs1nrHM9
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.r27T8pcwzs1nrHM9'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.r27T8pcwzs1nrHM9'
   - light: 20
     sight: 20
     sound: 20
@@ -1148,7 +2681,7 @@ walls:
     animation: null
     flags: {}
     _id: dG3cGtAIL6w9YSWS
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.dG3cGtAIL6w9YSWS'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.dG3cGtAIL6w9YSWS'
   - light: 20
     sight: 20
     sound: 20
@@ -1169,7 +2702,7 @@ walls:
     animation: null
     flags: {}
     _id: zfxOZn4o5pwsCgun
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.zfxOZn4o5pwsCgun'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.zfxOZn4o5pwsCgun'
   - light: 30
     sight: 30
     sound: 20
@@ -1190,7 +2723,7 @@ walls:
     animation: null
     flags: {}
     _id: GE3TixhH6d0ZUIGV
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.GE3TixhH6d0ZUIGV'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.GE3TixhH6d0ZUIGV'
   - light: 20
     sight: 20
     sound: 20
@@ -1211,7 +2744,7 @@ walls:
     animation: null
     flags: {}
     _id: uhxdFjGmeRa4uicF
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.uhxdFjGmeRa4uicF'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.uhxdFjGmeRa4uicF'
   - light: 30
     sight: 30
     sound: 20
@@ -1232,7 +2765,7 @@ walls:
     animation: null
     flags: {}
     _id: tSKWYrymeBKzrYaI
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.tSKWYrymeBKzrYaI'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.tSKWYrymeBKzrYaI'
   - light: 20
     sight: 20
     sound: 20
@@ -1253,7 +2786,7 @@ walls:
     animation: null
     flags: {}
     _id: 7UFTcBZNDqkYIUur
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.7UFTcBZNDqkYIUur'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.7UFTcBZNDqkYIUur'
   - light: 20
     sight: 20
     sound: 20
@@ -1274,7 +2807,7 @@ walls:
     animation: null
     flags: {}
     _id: JFDKAdsR6uECdFdj
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.JFDKAdsR6uECdFdj'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.JFDKAdsR6uECdFdj'
   - light: 30
     sight: 30
     sound: 20
@@ -1295,7 +2828,7 @@ walls:
     animation: null
     flags: {}
     _id: mLrGKadUm1ApQ2UI
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.mLrGKadUm1ApQ2UI'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.mLrGKadUm1ApQ2UI'
   - light: 20
     sight: 20
     sound: 20
@@ -1316,7 +2849,7 @@ walls:
     animation: null
     flags: {}
     _id: LH1Nf75ujuQTrVt2
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.LH1Nf75ujuQTrVt2'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.LH1Nf75ujuQTrVt2'
   - light: 20
     sight: 20
     sound: 20
@@ -1337,7 +2870,7 @@ walls:
     animation: null
     flags: {}
     _id: vffVJ5XzAUGLBUWF
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.vffVJ5XzAUGLBUWF'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.vffVJ5XzAUGLBUWF'
   - light: 20
     sight: 20
     sound: 20
@@ -1357,7 +2890,7 @@ walls:
       attenuation: false
     animation:
       type: swing
-      texture: modules/dg-boite-rouge-bleue/assets/porte_metal_poussant_droit.png
+      texture: modules/dg-boite-rouge-bleue/assets/dg-scenes/portes/porte_metal.webp
       flip: false
       double: false
       direction: 1
@@ -1366,7 +2899,7 @@ walls:
     flags: {}
     doorSound: woodHeavy
     _id: dXLQduLRgCCjQJ6O
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.dXLQduLRgCCjQJ6O'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.dXLQduLRgCCjQJ6O'
   - light: 20
     sight: 20
     sound: 20
@@ -1387,7 +2920,7 @@ walls:
     animation: null
     flags: {}
     _id: KKflSAjisAw8GeN5
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.KKflSAjisAw8GeN5'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.KKflSAjisAw8GeN5'
   - light: 20
     sight: 20
     sound: 20
@@ -1407,7 +2940,7 @@ walls:
       attenuation: false
     animation:
       type: swing
-      texture: modules/dg-boite-rouge-bleue/assets/porte_metal_poussant_droit.png
+      texture: modules/dg-boite-rouge-bleue/assets/dg-scenes/portes/porte_metal.webp
       flip: false
       double: false
       direction: 1
@@ -1416,7 +2949,7 @@ walls:
     flags: {}
     doorSound: woodHeavy
     _id: uILZVgMtSr9pNuCq
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.uILZVgMtSr9pNuCq'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.uILZVgMtSr9pNuCq'
   - light: 20
     sight: 20
     sound: 20
@@ -1437,7 +2970,7 @@ walls:
     animation: null
     flags: {}
     _id: AY3hu1EXKDaWqaCR
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.AY3hu1EXKDaWqaCR'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.AY3hu1EXKDaWqaCR'
   - light: 20
     sight: 20
     sound: 20
@@ -1458,7 +2991,7 @@ walls:
     animation: null
     flags: {}
     _id: MOs5ASWyOxH0ce3p
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.MOs5ASWyOxH0ce3p'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.MOs5ASWyOxH0ce3p'
   - light: 20
     sight: 20
     sound: 20
@@ -1478,7 +3011,7 @@ walls:
       attenuation: false
     animation:
       type: swing
-      texture: modules/dg-boite-rouge-bleue/assets/porte_metal_poussant_droit.png
+      texture: modules/dg-boite-rouge-bleue/assets/dg-scenes/portes/porte_metal.webp
       flip: false
       double: false
       direction: 1
@@ -1487,7 +3020,7 @@ walls:
     flags: {}
     doorSound: woodHeavy
     _id: mJcsv16XsI5wQgIk
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.mJcsv16XsI5wQgIk'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.mJcsv16XsI5wQgIk'
   - light: 20
     sight: 20
     sound: 20
@@ -1508,7 +3041,7 @@ walls:
     animation: null
     flags: {}
     _id: p8ZWqX7tqXCrjI2r
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.p8ZWqX7tqXCrjI2r'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.p8ZWqX7tqXCrjI2r'
   - light: 20
     sight: 20
     sound: 20
@@ -1520,7 +3053,7 @@ walls:
       - 1600
     dir: 0
     door: 1
-    ds: 1
+    ds: 0
     threshold:
       light: null
       sight: null
@@ -1528,7 +3061,7 @@ walls:
       attenuation: false
     animation:
       type: swing
-      texture: modules/dg-boite-rouge-bleue/assets/porte_bois_poussant_droit.png
+      texture: modules/dg-boite-rouge-bleue/assets/dg-scenes/portes/porte_metal.webp
       flip: false
       double: false
       direction: 1
@@ -1537,7 +3070,7 @@ walls:
     flags: {}
     doorSound: woodHeavy
     _id: W8m5qiYuBlPHxpUi
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.W8m5qiYuBlPHxpUi'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.W8m5qiYuBlPHxpUi'
   - light: 20
     sight: 20
     sound: 20
@@ -1558,7 +3091,7 @@ walls:
     animation: null
     flags: {}
     _id: bulI7DvttidEmX1f
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.bulI7DvttidEmX1f'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.bulI7DvttidEmX1f'
   - light: 20
     sight: 20
     sound: 20
@@ -1579,7 +3112,7 @@ walls:
     animation: null
     flags: {}
     _id: mTFIts8wyOVLcCLA
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.mTFIts8wyOVLcCLA'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.mTFIts8wyOVLcCLA'
   - light: 20
     sight: 20
     sound: 20
@@ -1600,7 +3133,7 @@ walls:
     animation: null
     flags: {}
     _id: UQOM8Tt7I0c2Nl76
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.UQOM8Tt7I0c2Nl76'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.UQOM8Tt7I0c2Nl76'
   - light: 20
     sight: 20
     sound: 20
@@ -1621,7 +3154,7 @@ walls:
     animation: null
     flags: {}
     _id: mzQg2Bb4Iiore6DG
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.mzQg2Bb4Iiore6DG'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.mzQg2Bb4Iiore6DG'
   - light: 20
     sight: 20
     sound: 20
@@ -1642,7 +3175,7 @@ walls:
     animation: null
     flags: {}
     _id: mXPsRBM1aYBGgLom
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.mXPsRBM1aYBGgLom'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.mXPsRBM1aYBGgLom'
   - light: 20
     sight: 20
     sound: 20
@@ -1663,7 +3196,7 @@ walls:
     animation: null
     flags: {}
     _id: OFiRfFZwmQMafj1q
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.OFiRfFZwmQMafj1q'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.OFiRfFZwmQMafj1q'
   - light: 20
     sight: 20
     sound: 20
@@ -1671,7 +3204,7 @@ walls:
     c:
       - 2100
       - 1950
-      - 1925
+      - 1913
       - 1950
     dir: 0
     door: 0
@@ -1684,15 +3217,15 @@ walls:
     animation: null
     flags: {}
     _id: 7Bj2SB3JyBZd9Vje
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.7Bj2SB3JyBZd9Vje'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.7Bj2SB3JyBZd9Vje'
   - light: 20
     sight: 20
     sound: 20
     move: 20
     c:
-      - 1825
+      - 1913
       - 1950
-      - 1925
+      - 1825
       - 1950
     dir: 0
     door: 1
@@ -1704,16 +3237,16 @@ walls:
       attenuation: false
     animation:
       type: swing
-      texture: modules/dg-boite-rouge-bleue/assets/porte_bois_poussant_droit.png
+      texture: modules/dg-boite-rouge-bleue/assets/dg-scenes/portes/porte_metal.webp
       flip: false
       double: false
-      direction: 1
+      direction: -1
       duration: 750
       strength: 1.05
     flags: {}
     doorSound: woodHeavy
     _id: XvrduEmijXv5ilGN
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.XvrduEmijXv5ilGN'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.XvrduEmijXv5ilGN'
   - light: 20
     sight: 20
     sound: 20
@@ -1734,7 +3267,7 @@ walls:
     animation: null
     flags: {}
     _id: qRTs3wLHtaEpnp4L
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.qRTs3wLHtaEpnp4L'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.qRTs3wLHtaEpnp4L'
   - light: 20
     sight: 10
     sound: 20
@@ -1755,7 +3288,7 @@ walls:
     animation: null
     flags: {}
     _id: AgiJbCKHdgJuOfJ2
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.AgiJbCKHdgJuOfJ2'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.AgiJbCKHdgJuOfJ2'
   - light: 20
     sight: 10
     sound: 20
@@ -1776,7 +3309,7 @@ walls:
     animation: null
     flags: {}
     _id: 3PMfcWThv5qZmTxI
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.3PMfcWThv5qZmTxI'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.3PMfcWThv5qZmTxI'
   - light: 20
     sight: 10
     sound: 20
@@ -1797,7 +3330,7 @@ walls:
     animation: null
     flags: {}
     _id: 2HGqMPfB5TtJYSWq
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.2HGqMPfB5TtJYSWq'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.2HGqMPfB5TtJYSWq'
   - light: 20
     sight: 20
     sound: 20
@@ -1818,7 +3351,7 @@ walls:
     animation: null
     flags: {}
     _id: bOMInHFRerr6tXaN
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.bOMInHFRerr6tXaN'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.bOMInHFRerr6tXaN'
   - light: 20
     sight: 20
     sound: 20
@@ -1838,7 +3371,7 @@ walls:
       attenuation: false
     animation:
       type: swing
-      texture: modules/dg-boite-rouge-bleue/assets/porte_bois_poussant_droit.png
+      texture: modules/dg-boite-rouge-bleue/assets/dg-scenes/portes/porte_metal.webp
       flip: false
       double: false
       direction: 1
@@ -1847,7 +3380,7 @@ walls:
     flags: {}
     doorSound: woodHeavy
     _id: 005jzq0LZOoy3bCo
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.005jzq0LZOoy3bCo'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.005jzq0LZOoy3bCo'
   - light: 20
     sight: 20
     sound: 20
@@ -1868,7 +3401,7 @@ walls:
     animation: null
     flags: {}
     _id: tncVWpA8ZOCQPOv3
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.tncVWpA8ZOCQPOv3'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.tncVWpA8ZOCQPOv3'
   - light: 20
     sight: 20
     sound: 20
@@ -1889,7 +3422,7 @@ walls:
     animation: null
     flags: {}
     _id: mYsaCi0mx8GLDB9w
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.mYsaCi0mx8GLDB9w'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.mYsaCi0mx8GLDB9w'
   - light: 20
     sight: 20
     sound: 20
@@ -1910,7 +3443,7 @@ walls:
     animation: null
     flags: {}
     _id: lrBMmhx7ixIDwzUE
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.lrBMmhx7ixIDwzUE'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.lrBMmhx7ixIDwzUE'
   - light: 10
     sight: 10
     sound: 10
@@ -1931,7 +3464,7 @@ walls:
     animation: null
     flags: {}
     _id: P4J2lg8VcaFUBpf8
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.P4J2lg8VcaFUBpf8'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.P4J2lg8VcaFUBpf8'
   - light: 10
     sight: 10
     sound: 10
@@ -1952,7 +3485,7 @@ walls:
     animation: null
     flags: {}
     _id: 0ZUJSgcHzUEIhnZC
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.0ZUJSgcHzUEIhnZC'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.0ZUJSgcHzUEIhnZC'
   - light: 10
     sight: 10
     sound: 10
@@ -1973,7 +3506,7 @@ walls:
     animation: null
     flags: {}
     _id: E1NkECdWCUksxRij
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.E1NkECdWCUksxRij'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.E1NkECdWCUksxRij'
   - light: 0
     sight: 0
     sound: 0
@@ -1994,7 +3527,7 @@ walls:
     animation: null
     flags: {}
     _id: RHWRqdvhGtk1cSVi
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.RHWRqdvhGtk1cSVi'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.RHWRqdvhGtk1cSVi'
   - light: 0
     sight: 0
     sound: 0
@@ -2015,7 +3548,7 @@ walls:
     animation: null
     flags: {}
     _id: Toflrrc40PzYTpwt
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.Toflrrc40PzYTpwt'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.Toflrrc40PzYTpwt'
   - light: 20
     sight: 20
     sound: 20
@@ -2036,7 +3569,7 @@ walls:
     animation: null
     flags: {}
     _id: Ui10y7pT3z8kbplE
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.Ui10y7pT3z8kbplE'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.Ui10y7pT3z8kbplE'
   - light: 30
     sight: 30
     sound: 20
@@ -2057,7 +3590,7 @@ walls:
     animation: null
     flags: {}
     _id: rr4oFoVodLGHxl7G
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.rr4oFoVodLGHxl7G'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.rr4oFoVodLGHxl7G'
   - light: 20
     sight: 20
     sound: 20
@@ -2078,7 +3611,7 @@ walls:
     animation: null
     flags: {}
     _id: Zyni1d9gsUQAIswh
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.Zyni1d9gsUQAIswh'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.Zyni1d9gsUQAIswh'
   - light: 20
     sight: 20
     sound: 20
@@ -2099,7 +3632,7 @@ walls:
     animation: null
     flags: {}
     _id: Px5fhiAXYCHjrrsT
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.Px5fhiAXYCHjrrsT'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.Px5fhiAXYCHjrrsT'
   - light: 20
     sight: 20
     sound: 20
@@ -2120,7 +3653,7 @@ walls:
     animation: null
     flags: {}
     _id: EsKwSrKCRLdh2XnR
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.EsKwSrKCRLdh2XnR'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.EsKwSrKCRLdh2XnR'
   - light: 30
     sight: 30
     sound: 20
@@ -2141,7 +3674,7 @@ walls:
     animation: null
     flags: {}
     _id: ICN4UCMi8rmoH4Sx
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.ICN4UCMi8rmoH4Sx'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.ICN4UCMi8rmoH4Sx'
   - light: 20
     sight: 20
     sound: 20
@@ -2162,7 +3695,7 @@ walls:
     animation: null
     flags: {}
     _id: ZpS4l7Or43uwQyBk
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.ZpS4l7Or43uwQyBk'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.ZpS4l7Or43uwQyBk'
   - light: 20
     sight: 20
     sound: 20
@@ -2183,7 +3716,7 @@ walls:
     animation: null
     flags: {}
     _id: bh4UiX4uvYL3HXO8
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.bh4UiX4uvYL3HXO8'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.bh4UiX4uvYL3HXO8'
   - light: 30
     sight: 30
     sound: 20
@@ -2204,7 +3737,7 @@ walls:
     animation: null
     flags: {}
     _id: QwehHmv9EoJl3cov
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.QwehHmv9EoJl3cov'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.QwehHmv9EoJl3cov'
   - light: 20
     sight: 20
     sound: 20
@@ -2225,7 +3758,7 @@ walls:
     animation: null
     flags: {}
     _id: 5IPWbsdkz1NRZlpm
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.5IPWbsdkz1NRZlpm'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.5IPWbsdkz1NRZlpm'
   - light: 20
     sight: 20
     sound: 20
@@ -2246,7 +3779,7 @@ walls:
     animation: null
     flags: {}
     _id: CQQ3uhmnk1Sd8wz4
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.CQQ3uhmnk1Sd8wz4'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.CQQ3uhmnk1Sd8wz4'
   - light: 30
     sight: 30
     sound: 20
@@ -2267,7 +3800,7 @@ walls:
     animation: null
     flags: {}
     _id: Yqaip3ki7UZBI7qX
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.Yqaip3ki7UZBI7qX'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.Yqaip3ki7UZBI7qX'
   - light: 20
     sight: 20
     sound: 20
@@ -2288,7 +3821,7 @@ walls:
     animation: null
     flags: {}
     _id: Lh15sKf4JAivy35X
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.Lh15sKf4JAivy35X'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.Lh15sKf4JAivy35X'
   - light: 20
     sight: 20
     sound: 20
@@ -2309,7 +3842,7 @@ walls:
     animation: null
     flags: {}
     _id: GdRFzS2TA5n6N9Ic
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.GdRFzS2TA5n6N9Ic'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.GdRFzS2TA5n6N9Ic'
   - light: 30
     sight: 30
     sound: 20
@@ -2330,7 +3863,7 @@ walls:
     animation: null
     flags: {}
     _id: SQIJ1qSIgEve3q7x
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.SQIJ1qSIgEve3q7x'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.SQIJ1qSIgEve3q7x'
   - light: 20
     sight: 20
     sound: 20
@@ -2351,7 +3884,7 @@ walls:
     animation: null
     flags: {}
     _id: wUZiTaZpRvaTHSBj
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.wUZiTaZpRvaTHSBj'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.wUZiTaZpRvaTHSBj'
   - light: 20
     sight: 20
     sound: 20
@@ -2372,7 +3905,7 @@ walls:
     animation: null
     flags: {}
     _id: TZv1FX4PzweDeP8v
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.TZv1FX4PzweDeP8v'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.TZv1FX4PzweDeP8v'
   - light: 30
     sight: 30
     sound: 20
@@ -2393,7 +3926,7 @@ walls:
     animation: null
     flags: {}
     _id: 7lNrahROL9Y5aDTQ
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.7lNrahROL9Y5aDTQ'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.7lNrahROL9Y5aDTQ'
   - light: 20
     sight: 20
     sound: 20
@@ -2414,7 +3947,7 @@ walls:
     animation: null
     flags: {}
     _id: B2ua0bZF7IXYzTvO
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.B2ua0bZF7IXYzTvO'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.B2ua0bZF7IXYzTvO'
   - light: 30
     sight: 30
     sound: 20
@@ -2435,7 +3968,7 @@ walls:
     animation: null
     flags: {}
     _id: 8yjTiIfZPxLOrn9B
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.8yjTiIfZPxLOrn9B'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.8yjTiIfZPxLOrn9B'
   - light: 20
     sight: 20
     sound: 20
@@ -2456,7 +3989,7 @@ walls:
     animation: null
     flags: {}
     _id: 6NevCeud1I3PILH1
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.6NevCeud1I3PILH1'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.6NevCeud1I3PILH1'
   - light: 30
     sight: 30
     sound: 20
@@ -2477,7 +4010,7 @@ walls:
     animation: null
     flags: {}
     _id: mVYCJFY1cH0bexGf
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.mVYCJFY1cH0bexGf'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.mVYCJFY1cH0bexGf'
   - light: 20
     sight: 20
     sound: 20
@@ -2498,7 +4031,7 @@ walls:
     animation: null
     flags: {}
     _id: ZSDGSWCoce2GNh5P
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.ZSDGSWCoce2GNh5P'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.ZSDGSWCoce2GNh5P'
   - light: 30
     sight: 30
     sound: 20
@@ -2519,7 +4052,7 @@ walls:
     animation: null
     flags: {}
     _id: XVudJsEP0Tfg7Tjp
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.XVudJsEP0Tfg7Tjp'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.XVudJsEP0Tfg7Tjp'
   - light: 20
     sight: 20
     sound: 20
@@ -2540,7 +4073,7 @@ walls:
     animation: null
     flags: {}
     _id: L90Nnl6aA48VGJuW
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.L90Nnl6aA48VGJuW'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.L90Nnl6aA48VGJuW'
   - light: 30
     sight: 30
     sound: 20
@@ -2561,7 +4094,7 @@ walls:
     animation: null
     flags: {}
     _id: 6WNwl27FvyIipvsD
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.6WNwl27FvyIipvsD'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.6WNwl27FvyIipvsD'
   - light: 20
     sight: 20
     sound: 20
@@ -2582,7 +4115,7 @@ walls:
     animation: null
     flags: {}
     _id: 6wyK1XAo8uAC7mh2
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.6wyK1XAo8uAC7mh2'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.6wyK1XAo8uAC7mh2'
   - light: 20
     sight: 20
     sound: 20
@@ -2603,7 +4136,7 @@ walls:
     animation: null
     flags: {}
     _id: fZjDQptXflsZi8ot
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.fZjDQptXflsZi8ot'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.fZjDQptXflsZi8ot'
   - light: 20
     sight: 20
     sound: 20
@@ -2624,7 +4157,7 @@ walls:
     animation: null
     flags: {}
     _id: dCdihEmGEcljpO1D
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.dCdihEmGEcljpO1D'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.dCdihEmGEcljpO1D'
   - light: 30
     sight: 30
     sound: 20
@@ -2645,7 +4178,7 @@ walls:
     animation: null
     flags: {}
     _id: J7OF9MkEVjpLFgc5
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.J7OF9MkEVjpLFgc5'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.J7OF9MkEVjpLFgc5'
   - light: 20
     sight: 20
     sound: 20
@@ -2666,7 +4199,7 @@ walls:
     animation: null
     flags: {}
     _id: oIu9L1oOJI5oRazh
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.oIu9L1oOJI5oRazh'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.oIu9L1oOJI5oRazh'
   - light: 30
     sight: 30
     sound: 20
@@ -2687,7 +4220,7 @@ walls:
     animation: null
     flags: {}
     _id: G9PgH6TzJGfW8d6W
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.G9PgH6TzJGfW8d6W'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.G9PgH6TzJGfW8d6W'
   - light: 20
     sight: 20
     sound: 20
@@ -2708,7 +4241,7 @@ walls:
     animation: null
     flags: {}
     _id: CNgDh47DHB7PrhqZ
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.CNgDh47DHB7PrhqZ'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.CNgDh47DHB7PrhqZ'
   - light: 30
     sight: 30
     sound: 20
@@ -2729,7 +4262,7 @@ walls:
     animation: null
     flags: {}
     _id: MoPLyfBCygsvpBtW
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.MoPLyfBCygsvpBtW'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.MoPLyfBCygsvpBtW'
   - light: 20
     sight: 20
     sound: 20
@@ -2750,7 +4283,7 @@ walls:
     animation: null
     flags: {}
     _id: wA9IZzpcSljX1Uxa
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.wA9IZzpcSljX1Uxa'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.wA9IZzpcSljX1Uxa'
   - light: 30
     sight: 30
     sound: 20
@@ -2771,7 +4304,7 @@ walls:
     animation: null
     flags: {}
     _id: Tn3MM2ITfKC9tXv5
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.Tn3MM2ITfKC9tXv5'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.Tn3MM2ITfKC9tXv5'
   - light: 20
     sight: 20
     sound: 20
@@ -2792,7 +4325,7 @@ walls:
     animation: null
     flags: {}
     _id: FI0GpoUU5ZNqe2S9
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.FI0GpoUU5ZNqe2S9'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.FI0GpoUU5ZNqe2S9'
   - light: 30
     sight: 30
     sound: 20
@@ -2813,7 +4346,7 @@ walls:
     animation: null
     flags: {}
     _id: sR8nZa79OF8NjTO6
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.sR8nZa79OF8NjTO6'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.sR8nZa79OF8NjTO6'
   - light: 20
     sight: 20
     sound: 20
@@ -2834,7 +4367,7 @@ walls:
     animation: null
     flags: {}
     _id: juLvZqX5u71mvcsS
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.juLvZqX5u71mvcsS'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.juLvZqX5u71mvcsS'
   - light: 20
     sight: 20
     sound: 20
@@ -2855,7 +4388,7 @@ walls:
     animation: null
     flags: {}
     _id: p5hmwbTmb4Fwhc0m
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.p5hmwbTmb4Fwhc0m'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.p5hmwbTmb4Fwhc0m'
   - light: 30
     sight: 30
     sound: 20
@@ -2876,7 +4409,7 @@ walls:
     animation: null
     flags: {}
     _id: R0RlkZ5FSFCszNMj
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.R0RlkZ5FSFCszNMj'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.R0RlkZ5FSFCszNMj'
   - light: 20
     sight: 20
     sound: 20
@@ -2897,7 +4430,7 @@ walls:
     animation: null
     flags: {}
     _id: EYENb05vMopqujiO
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.EYENb05vMopqujiO'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.EYENb05vMopqujiO'
   - light: 30
     sight: 30
     sound: 20
@@ -2918,7 +4451,7 @@ walls:
     animation: null
     flags: {}
     _id: 3AyJQRFa0Nw6vAgq
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.3AyJQRFa0Nw6vAgq'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.3AyJQRFa0Nw6vAgq'
   - light: 20
     sight: 20
     sound: 20
@@ -2939,7 +4472,7 @@ walls:
     animation: null
     flags: {}
     _id: 1z4Zh3HJGu4U4gOv
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.1z4Zh3HJGu4U4gOv'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.1z4Zh3HJGu4U4gOv'
   - light: 20
     sight: 20
     sound: 20
@@ -2960,7 +4493,7 @@ walls:
     animation: null
     flags: {}
     _id: 8eNV2QDCiXIStsUw
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.8eNV2QDCiXIStsUw'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.8eNV2QDCiXIStsUw'
   - light: 30
     sight: 30
     sound: 20
@@ -2981,7 +4514,7 @@ walls:
     animation: null
     flags: {}
     _id: w1eiATtFaf6C2pTq
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.w1eiATtFaf6C2pTq'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.w1eiATtFaf6C2pTq'
   - light: 20
     sight: 20
     sound: 20
@@ -3002,7 +4535,7 @@ walls:
     animation: null
     flags: {}
     _id: 5Aiu0BBhWOOE21mZ
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.5Aiu0BBhWOOE21mZ'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.5Aiu0BBhWOOE21mZ'
   - light: 20
     sight: 20
     sound: 20
@@ -3023,16 +4556,16 @@ walls:
     animation: null
     flags: {}
     _id: eBlek4VHRoNJbtYS
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.eBlek4VHRoNJbtYS'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.eBlek4VHRoNJbtYS'
   - light: 20
     sight: 20
     sound: 20
     move: 20
     c:
       - 1500
-      - 3800
-      - 1500
       - 3900
+      - 1500
+      - 3800
     dir: 0
     door: 1
     ds: 0
@@ -3043,16 +4576,16 @@ walls:
       attenuation: false
     animation:
       type: swing
-      texture: modules/dg-boite-rouge-bleue/assets/porte_metal_poussant_droit.png
+      texture: modules/dg-boite-rouge-bleue/assets/dg-scenes/portes/porte_metal.webp
       flip: false
       double: false
-      direction: 1
+      direction: -1
       duration: 750
       strength: 1.1
     flags: {}
     doorSound: woodCreaky
     _id: PtsHofL1GTOooTbp
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.PtsHofL1GTOooTbp'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.PtsHofL1GTOooTbp'
   - light: 20
     sight: 20
     sound: 20
@@ -3073,7 +4606,7 @@ walls:
     animation: null
     flags: {}
     _id: PrWw3ljvn5RvcxEq
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.PrWw3ljvn5RvcxEq'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.PrWw3ljvn5RvcxEq'
   - light: 20
     sight: 20
     sound: 20
@@ -3093,7 +4626,7 @@ walls:
       attenuation: false
     animation:
       type: swing
-      texture: modules/dg-boite-rouge-bleue/assets/porte_metal_poussant_droit.png
+      texture: modules/dg-boite-rouge-bleue/assets/dg-scenes/portes/porte_metal.webp
       flip: false
       double: false
       direction: -1
@@ -3102,7 +4635,7 @@ walls:
     flags: {}
     doorSound: woodCreaky
     _id: eVJzI1yic0Nhp17g
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.eVJzI1yic0Nhp17g'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.eVJzI1yic0Nhp17g'
   - light: 20
     sight: 20
     sound: 20
@@ -3123,7 +4656,7 @@ walls:
     animation: null
     flags: {}
     _id: s8HLeBj1lPmF55a5
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.s8HLeBj1lPmF55a5'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.s8HLeBj1lPmF55a5'
   - light: 20
     sight: 20
     sound: 20
@@ -3144,7 +4677,7 @@ walls:
     animation: null
     flags: {}
     _id: GmxtowuhENajLy6A
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.GmxtowuhENajLy6A'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.GmxtowuhENajLy6A'
   - light: 20
     sight: 20
     sound: 20
@@ -3165,7 +4698,7 @@ walls:
     animation: null
     flags: {}
     _id: Ujiy0Y1NvhYgJQUg
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.Ujiy0Y1NvhYgJQUg'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.Ujiy0Y1NvhYgJQUg'
   - light: 20
     sight: 20
     sound: 20
@@ -3177,7 +4710,7 @@ walls:
       - 3300
     dir: 0
     door: 1
-    ds: 1
+    ds: 0
     threshold:
       light: null
       sight: null
@@ -3185,7 +4718,7 @@ walls:
       attenuation: false
     animation:
       type: swing
-      texture: modules/dg-boite-rouge-bleue/assets/porte_metal_poussant_droit.png
+      texture: modules/dg-boite-rouge-bleue/assets/dg-scenes/portes/porte_metal.webp
       flip: false
       double: false
       direction: -1
@@ -3194,7 +4727,7 @@ walls:
     flags: {}
     doorSound: woodCreaky
     _id: am0fRe8gCdmVMgq1
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.am0fRe8gCdmVMgq1'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.am0fRe8gCdmVMgq1'
   - light: 20
     sight: 20
     sound: 20
@@ -3215,7 +4748,7 @@ walls:
     animation: null
     flags: {}
     _id: 40ms5KaEZLC5Paaj
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.40ms5KaEZLC5Paaj'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.40ms5KaEZLC5Paaj'
   - light: 20
     sight: 20
     sound: 20
@@ -3236,7 +4769,7 @@ walls:
     animation: null
     flags: {}
     _id: uPJTOjv5aj4sziXZ
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.uPJTOjv5aj4sziXZ'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.uPJTOjv5aj4sziXZ'
   - light: 20
     sight: 20
     sound: 20
@@ -3257,7 +4790,7 @@ walls:
     animation: null
     flags: {}
     _id: A6hY24LufrcNeFPC
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.A6hY24LufrcNeFPC'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.A6hY24LufrcNeFPC'
   - light: 20
     sight: 20
     sound: 20
@@ -3277,7 +4810,7 @@ walls:
       attenuation: false
     animation:
       type: swing
-      texture: modules/dg-boite-rouge-bleue/assets/porte_bois_poussant_droit.png
+      texture: modules/dg-boite-rouge-bleue/assets/dg-scenes/portes/porte_metal.webp
       flip: false
       double: false
       direction: -1
@@ -3286,7 +4819,7 @@ walls:
     flags: {}
     doorSound: woodCreaky
     _id: 3R8e1EddC2BPUVYv
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.3R8e1EddC2BPUVYv'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.3R8e1EddC2BPUVYv'
   - light: 20
     sight: 20
     sound: 20
@@ -3307,7 +4840,7 @@ walls:
     animation: null
     flags: {}
     _id: KPWwmIr8N5TtCKMB
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.KPWwmIr8N5TtCKMB'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.KPWwmIr8N5TtCKMB'
   - light: 20
     sight: 20
     sound: 20
@@ -3328,7 +4861,7 @@ walls:
     animation: null
     flags: {}
     _id: smHdSUSflzjL3947
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.smHdSUSflzjL3947'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.smHdSUSflzjL3947'
   - light: 20
     sight: 20
     sound: 20
@@ -3349,7 +4882,7 @@ walls:
     animation: null
     flags: {}
     _id: iFnq8sGpUOfmbEUv
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.iFnq8sGpUOfmbEUv'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.iFnq8sGpUOfmbEUv'
   - light: 20
     sight: 20
     sound: 20
@@ -3370,7 +4903,7 @@ walls:
     animation: null
     flags: {}
     _id: XAGDCFyrlqE6aejd
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.XAGDCFyrlqE6aejd'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.XAGDCFyrlqE6aejd'
   - light: 20
     sight: 20
     sound: 20
@@ -3391,7 +4924,7 @@ walls:
     animation: null
     flags: {}
     _id: Yvf3wXDq9q5Q9TzB
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.Yvf3wXDq9q5Q9TzB'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.Yvf3wXDq9q5Q9TzB'
   - light: 20
     sight: 20
     sound: 20
@@ -3411,7 +4944,7 @@ walls:
       attenuation: false
     animation:
       type: swing
-      texture: modules/dg-boite-rouge-bleue/assets/porte_metal_poussant_droit.png
+      texture: modules/dg-boite-rouge-bleue/assets/dg-scenes/portes/porte_metal.webp
       flip: false
       double: false
       direction: -1
@@ -3420,7 +4953,7 @@ walls:
     flags: {}
     doorSound: woodCreaky
     _id: XWNtA9hGAADcQ2Gm
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.XWNtA9hGAADcQ2Gm'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.XWNtA9hGAADcQ2Gm'
   - light: 20
     sight: 20
     sound: 20
@@ -3441,7 +4974,7 @@ walls:
     animation: null
     flags: {}
     _id: 8vNEZhh1SKNxp0VJ
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.8vNEZhh1SKNxp0VJ'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.8vNEZhh1SKNxp0VJ'
   - light: 20
     sight: 20
     sound: 20
@@ -3462,7 +4995,7 @@ walls:
     animation: null
     flags: {}
     _id: oZe3IuXyfFBaYydA
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.oZe3IuXyfFBaYydA'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.oZe3IuXyfFBaYydA'
   - light: 10
     sight: 10
     sound: 10
@@ -3483,7 +5016,7 @@ walls:
     animation: null
     flags: {}
     _id: SnLgM7vG7l7WwMYE
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.SnLgM7vG7l7WwMYE'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.SnLgM7vG7l7WwMYE'
   - light: 10
     sight: 10
     sound: 10
@@ -3504,7 +5037,7 @@ walls:
     animation: null
     flags: {}
     _id: A57esdZz3TwvRbZc
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.A57esdZz3TwvRbZc'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.A57esdZz3TwvRbZc'
   - light: 10
     sight: 10
     sound: 10
@@ -3525,7 +5058,7 @@ walls:
     animation: null
     flags: {}
     _id: uOXUbJSOWg96dPdz
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.uOXUbJSOWg96dPdz'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.uOXUbJSOWg96dPdz'
   - light: 10
     sight: 10
     sound: 10
@@ -3546,7 +5079,7 @@ walls:
     animation: null
     flags: {}
     _id: E8xnT3lG08CuufQX
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.E8xnT3lG08CuufQX'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.E8xnT3lG08CuufQX'
   - light: 20
     sight: 20
     sound: 20
@@ -3567,7 +5100,7 @@ walls:
     animation: null
     flags: {}
     _id: cBu6OMgjcytoE4us
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.cBu6OMgjcytoE4us'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.cBu6OMgjcytoE4us'
   - light: 20
     sight: 20
     sound: 20
@@ -3588,7 +5121,7 @@ walls:
     animation: null
     flags: {}
     _id: y75ROn27NBG0XRpY
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.y75ROn27NBG0XRpY'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.y75ROn27NBG0XRpY'
   - light: 20
     sight: 20
     sound: 20
@@ -3609,7 +5142,7 @@ walls:
     animation: null
     flags: {}
     _id: TAd9dNEQfV0Qfc6U
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.TAd9dNEQfV0Qfc6U'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.TAd9dNEQfV0Qfc6U'
   - light: 10
     sight: 10
     sound: 10
@@ -3630,7 +5163,7 @@ walls:
     animation: null
     flags: {}
     _id: 2cCibZcGPJEqBKjg
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.2cCibZcGPJEqBKjg'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.2cCibZcGPJEqBKjg'
   - light: 20
     sight: 20
     sound: 20
@@ -3651,7 +5184,7 @@ walls:
     animation: null
     flags: {}
     _id: cjLR6MLnhan9QCar
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.cjLR6MLnhan9QCar'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.cjLR6MLnhan9QCar'
   - light: 20
     sight: 20
     sound: 20
@@ -3672,7 +5205,7 @@ walls:
     animation: null
     flags: {}
     _id: 2YZKo3ptSmunC7qm
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.2YZKo3ptSmunC7qm'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.2YZKo3ptSmunC7qm'
   - light: 20
     sight: 20
     sound: 0
@@ -3693,7 +5226,7 @@ walls:
     animation: null
     flags: {}
     _id: rQOLnvTABKtIHIXj
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.rQOLnvTABKtIHIXj'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.rQOLnvTABKtIHIXj'
   - light: 30
     sight: 30
     sound: 20
@@ -3714,7 +5247,7 @@ walls:
     animation: null
     flags: {}
     _id: rZlcRqs2Gi8Dboc5
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.rZlcRqs2Gi8Dboc5'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.rZlcRqs2Gi8Dboc5'
   - light: 30
     sight: 30
     sound: 20
@@ -3735,7 +5268,7 @@ walls:
     animation: null
     flags: {}
     _id: PVyqow7uCW8LQPGd
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.PVyqow7uCW8LQPGd'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.PVyqow7uCW8LQPGd'
   - light: 20
     sight: 20
     sound: 20
@@ -3756,7 +5289,7 @@ walls:
     animation: null
     flags: {}
     _id: nHSUwZjZkudroATe
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.nHSUwZjZkudroATe'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.nHSUwZjZkudroATe'
   - light: 20
     sight: 20
     sound: 20
@@ -3777,7 +5310,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.Kqxrx5w3A7xu2h27'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.Kqxrx5w3A7xu2h27'
   - light: 20
     sight: 20
     sound: 20
@@ -3798,7 +5331,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.RqTgWXbGRHBcrZ24'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.RqTgWXbGRHBcrZ24'
   - light: 20
     sight: 20
     sound: 20
@@ -3819,7 +5352,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.gj6XGxNOD0TijVhD'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.gj6XGxNOD0TijVhD'
   - light: 20
     sight: 20
     sound: 20
@@ -3840,7 +5373,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.lDFeju8bdhQz7Fux'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.lDFeju8bdhQz7Fux'
   - light: 20
     sight: 20
     sound: 20
@@ -3861,7 +5394,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.Y5b4zBSxeXTN1jIX'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.Y5b4zBSxeXTN1jIX'
   - light: 20
     sight: 20
     sound: 20
@@ -3882,7 +5415,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.Rfxgis9sYd2Qipaa'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.Rfxgis9sYd2Qipaa'
   - light: 20
     sight: 20
     sound: 20
@@ -3911,7 +5444,7 @@ walls:
       strength: 1
     flags: {}
     doorSound: stoneBasic
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.hulDZHO5WzQiPIL0'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.hulDZHO5WzQiPIL0'
   - light: 20
     sight: 20
     sound: 20
@@ -3932,7 +5465,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.09JTr3gvxEYoaqxa'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.09JTr3gvxEYoaqxa'
   - light: 20
     sight: 20
     sound: 20
@@ -3953,7 +5486,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.w5cpzDV29xkSMmQB'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.w5cpzDV29xkSMmQB'
   - light: 20
     sight: 20
     sound: 20
@@ -3974,7 +5507,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.qKAkwK5YNleAvhAS'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.qKAkwK5YNleAvhAS'
   - light: 20
     sight: 20
     sound: 20
@@ -3995,7 +5528,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.urFmO9G7L4Pfz3rT'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.urFmO9G7L4Pfz3rT'
   - light: 20
     sight: 20
     sound: 20
@@ -4016,7 +5549,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.krg3LeOqRxF26C7m'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.krg3LeOqRxF26C7m'
   - light: 20
     sight: 20
     sound: 20
@@ -4037,7 +5570,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.Oj6XglBNn8mVhoLZ'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.Oj6XglBNn8mVhoLZ'
   - light: 20
     sight: 20
     sound: 20
@@ -4058,7 +5591,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.KKcfjHmvfp8bB5yM'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.KKcfjHmvfp8bB5yM'
   - light: 20
     sight: 20
     sound: 20
@@ -4079,7 +5612,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.ZHyTlVqvYsYOnl1X'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.ZHyTlVqvYsYOnl1X'
   - light: 20
     sight: 20
     sound: 20
@@ -4100,7 +5633,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.rs6akKiYd7WeQshP'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.rs6akKiYd7WeQshP'
   - light: 20
     sight: 20
     sound: 20
@@ -4121,7 +5654,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.QnyLx6vsPCPK3pf7'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.QnyLx6vsPCPK3pf7'
   - light: 20
     sight: 20
     sound: 20
@@ -4142,7 +5675,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.pTuAF1sXQ8B3bWsK'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.pTuAF1sXQ8B3bWsK'
   - light: 20
     sight: 20
     sound: 20
@@ -4163,7 +5696,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.WTlBP6Pi5iTbLTVQ'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.WTlBP6Pi5iTbLTVQ'
   - light: 30
     sight: 30
     sound: 20
@@ -4184,7 +5717,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.caHBuS0RbBowJ6nb'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.caHBuS0RbBowJ6nb'
   - light: 20
     sight: 20
     sound: 20
@@ -4205,7 +5738,7 @@ walls:
       attenuation: false
     animation: null
     flags: {}
-    _key: '!scenes.walls!t8mksTOEfZWFi0jV.JWwQYcJiD4c2t8bR'
+    _key: '!scenes.walls!Kpwadb44D2KvWuFD.JWwQYcJiD4c2t8bR'
 playlist: null
 playlistSound: null
 journal: null
@@ -4219,16 +5752,17 @@ _stats:
   exportSource: null
   coreVersion: '13.351'
   systemId: dangerousgary
-  systemVersion: '#{VERSION}#'
-  createdTime: 1773487567267
-  modifiedTime: 1773487567267
-  lastModifiedBy: DiKDuN49BIiGIpVp
+  systemVersion: 1.1.1
+  createdTime: 1773626185286
+  modifiedTime: 1773626190346
+  lastModifiedBy: KGwL4biCTVq5qfeL
 navName: ''
 ownership:
   default: 0
   DiKDuN49BIiGIpVp: 3
-_id: t8mksTOEfZWFi0jV
+  KGwL4biCTVq5qfeL: 3
+_id: Kpwadb44D2KvWuFD
 active: false
-sort: 0
+sort: 400000
+_key: '!scenes!Kpwadb44D2KvWuFD'
 levels: []
-_key: '!scenes!t8mksTOEfZWFi0jV'
