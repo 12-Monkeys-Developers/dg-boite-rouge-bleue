@@ -1,0 +1,29 @@
+name: Boite bleue
+img: null
+caption: ''
+description: ''
+sort: 0
+actors: []
+combats: []
+items: []
+journal: []
+scenes: []
+tables: []
+macros: []
+cards: []
+playlists: []
+folders: []
+_id: IkIrUNilB1Ai8YS1
+folder: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: dangerousgary
+  systemVersion: '#{VERSION}#'
+  createdTime: 1773686649405
+  modifiedTime: 1773686649405
+  lastModifiedBy: 0S70ztYD5DCJAxAg
+_key: '!adventures!IkIrUNilB1Ai8YS1'
