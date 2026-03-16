@@ -39,22 +39,15 @@
   ],
   "packs": [
     {
-      "label": "DG Donjons",
-      "type": "Scene",
-      "name": "donjons",
-      "path": "packs/donjons",
+      "label": "Boites rouge et bleue",
+      "type": "Adventure",
+      "name": "boites-rouge-et-bleue",
+      "path": "packs/boites-rouge-et-bleue",
       "system": "dangerousgary",
       "ownership": {
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
       }
-    }
-  ],
-  "packFolders": [
-    {
-      "name": "DG Boites rouge et bleue",
-      "sorting": "m",
-      "packs": ["donjons"]
     }
   ],
   "socket": false

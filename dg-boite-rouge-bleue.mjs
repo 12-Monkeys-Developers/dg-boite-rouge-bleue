@@ -5,3 +5,4 @@ Hooks.once("init", () => {
 Hooks.once("ready", async () => {
   console.info("Dangerous Gary Boites rouge et bleue | Module prêt")
 })
+
