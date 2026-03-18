@@ -9807,12 +9807,12 @@ scenes:
       systemId: dangerousgary
       systemVersion: 1.1.1
       createdTime: 1773749673993
-      modifiedTime: 1773792593874
+      modifiedTime: 1773797636929
       lastModifiedBy: KGwL4biCTVq5qfeL
     navName: ''
     _id: G0ERf77GSwW0nkvB
     navOrder: 0
-    sort: 100000
+    sort: -50000
     ownership:
       default: 0
     active: false
@@ -15788,12 +15788,12 @@ scenes:
       systemId: dangerousgary
       systemVersion: 1.1.1
       createdTime: 1773749673993
-      modifiedTime: 1773792593874
+      modifiedTime: 1773797634722
       lastModifiedBy: KGwL4biCTVq5qfeL
     navName: ''
     _id: 53mjbACcLgTiaFom
     navOrder: 0
-    sort: 200000
+    sort: -100000
     ownership:
       default: 0
     active: false
@@ -54222,7 +54222,7 @@ scenes:
     sort: 0
     flags: {}
     _stats:
-      compendiumSource: Scene.veW5bm78wO0SfNSn
+      compendiumSource: null
       duplicateSource: null
       exportSource: null
       coreVersion: '13.351'
@@ -54230,6 +54230,5373 @@ scenes:
       systemVersion: 1.1.1
       createdTime: 1773792518380
       modifiedTime: 1773794831860
+      lastModifiedBy: KGwL4biCTVq5qfeL
+    navName: ''
+    ownership:
+      default: 0
+    active: false
+  - folder: 40Sy1HIb6Mpb5pWf
+    name: le Casino
+    _id: cQFCtXysXOaPHtyV
+    navigation: true
+    navOrder: 0
+    background:
+      src: modules/dg-boite-rouge-bleue/assets/dg-scenes/casino.webp
+      anchorX: 0
+      anchorY: 0
+      offsetX: 0
+      offsetY: 0
+      fit: fill
+      scaleX: 1
+      scaleY: 1
+      rotation: 0
+      tint: '#ffffff'
+      alphaThreshold: 0
+    foreground: null
+    foregroundElevation: null
+    thumb: worlds/dangerous-gary/assets/scenes/cQFCtXysXOaPHtyV-thumb.webp
+    width: 5250
+    height: 5250
+    padding: 0.15
+    initial:
+      x: null
+      'y': null
+      scale: null
+    backgroundColor: '#999999'
+    grid:
+      type: 1
+      size: 150
+      style: solidLines
+      thickness: 1
+      color: '#000000'
+      alpha: 0.8
+      distance: 1.5
+      units: m
+    tokenVision: true
+    fog:
+      exploration: true
+      overlay: null
+      colors:
+        explored: null
+        unexplored: null
+    environment:
+      darknessLevel: 0
+      darknessLock: false
+      globalLight:
+        enabled: false
+        alpha: 0.5
+        bright: false
+        color: null
+        coloration: 1
+        luminosity: 0
+        saturation: 0
+        contrast: 0
+        shadows: 0
+        darkness:
+          min: 0
+          max: 1
+      cycle: true
+      base:
+        hue: 0
+        intensity: 0
+        luminosity: 0
+        saturation: 0
+        shadows: 0
+      dark:
+        hue: 0.7138888888888889
+        intensity: 0
+        luminosity: -0.25
+        saturation: 0
+        shadows: 0
+    drawings:
+      - _id: ep9JP6dUmR4ifQzO
+        author: KGwL4biCTVq5qfeL
+        shape:
+          type: p
+          width: 441
+          height: 272
+          radius: null
+          points:
+            - 0
+            - 0
+            - 440.5
+            - 271.875
+            - 440.625
+            - 271.875
+        x: 1512
+        'y': 3580
+        elevation: 0
+        sort: 0
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0
+        strokeWidth: 6
+        strokeColor: '#6e6e6e'
+        strokeAlpha: 1
+        texture: null
+        text: ''
+        fontFamily: Signika
+        fontSize: 25
+        textColor: '#5e0599'
+        textAlpha: 1
+        hidden: true
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash:
+                - 8
+                - 5
+              dashEnabled: true
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: normal
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+      - author: KGwL4biCTVq5qfeL
+        shape:
+          type: p
+          width: 441
+          height: 272
+          radius: null
+          points:
+            - 0
+            - 0
+            - 440.5
+            - 271.875
+            - 440.625
+            - 271.875
+        x: 1659
+        'y': 3314
+        elevation: 0
+        sort: 0
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0
+        strokeWidth: 6
+        strokeColor: '#6e6e6e'
+        strokeAlpha: 1
+        texture: null
+        text: ''
+        fontFamily: Signika
+        fontSize: 25
+        textColor: '#5e0599'
+        textAlpha: 1
+        hidden: true
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash:
+                - 8
+                - 5
+              dashEnabled: true
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: normal
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        _id: kOgtLIaitcC7zwQA
+      - author: KGwL4biCTVq5qfeL
+        shape:
+          type: p
+          width: 441
+          height: 272
+          radius: null
+          points:
+            - 0
+            - 0
+            - 440.5
+            - 271.875
+            - 440.625
+            - 271.875
+        x: 1816
+        'y': 3060
+        elevation: 0
+        sort: 0
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0
+        strokeWidth: 6
+        strokeColor: '#6e6e6e'
+        strokeAlpha: 1
+        texture: null
+        text: ''
+        fontFamily: Signika
+        fontSize: 25
+        textColor: '#5e0599'
+        textAlpha: 1
+        hidden: true
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash:
+                - 8
+                - 5
+              dashEnabled: true
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: normal
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        _id: zlUDZOXWUecrr3Pu
+      - author: KGwL4biCTVq5qfeL
+        shape:
+          type: p
+          width: 441
+          height: 272
+          radius: null
+          points:
+            - 0
+            - 0
+            - 440.5
+            - 271.875
+            - 440.625
+            - 271.875
+        x: 2103
+        'y': 2529
+        elevation: 0
+        sort: 0
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0
+        strokeWidth: 6
+        strokeColor: '#6e6e6e'
+        strokeAlpha: 1
+        texture: null
+        text: ''
+        fontFamily: Signika
+        fontSize: 25
+        textColor: '#5e0599'
+        textAlpha: 1
+        hidden: true
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash:
+                - 8
+                - 5
+              dashEnabled: true
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: normal
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        _id: y35oMWZW6V0Erisv
+      - author: KGwL4biCTVq5qfeL
+        shape:
+          type: p
+          width: 441
+          height: 272
+          radius: null
+          points:
+            - 0
+            - 0
+            - 440.5
+            - 271.875
+            - 440.625
+            - 271.875
+        x: 1944
+        'y': 2789
+        elevation: 0
+        sort: 0
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0
+        strokeWidth: 6
+        strokeColor: '#6e6e6e'
+        strokeAlpha: 1
+        texture: null
+        text: ''
+        fontFamily: Signika
+        fontSize: 25
+        textColor: '#5e0599'
+        textAlpha: 1
+        hidden: true
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash:
+                - 8
+                - 5
+              dashEnabled: true
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: normal
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        _id: YJqHP9IdhSgDUUs6
+      - author: KGwL4biCTVq5qfeL
+        shape:
+          type: r
+          width: 1823
+          height: 1124
+          radius: null
+          points: []
+        x: 4294
+        'y': 1359
+        elevation: 0
+        sort: -1
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0.1
+        strokeWidth: 0
+        strokeColor: '#ffffff'
+        strokeAlpha: 1
+        texture: null
+        text: |-
+          1 - Escalier blanc
+          2 - Salle des tables de jeu
+          3 - Repaire du chat noir
+          4 - Salle du jeu de la Force
+          5 - Salle du jeu de la Dextérité
+          6 - Salle du jeu de la Volonté
+          7 - Bar du Pendu
+        fontFamily: Arial
+        fontSize: 130
+        textColor: '#b30000'
+        textAlpha: 1
+        hidden: false
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: italic
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: left
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: 11
+              dropShadowDistance: 0
+              dropShadowAngle: 45
+              dropShadowColor: '#ABABAB'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        _id: LM0lPC0eq424LU2C
+      - author: KGwL4biCTVq5qfeL
+        shape:
+          type: p
+          width: 113
+          height: 103
+          radius: null
+          points:
+            - 0
+            - 18.75
+            - 66
+            - 103
+            - 113
+            - 0
+            - 112.5
+            - 0
+        x: 3498.8995376031294
+        'y': 5743.939911531276
+        elevation: 0
+        sort: 0
+        rotation: 195
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0
+        strokeWidth: 8
+        strokeColor: '#b30000'
+        strokeAlpha: 1
+        texture: null
+        text: ''
+        fontFamily: Signika
+        fontSize: 25
+        textColor: '#5e0599'
+        textAlpha: 1
+        hidden: false
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: normal
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        _id: aS2ftcsA7RzS2Dvu
+      - _id: i45A1g44fy8nLQdS
+        author: KGwL4biCTVq5qfeL
+        shape:
+          type: p
+          width: 193
+          height: 135
+          radius: null
+          points:
+            - 192.67343078001431
+            - 0
+            - 140
+            - 134.93590989257154
+            - 0
+            - 134.93590989257154
+        x: 3366
+        'y': 5753
+        elevation: 0
+        sort: 1
+        rotation: 0
+        bezierFactor: 0.5
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0
+        strokeWidth: 8
+        strokeColor: '#b30000'
+        strokeAlpha: 1
+        texture: null
+        text: ''
+        fontFamily: Signika
+        fontSize: 25
+        textColor: '#5e0599'
+        textAlpha: 1
+        hidden: false
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: normal
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+      - author: KGwL4biCTVq5qfeL
+        shape:
+          type: r
+          width: 155
+          height: 137
+          radius: null
+          points: []
+        x: 3443.950227897163
+        'y': 5252.88386509338
+        elevation: 0
+        sort: 0
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0.1
+        strokeWidth: 0
+        strokeColor: '#ffffff'
+        strokeAlpha: 1
+        texture: null
+        text: '1'
+        fontFamily: Arial
+        fontSize: 200
+        textColor: '#b30000'
+        textAlpha: 1
+        hidden: true
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: italic
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        _id: Xt2ed2RnFlzP6Rvp
+      - author: KGwL4biCTVq5qfeL
+        shape:
+          type: r
+          width: 155
+          height: 137
+          radius: null
+          points: []
+        x: 3450
+        'y': 3909
+        elevation: 0
+        sort: 0
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0.1
+        strokeWidth: 0
+        strokeColor: '#ffffff'
+        strokeAlpha: 1
+        texture: null
+        text: '2'
+        fontFamily: Arial
+        fontSize: 200
+        textColor: '#b30000'
+        textAlpha: 1
+        hidden: true
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: italic
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        _id: ujkrxzz5WMuImSiG
+      - author: KGwL4biCTVq5qfeL
+        shape:
+          type: r
+          width: 155
+          height: 137
+          radius: null
+          points: []
+        x: 4787
+        'y': 3223
+        elevation: 0
+        sort: 0
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0.1
+        strokeWidth: 0
+        strokeColor: '#ffffff'
+        strokeAlpha: 1
+        texture: null
+        text: '3'
+        fontFamily: Arial
+        fontSize: 200
+        textColor: '#b30000'
+        textAlpha: 1
+        hidden: true
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: italic
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        _id: IFd0jcgIYGjFbe4G
+      - author: KGwL4biCTVq5qfeL
+        shape:
+          type: r
+          width: 155
+          height: 137
+          radius: null
+          points: []
+        x: 4770
+        'y': 4727
+        elevation: 0
+        sort: 0
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0.1
+        strokeWidth: 0
+        strokeColor: '#ffffff'
+        strokeAlpha: 1
+        texture: null
+        text: '4'
+        fontFamily: Arial
+        fontSize: 200
+        textColor: '#b30000'
+        textAlpha: 1
+        hidden: true
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: italic
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        _id: cqGOkEhlo16q0owT
+      - author: KGwL4biCTVq5qfeL
+        shape:
+          type: r
+          width: 155
+          height: 137
+          radius: null
+          points: []
+        x: 2136
+        'y': 4706
+        elevation: 0
+        sort: 0
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0.1
+        strokeWidth: 0
+        strokeColor: '#ffffff'
+        strokeAlpha: 1
+        texture: null
+        text: '5'
+        fontFamily: Arial
+        fontSize: 200
+        textColor: '#b30000'
+        textAlpha: 1
+        hidden: true
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: italic
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        _id: eQJryIgNB6VR0hwn
+      - author: KGwL4biCTVq5qfeL
+        shape:
+          type: r
+          width: 155
+          height: 137
+          radius: null
+          points: []
+        x: 2107
+        'y': 3207
+        elevation: 0
+        sort: 0
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0.1
+        strokeWidth: 0
+        strokeColor: '#ffffff'
+        strokeAlpha: 1
+        texture: null
+        text: '6'
+        fontFamily: Arial
+        fontSize: 200
+        textColor: '#b30000'
+        textAlpha: 1
+        hidden: true
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: italic
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        _id: tzH5p4mK7915Z4fS
+      - author: KGwL4biCTVq5qfeL
+        shape:
+          type: r
+          width: 155
+          height: 137
+          radius: null
+          points: []
+        x: 3436
+        'y': 2412
+        elevation: 0
+        sort: 0
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0.1
+        strokeWidth: 0
+        strokeColor: '#ffffff'
+        strokeAlpha: 1
+        texture: null
+        text: '7'
+        fontFamily: Arial
+        fontSize: 200
+        textColor: '#b30000'
+        textAlpha: 1
+        hidden: true
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: italic
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        _id: 5VEFKC6I2jWbWVlA
+      - author: KGwL4biCTVq5qfeL
+        shape:
+          type: r
+          width: 289
+          height: 67
+          radius: null
+          points: []
+        x: 3675
+        'y': 1547
+        elevation: 0
+        sort: 0
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0.1
+        strokeWidth: 0
+        strokeColor: '#ffffff'
+        strokeAlpha: 1
+        texture: null
+        text: Estrade
+        fontFamily: Modesto Condensed
+        fontSize: 80
+        textColor: '#420000'
+        textAlpha: 1
+        hidden: true
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: italic
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: 0
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        _id: ISHQE75qxX1IOUc8
+      - author: KGwL4biCTVq5qfeL
+        shape:
+          type: r
+          width: 289
+          height: 67
+          radius: null
+          points: []
+        x: 1716
+        'y': 5344
+        elevation: 0
+        sort: 0
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0.1
+        strokeWidth: 0
+        strokeColor: '#ffffff'
+        strokeAlpha: 1
+        texture: null
+        text: Galerie
+        fontFamily: Modesto Condensed
+        fontSize: 80
+        textColor: '#420000'
+        textAlpha: 1
+        hidden: true
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: italic
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: 0
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        _id: U6PlZY2ES4BrJzFb
+      - author: KGwL4biCTVq5qfeL
+        shape:
+          type: r
+          width: 289
+          height: 67
+          radius: null
+          points: []
+        x: 5033.489506901991
+        'y': 5344.544137078486
+        elevation: 0
+        sort: 0
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0.1
+        strokeWidth: 0
+        strokeColor: '#ffffff'
+        strokeAlpha: 1
+        texture: null
+        text: Galerie
+        fontFamily: Modesto Condensed
+        fontSize: 80
+        textColor: '#420000'
+        textAlpha: 1
+        hidden: true
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: italic
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: 0
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        _id: LwD7MDo54tIULB0m
+      - _id: M0GRMNFQn4UuZlGF
+        author: KGwL4biCTVq5qfeL
+        shape:
+          type: p
+          width: 93
+          height: 919
+          radius: null
+          points:
+            - 93.25
+            - 919.125
+            - 0
+            - 0
+        x: 1388
+        'y': 2634
+        elevation: 0
+        sort: 2
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0
+        strokeWidth: 5
+        strokeColor: '#b30000'
+        strokeAlpha: 1
+        texture: null
+        text: ''
+        fontFamily: Signika
+        fontSize: 25
+        textColor: '#5e0599'
+        textAlpha: 1
+        hidden: false
+        locked: false
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: normal
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+      - author: KGwL4biCTVq5qfeL
+        shape:
+          type: r
+          width: 672
+          height: 166
+          radius: null
+          points: []
+        x: 1125
+        'y': 2446.875
+        elevation: 0
+        sort: -1
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0.1
+        strokeWidth: 0
+        strokeColor: '#ffffff'
+        strokeAlpha: 1
+        texture: null
+        text: Repères pour déplacer la lumière.
+        fontFamily: Arial
+        fontSize: 70
+        textColor: '#b30000'
+        textAlpha: 1
+        hidden: false
+        locked: false
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: italic
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: left
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: 11
+              dropShadowDistance: 0
+              dropShadowAngle: 45
+              dropShadowColor: '#ABABAB'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        _id: rmqzYuqSlENQUcqL
+      - author: KGwL4biCTVq5qfeL
+        shape:
+          type: p
+          width: 150
+          height: 656
+          radius: null
+          points:
+            - 150
+            - 656.25
+            - 0
+            - 0
+        x: 1490.625
+        'y': 2634.375
+        elevation: 0
+        sort: 2
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0
+        strokeWidth: 5
+        strokeColor: '#b30000'
+        strokeAlpha: 1
+        texture: null
+        text: ''
+        fontFamily: Signika
+        fontSize: 25
+        textColor: '#5e0599'
+        textAlpha: 1
+        hidden: false
+        locked: false
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: normal
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        _id: SMxppsNmPYXRqnrb
+      - author: KGwL4biCTVq5qfeL
+        shape:
+          type: p
+          width: 169
+          height: 394
+          radius: null
+          points:
+            - 168.75
+            - 393.75
+            - 0
+            - 0
+        x: 1621.875
+        'y': 2634.375
+        elevation: 0
+        sort: 2
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0
+        strokeWidth: 5
+        strokeColor: '#b30000'
+        strokeAlpha: 1
+        texture: null
+        text: ''
+        fontFamily: Signika
+        fontSize: 25
+        textColor: '#5e0599'
+        textAlpha: 1
+        hidden: false
+        locked: false
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: normal
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        _id: lDwHscs91V8BwNbq
+      - author: KGwL4biCTVq5qfeL
+        shape:
+          type: p
+          width: 160
+          height: 166
+          radius: null
+          points:
+            - 159.61126265239182
+            - 165.78557153067368
+            - 0
+            - 0
+        x: 1771.6387373476082
+        'y': 2609.2144284693263
+        elevation: 0
+        sort: 2
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0
+        strokeWidth: 5
+        strokeColor: '#b30000'
+        strokeAlpha: 1
+        texture: null
+        text: ''
+        fontFamily: Signika
+        fontSize: 25
+        textColor: '#5e0599'
+        textAlpha: 1
+        hidden: false
+        locked: false
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: normal
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        _id: Fj3njulA6Gf9O8Uk
+      - author: KGwL4biCTVq5qfeL
+        shape:
+          type: p
+          width: 300
+          height: 0
+          radius: null
+          points:
+            - 300
+            - 0
+            - 0
+            - 0
+        x: 1781.25
+        'y': 2521.875
+        elevation: 0
+        sort: 2
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0
+        strokeWidth: 5
+        strokeColor: '#b30000'
+        strokeAlpha: 1
+        texture: null
+        text: ''
+        fontFamily: Signika
+        fontSize: 25
+        textColor: '#5e0599'
+        textAlpha: 1
+        hidden: false
+        locked: false
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: normal
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        _id: r5aB7frmwVpKrQF0
+      - author: KGwL4biCTVq5qfeL
+        shape:
+          type: r
+          width: 1064
+          height: 189
+          radius: null
+          points: []
+        x: 4912.5
+        'y': 3712.5
+        elevation: 0
+        sort: -1
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0.1
+        strokeWidth: 0
+        strokeColor: '#ffffff'
+        strokeAlpha: 1
+        texture: null
+        text: |-
+          Porte entrouverte :
+          Pour fermer la porte entièrement, il faut modifier le mur.
+        fontFamily: Arial
+        fontSize: 70
+        textColor: '#b30000'
+        textAlpha: 1
+        hidden: false
+        locked: false
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: italic
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: left
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: 11
+              dropShadowDistance: 0
+              dropShadowAngle: 45
+              dropShadowColor: '#ABABAB'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        _id: PfKhif28w606uLhn
+      - author: KGwL4biCTVq5qfeL
+        shape:
+          type: p
+          width: 131
+          height: 234
+          radius: null
+          points:
+            - 131.25
+            - 234.375
+            - 65.625
+            - 234.375
+            - 0
+            - 0
+        x: 4753.125
+        'y': 3487.5
+        elevation: 0
+        sort: 2
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0
+        strokeWidth: 5
+        strokeColor: '#b30000'
+        strokeAlpha: 1
+        texture: null
+        text: ''
+        fontFamily: Signika
+        fontSize: 25
+        textColor: '#5e0599'
+        textAlpha: 1
+        hidden: false
+        locked: false
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: normal
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        _id: mQSW48oO7q8P8vy0
+    tokens: []
+    lights:
+      - _id: Bh3JrsIkUR0zgIYg
+        x: 5175
+        'y': 4950
+        elevation: 0
+        rotation: 0
+        walls: true
+        vision: false
+        config:
+          negative: false
+          priority: 0
+          alpha: 0.6
+          angle: 360
+          bright: 2.5
+          color: '#117bb0'
+          coloration: 1
+          dim: 2.5
+          attenuation: 0.5
+          luminosity: 0.5
+          saturation: 0
+          contrast: 0
+          shadows: 0
+          animation:
+            type: dome
+            speed: 3
+            intensity: 2
+            reverse: false
+          darkness:
+            min: 0
+            max: 1
+        hidden: false
+        flags: {}
+      - x: 1875
+        'y': 4950
+        elevation: 0
+        rotation: 0
+        walls: true
+        vision: false
+        config:
+          negative: false
+          priority: 0
+          alpha: 0.6
+          angle: 360
+          bright: 2.5
+          color: '#117bb0'
+          coloration: 1
+          dim: 2.5
+          attenuation: 0.5
+          luminosity: 0.5
+          saturation: 0
+          contrast: 0
+          shadows: 0
+          animation:
+            type: dome
+            speed: 3
+            intensity: 2
+            reverse: false
+          darkness:
+            min: 0
+            max: 1
+        hidden: false
+        flags: {}
+        _id: sNa6mQI3za4iEG7P
+      - _id: SMq7vPGkpRxwBcyw
+        x: 1579
+        'y': 3958
+        elevation: 0
+        rotation: 0
+        walls: true
+        vision: false
+        config:
+          negative: false
+          priority: 0
+          alpha: 0.8
+          angle: 360
+          bright: 0.11
+          color: '#0076f5'
+          coloration: 1
+          dim: 0.5
+          attenuation: 0.5
+          luminosity: 0.5
+          saturation: 0
+          contrast: 0
+          shadows: 0
+          animation:
+            type: energy
+            speed: 5
+            intensity: 8
+            reverse: false
+          darkness:
+            min: 0
+            max: 1
+        hidden: false
+        flags: {}
+      - _id: K5qLcgV099YLNieR
+        x: 2030
+        'y': 3192
+        elevation: 0
+        rotation: 1
+        walls: true
+        vision: false
+        config:
+          negative: false
+          priority: 0
+          alpha: 1
+          angle: 360
+          bright: 0.4
+          color: '#0046d1'
+          coloration: 1
+          dim: 0.4
+          attenuation: 0.5
+          luminosity: 0.6
+          saturation: 0
+          contrast: 0
+          shadows: 0
+          animation:
+            type: pulse
+            speed: 5
+            intensity: 10
+            reverse: false
+          darkness:
+            min: 0
+            max: 1
+        hidden: false
+        flags: {}
+    notes: []
+    sounds: []
+    regions: []
+    templates: []
+    tiles:
+      - texture:
+          src: modules/dg-boite-rouge-bleue/assets/dg-scenes/titre_casino.webp
+          anchorX: 0.5
+          anchorY: 0.5
+          offsetX: 0
+          offsetY: 0
+          fit: fill
+          scaleX: 1
+          scaleY: 1
+          rotation: 0
+          tint: '#ffffff'
+          alphaThreshold: 0.75
+        x: 977
+        'y': 1505
+        width: 1800
+        height: 539
+        elevation: 0
+        sort: 0
+        occlusion:
+          mode: 0
+          alpha: 0
+        _id: lTJ4EW22lr1RSiSA
+        rotation: 0
+        alpha: 1
+        hidden: false
+        locked: true
+        restrictions:
+          light: false
+          weather: false
+        video:
+          loop: true
+          autoplay: true
+          volume: 0
+        flags: {}
+      - texture:
+          src: modules/dg-boite-rouge-bleue/assets/dg-scenes/titre_passage.webp
+          anchorX: 0.5
+          anchorY: 0.5
+          offsetX: 0
+          offsetY: 0
+          fit: fill
+          scaleX: 1
+          scaleY: 1
+          rotation: 0
+          tint: '#ffffff'
+          alphaThreshold: 0.75
+        x: 2604
+        'y': 5757
+        width: 750
+        height: 208
+        elevation: 0
+        sort: 1
+        occlusion:
+          mode: 0
+          alpha: 0
+        _id: LjuTfk1iiHbJa3F2
+        rotation: 0
+        alpha: 1
+        hidden: false
+        locked: true
+        restrictions:
+          light: false
+          weather: false
+        video:
+          loop: true
+          autoplay: true
+          volume: 0
+        flags: {}
+    walls:
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 3450
+          - 5700
+          - 3600
+          - 5700
+        _id: O1uPJys6se1A7X9t
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 3600
+          - 5700
+          - 3600
+          - 5100
+        _id: euwvO352XBS3tWa4
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 3600
+          - 5100
+          - 4125
+          - 5100
+        _id: BqKoDNlwjtlzbSdq
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4125
+          - 5100
+          - 4388
+          - 4641
+        _id: lpJbOJ1gcpQXa7Nz
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4388
+          - 4641
+          - 4641
+          - 4781
+        _id: Y78q7b4lXW5zZaOl
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4641
+          - 4781
+          - 4669
+          - 4800
+        _id: 2IyqU3uIqB5UNXHO
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4669
+          - 4800
+          - 4651
+          - 4896
+        _id: 8MBZ3MTzCmAN1S5T
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4651
+          - 4896
+          - 4651
+          - 4995
+        _id: IjbtSjTIP6HEsc4r
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4651
+          - 4995
+          - 4667
+          - 5090
+        _id: 2pw98elVjzmIT2Nl
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4667
+          - 5090
+          - 4710
+          - 5194
+        _id: RnJEaXo3pcAQGF4m
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4710
+          - 5194
+          - 4763
+          - 5279
+        _id: I9PQq20wUfpQ6fLe
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4763
+          - 5279
+          - 4828
+          - 5345
+        _id: mroJrlbEmer4uQWq
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4828
+          - 5345
+          - 4900
+          - 5397
+        _id: hgiri4ExAAsUCq0P
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4900
+          - 5397
+          - 4990
+          - 5445
+        _id: 5YqB0NSntpoWvHdb
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4990
+          - 5445
+          - 5100
+          - 5474
+        _id: okzBZtKBzFNU8hSl
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5100
+          - 5474
+          - 5218
+          - 5478
+        _id: l8EzACyNzecTuRKt
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5218
+          - 5478
+          - 5321
+          - 5458
+        _id: R0h0gQOrqhAJtdMv
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5321
+          - 5458
+          - 5409
+          - 5424
+        _id: Qsx5V3lETAWqpynQ
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5409
+          - 5424
+          - 5485
+          - 5378
+        _id: aYPauQ2qj01oecqc
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5485
+          - 5378
+          - 5552
+          - 5321
+        _id: 23wUauedfFCEhpJj
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5552
+          - 5321
+          - 5607
+          - 5252
+        _id: jCk1o2iF6Z4zLxYp
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5607
+          - 5252
+          - 5652
+          - 5176
+        _id: IZBsm54AZP7tZSZY
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5652
+          - 5176
+          - 5689
+          - 5081
+        _id: 8lVIIXUgoEuJUXx9
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5689
+          - 5081
+          - 5703
+          - 4976
+        _id: GGk2WnxoFVo8Nnuf
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5703
+          - 4976
+          - 5697
+          - 4866
+        _id: gxBaqs0NZKqC6HXZ
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5697
+          - 4866
+          - 5668
+          - 4759
+        _id: CWEZEiU0bhD8wfQC
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5668
+          - 4759
+          - 5633
+          - 4680
+        _id: HgyzvYML3xYjvaSb
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5633
+          - 4680
+          - 5574
+          - 4603
+        _id: lNSLGTfxDnwAzxs8
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5574
+          - 4603
+          - 5504
+          - 4538
+        _id: 7BOjZuRJnh5DyKdT
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5504
+          - 4538
+          - 5425
+          - 4486
+        _id: 7D3FNz9ESqajau82
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5425
+          - 4486
+          - 5342
+          - 4447
+        _id: WS6zlRSorgwivdwd
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5342
+          - 4447
+          - 5264
+          - 4428
+        _id: cuDRHejjsoBS29Tf
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5264
+          - 4428
+          - 5192
+          - 4420
+        _id: ILQGhbRtPC61VJ8S
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5192
+          - 4420
+          - 5079
+          - 4430
+        _id: axMAEE2LBvxrLj9f
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5079
+          - 4430
+          - 4989
+          - 4457
+        _id: 0LhD8yObhLemvcoV
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4989
+          - 4457
+          - 4922
+          - 4486
+        _id: y2IGSv84Qn5XA2Jd
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4922
+          - 4486
+          - 4872
+          - 4514
+        _id: MEAR81Je50uYd0d6
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4872
+          - 4514
+          - 4826
+          - 4556
+        _id: tsUR8GA40f0oQ1Oo
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4826
+          - 4556
+          - 4780
+          - 4602
+        _id: 45lel5xG46dES16y
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4780
+          - 4602
+          - 4500
+          - 4444
+        _id: wsuAOs4cWNpnacGk
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4500
+          - 4444
+          - 4725
+          - 4050
+        _id: YquwffJRD1Y36OcQ
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4725
+          - 4050
+          - 4481
+          - 3619
+        _id: wMtn7GtdilHFGlEt
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4481
+          - 3619
+          - 4736
+          - 3474
+        _id: Xzy8SctxsyrQ6FaZ
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4736
+          - 3474
+          - 4767
+          - 3455
+        _id: yOMRKokAUjDza8iN
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4767
+          - 3455
+          - 4814
+          - 3502
+        _id: 4trOotvlig7IY8kA
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4814
+          - 3502
+          - 4885
+          - 3548
+        _id: gybAa7qlLKZPBwIU
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4885
+          - 3548
+          - 4949
+          - 3579
+        _id: WNSA0C2TQASEHhdZ
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4949
+          - 3579
+          - 5054
+          - 3603
+        _id: wfxKSNmbt58Qz3iv
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5054
+          - 3603
+          - 5137
+          - 3604
+        _id: YToxYwryhYLXCV2Q
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5137
+          - 3604
+          - 5232
+          - 3585
+        _id: WfUQ6ttNMAntIbDB
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5232
+          - 3585
+          - 5315
+          - 3553
+        _id: umOUXJFH37w4u4br
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5315
+          - 3553
+          - 5393
+          - 3494
+        _id: YbIlVSHCTPJCrdfb
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5393
+          - 3494
+          - 5447
+          - 3439
+        _id: uf2plzrHrpsw5Gn1
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5447
+          - 3439
+          - 5499
+          - 3369
+        _id: LnlymKQBIWEhaItL
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5499
+          - 3369
+          - 5531
+          - 3289
+        _id: Ln2DOvFexvAsWRXG
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5531
+          - 3289
+          - 5552
+          - 3176
+        _id: DEk4PFZ3KcYhFhb8
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5552
+          - 3176
+          - 5547
+          - 3079
+        _id: o9a32qjr88xrpRtG
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5547
+          - 3079
+          - 5525
+          - 2993
+        _id: vgFWyFykVFvQ5IdD
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5525
+          - 2993
+          - 5493
+          - 2925
+        _id: 6jM4buVjmfRldlZA
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5493
+          - 2925
+          - 5447
+          - 2856
+        _id: qOwmsdBmhPWnrxB2
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5447
+          - 2856
+          - 5383
+          - 2796
+        _id: 6OFcrbJMx7MMn9fp
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5383
+          - 2796
+          - 5302
+          - 2742
+        _id: Sct2e8XGo50AKUPY
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5302
+          - 2742
+          - 5218
+          - 2713
+        _id: 9m1aheivOy9t6LMP
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5218
+          - 2713
+          - 5138
+          - 2697
+        _id: l6CT62dlvZ00cYf2
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5138
+          - 2697
+          - 5040
+          - 2704
+        _id: xhGYSLyiCS45EF1O
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 5040
+          - 2704
+          - 4957
+          - 2721
+        _id: dAH6TpsRQlpitAVp
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4957
+          - 2721
+          - 4884
+          - 2750
+        _id: Ap1Y4pCX9Y6gQpKs
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4884
+          - 2750
+          - 4802
+          - 2809
+        _id: MB8KmvH3YqTbPr7I
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4802
+          - 2809
+          - 4737
+          - 2880
+        _id: FqUWwY0rPFP1KFfT
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4737
+          - 2880
+          - 4699
+          - 2933
+        _id: d4MhwtiHhKcpWc4g
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4699
+          - 2933
+          - 4670
+          - 2998
+        _id: gtLnE4A2cN1M0T7c
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4670
+          - 2998
+          - 4655
+          - 3060
+        _id: kj2XOKMgizeGk79B
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4655
+          - 3060
+          - 4650
+          - 3120
+        _id: qEcJMxNyGr10lKa0
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4650
+          - 3120
+          - 4648
+          - 3181
+        _id: LyVx1tvVzdpAaKhX
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4648
+          - 3181
+          - 4653
+          - 3222
+        _id: GMsZ0DEVsMzpxDgl
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4653
+          - 3222
+          - 4659
+          - 3254
+        _id: DGBYJdmzDTRvcA7n
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4659
+          - 3254
+          - 4369
+          - 3422
+        _id: sqedBGeg5zxerjw1
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4369
+          - 3422
+          - 4125
+          - 3000
+        _id: a1tWojCzar6Hwh1V
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4125
+          - 3000
+          - 3600
+          - 3000
+        _id: SJ0SbF1FxiO2wpeZ
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 3600
+          - 3000
+          - 3600
+          - 2700
+        _id: C5UToAPY4udOUb4X
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 3600
+          - 2700
+          - 4200
+          - 2700
+        _id: gPMZ6Z66q96UB8jY
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4200
+          - 2700
+          - 4200
+          - 1350
+        _id: si1FqBbKHxz7euXj
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4200
+          - 1350
+          - 2850
+          - 1350
+        _id: Tl771tb3QkEKiCEh
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2850
+          - 1350
+          - 2850
+          - 2700
+        _id: HTTKTMmqpbyaR9z0
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2850
+          - 2700
+          - 3450
+          - 2700
+        _id: RF04iq7FRp8Xenrw
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 3450
+          - 2700
+          - 3450
+          - 3000
+        _id: UTg4cpBzsS5yahsr
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 3450
+          - 3000
+          - 2925
+          - 3000
+        _id: MX2I0sF8hhJ3v3az
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2925
+          - 3000
+          - 2685
+          - 3421
+        _id: EDuUSTPCK5mbEtcE
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2685
+          - 3421
+          - 2338
+          - 3222
+        _id: TW40ercSRm3KI7Ex
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2338
+          - 3222
+          - 2319
+          - 3208
+        _id: ivSdjKXkxYaeiVDr
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2319
+          - 3208
+          - 2737
+          - 2475
+        _id: 9Pvo278mueUKqyEX
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2737
+          - 2475
+          - 2286
+          - 2215
+        _id: XpiEAGTzihVIywPp
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2286
+          - 2215
+          - 1307
+          - 3892
+        _id: pp9PYEV76JtkrQUk
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 1307
+          - 3892
+          - 1767
+          - 4159
+        _id: OtfDjF9rLOlgbew8
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 1767
+          - 4159
+          - 2200
+          - 3412
+        _id: pEubEkWSRsFwQOlZ
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2200
+          - 3412
+          - 2562
+          - 3622
+        _id: ICPVJ0LJ5ArOSI3n
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2562
+          - 3622
+          - 2325
+          - 4050
+        _id: roMP82vvC1sNQTq6
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2325
+          - 4050
+          - 2556
+          - 4458
+        _id: 7cnnnhSAnSQoFLXh
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2556
+          - 4458
+          - 2305
+          - 4600
+        _id: JmJCaiJLqe0XDz8W
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2305
+          - 4600
+          - 2281
+          - 4611
+        _id: wNspOxxzwVAbBCwT
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2281
+          - 4611
+          - 2228
+          - 4560
+        _id: j3DbQMe4OucxiYWm
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2228
+          - 4560
+          - 2169
+          - 4513
+        _id: HKtaXSA8PtSf0ut7
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2169
+          - 4513
+          - 2084
+          - 4466
+        _id: 9TZxS3d4iEEXVzQe
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2084
+          - 4466
+          - 1972
+          - 4436
+        _id: FSKFozZPFlu6vTlX
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 1972
+          - 4436
+          - 1864
+          - 4422
+        _id: WAmNjJABCJDW3N9c
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 1864
+          - 4422
+          - 1759
+          - 4438
+        _id: mOUr6zirp0vo7yvz
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 1759
+          - 4438
+          - 1665
+          - 4466
+        _id: BKUrIG7wmiHVppKx
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 1665
+          - 4466
+          - 1578
+          - 4511
+        _id: aowyJTnmCYvt3CER
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 1578
+          - 4511
+          - 1523
+          - 4557
+        _id: MhWvP8HNVp5AFbhl
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 1523
+          - 4557
+          - 1453
+          - 4627
+        _id: 9OSdfL5WKVoPc1lY
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 1453
+          - 4627
+          - 1407
+          - 4703
+        _id: 4YrYwF46bevC3ml5
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 1407
+          - 4703
+          - 1368
+          - 4794
+        _id: 44hDMuc8jbaNCeB4
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 1368
+          - 4794
+          - 1350
+          - 4880
+        _id: Q2BNAzqdyVY661wa
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 1350
+          - 4880
+          - 1345
+          - 4974
+        _id: MjiiXrf140ULqEJv
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 1345
+          - 4974
+          - 1361
+          - 5071
+        _id: VhrFng6fL0pAV2K9
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 1361
+          - 5071
+          - 1391
+          - 5155
+        _id: nIf55cGGcxywX7lX
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 1391
+          - 5155
+          - 1434
+          - 5240
+        _id: DN7PjBcXCe3xtO4d
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 1434
+          - 5240
+          - 1498
+          - 5318
+        _id: IIXzUoljCDzjzAys
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 1498
+          - 5318
+          - 1558
+          - 5372
+        _id: B0UGM3y59PvqThnV
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 1558
+          - 5372
+          - 1636
+          - 5418
+        _id: GUzqbjulPwXEOaiK
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 1636
+          - 5418
+          - 1729
+          - 5459
+        _id: jLo0zwSFGQsu2BAe
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 1729
+          - 5459
+          - 1839
+          - 5475
+        _id: poT6qJIp0a2j2fwx
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 1839
+          - 5475
+          - 1947
+          - 5472
+        _id: YHssPyrMqWm0xkVX
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 1947
+          - 5472
+          - 2039
+          - 5450
+        _id: 9wTBVtj1bXyAr8eB
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2039
+          - 5450
+          - 2125
+          - 5413
+        _id: GeuUt7zzNHBbEtCq
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2125
+          - 5413
+          - 2211
+          - 5354
+        _id: V1AHsidLtdaYgIGe
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2211
+          - 5354
+          - 2286
+          - 5284
+        _id: z7OttBlSTcz3FRma
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2286
+          - 5284
+          - 2338
+          - 5205
+        _id: 9gnGKZ4ZO27bV38a
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2338
+          - 5205
+          - 2373
+          - 5117
+        _id: 08wFILvLe51RW6fL
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2373
+          - 5117
+          - 2395
+          - 5026
+        _id: lspxbgdA19RlwYcj
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2395
+          - 5026
+          - 2402
+          - 4939
+        _id: tGBqxVESGZYOaJWY
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2402
+          - 4939
+          - 2392
+          - 4871
+        _id: ZKvB1lCcWcrGkuDY
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2392
+          - 4871
+          - 2383
+          - 4823
+        _id: aBeGpdm2de1nvmlD
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2383
+          - 4823
+          - 2667
+          - 4651
+        _id: 6QydXuJsns469wYR
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2667
+          - 4651
+          - 2925
+          - 5100
+        _id: bUoeCcDSck61Mqex
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2925
+          - 5100
+          - 3450
+          - 5100
+        _id: obgctJkws1YWOG0U
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 3450
+          - 5100
+          - 3450
+          - 5700
+        _id: OhOvEdwy9Ex1riBm
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4641
+          - 4781
+          - 4658
+          - 4755
+        _id: LhtkpJuxkIym4IEb
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4658
+          - 4755
+          - 4735
+          - 4622
+        _id: BjetIDeYRLwIvTB7
+        dir: 0
+        door: 1
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation:
+          type: swing
+          texture: >-
+            modules/dg-boite-rouge-bleue/assets/dg-scenes/portes/porte_metal.webp
+          flip: false
+          double: false
+          direction: -1
+          duration: 750
+          strength: 1
+        flags: {}
+        doorSound: woodBasic
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4735
+          - 4622
+          - 4753
+          - 4584
+        _id: Q6kuVdmfJ63ist7t
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4736
+          - 3474
+          - 4718
+          - 3443
+        _id: 08cAenLMD7GoNDtV
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4718
+          - 3443
+          - 4613
+          - 3328
+        _id: SHg24pcbFFLPerYw
+        dir: 0
+        door: 1
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation:
+          type: swing
+          texture: >-
+            modules/dg-boite-rouge-bleue/assets/dg-scenes/portes/porte_metal.webp
+          flip: false
+          double: false
+          direction: -1
+          duration: 750
+          strength: 1
+        flags: {}
+        doorSound: woodBasic
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 4640
+          - 3307
+          - 4622
+          - 3272
+        _id: KkEhp9knDmltp9Cw
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 3450
+          - 2700
+          - 3478
+          - 2700
+        _id: ktHNKF4igfZe92uQ
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 3478
+          - 2700
+          - 3572
+          - 2700
+        _id: QtodsoIbqTRLEWCc
+        dir: 0
+        door: 1
+        ds: 2
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation:
+          type: swing
+          texture: >-
+            modules/dg-boite-rouge-bleue/assets/dg-scenes/portes/porte_metal.webp
+          flip: false
+          double: false
+          direction: 1
+          duration: 750
+          strength: 1
+        flags: {}
+        doorSound: woodBasic
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 3572
+          - 2700
+          - 3600
+          - 2700
+        _id: ixuh6uBOAsx5iX6I
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2338
+          - 3222
+          - 2318
+          - 3256
+        _id: 20dZoo8G8rzF4M0u
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2318
+          - 3256
+          - 2247
+          - 3386
+        _id: akXKbtzlBhHpx6ZA
+        dir: 0
+        door: 1
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation:
+          type: swing
+          texture: >-
+            modules/dg-boite-rouge-bleue/assets/dg-scenes/portes/porte_metal.webp
+          flip: false
+          double: false
+          direction: -1
+          duration: 750
+          strength: 1
+        flags: {}
+        doorSound: woodBasic
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2247
+          - 3386
+          - 2222
+          - 3431
+        _id: NdjpMAjcz0g00Muv
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2305
+          - 4600
+          - 2323
+          - 4632
+        _id: UiFzL4VnSd9mgAKa
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2323
+          - 4632
+          - 2387
+          - 4768
+        _id: kUg2ozKKTViQfd6A
+        dir: 0
+        door: 1
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation:
+          type: swing
+          texture: >-
+            modules/dg-boite-rouge-bleue/assets/dg-scenes/portes/porte_metal.webp
+          flip: false
+          double: false
+          direction: -1
+          duration: 750
+          strength: 1
+        flags: {}
+        doorSound: woodBasic
+      - light: 20
+        sight: 20
+        sound: 20
+        move: 20
+        c:
+          - 2387
+          - 4768
+          - 2409
+          - 4809
+        _id: Oqcv05WrTXORyh1N
+        dir: 0
+        door: 0
+        ds: 0
+        threshold:
+          light: null
+          sight: null
+          sound: null
+          attenuation: false
+        animation: null
+        flags: {}
+    playlist: null
+    playlistSound: null
+    journal: null
+    journalEntryPage: null
+    weather: ''
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: Scene.cQFCtXysXOaPHtyV
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: dangerousgary
+      systemVersion: 1.1.1
+      createdTime: 1773864791719
+      modifiedTime: 1773866934333
       lastModifiedBy: KGwL4biCTVq5qfeL
     navName: ''
     ownership:
@@ -54289,6 +59656,6 @@ _stats:
   systemId: dangerousgary
   systemVersion: '#{VERSION}#'
   createdTime: 1773686639098
-  modifiedTime: 1773797567306
+  modifiedTime: 1773869345761
   lastModifiedBy: KGwL4biCTVq5qfeL
 _key: '!adventures!6C9qNiPNJky9174N'
