@@ -19691,7 +19691,7 @@ scenes:
       alphaThreshold: 0
     foreground: null
     foregroundElevation: null
-    thumb: worlds/dangerous-gary/assets/scenes/BGZIIhKjQozxd17e-thumb.webp
+    thumb: modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/BGZIIhKjQozxd17e-thumb.webp
     width: 7500
     height: 10500
     padding: 0.25
@@ -26234,7 +26234,7 @@ scenes:
       alphaThreshold: 0
     foreground: null
     foregroundElevation: null
-    thumb: worlds/dangerous-gary/assets/scenes/veW5bm78wO0SfNSn-thumb.webp
+    thumb: modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/veW5bm78wO0SfNSn-thumb.webp
     width: 11550
     height: 15000
     padding: 0.1
@@ -54254,7 +54254,7 @@ scenes:
       alphaThreshold: 0
     foreground: null
     foregroundElevation: null
-    thumb: worlds/dangerous-gary/assets/scenes/cQFCtXysXOaPHtyV-thumb.webp
+    thumb: modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/cQFCtXysXOaPHtyV-thumb.webp
     width: 5250
     height: 5250
     padding: 0.15
