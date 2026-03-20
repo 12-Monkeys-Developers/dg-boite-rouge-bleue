@@ -2,11 +2,14 @@
   "id": "dg-boite-rouge-bleue",
   "title": "Dangerous Gary : Boites rouge et bleue",
   "description": "Contenu des boites rouge et bleue pour Dangerous Gary",
-  "version": "1.0.0",
+  "version": "#{VERSION}#",
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
   "compatibility": {
-    "minimum": "13",
-    "maximum": "13",
-    "verified": "13"
+    "minimum": 13,
+    "maximum": 13,
+    "verified": 13
   },
   "relationships": {
     "systems": [
@@ -14,13 +17,14 @@
         "id": "dangerousgary",
         "type": "system"
       }
-    ],
-    "requires": [],
-    "optional": []
+    ]
   },
   "authors": [
     {
       "name": "kristov"
+    },
+    {
+      "name": "l'Alchimiste"
     }
   ],
   "esmodules": ["dg-boite-rouge-bleue.mjs"],
