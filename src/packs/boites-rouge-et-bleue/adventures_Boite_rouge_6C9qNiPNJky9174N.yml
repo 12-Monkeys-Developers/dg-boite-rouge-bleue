@@ -649,7 +649,7 @@ scenes:
         textColor: '#b30000'
         textAlpha: 1
         hidden: true
-        locked: false
+        locked: true
         interface: false
         flags:
           advanced-drawing-tools:
@@ -1954,7 +1954,7 @@ scenes:
         textColor: '#5e0599'
         textAlpha: 1
         hidden: false
-        locked: false
+        locked: true
         interface: false
         flags: {}
         _id: 295psE68saBjXadv
@@ -1996,7 +1996,7 @@ scenes:
         textColor: '#5e0599'
         textAlpha: 1
         hidden: false
-        locked: false
+        locked: true
         interface: false
         flags:
           advanced-drawing-tools:
@@ -2281,6 +2281,74 @@ scenes:
           volume: 0
         flags: {}
         levels: []
+      - texture:
+          src: >-
+            modules/dg-boite-rouge-bleue/assets/dg-scenes/listes_salles/liste_banque.webp
+          anchorX: 0.5
+          anchorY: 0.5
+          scaleX: 1
+          scaleY: 1
+          tint: '#ffffff'
+          fit: fill
+          alphaThreshold: 0.75
+        x: 6750
+        'y': 2625
+        width: 1584
+        height: 2325
+        sort: 5
+        elevation: 0
+        levels:
+          - defaultLevel0000
+        alpha: 1
+        restrictions:
+          light: false
+          weather: false
+        occlusion:
+          modes: []
+          alpha: 0
+        video:
+          loop: true
+          autoplay: true
+          volume: 0
+        flags: {}
+        _id: C1uzWMCbmmBAq6Dl
+        rotation: 0
+        hidden: false
+        locked: true
+      - texture:
+          src: >-
+            modules/dg-boite-rouge-bleue/assets/dg-scenes/listes_salles/dimension_case_1.5m_rouge.webp
+          anchorX: 0.5
+          anchorY: 0.5
+          scaleX: 1
+          scaleY: 1
+          tint: '#ffffff'
+          fit: fill
+          alphaThreshold: 0.75
+        x: 5006
+        'y': 6113
+        width: 514
+        height: 131
+        sort: 7
+        elevation: 0
+        levels:
+          - defaultLevel0000
+        alpha: 1
+        restrictions:
+          light: false
+          weather: false
+        occlusion:
+          modes: []
+          alpha: 0
+        video:
+          loop: true
+          autoplay: true
+          volume: 0
+        flags: {}
+        _id: atlrXYrYORzoJ0S1
+        rotation: 0
+        hidden: false
+        locked: true
     walls:
       - light: 20
         sight: 20
@@ -10361,1208 +10429,12 @@ scenes:
     drawings:
       - shape:
           type: r
-          width: 393
-          height: 67
-          radius: null
-          points: []
-        x: 2000
-        'y': 1300
-        elevation: 0
-        sort: 0
-        rotation: 0
-        bezierFactor: 0
-        fillType: 0
-        fillColor: '#ffffff'
-        fillAlpha: 0.1
-        strokeWidth: 0
-        strokeColor: '#ffffff'
-        strokeAlpha: 1
-        texture: null
-        text: Rez-de-chaussée
-        fontFamily: Modesto Condensed
-        fontSize: 100
-        textColor: '#b30000'
-        textAlpha: 1
-        hidden: true
-        locked: true
-        interface: false
-        flags:
-          advanced-drawing-tools:
-            invisible: false
-            lineStyle:
-              dash: null
-              dashEnabled: false
-            fillStyle:
-              texture:
-                width: null
-                height: null
-              transform:
-                position:
-                  x: 0
-                  'y': 0
-                pivot:
-                  x: 0
-                  'y': 0
-                scale:
-                  x: 1
-                  'y': 1
-                rotation: 0
-                skew:
-                  x: 0
-                  'y': 0
-            textStyle:
-              fontStyle: italic
-              fontVariant: normal
-              fontWeight: normal
-              leading: 0
-              letterSpacing: 0
-              wordWrapWidth: 100%
-              fillGradientType: 0
-              align: ''
-              stroke: ''
-              strokeThickness: null
-              dropShadow: true
-              dropShadowBlur: null
-              dropShadowDistance: 0
-              dropShadowAngle: 0
-              dropShadowColor: '#000000'
-              dropShadowAlpha: 1
-              arc: 0
-              fill: null
-              fillGradientStops: null
-        _id: bCLlhs97E1KLP2xs
-        levels: []
-        author: KvKa5yVwb8zGmszo
-      - shape:
-          type: r
-          width: 393
-          height: 67
-          radius: null
-          points: []
-        x: 2000
-        'y': 2800
-        elevation: 0
-        sort: 0
-        rotation: 0
-        bezierFactor: 0
-        fillType: 0
-        fillColor: '#ffffff'
-        fillAlpha: 0.1
-        strokeWidth: 0
-        strokeColor: '#ffffff'
-        strokeAlpha: 1
-        texture: null
-        text: 1er Étage
-        fontFamily: Modesto Condensed
-        fontSize: 100
-        textColor: '#b30000'
-        textAlpha: 1
-        hidden: true
-        locked: true
-        interface: false
-        flags:
-          advanced-drawing-tools:
-            invisible: false
-            lineStyle:
-              dash: null
-              dashEnabled: false
-            fillStyle:
-              texture:
-                width: null
-                height: null
-              transform:
-                position:
-                  x: 0
-                  'y': 0
-                pivot:
-                  x: 0
-                  'y': 0
-                scale:
-                  x: 1
-                  'y': 1
-                rotation: 0
-                skew:
-                  x: 0
-                  'y': 0
-            textStyle:
-              fontStyle: italic
-              fontVariant: normal
-              fontWeight: normal
-              leading: 0
-              letterSpacing: 0
-              wordWrapWidth: 100%
-              fillGradientType: 0
-              align: ''
-              stroke: ''
-              strokeThickness: null
-              dropShadow: true
-              dropShadowBlur: null
-              dropShadowDistance: 0
-              dropShadowAngle: 0
-              dropShadowColor: '#000000'
-              dropShadowAlpha: 1
-              arc: 0
-              fill: null
-              fillGradientStops: null
-        _id: EwsndhrrYUokVFSJ
-        levels: []
-        author: KvKa5yVwb8zGmszo
-      - shape:
-          type: r
-          width: 393
-          height: 67
-          radius: null
-          points: []
-        x: 1837.5
-        'y': 1575
-        elevation: 0
-        sort: 0
-        rotation: 0
-        bezierFactor: 0
-        fillType: 0
-        fillColor: '#ffffff'
-        fillAlpha: 0.1
-        strokeWidth: 0
-        strokeColor: '#ffffff'
-        strokeAlpha: 1
-        texture: null
-        text: Cuisine
-        fontFamily: Modesto Condensed
-        fontSize: 80
-        textColor: '#420000'
-        textAlpha: 1
-        hidden: true
-        locked: true
-        interface: false
-        flags:
-          advanced-drawing-tools:
-            invisible: false
-            lineStyle:
-              dash: null
-              dashEnabled: false
-            fillStyle:
-              texture:
-                width: null
-                height: null
-              transform:
-                position:
-                  x: 0
-                  'y': 0
-                pivot:
-                  x: 0
-                  'y': 0
-                scale:
-                  x: 1
-                  'y': 1
-                rotation: 0
-                skew:
-                  x: 0
-                  'y': 0
-            textStyle:
-              fontStyle: italic
-              fontVariant: normal
-              fontWeight: normal
-              leading: 0
-              letterSpacing: 0
-              wordWrapWidth: 100%
-              fillGradientType: 0
-              align: ''
-              stroke: ''
-              strokeThickness: 0
-              dropShadow: true
-              dropShadowBlur: null
-              dropShadowDistance: 0
-              dropShadowAngle: 0
-              dropShadowColor: '#000000'
-              dropShadowAlpha: 1
-              arc: 0
-              fill: null
-              fillGradientStops: null
-        _id: hFt8yVefmMtQE4E6
-        levels: []
-        author: KvKa5yVwb8zGmszo
-      - shape:
-          type: r
-          width: 393
-          height: 67
-          radius: null
-          points: []
-        x: 1038
-        'y': 1575
-        elevation: 0
-        sort: 0
-        rotation: 0
-        bezierFactor: 0
-        fillType: 0
-        fillColor: '#ffffff'
-        fillAlpha: 0.1
-        strokeWidth: 0
-        strokeColor: '#ffffff'
-        strokeAlpha: 1
-        texture: null
-        text: Bibliothèque
-        fontFamily: Modesto Condensed
-        fontSize: 80
-        textColor: '#420000'
-        textAlpha: 1
-        hidden: true
-        locked: true
-        interface: false
-        flags:
-          advanced-drawing-tools:
-            invisible: false
-            lineStyle:
-              dash: null
-              dashEnabled: false
-            fillStyle:
-              texture:
-                width: null
-                height: null
-              transform:
-                position:
-                  x: 0
-                  'y': 0
-                pivot:
-                  x: 0
-                  'y': 0
-                scale:
-                  x: 1
-                  'y': 1
-                rotation: 0
-                skew:
-                  x: 0
-                  'y': 0
-            textStyle:
-              fontStyle: italic
-              fontVariant: normal
-              fontWeight: normal
-              leading: 0
-              letterSpacing: 0
-              wordWrapWidth: 100%
-              fillGradientType: 0
-              align: ''
-              stroke: ''
-              strokeThickness: 0
-              dropShadow: true
-              dropShadowBlur: null
-              dropShadowDistance: 0
-              dropShadowAngle: 0
-              dropShadowColor: '#000000'
-              dropShadowAlpha: 1
-              arc: 0
-              fill: null
-              fillGradientStops: null
-        _id: qcIoUZ9pVUXbn1vv
-        levels: []
-        author: KvKa5yVwb8zGmszo
-      - shape:
-          type: r
-          width: 393
-          height: 67
-          radius: null
-          points: []
-        x: 1050
-        'y': 2100
-        elevation: 0
-        sort: 0
-        rotation: 0
-        bezierFactor: 0
-        fillType: 0
-        fillColor: '#ffffff'
-        fillAlpha: 0.1
-        strokeWidth: 0
-        strokeColor: '#ffffff'
-        strokeAlpha: 1
-        texture: null
-        text: |-
-          Salle à
-          manger
-        fontFamily: Modesto Condensed
-        fontSize: 80
-        textColor: '#420000'
-        textAlpha: 1
-        hidden: true
-        locked: true
-        interface: false
-        flags:
-          advanced-drawing-tools:
-            invisible: false
-            lineStyle:
-              dash: null
-              dashEnabled: false
-            fillStyle:
-              texture:
-                width: null
-                height: null
-              transform:
-                position:
-                  x: 0
-                  'y': 0
-                pivot:
-                  x: 0
-                  'y': 0
-                scale:
-                  x: 1
-                  'y': 1
-                rotation: 0
-                skew:
-                  x: 0
-                  'y': 0
-            textStyle:
-              fontStyle: italic
-              fontVariant: normal
-              fontWeight: normal
-              leading: 0
-              letterSpacing: 0
-              wordWrapWidth: 100%
-              fillGradientType: 0
-              align: center
-              stroke: ''
-              strokeThickness: 0
-              dropShadow: true
-              dropShadowBlur: null
-              dropShadowDistance: 0
-              dropShadowAngle: 0
-              dropShadowColor: '#000000'
-              dropShadowAlpha: 1
-              arc: 0
-              fill: null
-              fillGradientStops: null
-        _id: AntPHQJLtRgpIm45
-        levels: []
-        author: KvKa5yVwb8zGmszo
-      - shape:
-          type: r
-          width: 289
-          height: 67
-          radius: null
-          points: []
-        x: 1512.5
-        'y': 1837.5
-        elevation: 0
-        sort: 0
-        rotation: 0
-        bezierFactor: 0
-        fillType: 0
-        fillColor: '#ffffff'
-        fillAlpha: 0.1
-        strokeWidth: 0
-        strokeColor: '#ffffff'
-        strokeAlpha: 1
-        texture: null
-        text: Hall
-        fontFamily: Modesto Condensed
-        fontSize: 80
-        textColor: '#420000'
-        textAlpha: 1
-        hidden: true
-        locked: true
-        interface: false
-        flags:
-          advanced-drawing-tools:
-            invisible: false
-            lineStyle:
-              dash: null
-              dashEnabled: false
-            fillStyle:
-              texture:
-                width: null
-                height: null
-              transform:
-                position:
-                  x: 0
-                  'y': 0
-                pivot:
-                  x: 0
-                  'y': 0
-                scale:
-                  x: 1
-                  'y': 1
-                rotation: 0
-                skew:
-                  x: 0
-                  'y': 0
-            textStyle:
-              fontStyle: italic
-              fontVariant: normal
-              fontWeight: normal
-              leading: 0
-              letterSpacing: 0
-              wordWrapWidth: 100%
-              fillGradientType: 0
-              align: ''
-              stroke: ''
-              strokeThickness: 0
-              dropShadow: true
-              dropShadowBlur: null
-              dropShadowDistance: 0
-              dropShadowAngle: 0
-              dropShadowColor: '#000000'
-              dropShadowAlpha: 1
-              arc: 0
-              fill: null
-              fillGradientStops: null
-        _id: JrSKCmcyMufZu7ju
-        levels: []
-        author: KvKa5yVwb8zGmszo
-      - shape:
-          type: r
-          width: 143
-          height: 67
-          radius: null
-          points: []
-        x: 1950
-        'y': 1837.5
-        elevation: 0
-        sort: 0
-        rotation: 0
-        bezierFactor: 0
-        fillType: 0
-        fillColor: '#ffffff'
-        fillAlpha: 0.1
-        strokeWidth: 0
-        strokeColor: '#ffffff'
-        strokeAlpha: 1
-        texture: null
-        text: WC
-        fontFamily: Modesto Condensed
-        fontSize: 80
-        textColor: '#420000'
-        textAlpha: 1
-        hidden: true
-        locked: true
-        interface: false
-        flags:
-          advanced-drawing-tools:
-            invisible: false
-            lineStyle:
-              dash: null
-              dashEnabled: false
-            fillStyle:
-              texture:
-                width: null
-                height: null
-              transform:
-                position:
-                  x: 0
-                  'y': 0
-                pivot:
-                  x: 0
-                  'y': 0
-                scale:
-                  x: 1
-                  'y': 1
-                rotation: 0
-                skew:
-                  x: 0
-                  'y': 0
-            textStyle:
-              fontStyle: italic
-              fontVariant: normal
-              fontWeight: normal
-              leading: 0
-              letterSpacing: 0
-              wordWrapWidth: 100%
-              fillGradientType: 0
-              align: ''
-              stroke: ''
-              strokeThickness: 0
-              dropShadow: true
-              dropShadowBlur: null
-              dropShadowDistance: 0
-              dropShadowAngle: 0
-              dropShadowColor: '#000000'
-              dropShadowAlpha: 1
-              arc: 0
-              fill: null
-              fillGradientStops: null
-        _id: TDmzA1z3F3gf7Pas
-        levels: []
-        author: KvKa5yVwb8zGmszo
-      - shape:
-          type: r
-          width: 289
-          height: 67
-          radius: null
-          points: []
-        x: 1900
-        'y': 2213
-        elevation: 0
-        sort: 0
-        rotation: 0
-        bezierFactor: 0
-        fillType: 0
-        fillColor: '#ffffff'
-        fillAlpha: 0.1
-        strokeWidth: 0
-        strokeColor: '#ffffff'
-        strokeAlpha: 1
-        texture: null
-        text: Salon
-        fontFamily: Modesto Condensed
-        fontSize: 80
-        textColor: '#420000'
-        textAlpha: 1
-        hidden: true
-        locked: true
-        interface: false
-        flags:
-          advanced-drawing-tools:
-            invisible: false
-            lineStyle:
-              dash: null
-              dashEnabled: false
-            fillStyle:
-              texture:
-                width: null
-                height: null
-              transform:
-                position:
-                  x: 0
-                  'y': 0
-                pivot:
-                  x: 0
-                  'y': 0
-                scale:
-                  x: 1
-                  'y': 1
-                rotation: 0
-                skew:
-                  x: 0
-                  'y': 0
-            textStyle:
-              fontStyle: italic
-              fontVariant: normal
-              fontWeight: normal
-              leading: 0
-              letterSpacing: 0
-              wordWrapWidth: 100%
-              fillGradientType: 0
-              align: ''
-              stroke: ''
-              strokeThickness: 0
-              dropShadow: true
-              dropShadowBlur: null
-              dropShadowDistance: 0
-              dropShadowAngle: 0
-              dropShadowColor: '#000000'
-              dropShadowAlpha: 1
-              arc: 0
-              fill: null
-              fillGradientStops: null
-        _id: 6Oik8lUf0fdGtH2U
-        levels: []
-        author: KvKa5yVwb8zGmszo
-      - shape:
-          type: r
-          width: 289
-          height: 67
-          radius: null
-          points: []
-        x: 1487.5
-        'y': 1312.5
-        elevation: 0
-        sort: 0
-        rotation: 0
-        bezierFactor: 0
-        fillType: 0
-        fillColor: '#ffffff'
-        fillAlpha: 0.1
-        strokeWidth: 0
-        strokeColor: '#ffffff'
-        strokeAlpha: 1
-        texture: null
-        text: Perron
-        fontFamily: Modesto Condensed
-        fontSize: 80
-        textColor: '#420000'
-        textAlpha: 1
-        hidden: true
-        locked: true
-        interface: false
-        flags:
-          advanced-drawing-tools:
-            invisible: false
-            lineStyle:
-              dash: null
-              dashEnabled: false
-            fillStyle:
-              texture:
-                width: null
-                height: null
-              transform:
-                position:
-                  x: 0
-                  'y': 0
-                pivot:
-                  x: 0
-                  'y': 0
-                scale:
-                  x: 1
-                  'y': 1
-                rotation: 0
-                skew:
-                  x: 0
-                  'y': 0
-            textStyle:
-              fontStyle: italic
-              fontVariant: normal
-              fontWeight: normal
-              leading: 0
-              letterSpacing: 0
-              wordWrapWidth: 100%
-              fillGradientType: 0
-              align: ''
-              stroke: ''
-              strokeThickness: 0
-              dropShadow: true
-              dropShadowBlur: null
-              dropShadowDistance: 0
-              dropShadowAngle: 0
-              dropShadowColor: '#000000'
-              dropShadowAlpha: 1
-              arc: 0
-              fill: null
-              fillGradientStops: null
-        _id: XGARilVlf0gDNpnT
-        levels: []
-        author: KvKa5yVwb8zGmszo
-      - shape:
-          type: r
-          width: 289
-          height: 67
-          radius: null
-          points: []
-        x: 1900
-        'y': 3050
-        elevation: 0
-        sort: 0
-        rotation: 0
-        bezierFactor: 0
-        fillType: 0
-        fillColor: '#ffffff'
-        fillAlpha: 0.1
-        strokeWidth: 0
-        strokeColor: '#ffffff'
-        strokeAlpha: 1
-        texture: null
-        text: |-
-          Chambre
-          Jaune
-        fontFamily: Modesto Condensed
-        fontSize: 80
-        textColor: '#420000'
-        textAlpha: 1
-        hidden: true
-        locked: true
-        interface: false
-        flags:
-          advanced-drawing-tools:
-            invisible: false
-            lineStyle:
-              dash: null
-              dashEnabled: false
-            fillStyle:
-              texture:
-                width: null
-                height: null
-              transform:
-                position:
-                  x: 0
-                  'y': 0
-                pivot:
-                  x: 0
-                  'y': 0
-                scale:
-                  x: 1
-                  'y': 1
-                rotation: 0
-                skew:
-                  x: 0
-                  'y': 0
-            textStyle:
-              fontStyle: italic
-              fontVariant: normal
-              fontWeight: normal
-              leading: 0
-              letterSpacing: 0
-              wordWrapWidth: 100%
-              fillGradientType: 0
-              align: center
-              stroke: ''
-              strokeThickness: 0
-              dropShadow: true
-              dropShadowBlur: null
-              dropShadowDistance: 0
-              dropShadowAngle: 0
-              dropShadowColor: '#000000'
-              dropShadowAlpha: 1
-              arc: 0
-              fill: null
-              fillGradientStops: null
-        _id: wiSL1dyxa74lgHVS
-        levels: []
-        author: KvKa5yVwb8zGmszo
-      - shape:
-          type: r
-          width: 289
-          height: 67
-          radius: null
-          points: []
-        x: 1100
-        'y': 3063
-        elevation: 0
-        sort: 0
-        rotation: 0
-        bezierFactor: 0
-        fillType: 0
-        fillColor: '#ffffff'
-        fillAlpha: 0.1
-        strokeWidth: 0
-        strokeColor: '#ffffff'
-        strokeAlpha: 1
-        texture: null
-        text: |-
-          Chambre
-          Verte
-        fontFamily: Modesto Condensed
-        fontSize: 80
-        textColor: '#420000'
-        textAlpha: 1
-        hidden: true
-        locked: true
-        interface: false
-        flags:
-          advanced-drawing-tools:
-            invisible: false
-            lineStyle:
-              dash: null
-              dashEnabled: false
-            fillStyle:
-              texture:
-                width: null
-                height: null
-              transform:
-                position:
-                  x: 0
-                  'y': 0
-                pivot:
-                  x: 0
-                  'y': 0
-                scale:
-                  x: 1
-                  'y': 1
-                rotation: 0
-                skew:
-                  x: 0
-                  'y': 0
-            textStyle:
-              fontStyle: italic
-              fontVariant: normal
-              fontWeight: normal
-              leading: 0
-              letterSpacing: 0
-              wordWrapWidth: 100%
-              fillGradientType: 0
-              align: center
-              stroke: ''
-              strokeThickness: 0
-              dropShadow: true
-              dropShadowBlur: null
-              dropShadowDistance: 0
-              dropShadowAngle: 0
-              dropShadowColor: '#000000'
-              dropShadowAlpha: 1
-              arc: 0
-              fill: null
-              fillGradientStops: null
-        _id: 9UPgRexFw0oVqYmG
-        levels: []
-        author: KvKa5yVwb8zGmszo
-      - shape:
-          type: r
-          width: 289
-          height: 67
-          radius: null
-          points: []
-        x: 1113
-        'y': 3675
-        elevation: 0
-        sort: 0
-        rotation: 0
-        bezierFactor: 0
-        fillType: 0
-        fillColor: '#ffffff'
-        fillAlpha: 0.1
-        strokeWidth: 0
-        strokeColor: '#ffffff'
-        strokeAlpha: 1
-        texture: null
-        text: Bureau
-        fontFamily: Modesto Condensed
-        fontSize: 80
-        textColor: '#420000'
-        textAlpha: 1
-        hidden: true
-        locked: true
-        interface: false
-        flags:
-          advanced-drawing-tools:
-            invisible: false
-            lineStyle:
-              dash: null
-              dashEnabled: false
-            fillStyle:
-              texture:
-                width: null
-                height: null
-              transform:
-                position:
-                  x: 0
-                  'y': 0
-                pivot:
-                  x: 0
-                  'y': 0
-                scale:
-                  x: 1
-                  'y': 1
-                rotation: 0
-                skew:
-                  x: 0
-                  'y': 0
-            textStyle:
-              fontStyle: italic
-              fontVariant: normal
-              fontWeight: normal
-              leading: 0
-              letterSpacing: 0
-              wordWrapWidth: 100%
-              fillGradientType: 0
-              align: center
-              stroke: ''
-              strokeThickness: 0
-              dropShadow: true
-              dropShadowBlur: null
-              dropShadowDistance: 0
-              dropShadowAngle: 0
-              dropShadowColor: '#000000'
-              dropShadowAlpha: 1
-              arc: 0
-              fill: null
-              fillGradientStops: null
-        _id: RssR57fsqlkPEvq0
-        levels: []
-        author: KvKa5yVwb8zGmszo
-      - shape:
-          type: r
-          width: 289
-          height: 67
-          radius: null
-          points: []
-        x: 1913
-        'y': 3725
-        elevation: 0
-        sort: 0
-        rotation: 0
-        bezierFactor: 0
-        fillType: 0
-        fillColor: '#ffffff'
-        fillAlpha: 0.1
-        strokeWidth: 0
-        strokeColor: '#ffffff'
-        strokeAlpha: 1
-        texture: null
-        text: |-
-          Chambre
-          Bleue
-        fontFamily: Modesto Condensed
-        fontSize: 80
-        textColor: '#420000'
-        textAlpha: 1
-        hidden: true
-        locked: true
-        interface: false
-        flags:
-          advanced-drawing-tools:
-            invisible: false
-            lineStyle:
-              dash: null
-              dashEnabled: false
-            fillStyle:
-              texture:
-                width: null
-                height: null
-              transform:
-                position:
-                  x: 0
-                  'y': 0
-                pivot:
-                  x: 0
-                  'y': 0
-                scale:
-                  x: 1
-                  'y': 1
-                rotation: 0
-                skew:
-                  x: 0
-                  'y': 0
-            textStyle:
-              fontStyle: italic
-              fontVariant: normal
-              fontWeight: normal
-              leading: 0
-              letterSpacing: 0
-              wordWrapWidth: 100%
-              fillGradientType: 0
-              align: center
-              stroke: ''
-              strokeThickness: 0
-              dropShadow: true
-              dropShadowBlur: null
-              dropShadowDistance: 0
-              dropShadowAngle: 0
-              dropShadowColor: '#000000'
-              dropShadowAlpha: 1
-              arc: 0
-              fill: null
-              fillGradientStops: null
-        _id: fiSp9LfL9WmzaIi3
-        levels: []
-        author: KvKa5yVwb8zGmszo
-      - shape:
-          type: r
-          width: 289
-          height: 67
-          radius: null
-          points: []
-        x: 2025
-        'y': 3350
-        elevation: 0
-        sort: 0
-        rotation: 0
-        bezierFactor: 0
-        fillType: 0
-        fillColor: '#ffffff'
-        fillAlpha: 0.1
-        strokeWidth: 0
-        strokeColor: '#ffffff'
-        strokeAlpha: 1
-        texture: null
-        text: |-
-          Salle de
-          bain
-        fontFamily: Modesto Condensed
-        fontSize: 80
-        textColor: '#420000'
-        textAlpha: 1
-        hidden: true
-        locked: true
-        interface: false
-        flags:
-          advanced-drawing-tools:
-            invisible: false
-            lineStyle:
-              dash: null
-              dashEnabled: false
-            fillStyle:
-              texture:
-                width: null
-                height: null
-              transform:
-                position:
-                  x: 0
-                  'y': 0
-                pivot:
-                  x: 0
-                  'y': 0
-                scale:
-                  x: 1
-                  'y': 1
-                rotation: 0
-                skew:
-                  x: 0
-                  'y': 0
-            textStyle:
-              fontStyle: italic
-              fontVariant: normal
-              fontWeight: normal
-              leading: 0
-              letterSpacing: 0
-              wordWrapWidth: 100%
-              fillGradientType: 0
-              align: center
-              stroke: ''
-              strokeThickness: 0
-              dropShadow: true
-              dropShadowBlur: null
-              dropShadowDistance: 0
-              dropShadowAngle: 0
-              dropShadowColor: '#000000'
-              dropShadowAlpha: 1
-              arc: 0
-              fill: null
-              fillGradientStops: null
-        _id: zGgB4NY5u5BJV8UB
-        levels: []
-        author: KvKa5yVwb8zGmszo
-      - shape:
-          type: r
-          width: 289
-          height: 67
-          radius: null
-          points: []
-        x: 2700
-        'y': 1925
-        elevation: 0
-        sort: 0
-        rotation: 0
-        bezierFactor: 0
-        fillType: 0
-        fillColor: '#ffffff'
-        fillAlpha: 0.1
-        strokeWidth: 0
-        strokeColor: '#ffffff'
-        strokeAlpha: 1
-        texture: null
-        text: Cave
-        fontFamily: Modesto Condensed
-        fontSize: 80
-        textColor: '#420000'
-        textAlpha: 1
-        hidden: true
-        locked: true
-        interface: false
-        flags:
-          advanced-drawing-tools:
-            invisible: false
-            lineStyle:
-              dash: null
-              dashEnabled: false
-            fillStyle:
-              texture:
-                width: null
-                height: null
-              transform:
-                position:
-                  x: 0
-                  'y': 0
-                pivot:
-                  x: 0
-                  'y': 0
-                scale:
-                  x: 1
-                  'y': 1
-                rotation: 0
-                skew:
-                  x: 0
-                  'y': 0
-            textStyle:
-              fontStyle: italic
-              fontVariant: normal
-              fontWeight: normal
-              leading: 0
-              letterSpacing: 0
-              wordWrapWidth: 100%
-              fillGradientType: 0
-              align: center
-              stroke: ''
-              strokeThickness: 0
-              dropShadow: true
-              dropShadowBlur: null
-              dropShadowDistance: 0
-              dropShadowAngle: 0
-              dropShadowColor: '#000000'
-              dropShadowAlpha: 1
-              arc: 0
-              fill: null
-              fillGradientStops: null
-        _id: 4XLRcNfXQnCsloW2
-        levels: []
-        author: KvKa5yVwb8zGmszo
-      - shape:
-          type: r
-          width: 289
-          height: 67
-          radius: null
-          points: []
-        x: 2702.1138309930066
-        'y': 2164.2095743341106
-        elevation: 0
-        sort: 0
-        rotation: 0
-        bezierFactor: 0
-        fillType: 0
-        fillColor: '#ffffff'
-        fillAlpha: 0.1
-        strokeWidth: 0
-        strokeColor: '#ffffff'
-        strokeAlpha: 1
-        texture: null
-        text: |-
-          Bureau
-          secret
-        fontFamily: Modesto Condensed
-        fontSize: 70
-        textColor: '#420000'
-        textAlpha: 1
-        hidden: true
-        locked: true
-        interface: false
-        flags:
-          advanced-drawing-tools:
-            invisible: false
-            lineStyle:
-              dash: null
-              dashEnabled: false
-            fillStyle:
-              texture:
-                width: null
-                height: null
-              transform:
-                position:
-                  x: 0
-                  'y': 0
-                pivot:
-                  x: 0
-                  'y': 0
-                scale:
-                  x: 1
-                  'y': 1
-                rotation: 0
-                skew:
-                  x: 0
-                  'y': 0
-            textStyle:
-              fontStyle: italic
-              fontVariant: normal
-              fontWeight: normal
-              leading: 0
-              letterSpacing: 0
-              wordWrapWidth: 100%
-              fillGradientType: 0
-              align: center
-              stroke: ''
-              strokeThickness: 0
-              dropShadow: true
-              dropShadowBlur: null
-              dropShadowDistance: 0
-              dropShadowAngle: 0
-              dropShadowColor: '#000000'
-              dropShadowAlpha: 1
-              arc: 0
-              fill: null
-              fillGradientStops: null
-        _id: Z9SkIqOkCGlIuXqS
-        levels: []
-        author: KvKa5yVwb8zGmszo
-      - shape:
-          type: r
           width: 189
           height: 64
           radius: null
           points: []
-        x: 1900
-        'y': 1425
+        x: 1930.606472966664
+        'y': 1421.7782660035089
         elevation: 0
         sort: 0
         rotation: 0
@@ -11575,9 +10447,9 @@ scenes:
         strokeAlpha: 1
         texture: null
         text: vers Cave
-        fontFamily: Modesto Condensed
+        fontFamily: Arial
         fontSize: 40
-        textColor: '#420000'
+        textColor: '#b30000'
         textAlpha: 1
         hidden: true
         locked: true
@@ -11628,6 +10500,7 @@ scenes:
               fillGradientStops: null
         _id: MvLpBNx3I4frsH8D
         levels: []
+        name: ''
         author: KvKa5yVwb8zGmszo
       - shape:
           type: r
@@ -11635,8 +10508,8 @@ scenes:
           height: 64
           radius: null
           points: []
-        x: 1587.5
-        'y': 2962.5
+        x: 1588
+        'y': 2963
         elevation: 0
         sort: 0
         rotation: 0
@@ -11649,9 +10522,9 @@ scenes:
         strokeAlpha: 1
         texture: null
         text: vers Grenier
-        fontFamily: Modesto Condensed
+        fontFamily: Arial
         fontSize: 40
-        textColor: '#420000'
+        textColor: '#b30000'
         textAlpha: 1
         hidden: true
         locked: true
@@ -11702,6 +10575,7 @@ scenes:
               fillGradientStops: null
         _id: mbX0BicyLP0CC8AS
         levels: []
+        name: ''
         author: KvKa5yVwb8zGmszo
       - shape:
           type: p
@@ -11822,95 +10696,1206 @@ scenes:
               fillGradientStops: null
         levels: []
         author: KvKa5yVwb8zGmszo
-    tokens:
-      - name: Personnage
-        displayName: 0
-        actorLink: true
-        width: 1
-        height: 1
-        texture:
-          src: icons/svg/mystery-man.svg
-          anchorX: 0.5
-          anchorY: 0.5
-          fit: contain
-          scaleX: 1
-          scaleY: 1
-          tint: '#ffffff'
-          alphaThreshold: 0.75
-        lockRotation: false
-        rotation: 0
-        alpha: 1
-        disposition: 1
-        displayBars: 0
-        bar1:
-          attribute: hp
-        bar2:
-          attribute: abilities.str
-        light:
-          negative: false
-          priority: 0
-          alpha: 0.5
-          angle: 360
-          bright: 0
-          color: null
-          coloration: 1
-          dim: 0
-          attenuation: 0.5
-          luminosity: 0.5
-          saturation: 0
-          contrast: 0
-          shadows: 0
-          animation:
-            type: null
-            speed: 5
-            intensity: 5
-            reverse: false
-          darkness:
-            min: 0
-            max: 1
-        sight:
-          enabled: true
-          range: 50
-          angle: 360
-          visionMode: basic
-          color: null
-          attenuation: 0.1
-          brightness: 0
-          saturation: 0
-          contrast: 0
-        detectionModes: {}
-        occludable:
-          radius: 0
-        ring:
-          enabled: false
-          colors:
-            ring: null
-            background: null
-          effects: 0
-          subject:
-            scale: 1
-            texture: null
-        turnMarker:
-          mode: 1
-          animation: null
-          src: null
-          disposition: false
-        movementAction: null
-        flags: {}
-        actorId: 7GJyFiE4GvqaCji4
-        hidden: false
-        sort: 0
-        shape: 4
-        _id: B84ph0Fto8XnQwzc
-        delta: null
-        x: 2800
-        'y': 1900
+      - shape:
+          type: r
+          width: 155
+          height: 137
+          radius: null
+          points: []
+        x: 1572.5
+        'y': 1231.5
         elevation: 0
-        locked: false
-        _movementHistory: []
-        _regions: []
-        depth: 1
-        level: defaultLevel0000
+        sort: 0
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0.1
+        strokeWidth: 0
+        strokeColor: '#ffffff'
+        strokeAlpha: 1
+        texture: null
+        text: '1'
+        fontFamily: Arial
+        fontSize: 80
+        textColor: '#b30000'
+        textAlpha: 1
+        hidden: true
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: italic
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        levels: []
+        _id: OkTdhgmPDBrgRtvv
+        author: KvKa5yVwb8zGmszo
+      - shape:
+          type: r
+          width: 650
+          height: 100
+          radius: null
+          points: []
+        x: 1925
+        'y': 1250
+        elevation: 0
+        sort: 0
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0.1
+        strokeWidth: 0
+        strokeColor: '#ffffff'
+        strokeAlpha: 1
+        texture: null
+        text: Rez-de-chaussée
+        fontFamily: Arial
+        fontSize: 80
+        textColor: '#b30000'
+        textAlpha: 1
+        hidden: true
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: italic
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: left
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: 11
+              dropShadowDistance: 0
+              dropShadowAngle: 45
+              dropShadowColor: '#ABABAB'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        levels: []
+        name: ''
+        _id: VVptoP6dd1KjLqt9
+        author: KvKa5yVwb8zGmszo
+      - shape:
+          type: r
+          width: 400
+          height: 100
+          radius: null
+          points: []
+        x: 2000
+        'y': 2750
+        elevation: 0
+        sort: 0
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0.1
+        strokeWidth: 0
+        strokeColor: '#ffffff'
+        strokeAlpha: 1
+        texture: null
+        text: 1er étage
+        fontFamily: Arial
+        fontSize: 80
+        textColor: '#b30000'
+        textAlpha: 1
+        hidden: true
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: italic
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: left
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: 11
+              dropShadowDistance: 0
+              dropShadowAngle: 45
+              dropShadowColor: '#ABABAB'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        levels: []
+        name: ''
+        _id: LIAp9wbJlbIEpIvT
+        author: KvKa5yVwb8zGmszo
+      - shape:
+          type: r
+          width: 155
+          height: 137
+          radius: null
+          points: []
+        x: 1573
+        'y': 1832
+        elevation: 0
+        sort: 0
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0.1
+        strokeWidth: 0
+        strokeColor: '#ffffff'
+        strokeAlpha: 1
+        texture: null
+        text: '2'
+        fontFamily: Arial
+        fontSize: 80
+        textColor: '#b30000'
+        textAlpha: 1
+        hidden: true
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: italic
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        levels: []
+        _id: RxYSO0twkGwRivLZ
+        name: ''
+        author: KvKa5yVwb8zGmszo
+      - shape:
+          type: r
+          width: 155
+          height: 137
+          radius: null
+          points: []
+        x: 1973
+        'y': 2182
+        elevation: 0
+        sort: 0
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0.1
+        strokeWidth: 0
+        strokeColor: '#ffffff'
+        strokeAlpha: 1
+        texture: null
+        text: '3'
+        fontFamily: Arial
+        fontSize: 80
+        textColor: '#b30000'
+        textAlpha: 1
+        hidden: true
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: italic
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        levels: []
+        _id: WJkXoUpF4m22Pdw7
+        name: ''
+        author: KvKa5yVwb8zGmszo
+      - shape:
+          type: r
+          width: 155
+          height: 137
+          radius: null
+          points: []
+        x: 1173
+        'y': 2132
+        elevation: 0
+        sort: 0
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0.1
+        strokeWidth: 0
+        strokeColor: '#ffffff'
+        strokeAlpha: 1
+        texture: null
+        text: '4'
+        fontFamily: Arial
+        fontSize: 80
+        textColor: '#b30000'
+        textAlpha: 1
+        hidden: true
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: italic
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        levels: []
+        _id: 2JcQyztiJgPC69Xf
+        name: ''
+        author: KvKa5yVwb8zGmszo
+      - shape:
+          type: r
+          width: 155
+          height: 137
+          radius: null
+          points: []
+        x: 1173
+        'y': 1532
+        elevation: 0
+        sort: 0
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0.1
+        strokeWidth: 0
+        strokeColor: '#ffffff'
+        strokeAlpha: 1
+        texture: null
+        text: '5'
+        fontFamily: Arial
+        fontSize: 80
+        textColor: '#b30000'
+        textAlpha: 1
+        hidden: true
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: italic
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        levels: []
+        _id: pxyN1m10OsLLy9UR
+        name: ''
+        author: KvKa5yVwb8zGmszo
+      - shape:
+          type: r
+          width: 155
+          height: 137
+          radius: null
+          points: []
+        x: 1973
+        'y': 1532
+        elevation: 0
+        sort: 0
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0.1
+        strokeWidth: 0
+        strokeColor: '#ffffff'
+        strokeAlpha: 1
+        texture: null
+        text: '6'
+        fontFamily: Arial
+        fontSize: 80
+        textColor: '#b30000'
+        textAlpha: 1
+        hidden: true
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: italic
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        levels: []
+        _id: zvoJdpUTHGyLAj9U
+        name: ''
+        author: KvKa5yVwb8zGmszo
+      - shape:
+          type: r
+          width: 155
+          height: 137
+          radius: null
+          points: []
+        x: 1956
+        'y': 1807
+        elevation: 0
+        sort: 0
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0.1
+        strokeWidth: 0
+        strokeColor: '#ffffff'
+        strokeAlpha: 1
+        texture: null
+        text: '7'
+        fontFamily: Arial
+        fontSize: 80
+        textColor: '#b30000'
+        textAlpha: 1
+        hidden: true
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: italic
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        levels: []
+        _id: 7eU8MuP0otCm2lS3
+        name: ''
+        author: KvKa5yVwb8zGmszo
+      - shape:
+          type: r
+          width: 155
+          height: 137
+          radius: null
+          points: []
+        x: 1973
+        'y': 3682
+        elevation: 0
+        sort: 0
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0.1
+        strokeWidth: 0
+        strokeColor: '#ffffff'
+        strokeAlpha: 1
+        texture: null
+        text: '8'
+        fontFamily: Arial
+        fontSize: 80
+        textColor: '#b30000'
+        textAlpha: 1
+        hidden: true
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: italic
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        levels: []
+        _id: Rfrd4iOauOmFefum
+        name: ''
+        author: KvKa5yVwb8zGmszo
+      - shape:
+          type: r
+          width: 155
+          height: 137
+          radius: null
+          points: []
+        x: 1973
+        'y': 3032
+        elevation: 0
+        sort: 0
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0.1
+        strokeWidth: 0
+        strokeColor: '#ffffff'
+        strokeAlpha: 1
+        texture: null
+        text: '9'
+        fontFamily: Arial
+        fontSize: 80
+        textColor: '#b30000'
+        textAlpha: 1
+        hidden: true
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: italic
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        levels: []
+        _id: LSKP9VtdMdS6BTJz
+        name: ''
+        author: KvKa5yVwb8zGmszo
+      - shape:
+          type: r
+          width: 155
+          height: 137
+          radius: null
+          points: []
+        x: 1172.5
+        'y': 3081.5
+        elevation: 0
+        sort: 0
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0.1
+        strokeWidth: 0
+        strokeColor: '#ffffff'
+        strokeAlpha: 1
+        texture: null
+        text: '10'
+        fontFamily: Arial
+        fontSize: 80
+        textColor: '#b30000'
+        textAlpha: 1
+        hidden: true
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: italic
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        levels: []
+        _id: Ghyq2D1CbiHigG5M
+        name: ''
+        author: KvKa5yVwb8zGmszo
+      - shape:
+          type: r
+          width: 155
+          height: 137
+          radius: null
+          points: []
+        x: 1173
+        'y': 3632
+        elevation: 0
+        sort: 0
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0.1
+        strokeWidth: 0
+        strokeColor: '#ffffff'
+        strokeAlpha: 1
+        texture: null
+        text: '11'
+        fontFamily: Arial
+        fontSize: 80
+        textColor: '#b30000'
+        textAlpha: 1
+        hidden: true
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: italic
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        levels: []
+        _id: YcSmHuMJA1c0azi8
+        name: ''
+        author: KvKa5yVwb8zGmszo
+      - shape:
+          type: r
+          width: 155
+          height: 137
+          radius: null
+          points: []
+        x: 2072.5
+        'y': 3331.5
+        elevation: 0
+        sort: 0
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0.1
+        strokeWidth: 0
+        strokeColor: '#ffffff'
+        strokeAlpha: 1
+        texture: null
+        text: '12'
+        fontFamily: Arial
+        fontSize: 80
+        textColor: '#b30000'
+        textAlpha: 1
+        hidden: true
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: italic
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        levels: []
+        _id: kCKs8NYjxOMsGGxK
+        name: ''
+        author: KvKa5yVwb8zGmszo
+      - shape:
+          type: r
+          width: 155
+          height: 137
+          radius: null
+          points: []
+        x: 2773
+        'y': 1882
+        elevation: 0
+        sort: 0
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0.1
+        strokeWidth: 0
+        strokeColor: '#ffffff'
+        strokeAlpha: 1
+        texture: null
+        text: '13'
+        fontFamily: Arial
+        fontSize: 80
+        textColor: '#b30000'
+        textAlpha: 1
+        hidden: true
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: italic
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        levels: []
+        _id: UBdjulejZ4chQMwF
+        name: ''
+        author: KvKa5yVwb8zGmszo
+      - shape:
+          type: r
+          width: 155
+          height: 137
+          radius: null
+          points: []
+        x: 2773
+        'y': 2132
+        elevation: 0
+        sort: 0
+        rotation: 0
+        bezierFactor: 0
+        fillType: 0
+        fillColor: '#ffffff'
+        fillAlpha: 0.1
+        strokeWidth: 0
+        strokeColor: '#ffffff'
+        strokeAlpha: 1
+        texture: null
+        text: '14'
+        fontFamily: Arial
+        fontSize: 80
+        textColor: '#b30000'
+        textAlpha: 1
+        hidden: true
+        locked: true
+        interface: false
+        flags:
+          advanced-drawing-tools:
+            invisible: false
+            lineStyle:
+              dash: null
+              dashEnabled: false
+            fillStyle:
+              texture:
+                width: null
+                height: null
+              transform:
+                position:
+                  x: 0
+                  'y': 0
+                pivot:
+                  x: 0
+                  'y': 0
+                scale:
+                  x: 1
+                  'y': 1
+                rotation: 0
+                skew:
+                  x: 0
+                  'y': 0
+            textStyle:
+              fontStyle: italic
+              fontVariant: normal
+              fontWeight: normal
+              leading: 0
+              letterSpacing: 0
+              wordWrapWidth: 100%
+              fillGradientType: 0
+              align: ''
+              stroke: ''
+              strokeThickness: null
+              dropShadow: true
+              dropShadowBlur: null
+              dropShadowDistance: 0
+              dropShadowAngle: 0
+              dropShadowColor: '#000000'
+              dropShadowAlpha: 1
+              arc: 0
+              fill: null
+              fillGradientStops: null
+        levels: []
+        _id: gIrFyMAW12sABWgH
+        name: ''
+        author: KvKa5yVwb8zGmszo
+    tokens: []
     lights: []
     notes:
       - entryId: I0jLQRFpKZfhQLRM
@@ -12520,7 +12505,7 @@ scenes:
         rotation: 0
         alpha: 1
         hidden: false
-        locked: false
+        locked: true
         restrictions:
           light: false
           weather: false
@@ -12562,6 +12547,74 @@ scenes:
           volume: 0
         flags: {}
         levels: []
+      - texture:
+          src: >-
+            modules/dg-boite-rouge-bleue/assets/dg-scenes/listes_salles/liste_albergo.webp
+          anchorX: 0.5
+          anchorY: 0.5
+          scaleX: 1
+          scaleY: 1
+          tint: '#ffffff'
+          fit: fill
+          alphaThreshold: 0.75
+        x: 2950
+        'y': 3550
+        width: 652
+        height: 1050
+        sort: 3
+        elevation: 0
+        levels:
+          - defaultLevel0000
+        alpha: 1
+        restrictions:
+          light: false
+          weather: false
+        occlusion:
+          modes: []
+          alpha: 0
+        video:
+          loop: true
+          autoplay: true
+          volume: 0
+        flags: {}
+        _id: 4wWxshUEoNB9sEdW
+        rotation: 0
+        hidden: false
+        locked: true
+      - texture:
+          src: >-
+            modules/dg-boite-rouge-bleue/assets/dg-scenes/listes_salles/dimension_case_1.5m_rouge.webp
+          anchorX: 0.5
+          anchorY: 0.5
+          scaleX: 1
+          scaleY: 1
+          tint: '#ffffff'
+          fit: fill
+          alphaThreshold: 0.75
+        x: 2775
+        'y': 2900
+        width: 240
+        height: 61
+        sort: 4
+        elevation: 0
+        levels:
+          - defaultLevel0000
+        alpha: 1
+        restrictions:
+          light: false
+          weather: false
+        occlusion:
+          modes: []
+          alpha: 0
+        video:
+          loop: true
+          autoplay: true
+          volume: 0
+        flags: {}
+        _id: eWrp7OASZkpbqE9c
+        rotation: 0
+        hidden: false
+        locked: true
     walls:
       - light: 20
         sight: 20
@@ -18865,6 +18918,40 @@ scenes:
           volume: 0
         flags: {}
         levels: []
+      - texture:
+          src: >-
+            modules/dg-boite-rouge-bleue/assets/dg-scenes/listes_salles/dimension_case_1.5m_rouge.webp
+          anchorX: 0.5
+          anchorY: 0.5
+          scaleX: 1
+          scaleY: 1
+          tint: '#ffffff'
+          fit: fill
+          alphaThreshold: 0.75
+        x: 1150
+        'y': 2163
+        width: 240
+        height: 61
+        sort: 5
+        elevation: 0
+        levels:
+          - defaultLevel0000
+        alpha: 1
+        restrictions:
+          light: false
+          weather: false
+        occlusion:
+          modes: []
+          alpha: 0
+        video:
+          loop: true
+          autoplay: true
+          volume: 0
+        flags: {}
+        _id: XlPtMfLjzBO950Hb
+        rotation: 0
+        hidden: false
+        locked: true
     walls:
       - light: 20
         sight: 20
@@ -20264,7 +20351,7 @@ scenes:
         _id: xML0hgLb6BweEdQH
         dir: 0
         door: 1
-        ds: 1
+        ds: 0
         threshold:
           light: null
           sight: null
@@ -20336,7 +20423,7 @@ scenes:
         _id: EQximh0VncuMZsMP
         dir: 0
         door: 1
-        ds: 1
+        ds: 0
         threshold:
           light: null
           sight: null
@@ -21560,7 +21647,7 @@ scenes:
         textColor: '#b30000'
         textAlpha: 1
         hidden: true
-        locked: false
+        locked: true
         interface: false
         flags:
           advanced-drawing-tools:
@@ -22479,7 +22566,7 @@ scenes:
         textColor: '#5e0599'
         textAlpha: 1
         hidden: true
-        locked: false
+        locked: true
         interface: false
         flags:
           advanced-drawing-tools:
@@ -22525,93 +22612,6 @@ scenes:
               arc: 0
               fill: null
               fillGradientStops: null
-        levels: []
-        author: KvKa5yVwb8zGmszo
-      - shape:
-          type: r
-          width: 2019
-          height: 2686
-          radius: null
-          points: []
-        x: 7331
-        'y': 6684
-        elevation: 0
-        sort: 0
-        rotation: 0
-        bezierFactor: 0
-        fillType: 0
-        fillColor: '#ffffff'
-        fillAlpha: 0.1
-        strokeWidth: 0
-        strokeColor: '#ffffff'
-        strokeAlpha: 1
-        texture: null
-        text: |-
-          1 - Escalier
-          2 - Vestibule
-          3 - Hall
-          4 - Foyer
-          5 - Cabinet des miroirs
-          6 - Salle du générateur
-          7 - Salle de théâtre
-          8 - Balcons
-          9 - Scène
-          10 - Salle des costumes
-          11 - Salle des Accessoires
-          12 - Chambre
-          13 - Loge
-        fontFamily: Arial
-        fontSize: 150
-        textColor: '#b30000'
-        textAlpha: 1
-        hidden: false
-        locked: true
-        interface: false
-        flags:
-          advanced-drawing-tools:
-            invisible: false
-            lineStyle:
-              dash: null
-              dashEnabled: false
-            fillStyle:
-              texture:
-                width: null
-                height: null
-              transform:
-                position:
-                  x: 0
-                  'y': 0
-                pivot:
-                  x: 0
-                  'y': 0
-                scale:
-                  x: 1
-                  'y': 1
-                rotation: 0
-                skew:
-                  x: 0
-                  'y': 0
-            textStyle:
-              fontStyle: italic
-              fontVariant: normal
-              fontWeight: normal
-              leading: 0
-              letterSpacing: 0
-              wordWrapWidth: 100%
-              fillGradientType: 0
-              align: left
-              stroke: ''
-              strokeThickness: null
-              dropShadow: true
-              dropShadowBlur: 11
-              dropShadowDistance: 0
-              dropShadowAngle: 45
-              dropShadowColor: '#ABABAB'
-              dropShadowAlpha: 1
-              arc: 0
-              fill: null
-              fillGradientStops: null
-        _id: wMcKBW0krzxlGFof
         levels: []
         author: KvKa5yVwb8zGmszo
     tokens: []
@@ -22749,6 +22749,74 @@ scenes:
           volume: 0
         flags: {}
         levels: []
+      - texture:
+          src: >-
+            modules/dg-boite-rouge-bleue/assets/dg-scenes/listes_salles/liste_theatre.webp
+          anchorX: 0.5
+          anchorY: 0.5
+          scaleX: 1
+          scaleY: 1
+          tint: '#ffffff'
+          fit: fill
+          alphaThreshold: 0.75
+        x: 8250
+        'y': 8100
+        width: 1717
+        height: 2400
+        sort: 4
+        elevation: 0
+        levels:
+          - defaultLevel0000
+        alpha: 1
+        restrictions:
+          light: false
+          weather: false
+        occlusion:
+          modes: []
+          alpha: 0
+        video:
+          loop: true
+          autoplay: true
+          volume: 0
+        flags: {}
+        _id: YLmXMZWwvffBJyAz
+        rotation: 0
+        hidden: false
+        locked: true
+      - texture:
+          src: >-
+            modules/dg-boite-rouge-bleue/assets/dg-scenes/listes_salles/dimension_case_1.5m_rouge.webp
+          anchorX: 0.5
+          anchorY: 0.5
+          scaleX: 1
+          scaleY: 1
+          tint: '#ffffff'
+          fit: fill
+          alphaThreshold: 0.75
+        x: 4922
+        'y': 9703
+        width: 720
+        height: 183
+        sort: 5
+        elevation: 0
+        levels:
+          - defaultLevel0000
+        alpha: 1
+        restrictions:
+          light: false
+          weather: false
+        occlusion:
+          modes: []
+          alpha: 0
+        video:
+          loop: true
+          autoplay: true
+          volume: 0
+        flags: {}
+        _id: RqlUAiWjOVgHTQHf
+        rotation: 0
+        hidden: false
+        locked: true
     walls:
       - light: 20
         sight: 20
@@ -27964,89 +28032,6 @@ scenes:
     drawings:
       - shape:
           type: r
-          width: 2502
-          height: 2141
-          radius: null
-          points: []
-        x: 7800
-        'y': 10500
-        elevation: 0
-        sort: -1
-        rotation: 0
-        bezierFactor: 0
-        fillType: 0
-        fillColor: '#ffffff'
-        fillAlpha: 0.1
-        strokeWidth: 0
-        strokeColor: '#ffffff'
-        strokeAlpha: 1
-        texture: null
-        text: |-
-          1 - Le dédale de couloirs
-
-
-
-
-          2 - Salle hypostyle
-          3 - Antre du serpent
-          4 - Galerie du zodiaque
-          5 - Chambre de l'oeil
-        fontFamily: Arial
-        fontSize: 200
-        textColor: '#b30000'
-        textAlpha: 1
-        hidden: false
-        locked: true
-        interface: false
-        flags:
-          advanced-drawing-tools:
-            invisible: false
-            lineStyle:
-              dash: null
-              dashEnabled: false
-            fillStyle:
-              texture:
-                width: null
-                height: null
-              transform:
-                position:
-                  x: 0
-                  'y': 0
-                pivot:
-                  x: 0
-                  'y': 0
-                scale:
-                  x: 1
-                  'y': 1
-                rotation: 0
-                skew:
-                  x: 0
-                  'y': 0
-            textStyle:
-              fontStyle: italic
-              fontVariant: normal
-              fontWeight: normal
-              leading: 0
-              letterSpacing: 0
-              wordWrapWidth: 100%
-              fillGradientType: 0
-              align: left
-              stroke: ''
-              strokeThickness: null
-              dropShadow: true
-              dropShadowBlur: 11
-              dropShadowDistance: 0
-              dropShadowAngle: 45
-              dropShadowColor: '#ABABAB'
-              dropShadowAlpha: 1
-              arc: 0
-              fill: null
-              fillGradientStops: null
-        _id: 7GJNXjXnoha1ZLPi
-        levels: []
-        author: KvKa5yVwb8zGmszo
-      - shape:
-          type: r
           width: 155
           height: 137
           radius: null
@@ -29041,84 +29026,6 @@ scenes:
         _id: abXIbfOx73bvqXDl
         levels: []
         author: KvKa5yVwb8zGmszo
-      - shape:
-          type: r
-          width: 1466
-          height: 675
-          radius: null
-          points: []
-        x: 8034.375
-        'y': 10846.875
-        elevation: 0
-        sort: 0
-        rotation: 0
-        bezierFactor: 0
-        fillType: 0
-        fillColor: '#ffffff'
-        fillAlpha: 0.1
-        strokeWidth: 0
-        strokeColor: '#ffffff'
-        strokeAlpha: 1
-        texture: null
-        text: |-
-          A. Passage
-          B. Algues tueuses
-          C. Cadavres
-          D. Algues géantes
-        fontFamily: Times
-        fontSize: 190
-        textColor: '#b30000'
-        textAlpha: 1
-        hidden: false
-        locked: true
-        interface: false
-        flags:
-          advanced-drawing-tools:
-            invisible: false
-            lineStyle:
-              dash: null
-              dashEnabled: false
-            fillStyle:
-              texture:
-                width: null
-                height: null
-              transform:
-                position:
-                  x: 0
-                  'y': 0
-                pivot:
-                  x: 0
-                  'y': 0
-                scale:
-                  x: 1
-                  'y': 1
-                rotation: 0
-                skew:
-                  x: 0
-                  'y': 0
-            textStyle:
-              fontStyle: normal
-              fontVariant: normal
-              fontWeight: normal
-              leading: 0
-              letterSpacing: 0
-              wordWrapWidth: 100%
-              fillGradientType: 0
-              align: left
-              stroke: ''
-              strokeThickness: null
-              dropShadow: true
-              dropShadowBlur: 11
-              dropShadowDistance: 0
-              dropShadowAngle: 45
-              dropShadowColor: '#ABABAB'
-              dropShadowAlpha: 1
-              arc: 0
-              fill: null
-              fillGradientStops: null
-        _id: ieIN9di4TXyqqX9h
-        levels: []
-        author: KvKa5yVwb8zGmszo
     tokens: []
     lights:
       - _id: 3mCOAqNbbgS743tp
@@ -29353,6 +29260,74 @@ scenes:
           volume: 0
         flags: {}
         levels: []
+      - texture:
+          src: >-
+            modules/dg-boite-rouge-bleue/assets/dg-scenes/listes_salles/liste_citerne.webp
+          anchorX: 0.5
+          anchorY: 0.5
+          scaleX: 1
+          scaleY: 1
+          tint: '#ffffff'
+          fit: fill
+          alphaThreshold: 0.75
+        x: 10725
+        'y': 13500
+        width: 3188
+        height: 3450
+        sort: 3
+        elevation: 0
+        levels:
+          - defaultLevel0000
+        alpha: 1
+        restrictions:
+          light: false
+          weather: false
+        occlusion:
+          modes: []
+          alpha: 0
+        video:
+          loop: true
+          autoplay: true
+          volume: 0
+        flags: {}
+        _id: 1P0L65qOAqLTAFa1
+        rotation: 0
+        hidden: false
+        locked: true
+      - texture:
+          src: >-
+            modules/dg-boite-rouge-bleue/assets/dg-scenes/listes_salles/dimension_case_1.5m_rouge.webp
+          anchorX: 0.5
+          anchorY: 0.5
+          scaleX: 1
+          scaleY: 1
+          tint: '#ffffff'
+          fit: fill
+          alphaThreshold: 0.75
+        x: 8878
+        'y': 6441
+        width: 720
+        height: 183
+        sort: 4
+        elevation: 0
+        levels:
+          - defaultLevel0000
+        alpha: 1
+        restrictions:
+          light: false
+          weather: false
+        occlusion:
+          modes: []
+          alpha: 0
+        video:
+          loop: true
+          autoplay: true
+          volume: 0
+        flags: {}
+        _id: SOhnznkWSI2eoKMB
+        rotation: 0
+        hidden: false
+        locked: true
     walls:
       - light: 20
         sight: 20
@@ -57757,87 +57732,6 @@ scenes:
         levels: []
         author: KvKa5yVwb8zGmszo
       - shape:
-          type: r
-          width: 1823
-          height: 1124
-          radius: null
-          points: []
-        x: 4294
-        'y': 1359
-        elevation: 0
-        sort: -1
-        rotation: 0
-        bezierFactor: 0
-        fillType: 0
-        fillColor: '#ffffff'
-        fillAlpha: 0.1
-        strokeWidth: 0
-        strokeColor: '#ffffff'
-        strokeAlpha: 1
-        texture: null
-        text: |-
-          1 - Escalier blanc
-          2 - Salle des tables de jeu
-          3 - Repaire du chat noir
-          4 - Salle du jeu de la Force
-          5 - Salle du jeu de la Dextérité
-          6 - Salle du jeu de la Volonté
-          7 - Bar du Pendu
-        fontFamily: Arial
-        fontSize: 130
-        textColor: '#b30000'
-        textAlpha: 1
-        hidden: false
-        locked: true
-        interface: false
-        flags:
-          advanced-drawing-tools:
-            invisible: false
-            lineStyle:
-              dash: null
-              dashEnabled: false
-            fillStyle:
-              texture:
-                width: null
-                height: null
-              transform:
-                position:
-                  x: 0
-                  'y': 0
-                pivot:
-                  x: 0
-                  'y': 0
-                scale:
-                  x: 1
-                  'y': 1
-                rotation: 0
-                skew:
-                  x: 0
-                  'y': 0
-            textStyle:
-              fontStyle: italic
-              fontVariant: normal
-              fontWeight: normal
-              leading: 0
-              letterSpacing: 0
-              wordWrapWidth: 100%
-              fillGradientType: 0
-              align: left
-              stroke: ''
-              strokeThickness: null
-              dropShadow: true
-              dropShadowBlur: 11
-              dropShadowDistance: 0
-              dropShadowAngle: 45
-              dropShadowColor: '#ABABAB'
-              dropShadowAlpha: 1
-              arc: 0
-              fill: null
-              fillGradientStops: null
-        _id: LM0lPC0eq424LU2C
-        levels: []
-        author: KvKa5yVwb8zGmszo
-      - shape:
           type: p
           width: 113
           height: 103
@@ -58769,7 +58663,7 @@ scenes:
         textColor: '#5e0599'
         textAlpha: 1
         hidden: false
-        locked: false
+        locked: true
         interface: false
         flags:
           advanced-drawing-tools:
@@ -58842,7 +58736,7 @@ scenes:
         textColor: '#b30000'
         textAlpha: 1
         hidden: false
-        locked: false
+        locked: true
         interface: false
         flags:
           advanced-drawing-tools:
@@ -58920,7 +58814,7 @@ scenes:
         textColor: '#5e0599'
         textAlpha: 1
         hidden: false
-        locked: false
+        locked: true
         interface: false
         flags:
           advanced-drawing-tools:
@@ -58998,7 +58892,7 @@ scenes:
         textColor: '#5e0599'
         textAlpha: 1
         hidden: false
-        locked: false
+        locked: true
         interface: false
         flags:
           advanced-drawing-tools:
@@ -59076,7 +58970,7 @@ scenes:
         textColor: '#5e0599'
         textAlpha: 1
         hidden: false
-        locked: false
+        locked: true
         interface: false
         flags:
           advanced-drawing-tools:
@@ -59154,7 +59048,7 @@ scenes:
         textColor: '#5e0599'
         textAlpha: 1
         hidden: false
-        locked: false
+        locked: true
         interface: false
         flags:
           advanced-drawing-tools:
@@ -59230,7 +59124,7 @@ scenes:
         textColor: '#b30000'
         textAlpha: 1
         hidden: false
-        locked: false
+        locked: true
         interface: false
         flags:
           advanced-drawing-tools:
@@ -59310,7 +59204,7 @@ scenes:
         textColor: '#5e0599'
         textAlpha: 1
         hidden: false
-        locked: false
+        locked: true
         interface: false
         flags:
           advanced-drawing-tools:
@@ -59561,6 +59455,74 @@ scenes:
           volume: 0
         flags: {}
         levels: []
+      - texture:
+          src: >-
+            modules/dg-boite-rouge-bleue/assets/dg-scenes/listes_salles/liste_casino.webp
+          anchorX: 0.5
+          anchorY: 0.5
+          scaleX: 1
+          scaleY: 1
+          tint: '#ffffff'
+          fit: fill
+          alphaThreshold: 0.75
+        x: 5175
+        'y': 1875
+        width: 1724
+        height: 1050
+        sort: 3
+        elevation: 0
+        levels:
+          - defaultLevel0000
+        alpha: 1
+        restrictions:
+          light: false
+          weather: false
+        occlusion:
+          modes: []
+          alpha: 0
+        video:
+          loop: true
+          autoplay: true
+          volume: 0
+        flags: {}
+        _id: 7P5AF2CQBucfv90P
+        rotation: 0
+        hidden: false
+        locked: true
+      - texture:
+          src: >-
+            modules/dg-boite-rouge-bleue/assets/dg-scenes/listes_salles/dimension_case_1.5m_rouge.webp
+          anchorX: 0.5
+          anchorY: 0.5
+          scaleX: 1
+          scaleY: 1
+          tint: '#ffffff'
+          fit: fill
+          alphaThreshold: 0.75
+        x: 1266
+        'y': 2091
+        width: 450
+        height: 114
+        sort: 4
+        elevation: 0
+        levels:
+          - defaultLevel0000
+        alpha: 1
+        restrictions:
+          light: false
+          weather: false
+        occlusion:
+          modes: []
+          alpha: 0
+        video:
+          loop: true
+          autoplay: true
+          volume: 0
+        flags: {}
+        _id: KTRpZuFJY0xExEsO
+        rotation: 0
+        hidden: false
+        locked: true
     walls:
       - light: 20
         sight: 20
@@ -63809,162 +63771,6 @@ scenes:
         _id: gIwkse9smxoWPy6K
         levels: []
         author: KvKa5yVwb8zGmszo
-      - shape:
-          type: r
-          width: 2073
-          height: 1412
-          radius: null
-          points: []
-        x: 3937.5
-        'y': 7612.5
-        elevation: 0
-        sort: 0
-        rotation: 0
-        bezierFactor: 0
-        fillType: 0
-        fillColor: '#ffffff'
-        fillAlpha: 0.1
-        strokeWidth: 0
-        strokeColor: '#ffffff'
-        strokeAlpha: 1
-        texture: null
-        text: |-
-          1 - Escalier
-          2 - Pièce secrète
-          3 - Rotonde
-          4 - Salle de réunion
-          5 - Bureau du directeur
-          6 - Salle des caryatides
-          7 - Hall de la salle des coffres
-          8 - Salle des coffres
-        fontFamily: Arial
-        fontSize: 150
-        textColor: '#b30000'
-        textAlpha: 1
-        hidden: false
-        locked: false
-        interface: false
-        flags:
-          advanced-drawing-tools:
-            invisible: false
-            lineStyle:
-              dash: null
-              dashEnabled: false
-            fillStyle:
-              texture:
-                width: null
-                height: null
-              transform:
-                position:
-                  x: 0
-                  'y': 0
-                pivot:
-                  x: 0
-                  'y': 0
-                scale:
-                  x: 1
-                  'y': 1
-                rotation: 0
-                skew:
-                  x: 0
-                  'y': 0
-            textStyle:
-              fontStyle: italic
-              fontVariant: normal
-              fontWeight: normal
-              leading: 0
-              letterSpacing: 0
-              wordWrapWidth: 100%
-              fillGradientType: 0
-              align: left
-              stroke: ''
-              strokeThickness: null
-              dropShadow: true
-              dropShadowBlur: 11
-              dropShadowDistance: 0
-              dropShadowAngle: 45
-              dropShadowColor: '#ABABAB'
-              dropShadowAlpha: 1
-              arc: 0
-              fill: null
-              fillGradientStops: null
-        _id: QJ4fzO5F1e6PVnVZ
-        levels: []
-        author: KvKa5yVwb8zGmszo
-      - shape:
-          type: r
-          width: 1274
-          height: 258
-          radius: null
-          points: []
-        x: 2353.125
-        'y': 2803.125
-        elevation: 0
-        sort: 0
-        rotation: 0
-        bezierFactor: 0
-        fillType: 0
-        fillColor: '#ffffff'
-        fillAlpha: 0.1
-        strokeWidth: 0
-        strokeColor: '#ffffff'
-        strokeAlpha: 1
-        texture: null
-        text: 1 - Salle du trésor
-        fontFamily: Arial
-        fontSize: 150
-        textColor: '#b30000'
-        textAlpha: 1
-        hidden: false
-        locked: true
-        interface: false
-        flags:
-          advanced-drawing-tools:
-            invisible: false
-            lineStyle:
-              dash: null
-              dashEnabled: false
-            fillStyle:
-              texture:
-                width: null
-                height: null
-              transform:
-                position:
-                  x: 0
-                  'y': 0
-                pivot:
-                  x: 0
-                  'y': 0
-                scale:
-                  x: 1
-                  'y': 1
-                rotation: 0
-                skew:
-                  x: 0
-                  'y': 0
-            textStyle:
-              fontStyle: italic
-              fontVariant: normal
-              fontWeight: normal
-              leading: 0
-              letterSpacing: 0
-              wordWrapWidth: 100%
-              fillGradientType: 0
-              align: left
-              stroke: ''
-              strokeThickness: null
-              dropShadow: true
-              dropShadowBlur: 11
-              dropShadowDistance: 0
-              dropShadowAngle: 45
-              dropShadowColor: '#ABABAB'
-              dropShadowAlpha: 1
-              arc: 0
-              fill: null
-              fillGradientStops: null
-        _id: eS6U0f2aLKZPHYe6
-        levels: []
-        author: KvKa5yVwb8zGmszo
     tokens: []
     lights:
       - x: 5046
@@ -64305,6 +64111,110 @@ scenes:
           volume: 0
         flags: {}
         levels: []
+      - texture:
+          src: >-
+            modules/dg-boite-rouge-bleue/assets/dg-scenes/listes_salles/liste_banque_bis_1.webp
+          anchorX: 0.5
+          anchorY: 0.5
+          scaleX: 1
+          scaleY: 1
+          tint: '#ffffff'
+          fit: fill
+          alphaThreshold: 0.75
+        x: 4950
+        'y': 8250
+        width: 1848
+        height: 1314
+        sort: 9
+        elevation: 0
+        levels:
+          - defaultLevel0000
+        alpha: 1
+        restrictions:
+          light: false
+          weather: false
+        occlusion:
+          modes: []
+          alpha: 0
+        video:
+          loop: true
+          autoplay: true
+          volume: 0
+        flags: {}
+        _id: MdSAoUneQJea31OO
+        rotation: 0
+        hidden: false
+        locked: true
+        name: ''
+      - texture:
+          src: >-
+            modules/dg-boite-rouge-bleue/assets/dg-scenes/listes_salles/liste_banque_bis_2.webp
+          anchorX: 0.5
+          anchorY: 0.5
+          scaleX: 1
+          scaleY: 1
+          tint: '#ffffff'
+          fit: fill
+          alphaThreshold: 0.75
+        x: 3000
+        'y': 3075
+        width: 1227
+        height: 162
+        sort: 10
+        elevation: 0
+        levels:
+          - defaultLevel0000
+        alpha: 1
+        restrictions:
+          light: false
+          weather: false
+        occlusion:
+          modes: []
+          alpha: 0
+        video:
+          loop: true
+          autoplay: true
+          volume: 0
+        flags: {}
+        _id: 1OCILXZkDKKeSWwD
+        rotation: 0
+        hidden: false
+        locked: true
+        name: ''
+      - texture:
+          src: >-
+            modules/dg-boite-rouge-bleue/assets/dg-scenes/listes_salles/dimension_case_1.5m_rouge.webp
+          anchorX: 0.5
+          anchorY: 0.5
+          scaleX: 1
+          scaleY: 1
+          tint: '#ffffff'
+          fit: fill
+          alphaThreshold: 0.75
+        x: 3319
+        'y': 9591
+        width: 514
+        height: 131
+        sort: 11
+        elevation: 0
+        levels:
+          - defaultLevel0000
+        alpha: 1
+        restrictions:
+          light: false
+          weather: false
+        occlusion:
+          modes: []
+          alpha: 0
+        video:
+          loop: true
+          autoplay: true
+          volume: 0
+        flags: {}
+        _id: XljRCrEfKWmeaziR
+        rotation: 0
+        hidden: false
+        locked: true
     walls:
       - light: 20
         sight: 20
@@ -68105,7 +68015,7 @@ folders:
     flags: {}
     _stats:
       compendiumSource: Folder.40Sy1HIb6Mpb5pWf
-      duplicateSource: null
+      duplicateSource: Folder.40Sy1HIb6Mpb5pWf
       exportSource: null
       coreVersion: '14.364'
       systemId: dangerousgary
@@ -68143,6 +68053,6 @@ _stats:
   systemId: dangerousgary
   systemVersion: '#{VERSION}#'
   createdTime: 1773686639098
-  modifiedTime: 1784332047595
+  modifiedTime: 1784502856651
   lastModifiedBy: KvKa5yVwb8zGmszo
 _key: '!adventures!6C9qNiPNJky9174N'
