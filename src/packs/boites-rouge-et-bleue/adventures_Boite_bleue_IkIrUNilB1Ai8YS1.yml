@@ -12130,7 +12130,8 @@ scenes:
     _id: 4b645aAhVbD62FsK
     navigation: true
     navOrder: 0
-    thumb: modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/thumb-bibliotheque.webp
+    thumb: >-
+      modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/thumb-bibliotheque.webp
     width: 5500
     height: 6800
     padding: 0.1
@@ -39602,7 +39603,8 @@ scenes:
     _id: vWKaCoB2hvZw7X5y
     navigation: true
     navOrder: 0
-    thumb: modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/thumb-chambre-bleue.webp
+    thumb: >-
+      modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/thumb-chambre-bleue.webp
     width: 3150
     height: 3600
     padding: 0.1
