@@ -534,7 +534,7 @@ scenes:
     name: La Banque
     navigation: false
     thumb: >-
-      modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/G0ERf77GSwW0nkvB-thumb.webp
+      modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/thumb-banque.webp
     width: 6900
     height: 9750
     padding: 0.1
@@ -10374,7 +10374,7 @@ scenes:
   - name: l'Albergo
     navigation: false
     thumb: >-
-      modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/53mjbACcLgTiaFom-thumb.webp
+      modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/thumb-albergo.webp
     width: 2600
     height: 3500
     padding: 0.25
@@ -16660,7 +16660,7 @@ scenes:
   - name: l'Appartement
     navigation: false
     thumb: >-
-      modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/7HOXzj3flvYgbE83-thumb.webp
+      modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/thumb-appartement.webp
     width: 3300
     height: 2300
     padding: 0.25
@@ -21183,7 +21183,7 @@ scenes:
     _id: BGZIIhKjQozxd17e
     navigation: true
     navOrder: 0
-    thumb: worlds/dg-boite-bleue/assets/scenes/thumb-zJVLCfQNTe-cgZ4CDySDfg.webp
+    thumb: modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/thumb-theatre.webp
     width: 7500
     height: 10500
     padding: 0.25
@@ -27977,7 +27977,7 @@ scenes:
     _id: veW5bm78wO0SfNSn
     navigation: true
     navOrder: 0
-    thumb: worlds/dg-boite-bleue/assets/scenes/thumb-Fw7W5EEuHAvtZ55h_Vavmg.webp
+    thumb: modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/thumb-citerne.webp
     width: 11550
     height: 15000
     padding: 0.1
@@ -57268,7 +57268,7 @@ scenes:
     _id: cQFCtXysXOaPHtyV
     navigation: true
     navOrder: 0
-    thumb: worlds/dg-boite-bleue/assets/scenes/thumb-wKan-bEvgwY5r5zGNhBeig.webp
+    thumb: modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/thumb-casino.webp
     width: 5250
     height: 5250
     padding: 0.15
@@ -62824,7 +62824,7 @@ scenes:
     _id: LppTFSCymycvEqtX
     navigation: true
     navOrder: 0
-    thumb: worlds/dg-boite-bleue/assets/scenes/thumb-s2auCZ7yF3_EQn8ulmS-zQ.webp
+    thumb: modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/thumb-banquebis.webp
     width: 5100
     height: 8550
     padding: 0.15

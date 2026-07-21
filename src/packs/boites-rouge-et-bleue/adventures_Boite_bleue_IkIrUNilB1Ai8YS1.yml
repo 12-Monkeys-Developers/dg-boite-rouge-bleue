@@ -12,7 +12,7 @@ scenes:
     _id: 3kaXhBuWhTSBMC9g
     navigation: true
     navOrder: 0
-    thumb: worlds/dg-boite-bleue/assets/scenes/thumb-j8XfkN75P_5srxV9fBXDRA.webp
+    thumb: modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/thumb-mall.webp
     width: 4800
     height: 6600
     padding: 0.1
@@ -12130,7 +12130,7 @@ scenes:
     _id: 4b645aAhVbD62FsK
     navigation: true
     navOrder: 0
-    thumb: worlds/dg-boite-bleue/assets/scenes/thumb-hHk7YsGcwayZcM_sOkBH3g.webp
+    thumb: modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/thumb-bibliotheque.webp
     width: 5500
     height: 6800
     padding: 0.1
@@ -39602,7 +39602,7 @@ scenes:
     _id: vWKaCoB2hvZw7X5y
     navigation: true
     navOrder: 0
-    thumb: worlds/dg-boite-bleue/assets/scenes/thumb-thUKHpbkBKVu72arTGnSQQ.webp
+    thumb: modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/thumb-chambre-bleue.webp
     width: 3150
     height: 3600
     padding: 0.1
@@ -41760,7 +41760,7 @@ playlists: []
 folders:
   - type: Scene
     folder: null
-    name: Boite Bleue
+    name: Boite bleue
     color: null
     sorting: a
     _id: AcdAdNXlOuMPUCRK
