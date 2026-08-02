@@ -41760,7 +41760,7 @@ scenes:
     _id: Ev0CUTsW2xjdu9z6
     navigation: true
     navOrder: 0
-    thumb: worlds/dg-boite-bleue/assets/scenes/thumb-KLlj62OpsfwZDqiE_841yw.webp
+    thumb: modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/thumb-salle-cartes.webp
     width: 4700
     height: 3300
     padding: 0.2
@@ -45506,7 +45506,7 @@ scenes:
     _id: AzloH5wnw7WGTJPe
     navigation: true
     navOrder: 0
-    thumb: worlds/dg-boite-bleue/assets/scenes/thumb-e-MJakl0BipUo0pc1Fx1mA.webp
+    thumb: modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/thumb-monastere-sainte-barbe.webp
     width: 9300
     height: 6450
     padding: 0.2
