@@ -715,7 +715,7 @@ items:
       exportSource: null
 journal:
   - folder: mzBsD4FM83eRyFPG
-    name: l’Albergo
+    name: L'Albergo
     _id: I0jLQRFpKZfhQLRM
     pages:
       - sort: 100000
@@ -1738,6 +1738,636 @@ journal:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+  - folder: mzBsD4FM83eRyFPG
+    name: L'Appartement
+    _id: CWkk7YAE1CvvR7t7
+    pages:
+      - sort: 100000
+        name: 1 - Le salon
+        type: text
+        _id: Ux0rJ3vr2j8pF8e6
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <p>Le salon est une pièce d’une trentaine de mètres carrés. Les murs
+            sont décorés d’un papier peint à motifs géométriques jaunes et verts
+            parfois déchiré. Le sol est recouvert d’un parquet à chevron et de
+            tapis en mousseline rouge. Des coussins en velours de la même
+            couleur sont posés sur une grande banquette en bois trônant au
+            milieu de la pièce. Une tablette en verre et en laiton supporte une
+            platine disque et une trentaine de pochettes de vinyles
+            multicolores. Un grand lampadaire de bois peint émet une lumière
+            diffuse.</p>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+          Ulflv2WY2wcJ69LV: 3
+        flags: {}
+        _stats:
+          coreVersion: '14.365'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - sort: 200000
+        name: 2 - La chambre
+        type: text
+        _id: cNkpcTvbt1p63QMc
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <p>La chambre est occupée par un grand lit recouvert d’un plaid
+            orange et élimé. Les draps sont défaits et encore tièdes, comme si
+            quelqu’un les avait quittés à l’instant. Des photographies sont
+            punaisées sur les murs.</p>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+          Ulflv2WY2wcJ69LV: 3
+        flags: {}
+        _stats:
+          coreVersion: '14.365'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - sort: 300000
+        name: 3 - Les escaliers
+        type: text
+        _id: 2HDr5uxS3zR4rFBk
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <p>La porte de l’appartement est en bois massif. Elle donne sur une
+            cage d’escalier, éclairée par une minuterie. Les murs sont
+            badigeonnés d’un plâtre maronnasse qui se détache par plaques. Il y
+            a trois étages au-dessus du palier, et six en dessous. Ils ne
+            desservent aucun autre appartement. </p><p>La Porte ouverte par
+            Laurent grâce à la Place de Théâtre est située à l’étage le plus
+            bas.</p><p>• La Porte : elle comporte deux battants en bois,
+            surmontés par un fronton triangulaire en marbre soutenu par deux
+            statues féminines vêtues à l’antique. La statue de gauche arbore un
+            masque comique, celle de droite un masque tragique. L’ensemble
+            irradie une lumière bleutée. Aucune Clé n’est nécessaire pour
+            franchir la Porte.</p>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+          Ulflv2WY2wcJ69LV: 3
+        flags: {}
+        _stats:
+          coreVersion: '14.365'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+    categories: []
+    sort: 200000
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: dangerousgary
+      systemVersion: '#{VERSION}#'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+  - folder: mzBsD4FM83eRyFPG
+    name: Le Théâtre
+    _id: PNCg7qMZE4WYTzIP
+    pages:
+      - sort: 100000
+        name: 1 - L'escalier de marbre
+        type: text
+        _id: D937RguCycSa5qfD
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <p>La Porte donne sur un étroit escalier de marbre blanc et gris
+            descendant jusqu’au vestibule (2).</p>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+          Ulflv2WY2wcJ69LV: 3
+        flags: {}
+        _stats:
+          coreVersion: '14.365'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - sort: 200000
+        name: 2 - Le vestibule
+        type: text
+        _id: Vjx509GuiIFhY2K1
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <p>Le vestibule est immense, et ses murs sont entièrement recouverts
+            de plaques de marbres multicolores, séparées par d’étroits
+            pilastres. Le plafond s’élève à près de huit mètres de haut et prend
+            la forme d’une série de coupoles auxquelles sont suspendus des
+            lustres de cristal poussiéreux. </p><p>À l’est, deux portes à double
+            battant sont fermées. Chacune est défendue par deux terribles
+            ouvreuses. Dans le mur ouest, un large escalier en marbre descend
+            vers @UUID[.amXhMAOmDxaVq6CJ]{3 - Le hall}, un autre monte vers
+            @UUID[.DTtnZ4Dpghma6iKB]{4 - Le foyer}.</p>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+          Ulflv2WY2wcJ69LV: 3
+        flags: {}
+        _stats:
+          coreVersion: '14.365'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - sort: 300000
+        name: 3 - Le hall
+        type: text
+        _id: amXhMAOmDxaVq6CJ
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <p>Le hall est une vaste pièce aux murs recouverts de panneaux de
+            marbre. Les statues monumentales de deux femmes assises, identiques
+            à celles qui encadrent la Porte du Donjon, en occupent le
+            centre.</p>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+          Ulflv2WY2wcJ69LV: 3
+        flags: {}
+        _stats:
+          coreVersion: '14.365'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - sort: 400000
+        name: 4 - Le foyer
+        type: text
+        _id: DTtnZ4Dpghma6iKB
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <p>Le foyer a les mêmes dimensions que @UUID[.amXhMAOmDxaVq6CJ]{3 -
+            Le hall}. Les murs sont décorés de fresques représentant des scènes
+            d’inspiration médiévale. Une grande table de bois sombre occupe le
+            coin sud-ouest. Deux corbeilles de marbre y sont déposées. Un lourd
+            braséro de bronze est dressé au centre de la salle.</p>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+          Ulflv2WY2wcJ69LV: 3
+        flags: {}
+        _stats:
+          coreVersion: '14.365'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - sort: 500000
+        name: 5 - Le cabinet des miroirs
+        type: text
+        _id: PZv8Ofc98VcuqQgq
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <p>Le cabinet est octogonal et n’abrite aucun meuble. Ses murs de
+            six mètres de haut sont tapissés de miroirs de toutes les tailles et
+            de toutes les formes. Ils sont scellés au mur et il est impossible
+            de les décrocher.</p>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+          Ulflv2WY2wcJ69LV: 3
+        flags: {}
+        _stats:
+          coreVersion: '14.365'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - sort: 600000
+        name: 6 - La salle du générateur
+        type: text
+        _id: VGQPKftkLnf4JzDE
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <p>Les deux portes en bois de la salle du générateur sont fermées.
+            Il est possible de les ouvrir avec du matériel de crochetage (1
+            point d’équipement) ou un pied de biche (1 point d’équipement). À
+            l’intérieur, on trouve une machinerie complexe faite de tubes, de
+            cadrans et d’engrenages de cuivre et d’acier. Une petite fenêtre
+            rectangulaire permet d’observer @UUID[.6IzaN9uhKNFbEApy]{7 - La
+            salle de théâtre}, située en contrebas.</p>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+          Ulflv2WY2wcJ69LV: 3
+        flags: {}
+        _stats:
+          coreVersion: '14.365'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - sort: 700000
+        name: 7 - La salle de théâtre
+        type: text
+        _id: 6IzaN9uhKNFbEApy
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <p>La salle de théâtre, à l’italienne, ressemble à la salle
+            Richelieu de la Comédie française. L’ensemble est en piteux état :
+            les fauteuils sont recouverts de moisissure et les murs ruissellent
+            d’humidité. Une forte odeur de pourriture sature l’atmosphère.</p>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+          Ulflv2WY2wcJ69LV: 3
+        flags: {}
+        _stats:
+          coreVersion: '14.365'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - sort: 800000
+        name: 8 - Les balcons
+        type: text
+        _id: WlcHK1URrhDTk5fj
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <p>Un escalier en spirale mène à une petite coursive permettant
+            d’accéder à deux loges placées du côté gauche de la scène. Chacune
+            est fermée par une lourde porte de bois.</p>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+          Ulflv2WY2wcJ69LV: 3
+        flags: {}
+        _stats:
+          coreVersion: '14.365'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - sort: 900000
+        name: 9 - La scène
+        type: text
+        _id: PVz2opPkZqxeVETm
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <p>De @UUID[.6IzaN9uhKNFbEApy]{7 -la salle de théâtre}, on monte sur
+            la scène par un petit escalier de quelques marches. Le décor est
+            celui d’un chalet de montagne. Une fenêtre est peinte sur le mur du
+            fond : on distingue une forêt et un pic enneigé. Le mobilier se
+            résume à une table et cinq chaises en bois. Au bout d’une minute, le
+            décor semble prendre vie : la salle de théâtre disparaît pour être
+            remplacée par un mur de lambris, la température baisse, et les PJ
+            croient entendre le vent souffler « à l’extérieur ». La fenêtre est
+            désormais bien réelle. Dès que les donjexeurs quittent la scène, le
+            décor reprend son apparence normale.</p>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+          Ulflv2WY2wcJ69LV: 3
+        flags: {}
+        _stats:
+          coreVersion: '14.365'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - sort: 1000000
+        name: 10 - La salle des costumes
+        type: text
+        _id: H7jnk7UoEuxWoGpa
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <p>La salle des costumes contient une soixantaine de mannequins en
+            bois. Ils portent des costumes de personnages médiévaux rappelant
+            les classes de Talent. Les tenues sont monochromes : orange pour les
+            bardes, roses pour les clercs, rouges pour les guerriers, jaunes
+            pour les moines, bleues pour les magiciens, blanches pour les
+            paladins, brunes pour les rôdeurs et noires pour les voleurs.</p>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+          Ulflv2WY2wcJ69LV: 3
+        flags: {}
+        _stats:
+          coreVersion: '14.365'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - sort: 1100000
+        name: 11 - La salle des accessoires
+        type: text
+        _id: r8C9qlpCwBeJbzZB
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <p>La salle des accessoires est une pièce rectangulaire de taille
+            identique à @UUID[.H7jnk7UoEuxWoGpa]{10 - La salle des costumes}.
+            Elle est encombrée de tout un bric-à-brac de meubles, d’accessoires
+            de théâtre, et de fragments de décors.</p>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+          Ulflv2WY2wcJ69LV: 3
+        flags: {}
+        _stats:
+          coreVersion: '14.365'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - sort: 1200000
+        name: 12 - La chambre
+        type: text
+        _id: mfQmHCLcgfS19xEt
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <p>La chambre est une salle circulaire d’une dizaine de mètres de
+            diamètre, dont les murs sont recouverts de tapisseries de velours
+            noir. Un grand lit à baldaquin, lui aussi tendu de noir, en occupe
+            le centre. </p><p>Une Porte identique à celle que les PJ ont
+            franchie pour entrer dans le Donjon s’ouvre à côté du lit. Elle est
+            en partie masquée par un rideau d’énergie écarlate. Un parfum
+            étrangement chimique, à la fois floral et acide, flotte dans la
+            pièce.</p>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+          Ulflv2WY2wcJ69LV: 3
+        flags: {}
+        _stats:
+          coreVersion: '14.365'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - sort: 1300000
+        name: 13 - La loge
+        type: text
+        _id: 0ZoZxP3MsuV9wGGJ
+        system: {}
+        title:
+          show: true
+          level: 1
+        image: {}
+        text:
+          format: 1
+          content: >-
+            <p>L’entrée de la loge est dissimulée derrière une tenture. C’est
+            une petite salle octogonale aux murs de marbre noir. Elle est
+            meublée d’une lourde coiffeuse de porphyre rouge. Le cadre doré du
+            miroir, également octogonal, est délicatement sculpté d’un motif de
+            flammèches.</p>
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+          Ulflv2WY2wcJ69LV: 3
+        flags: {}
+        _stats:
+          coreVersion: '14.365'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+    categories: []
+    sort: 300000
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.365'
+      systemId: dangerousgary
+      systemVersion: '#{VERSION}#'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
 scenes:
   - folder: 40Sy1HIb6Mpb5pWf
     name: La Banque
@@ -1831,7 +2461,7 @@ scenes:
         flags: {}
         _id: JdbKIxPLarpISI3f
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -1905,7 +2535,7 @@ scenes:
               fillGradientStops: null
         _id: CWv7Q4g3ElHoswAS
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: p
           width: 56
@@ -1944,7 +2574,7 @@ scenes:
         flags: {}
         _id: 8qu1jboutX9N0ko5
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -2018,7 +2648,7 @@ scenes:
               fillGradientStops: null
         _id: 3GbSRTrIkIBXbf9o
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -2092,7 +2722,7 @@ scenes:
               fillGradientStops: null
         _id: bVIhOhVqDgIEjE2i
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -2166,7 +2796,7 @@ scenes:
               fillGradientStops: null
         _id: b0ySKN8a678Y68lP
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -2240,7 +2870,7 @@ scenes:
               fillGradientStops: null
         _id: OXH0CeCBHZ7HVJ61
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -2314,7 +2944,7 @@ scenes:
               fillGradientStops: null
         _id: pwNWNbQX3JzGYtzw
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -2388,7 +3018,7 @@ scenes:
               fillGradientStops: null
         _id: 0Sqy6kPAAYSKC4rf
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -2462,7 +3092,7 @@ scenes:
               fillGradientStops: null
         _id: cer0juDLtIsDD2P1
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -2536,7 +3166,7 @@ scenes:
               fillGradientStops: null
         _id: YeTqkOEd2nndlUr9
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -2610,7 +3240,7 @@ scenes:
               fillGradientStops: null
         _id: hzAaFWqdtPOIQsp2
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -2684,7 +3314,7 @@ scenes:
               fillGradientStops: null
         _id: pVASVH4mwI7npoi7
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -2758,7 +3388,7 @@ scenes:
               fillGradientStops: null
         _id: mEQoRRgIKKxfs7gy
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -2832,7 +3462,7 @@ scenes:
               fillGradientStops: null
         _id: BwzVsIPP5iIhgU7j
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -2906,7 +3536,7 @@ scenes:
               fillGradientStops: null
         _id: oQyyMRp5EHckVUkT
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -2980,7 +3610,7 @@ scenes:
               fillGradientStops: null
         _id: yHzr1nL7s0wPc147
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -3054,7 +3684,7 @@ scenes:
               fillGradientStops: null
         _id: iA94TdGw7k69VOHD
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -3128,7 +3758,7 @@ scenes:
               fillGradientStops: null
         _id: 1bDJXWvPXL7feSkP
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: p
           width: 56
@@ -3167,7 +3797,7 @@ scenes:
         flags: {}
         _id: 295psE68saBjXadv
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - _id: EAhoAfh2c5s9GwDv
         shape:
           type: p
@@ -3251,7 +3881,7 @@ scenes:
               fill: null
               fillGradientStops: null
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
     tokens: []
     lights:
       - _id: YUg6OG3EL8PdfFnA
@@ -3315,7 +3945,7 @@ scenes:
         _id: QFEA3tmer8CuA0hJ
         locked: false
         flags: {}
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - entryId: MuLMjagub8781uiE
         pageId: vDnRGPhY9djL7cPt
         global: false
@@ -3343,7 +3973,7 @@ scenes:
         _id: 7pNgNRTJQ3h8j4HH
         locked: false
         flags: {}
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - entryId: MuLMjagub8781uiE
         pageId: vDnRGPhY9djL7cPt
         global: false
@@ -3371,7 +4001,7 @@ scenes:
         _id: gBP3IKT7BWTrbHPc
         locked: false
         flags: {}
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - entryId: MuLMjagub8781uiE
         pageId: BVfiwdQMI6zObXiy
         global: false
@@ -3399,7 +4029,7 @@ scenes:
         _id: ycMSVMH8xpuQHUeh
         locked: false
         flags: {}
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - entryId: MuLMjagub8781uiE
         pageId: TcPw5HsvjZ2m5mhz
         global: false
@@ -3427,7 +4057,7 @@ scenes:
         _id: 7cVSDxeUtKikpixB
         locked: false
         flags: {}
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - entryId: MuLMjagub8781uiE
         pageId: hgXYI5Tm9x0rEdwv
         global: false
@@ -3455,7 +4085,7 @@ scenes:
         _id: hoPRBmK71qWSqu1o
         locked: false
         flags: {}
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - entryId: MuLMjagub8781uiE
         pageId: hgXYI5Tm9x0rEdwv
         global: false
@@ -3483,7 +4113,7 @@ scenes:
         _id: YV1oHFLUK4Uhlfoa
         locked: false
         flags: {}
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - entryId: MuLMjagub8781uiE
         pageId: hgXYI5Tm9x0rEdwv
         global: false
@@ -3511,7 +4141,7 @@ scenes:
         _id: IQHOljwPjaqLLf6H
         locked: false
         flags: {}
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - entryId: MuLMjagub8781uiE
         pageId: hgXYI5Tm9x0rEdwv
         global: false
@@ -3539,7 +4169,7 @@ scenes:
         _id: 6B3f67JF6daIXz45
         locked: false
         flags: {}
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - entryId: MuLMjagub8781uiE
         pageId: VQh2tTQldV0z5CWf
         global: false
@@ -3567,7 +4197,7 @@ scenes:
         _id: 2mYBBpKyTO89GcNs
         locked: false
         flags: {}
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - entryId: MuLMjagub8781uiE
         pageId: 9eoEOpJFIv2ynh24
         global: false
@@ -3595,7 +4225,7 @@ scenes:
         _id: p1ZY8pXHfCJ4j7zD
         locked: false
         flags: {}
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - entryId: MuLMjagub8781uiE
         pageId: pm9wIVcBcKNYmdly
         global: false
@@ -3623,7 +4253,7 @@ scenes:
         _id: EK1oLVUiuOvu4Xhr
         locked: false
         flags: {}
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - entryId: MuLMjagub8781uiE
         pageId: Ok346f8rS8LmBpw5
         global: false
@@ -3651,7 +4281,7 @@ scenes:
         _id: ArOk76XiaE4Zd4CK
         locked: false
         flags: {}
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - entryId: MuLMjagub8781uiE
         pageId: X6eoZt69vl7lkayz
         global: false
@@ -3679,7 +4309,7 @@ scenes:
         _id: z1lCJCaaBccM3HXF
         locked: false
         flags: {}
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - entryId: MuLMjagub8781uiE
         pageId: 6EhfIsyRzfKoVfdl
         global: false
@@ -3707,7 +4337,7 @@ scenes:
         _id: wEDlmMaKfuuH332r
         locked: false
         flags: {}
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - entryId: MuLMjagub8781uiE
         pageId: EQrZeoaZrPwwDu9N
         global: false
@@ -3735,7 +4365,7 @@ scenes:
         _id: izRWzDRk6r7ux3Ty
         locked: false
         flags: {}
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - entryId: MuLMjagub8781uiE
         pageId: smhgQRHe06yYRVek
         global: false
@@ -3763,7 +4393,7 @@ scenes:
         _id: sjlibUovjT0OHqSN
         locked: false
         flags: {}
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
     sounds: []
     regions:
       - name: Téléportation Rotonde
@@ -12184,7 +12814,7 @@ scenes:
         _id: MvLpBNx3I4frsH8D
         levels: []
         name: ''
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 189
@@ -12259,7 +12889,7 @@ scenes:
         _id: mbX0BicyLP0CC8AS
         levels: []
         name: ''
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: p
           width: 56
@@ -12298,7 +12928,7 @@ scenes:
         flags: {}
         _id: 9gAmzwnn4EF0QSyV
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - _id: 6QAW2eCfJmodoEhO
         shape:
           type: p
@@ -12378,7 +13008,7 @@ scenes:
               fill: null
               fillGradientStops: null
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -12452,7 +13082,7 @@ scenes:
               fillGradientStops: null
         levels: []
         _id: OkTdhgmPDBrgRtvv
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 650
@@ -12527,7 +13157,7 @@ scenes:
         levels: []
         name: ''
         _id: VVptoP6dd1KjLqt9
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 400
@@ -12602,7 +13232,7 @@ scenes:
         levels: []
         name: ''
         _id: LIAp9wbJlbIEpIvT
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -12677,7 +13307,7 @@ scenes:
         levels: []
         _id: RxYSO0twkGwRivLZ
         name: ''
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -12752,7 +13382,7 @@ scenes:
         levels: []
         _id: WJkXoUpF4m22Pdw7
         name: ''
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -12827,7 +13457,7 @@ scenes:
         levels: []
         _id: 2JcQyztiJgPC69Xf
         name: ''
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -12902,7 +13532,7 @@ scenes:
         levels: []
         _id: pxyN1m10OsLLy9UR
         name: ''
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -12977,7 +13607,7 @@ scenes:
         levels: []
         _id: zvoJdpUTHGyLAj9U
         name: ''
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -13052,7 +13682,7 @@ scenes:
         levels: []
         _id: 7eU8MuP0otCm2lS3
         name: ''
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -13127,7 +13757,7 @@ scenes:
         levels: []
         _id: Rfrd4iOauOmFefum
         name: ''
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -13202,7 +13832,7 @@ scenes:
         levels: []
         _id: LSKP9VtdMdS6BTJz
         name: ''
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -13277,7 +13907,7 @@ scenes:
         levels: []
         _id: Ghyq2D1CbiHigG5M
         name: ''
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -13352,7 +13982,7 @@ scenes:
         levels: []
         _id: YcSmHuMJA1c0azi8
         name: ''
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -13427,7 +14057,7 @@ scenes:
         levels: []
         _id: kCKs8NYjxOMsGGxK
         name: ''
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -13502,7 +14132,7 @@ scenes:
         levels: []
         _id: UBdjulejZ4chQMwF
         name: ''
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -13577,7 +14207,7 @@ scenes:
         levels: []
         _id: gIrFyMAW12sABWgH
         name: ''
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
     tokens: []
     lights: []
     notes:
@@ -13607,7 +14237,7 @@ scenes:
         flags: {}
         levels: []
         locked: false
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - entryId: I0jLQRFpKZfhQLRM
         pageId: DnuxkgdFOmT6FnAu
         global: false
@@ -13634,7 +14264,7 @@ scenes:
         flags: {}
         levels: []
         locked: false
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - entryId: I0jLQRFpKZfhQLRM
         pageId: YONBQ883keHzEuF5
         global: false
@@ -13661,7 +14291,7 @@ scenes:
         flags: {}
         levels: []
         locked: false
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - entryId: I0jLQRFpKZfhQLRM
         pageId: PwlqSAK6WleQT9Mx
         global: false
@@ -13688,7 +14318,7 @@ scenes:
         _id: Z0kRP0qEyt4O3VvT
         levels: []
         locked: false
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - entryId: I0jLQRFpKZfhQLRM
         pageId: YBwBQGWid5JtF5Nq
         global: false
@@ -13715,7 +14345,7 @@ scenes:
         flags: {}
         levels: []
         locked: false
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - entryId: I0jLQRFpKZfhQLRM
         pageId: nWrOrVOZt7INgq3z
         global: false
@@ -13742,7 +14372,7 @@ scenes:
         flags: {}
         levels: []
         locked: false
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - entryId: I0jLQRFpKZfhQLRM
         pageId: SwRwm4zUdUeHclyF
         global: false
@@ -13769,7 +14399,7 @@ scenes:
         flags: {}
         levels: []
         locked: false
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - entryId: I0jLQRFpKZfhQLRM
         pageId: nyH2rkYGTzHw6nM3
         global: false
@@ -13796,7 +14426,7 @@ scenes:
         flags: {}
         levels: []
         locked: false
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - entryId: I0jLQRFpKZfhQLRM
         pageId: mfYoc16VeiO6Zb9Y
         global: false
@@ -13823,7 +14453,7 @@ scenes:
         flags: {}
         levels: []
         locked: false
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - entryId: I0jLQRFpKZfhQLRM
         pageId: ioVuNtktdopI59Vp
         global: false
@@ -13850,7 +14480,7 @@ scenes:
         flags: {}
         levels: []
         locked: false
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - entryId: I0jLQRFpKZfhQLRM
         pageId: VBAAInpRBKQcIg71
         global: false
@@ -13877,7 +14507,7 @@ scenes:
         flags: {}
         levels: []
         locked: false
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - entryId: I0jLQRFpKZfhQLRM
         pageId: iFy4cNPa9rL4iFHp
         global: false
@@ -13904,7 +14534,7 @@ scenes:
         flags: {}
         levels: []
         locked: false
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
     sounds: []
     regions:
       - name: escalier cave haut
@@ -18432,7 +19062,7 @@ scenes:
         interface: false
         flags: {}
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - _id: PmyylkrbDT3umuf2
         shape:
           type: p
@@ -18471,7 +19101,7 @@ scenes:
         interface: false
         flags: {}
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: p
           width: 51
@@ -18508,7 +19138,7 @@ scenes:
         flags: {}
         _id: DeixoGjxFUd2RqHm
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - _id: c3MSkhBHeWCC34aM
         shape:
           type: p
@@ -18588,7 +19218,7 @@ scenes:
               fill: null
               fillGradientStops: null
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 393
@@ -18662,7 +19292,7 @@ scenes:
               fillGradientStops: null
         _id: 5wMiwlLszNUPtwx8
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 393
@@ -18736,7 +19366,7 @@ scenes:
               fillGradientStops: null
         _id: ftosaN2Iq83aUfHB
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 393
@@ -18810,7 +19440,7 @@ scenes:
               fillGradientStops: null
         _id: 03qSpZyODdODoMKa
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 393
@@ -18884,7 +19514,7 @@ scenes:
               fillGradientStops: null
         _id: zrGLyeTeXe2uoZoA
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 393
@@ -18958,7 +19588,7 @@ scenes:
               fillGradientStops: null
         _id: 9vTKjOPXhksLJQ9u
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 393
@@ -19032,7 +19662,7 @@ scenes:
               fillGradientStops: null
         _id: WzqoKerwLCggGS8k
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 393
@@ -19106,7 +19736,7 @@ scenes:
               fillGradientStops: null
         _id: yRjgOa4mExw8f6Ak
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 393
@@ -19180,7 +19810,7 @@ scenes:
               fillGradientStops: null
         _id: Dhti21YC3WgtTeHR
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 393
@@ -19254,7 +19884,7 @@ scenes:
               fillGradientStops: null
         _id: Kgno6X5wwZPXlRkD
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 393
@@ -19328,10 +19958,94 @@ scenes:
               fillGradientStops: null
         _id: ayw8hyeMbVJI6Ckg
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
     tokens: []
     lights: []
-    notes: []
+    notes:
+      - entryId: CWkk7YAE1CvvR7t7
+        pageId: Ux0rJ3vr2j8pF8e6
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1850
+        'y': 2500
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: Le salon
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: 5TE9aotNj8onheCc
+        locked: false
+        flags: {}
+        author: Ulflv2WY2wcJ69LV
+      - entryId: CWkk7YAE1CvvR7t7
+        pageId: cNkpcTvbt1p63QMc
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1450
+        'y': 2500
+        elevation: 0
+        sort: 1
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: La chambre
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: P5tXifCMKA6YK2AP
+        locked: false
+        flags: {}
+        author: Ulflv2WY2wcJ69LV
+      - entryId: CWkk7YAE1CvvR7t7
+        pageId: 2HDr5uxS3zR4rFBk
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2300
+        'y': 2500
+        elevation: 0
+        sort: 2
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: Les escaliers
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: 19OGj7u5sWoEBYP2
+        locked: false
+        flags: {}
+        author: Ulflv2WY2wcJ69LV
     sounds: []
     regions:
       - name: 1 vers 2
@@ -22034,7 +22748,7 @@ scenes:
         _id: xML0hgLb6BweEdQH
         dir: 0
         door: 1
-        ds: 0
+        ds: 1
         threshold:
           light: null
           sight: null
@@ -23000,7 +23714,7 @@ scenes:
               fill: null
               fillGradientStops: null
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - _id: 52BVlg3moLQubmyD
         shape:
           type: p
@@ -23082,7 +23796,7 @@ scenes:
               fill: null
               fillGradientStops: null
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -23156,7 +23870,7 @@ scenes:
               fillGradientStops: null
         _id: 8Ehrku3h2Jgm0oGZ
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -23230,7 +23944,7 @@ scenes:
               fillGradientStops: null
         _id: opqduEHREsOgZ6Z3
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -23304,7 +24018,7 @@ scenes:
               fillGradientStops: null
         _id: WgM7yM4knCtAEw9a
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -23378,7 +24092,7 @@ scenes:
               fillGradientStops: null
         _id: p7dKIYQYlLEaBUnw
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -23452,7 +24166,7 @@ scenes:
               fillGradientStops: null
         _id: JTx7qdxWRNvnRhZL
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -23526,7 +24240,7 @@ scenes:
               fillGradientStops: null
         _id: WOotanXQnS8RPjl0
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -23600,7 +24314,7 @@ scenes:
               fillGradientStops: null
         _id: hkcBluri6KLPP8Ki
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -23674,7 +24388,7 @@ scenes:
               fillGradientStops: null
         _id: 9MHqj53NdwrWkLp6
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -23748,7 +24462,7 @@ scenes:
               fillGradientStops: null
         _id: NCUhEw3y16lHVv8o
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -23822,7 +24536,7 @@ scenes:
               fillGradientStops: null
         _id: P0NEZzYf3MmWyZXP
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -23896,7 +24610,7 @@ scenes:
               fillGradientStops: null
         _id: POCpzlGbiBi23h0v
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -23970,7 +24684,7 @@ scenes:
               fillGradientStops: null
         _id: iIquVNjxTMgEUsoB
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -24044,7 +24758,7 @@ scenes:
               fillGradientStops: null
         _id: EZLyFyUoWupcWN7E
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: p
           width: 113
@@ -24126,7 +24840,7 @@ scenes:
               fillGradientStops: null
         _id: dxwEEcz57bU1YPII
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - _id: jxROF3sE8Ucngn5l
         shape:
           type: p
@@ -24208,7 +24922,7 @@ scenes:
               fill: null
               fillGradientStops: null
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - _id: c7q1PQycN04grssk
         shape:
           type: p
@@ -24296,7 +25010,7 @@ scenes:
               fill: null
               fillGradientStops: null
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
     tokens: []
     lights:
       - _id: uF0YODe02umEDl2z
@@ -24332,7 +25046,371 @@ scenes:
         flags: {}
         levels: []
         locked: false
-    notes: []
+    notes:
+      - entryId: PNCg7qMZE4WYTzIP
+        pageId: D937RguCycSa5qfD
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 8175
+        'y': 10875
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: L'escalier
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: atTEW24mlcNYCqTS
+        locked: false
+        flags: {}
+        author: Ulflv2WY2wcJ69LV
+      - entryId: PNCg7qMZE4WYTzIP
+        pageId: Vjx509GuiIFhY2K1
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 5625
+        'y': 10975
+        elevation: 0
+        sort: 1
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: Le vestibule
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: 7wk7Cu1wJknkxgDn
+        locked: false
+        flags: {}
+        author: Ulflv2WY2wcJ69LV
+      - entryId: PNCg7qMZE4WYTzIP
+        pageId: amXhMAOmDxaVq6CJ
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 4113
+        'y': 12469
+        elevation: 0
+        sort: 2
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: Le hall
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: NDvsrHgLoeO8vRyU
+        locked: false
+        flags: {}
+        author: Ulflv2WY2wcJ69LV
+      - entryId: PNCg7qMZE4WYTzIP
+        pageId: DTtnZ4Dpghma6iKB
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 6089
+        'y': 12477
+        elevation: 0
+        sort: 3
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: Le foyer
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: bEBVYGrZEpDLA3iz
+        locked: false
+        flags: {}
+        author: Ulflv2WY2wcJ69LV
+      - entryId: PNCg7qMZE4WYTzIP
+        pageId: VGQPKftkLnf4JzDE
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 5613
+        'y': 8344
+        elevation: 0
+        sort: 4
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: La salle du générateur
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: Zhi02RDDgXV0659h
+        locked: false
+        flags: {}
+        author: Ulflv2WY2wcJ69LV
+      - entryId: PNCg7qMZE4WYTzIP
+        pageId: PZv8Ofc98VcuqQgq
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 7511
+        'y': 12477
+        elevation: 0
+        sort: 5
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: Le cabinet des miroirs
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: fDLbsfzgFSwK9iHX
+        locked: false
+        flags: {}
+        author: Ulflv2WY2wcJ69LV
+      - entryId: PNCg7qMZE4WYTzIP
+        pageId: 6IzaN9uhKNFbEApy
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 5635
+        'y': 6623
+        elevation: 0
+        sort: 6
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: La salle de théâtre
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: h8hdEyNSQLwkeTVj
+        locked: false
+        flags: {}
+        author: Ulflv2WY2wcJ69LV
+      - entryId: PNCg7qMZE4WYTzIP
+        pageId: PVz2opPkZqxeVETm
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 5628
+        'y': 5049
+        elevation: 0
+        sort: 7
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: La scène
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: h1qEHx13lvQUnkAs
+        locked: false
+        flags: {}
+        author: Ulflv2WY2wcJ69LV
+      - entryId: PNCg7qMZE4WYTzIP
+        pageId: WlcHK1URrhDTk5fj
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 7803
+        'y': 6098
+        elevation: 0
+        sort: 8
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: Les balcons
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: pubWYY3ivQImXTJ0
+        locked: false
+        flags: {}
+        author: Ulflv2WY2wcJ69LV
+      - entryId: PNCg7qMZE4WYTzIP
+        pageId: H7jnk7UoEuxWoGpa
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 8341
+        'y': 4685
+        elevation: 0
+        sort: 9
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: La salle des costumes
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: lyjv1XEgnxhwwdJE
+        locked: false
+        flags: {}
+        author: Ulflv2WY2wcJ69LV
+      - entryId: PNCg7qMZE4WYTzIP
+        pageId: r8C9qlpCwBeJbzZB
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2925
+        'y': 4725
+        elevation: 0
+        sort: 10
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: La salle des accessoires
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: Ozy0KdHEkkx4EjaD
+        locked: false
+        flags: {}
+        author: Ulflv2WY2wcJ69LV
+      - entryId: PNCg7qMZE4WYTzIP
+        pageId: 0ZoZxP3MsuV9wGGJ
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 6519
+        'y': 3478
+        elevation: 0
+        sort: 11
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: La loge
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: vkzgOjy5gFqa6j8D
+        locked: false
+        flags: {}
+        author: Ulflv2WY2wcJ69LV
+      - entryId: PNCg7qMZE4WYTzIP
+        pageId: mfQmHCLcgfS19xEt
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 5630
+        'y': 3471
+        elevation: 0
+        sort: 11
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: La chambre
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: LSeIBqxon9IfRXWI
+        locked: false
+        flags: {}
+        author: Ulflv2WY2wcJ69LV
     sounds: []
     regions: []
     tiles:
@@ -29786,7 +30864,7 @@ scenes:
               fillGradientStops: null
         _id: nJXJWjqflFl4NSY4
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: p
           width: 113
@@ -29868,7 +30946,7 @@ scenes:
               fillGradientStops: null
         _id: EVg0QfgOeCf3r81O
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - _id: czd267enYAF7be1R
         shape:
           type: p
@@ -29952,7 +31030,7 @@ scenes:
               fill: null
               fillGradientStops: null
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: p
           width: 113
@@ -30034,7 +31112,7 @@ scenes:
               fillGradientStops: null
         _id: IlvpFCJcb7Gb7Cxm
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - _id: Ja58e9Y4oWMa39yA
         shape:
           type: p
@@ -30116,7 +31194,7 @@ scenes:
               fill: null
               fillGradientStops: null
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -30190,7 +31268,7 @@ scenes:
               fillGradientStops: null
         _id: Q08ScDAMNRkewgOl
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -30264,7 +31342,7 @@ scenes:
               fillGradientStops: null
         _id: iqDaHpfyTXwtMiuk
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -30338,7 +31416,7 @@ scenes:
               fillGradientStops: null
         _id: xgz7EgikHDSf3Qm9
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -30412,7 +31490,7 @@ scenes:
               fillGradientStops: null
         _id: Bf4MtYCNHLGtc8eo
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -30486,7 +31564,7 @@ scenes:
               fillGradientStops: null
         _id: m5Ywkyp5tZHqGLvN
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -30560,7 +31638,7 @@ scenes:
               fillGradientStops: null
         _id: KQu4pUZ7BdZtzX9L
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -30634,7 +31712,7 @@ scenes:
               fillGradientStops: null
         _id: 8VR8eRkkB4AxjZMC
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -30708,7 +31786,7 @@ scenes:
               fillGradientStops: null
         _id: abXIbfOx73bvqXDl
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
     tokens: []
     lights:
       - _id: 3mCOAqNbbgS743tp
@@ -59085,7 +60163,7 @@ scenes:
               fill: null
               fillGradientStops: null
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: p
           width: 441
@@ -59167,7 +60245,7 @@ scenes:
               fillGradientStops: null
         _id: kOgtLIaitcC7zwQA
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: p
           width: 441
@@ -59249,7 +60327,7 @@ scenes:
               fillGradientStops: null
         _id: zlUDZOXWUecrr3Pu
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: p
           width: 441
@@ -59331,7 +60409,7 @@ scenes:
               fillGradientStops: null
         _id: y35oMWZW6V0Erisv
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: p
           width: 441
@@ -59413,7 +60491,7 @@ scenes:
               fillGradientStops: null
         _id: YJqHP9IdhSgDUUs6
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: p
           width: 113
@@ -59495,7 +60573,7 @@ scenes:
               fillGradientStops: null
         _id: aS2ftcsA7RzS2Dvu
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - _id: i45A1g44fy8nLQdS
         shape:
           type: p
@@ -59575,7 +60653,7 @@ scenes:
               fill: null
               fillGradientStops: null
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -59649,7 +60727,7 @@ scenes:
               fillGradientStops: null
         _id: Xt2ed2RnFlzP6Rvp
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -59723,7 +60801,7 @@ scenes:
               fillGradientStops: null
         _id: ujkrxzz5WMuImSiG
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -59797,7 +60875,7 @@ scenes:
               fillGradientStops: null
         _id: IFd0jcgIYGjFbe4G
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -59871,7 +60949,7 @@ scenes:
               fillGradientStops: null
         _id: cqGOkEhlo16q0owT
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -59945,7 +61023,7 @@ scenes:
               fillGradientStops: null
         _id: eQJryIgNB6VR0hwn
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -60019,7 +61097,7 @@ scenes:
               fillGradientStops: null
         _id: tzH5p4mK7915Z4fS
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -60093,7 +61171,7 @@ scenes:
               fillGradientStops: null
         _id: 5VEFKC6I2jWbWVlA
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 289
@@ -60167,7 +61245,7 @@ scenes:
               fillGradientStops: null
         _id: ISHQE75qxX1IOUc8
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 289
@@ -60241,7 +61319,7 @@ scenes:
               fillGradientStops: null
         _id: U6PlZY2ES4BrJzFb
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 289
@@ -60315,7 +61393,7 @@ scenes:
               fillGradientStops: null
         _id: LwD7MDo54tIULB0m
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - _id: M0GRMNFQn4UuZlGF
         shape:
           type: p
@@ -60393,7 +61471,7 @@ scenes:
               fill: null
               fillGradientStops: null
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 672
@@ -60467,7 +61545,7 @@ scenes:
               fillGradientStops: null
         _id: rmqzYuqSlENQUcqL
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: p
           width: 150
@@ -60545,7 +61623,7 @@ scenes:
               fillGradientStops: null
         _id: SMxppsNmPYXRqnrb
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: p
           width: 169
@@ -60623,7 +61701,7 @@ scenes:
               fillGradientStops: null
         _id: lDwHscs91V8BwNbq
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: p
           width: 160
@@ -60701,7 +61779,7 @@ scenes:
               fillGradientStops: null
         _id: Fj3njulA6Gf9O8Uk
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: p
           width: 300
@@ -60779,7 +61857,7 @@ scenes:
               fillGradientStops: null
         _id: r5aB7frmwVpKrQF0
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 1064
@@ -60855,7 +61933,7 @@ scenes:
               fillGradientStops: null
         _id: PfKhif28w606uLhn
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: p
           width: 131
@@ -60935,7 +62013,7 @@ scenes:
               fillGradientStops: null
         _id: mQSW48oO7q8P8vy0
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
     tokens: []
     lights:
       - _id: Bh3JrsIkUR0zgIYg
@@ -64598,7 +65676,7 @@ scenes:
         flags: {}
         _id: 4A6WBAdH4aaD1bm3
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: p
           width: 226
@@ -64635,7 +65713,7 @@ scenes:
         flags: {}
         _id: HAXn1VwZV7HYhHxm
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: p
           width: 56
@@ -64674,7 +65752,7 @@ scenes:
         flags: {}
         _id: z1LbRNWAerUu1Ljj
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: p
           width: 347
@@ -64711,7 +65789,7 @@ scenes:
         flags: {}
         _id: ExZERy7ArxuOQpve
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: p
           width: 431
@@ -64748,7 +65826,7 @@ scenes:
         flags: {}
         _id: npFVL4EJ2CIlj16b
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: p
           width: 56
@@ -64787,7 +65865,7 @@ scenes:
         flags: {}
         _id: 8yuiVgFlM0aLo3z7
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -64861,7 +65939,7 @@ scenes:
               fillGradientStops: null
         _id: GvcPcN80MBMldCYm
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -64935,7 +66013,7 @@ scenes:
               fillGradientStops: null
         _id: HBhLJvj9GGuIRm88
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -65009,7 +66087,7 @@ scenes:
               fillGradientStops: null
         _id: Oqh8aArSCDFT2h9m
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -65083,7 +66161,7 @@ scenes:
               fillGradientStops: null
         _id: E5DSe8eRA4qistwv
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -65157,7 +66235,7 @@ scenes:
               fillGradientStops: null
         _id: 4OvywF73ViLcPYKR
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -65231,7 +66309,7 @@ scenes:
               fillGradientStops: null
         _id: WqQ64ujuv07nH90R
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -65305,7 +66383,7 @@ scenes:
               fillGradientStops: null
         _id: x1HRfuA7BZCGX6Ww
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -65379,7 +66457,7 @@ scenes:
               fillGradientStops: null
         _id: kKcD4wBmEMfSleU5
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
       - shape:
           type: r
           width: 155
@@ -65453,7 +66531,7 @@ scenes:
               fillGradientStops: null
         _id: gIwkse9smxoWPy6K
         levels: []
-        author: B0NeVx6n1JkKkfOD
+        author: Ulflv2WY2wcJ69LV
     tokens: []
     lights:
       - x: 5046
@@ -69793,6 +70871,6 @@ _stats:
   systemId: dangerousgary
   systemVersion: '#{VERSION}#'
   createdTime: 1773686639098
-  modifiedTime: 1786738899816
-  lastModifiedBy: B0NeVx6n1JkKkfOD
+  modifiedTime: 1786741221952
+  lastModifiedBy: Ulflv2WY2wcJ69LV
 _key: '!adventures!6C9qNiPNJky9174N'
