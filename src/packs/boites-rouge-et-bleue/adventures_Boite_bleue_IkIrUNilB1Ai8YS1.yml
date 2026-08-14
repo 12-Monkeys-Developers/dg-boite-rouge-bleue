@@ -8,11 +8,11 @@ combats: []
 items: []
 journal: []
 scenes:
-  - name: La Mall
+  - name: Le Mall
     _id: 3kaXhBuWhTSBMC9g
     navigation: true
     navOrder: 0
-    thumb: worlds/dg-boite-bleue/assets/scenes/thumb-j8XfkN75P_5srxV9fBXDRA.webp
+    thumb: modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/thumb-mall.webp
     width: 4800
     height: 6600
     padding: 0.1
@@ -145,7 +145,7 @@ scenes:
               fillGradientStops: null
         levels: []
         _id: cQbBWPlVBjuzCwWR
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -220,7 +220,7 @@ scenes:
         levels: []
         _id: lNarjYjVTKHWkUG3
         name: ''
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -295,7 +295,7 @@ scenes:
         levels: []
         _id: 4yPS6lxCJHztELPk
         name: ''
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -370,7 +370,7 @@ scenes:
         levels: []
         _id: rXqguZs7nRP0JTaz
         name: ''
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -445,7 +445,7 @@ scenes:
         levels: []
         _id: X2hioywiSh8z7ffU
         name: ''
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -520,7 +520,7 @@ scenes:
         levels: []
         _id: mufYNr88mwJgMPZ1
         name: ''
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -595,7 +595,7 @@ scenes:
         levels: []
         _id: 3xIgbTyqxcKbOYxK
         name: ''
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -670,7 +670,7 @@ scenes:
         levels: []
         _id: eUzstVVEo01aAF7u
         name: ''
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -745,7 +745,7 @@ scenes:
         levels: []
         _id: Pi3oXsWE5mrodpIf
         name: ''
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -820,7 +820,7 @@ scenes:
         levels: []
         _id: nRGvUHmXUGe03cxk
         name: ''
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -895,7 +895,7 @@ scenes:
         levels: []
         name: ''
         _id: fEUWTVgxbG62xsRf
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -970,7 +970,7 @@ scenes:
         levels: []
         name: ''
         _id: ZbhYYmKIjkEc5u9V
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -1045,7 +1045,7 @@ scenes:
         levels: []
         name: ''
         _id: b64xxXj31BauCz3Z
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -1120,7 +1120,7 @@ scenes:
         levels: []
         name: ''
         _id: FHqEJFZNDYb6TJ5A
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -1195,7 +1195,7 @@ scenes:
         levels: []
         name: ''
         _id: gIHNEgVrG6M9JRIf
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -1270,7 +1270,7 @@ scenes:
         levels: []
         name: ''
         _id: INIXyMzM6nOBXNkX
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -1345,7 +1345,7 @@ scenes:
         levels: []
         name: ''
         _id: w5nqdRzBCTCokOxf
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -1420,7 +1420,7 @@ scenes:
         levels: []
         name: ''
         _id: wSDfVMAFIbObJEjh
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -1495,7 +1495,7 @@ scenes:
         levels: []
         name: ''
         _id: 7tcbwSjeftO5Pch6
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -1570,7 +1570,7 @@ scenes:
         levels: []
         name: ''
         _id: dkdzE7p5mr1bgjbg
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -1645,7 +1645,7 @@ scenes:
         levels: []
         name: ''
         _id: v6sWH6zaFR7vWZKM
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -1720,7 +1720,7 @@ scenes:
         levels: []
         name: ''
         _id: SuOvzeQrFqCiJNDm
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -1795,7 +1795,7 @@ scenes:
         levels: []
         name: ''
         _id: ogkgDEVt0DBz2djC
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -1870,7 +1870,7 @@ scenes:
         levels: []
         name: ''
         _id: dIzHTukg6BYwU0xw
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -1945,7 +1945,7 @@ scenes:
         levels: []
         name: ''
         _id: krlt9i7HZkvi1Vsv
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -2020,7 +2020,7 @@ scenes:
         levels: []
         name: ''
         _id: fVUlH6VmgB5o2gJ4
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -2095,7 +2095,7 @@ scenes:
         levels: []
         name: ''
         _id: fWoapnS34W4tKQnp
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -2170,7 +2170,7 @@ scenes:
         levels: []
         name: ''
         _id: 3e0SvgWjyiy82UWN
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -2245,7 +2245,7 @@ scenes:
         levels: []
         name: ''
         _id: uKMsPtVlOmYfIXgR
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -2320,7 +2320,7 @@ scenes:
         levels: []
         name: ''
         _id: D7i2tBaQJdXzVDyA
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -2395,7 +2395,7 @@ scenes:
         levels: []
         name: ''
         _id: KTud2nZu0ew4TPua
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -2470,7 +2470,7 @@ scenes:
         levels: []
         name: ''
         _id: fBiTJNswFUVsPGJ9
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -2545,7 +2545,7 @@ scenes:
         levels: []
         name: ''
         _id: bdUWhEMQkWtOtKaF
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -2620,7 +2620,7 @@ scenes:
         levels: []
         name: ''
         _id: IXiLPK4RuoDaYiy0
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -2695,7 +2695,7 @@ scenes:
         levels: []
         name: ''
         _id: jf3ho7u2mgHJMFDG
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -2770,7 +2770,7 @@ scenes:
         levels: []
         name: ''
         _id: chPpZ49X0shX8ylh
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -2845,7 +2845,7 @@ scenes:
         levels: []
         name: ''
         _id: d0uNrEdmXDLkURx4
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -2920,7 +2920,7 @@ scenes:
         levels: []
         name: ''
         _id: DrcukIEaNtdfJYKz
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 550
@@ -2995,7 +2995,7 @@ scenes:
         levels: []
         name: ''
         _id: pkOFYNRP9Ij5z2wR
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 550
@@ -3070,7 +3070,7 @@ scenes:
         levels: []
         name: ''
         _id: QIYrzTtlVlgJRhrm
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -3145,7 +3145,7 @@ scenes:
         levels: []
         name: ''
         _id: 4GyjkgAyv9afV0yC
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: p
           width: 56
@@ -3184,7 +3184,7 @@ scenes:
         flags: {}
         levels: []
         _id: L2wtUOA6wIIlqCiT
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 8
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -3225,7 +3225,7 @@ scenes:
         flags: {}
         name: ''
         text: ''
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 8
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -3266,7 +3266,7 @@ scenes:
         flags: {}
         name: ''
         text: ''
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 8
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -3305,7 +3305,7 @@ scenes:
         flags: {}
         name: ''
         text: ''
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 1200
@@ -3380,7 +3380,7 @@ scenes:
         levels: []
         name: ''
         _id: B5nTqphPZwseLKZS
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 700
@@ -3455,7 +3455,7 @@ scenes:
         levels: []
         name: ''
         _id: CHp0Jn0qgMdqsBYJ
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 700
@@ -3530,7 +3530,7 @@ scenes:
         levels: []
         name: ''
         _id: uxoZZs0tqzz0k3Zt
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
     tokens: []
     levels:
       - _id: defaultLevel0000
@@ -3615,7 +3615,7 @@ scenes:
             _stats:
               coreVersion: '14.365'
               systemId: dangerousgary
-              systemVersion: 1.3.6
+              systemVersion: '#{VERSION}#'
               createdTime: null
               modifiedTime: null
               lastModifiedBy: null
@@ -3681,7 +3681,7 @@ scenes:
             _stats:
               coreVersion: '14.365'
               systemId: dangerousgary
-              systemVersion: 1.3.6
+              systemVersion: '#{VERSION}#'
               createdTime: null
               modifiedTime: null
               lastModifiedBy: null
@@ -3747,7 +3747,7 @@ scenes:
             _stats:
               coreVersion: '14.365'
               systemId: dangerousgary
-              systemVersion: 1.3.6
+              systemVersion: '#{VERSION}#'
               createdTime: null
               modifiedTime: null
               lastModifiedBy: null
@@ -3813,7 +3813,7 @@ scenes:
             _stats:
               coreVersion: '14.365'
               systemId: dangerousgary
-              systemVersion: 1.3.6
+              systemVersion: '#{VERSION}#'
               createdTime: null
               modifiedTime: null
               lastModifiedBy: null
@@ -3879,7 +3879,7 @@ scenes:
             _stats:
               coreVersion: '14.365'
               systemId: dangerousgary
-              systemVersion: 1.3.6
+              systemVersion: '#{VERSION}#'
               createdTime: null
               modifiedTime: null
               lastModifiedBy: null
@@ -3945,7 +3945,7 @@ scenes:
             _stats:
               coreVersion: '14.365'
               systemId: dangerousgary
-              systemVersion: 1.3.6
+              systemVersion: '#{VERSION}#'
               createdTime: null
               modifiedTime: null
               lastModifiedBy: null
@@ -4011,7 +4011,7 @@ scenes:
             _stats:
               coreVersion: '14.365'
               systemId: dangerousgary
-              systemVersion: 1.3.6
+              systemVersion: '#{VERSION}#'
               createdTime: null
               modifiedTime: null
               lastModifiedBy: null
@@ -4077,7 +4077,7 @@ scenes:
             _stats:
               coreVersion: '14.365'
               systemId: dangerousgary
-              systemVersion: 1.3.6
+              systemVersion: '#{VERSION}#'
               createdTime: null
               modifiedTime: null
               lastModifiedBy: null
@@ -4145,7 +4145,7 @@ scenes:
             _stats:
               coreVersion: '14.365'
               systemId: dangerousgary
-              systemVersion: 1.3.6
+              systemVersion: '#{VERSION}#'
               createdTime: null
               modifiedTime: null
               lastModifiedBy: null
@@ -12118,14 +12118,14 @@ scenes:
     journalEntryPage: null
     weather: ''
     folder: AcdAdNXlOuMPUCRK
-    sort: 700000
+    sort: 0
     ownership:
       default: 0
     flags: {}
     _stats:
       coreVersion: '14.365'
       systemId: dangerousgary
-      systemVersion: 1.3.6
+      systemVersion: '#{VERSION}#'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -12139,7 +12139,8 @@ scenes:
     _id: 4b645aAhVbD62FsK
     navigation: true
     navOrder: 0
-    thumb: worlds/dg-boite-bleue/assets/scenes/thumb-hHk7YsGcwayZcM_sOkBH3g.webp
+    thumb: >-
+      modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/thumb-bibliotheque.webp
     width: 5500
     height: 6800
     padding: 0.1
@@ -12235,7 +12236,7 @@ scenes:
         hidden: true
         locked: true
         flags: {}
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 8
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -12272,7 +12273,7 @@ scenes:
         hidden: true
         locked: true
         flags: {}
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 8
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -12310,7 +12311,7 @@ scenes:
         hidden: true
         locked: true
         flags: {}
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 8
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -12348,7 +12349,7 @@ scenes:
         hidden: true
         locked: true
         flags: {}
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -12423,7 +12424,7 @@ scenes:
         levels: []
         _id: 1Nb0iFJ6gNhICdsl
         name: ''
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -12498,7 +12499,7 @@ scenes:
         levels: []
         name: ''
         _id: rk1moJXFNEzv6Ivq
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -12573,7 +12574,7 @@ scenes:
         levels: []
         name: ''
         _id: 9A8iGJbfcZVi6qTX
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -12648,7 +12649,7 @@ scenes:
         levels: []
         name: ''
         _id: U9vaEOEDjIhtSlUR
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -12723,7 +12724,7 @@ scenes:
         levels: []
         name: ''
         _id: LuR44Omrjy814UE0
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -12798,7 +12799,7 @@ scenes:
         levels: []
         name: ''
         _id: AmfBXSOyuu9CUeZf
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -12873,7 +12874,7 @@ scenes:
         levels: []
         name: ''
         _id: jvA9xSl0To3Ce2oC
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -12948,7 +12949,7 @@ scenes:
         levels: []
         name: ''
         _id: qXQUKR2Qq9CFlJR7
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -13023,7 +13024,7 @@ scenes:
         levels: []
         name: ''
         _id: ZkrN2oDT2mUyD9iq
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -13098,7 +13099,7 @@ scenes:
         levels: []
         name: ''
         _id: rp2gJ0aVwdduOlhu
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -13173,7 +13174,7 @@ scenes:
         levels: []
         name: ''
         _id: vwRjv8itEndcix0k
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -13248,7 +13249,7 @@ scenes:
         levels: []
         name: ''
         _id: DpUM2TKJwEPpOyu3
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -13323,7 +13324,7 @@ scenes:
         levels: []
         name: ''
         _id: DBOcO9jpCZac86zQ
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -13398,7 +13399,7 @@ scenes:
         levels: []
         name: ''
         _id: SIFySsaVk1bmGBHt
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -13473,7 +13474,7 @@ scenes:
         levels: []
         name: ''
         _id: tsmztWiPpv84Jl2U
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -13548,7 +13549,7 @@ scenes:
         levels: []
         name: ''
         _id: pvasqTtCMziSXYe8
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -13623,7 +13624,7 @@ scenes:
         levels: []
         name: ''
         _id: TOu49DL4HIJR1Mms
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -13698,7 +13699,7 @@ scenes:
         levels: []
         name: ''
         _id: nhdb0Hzrg3urr6ad
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -13773,7 +13774,7 @@ scenes:
         levels: []
         name: ''
         _id: tYu6wcRxFFDfQnWv
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -13848,7 +13849,7 @@ scenes:
         levels: []
         name: ''
         _id: 6pFTXFvIGLaL6G23
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -13923,7 +13924,7 @@ scenes:
         levels: []
         name: ''
         _id: gLUxrcMAHQrL0UHA
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -13998,7 +13999,7 @@ scenes:
         levels: []
         name: ''
         _id: g9DBBYv7IiuCcBal
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -14073,7 +14074,7 @@ scenes:
         levels: []
         name: ''
         _id: 1TQoxG0acEUbLzYL
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -14148,7 +14149,7 @@ scenes:
         levels: []
         name: ''
         _id: aLnpvN0JKoYsVQuN
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -14223,7 +14224,7 @@ scenes:
         levels: []
         name: ''
         _id: Bbj1PAUBHwMYTq1Q
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -14298,7 +14299,7 @@ scenes:
         levels: []
         name: ''
         _id: FOjPQnL8Oen3AAo4
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -14373,7 +14374,7 @@ scenes:
         levels: []
         name: ''
         _id: wDta3iY1pkLRMDjr
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -14448,7 +14449,7 @@ scenes:
         levels: []
         name: ''
         _id: EOZa2KICBtG3lbRo
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -14523,7 +14524,7 @@ scenes:
         levels: []
         name: ''
         _id: pOjx1Ch7zQTQlKuf
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -14598,7 +14599,7 @@ scenes:
         levels: []
         name: ''
         _id: UQvpe0GRwsfX7Gg5
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -14673,7 +14674,7 @@ scenes:
         levels: []
         name: ''
         _id: WRV46gKu2J5bqirT
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -14748,7 +14749,7 @@ scenes:
         levels: []
         name: ''
         _id: DJkxvCSFz1qCBplA
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -14823,7 +14824,7 @@ scenes:
         levels: []
         name: ''
         _id: UwbwrmkZ8RMwgSis
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -14898,7 +14899,7 @@ scenes:
         levels: []
         name: ''
         _id: QJzFqhbJzNPj78I3
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -14973,7 +14974,7 @@ scenes:
         levels: []
         name: ''
         _id: PYw4TzDHoE1Q9O2g
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -15048,7 +15049,7 @@ scenes:
         levels: []
         name: ''
         _id: uoqcXXz5VEYXtH87
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -15123,7 +15124,7 @@ scenes:
         levels: []
         name: ''
         _id: dtUL1ucRXVgVFL6l
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -15198,7 +15199,7 @@ scenes:
         levels: []
         name: ''
         _id: N5VzD7dtD7C8xelQ
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -15273,7 +15274,7 @@ scenes:
         levels: []
         name: ''
         _id: JTtEqK5c3EuRUsdf
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -15348,7 +15349,7 @@ scenes:
         levels: []
         name: ''
         _id: lESRLmDfANjVpcMn
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -15423,7 +15424,7 @@ scenes:
         levels: []
         name: ''
         _id: rXUr5i0KOF08K6Ha
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -15498,7 +15499,7 @@ scenes:
         levels: []
         name: ''
         _id: 7eA8M9e0H5JJsxMw
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -15573,7 +15574,7 @@ scenes:
         levels: []
         name: ''
         _id: 86KvZNWDu1w1SYlZ
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -15648,7 +15649,7 @@ scenes:
         levels: []
         name: ''
         _id: vsZZ3z2oZmxeknry
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -15723,7 +15724,7 @@ scenes:
         levels: []
         name: ''
         _id: LY8u2QhFYx4NJR4o
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -15798,7 +15799,7 @@ scenes:
         levels: []
         name: ''
         _id: xYB62hpgOFWsJnQj
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -15873,7 +15874,7 @@ scenes:
         levels: []
         name: ''
         _id: Yul6zdtAmRMpLLyr
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -15948,7 +15949,7 @@ scenes:
         levels: []
         name: ''
         _id: BDKmwf7bHIv6nneG
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -16023,7 +16024,7 @@ scenes:
         levels: []
         name: ''
         _id: KSDehqBjvHUQGvQE
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -16098,7 +16099,7 @@ scenes:
         levels: []
         name: ''
         _id: YONaQdQvrnGzWp31
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -16173,7 +16174,7 @@ scenes:
         levels: []
         name: ''
         _id: AtigSvFrfrcQmvFh
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -16248,7 +16249,7 @@ scenes:
         levels: []
         name: ''
         _id: bgjcJYAQZqDWoTtV
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -16323,7 +16324,7 @@ scenes:
         levels: []
         name: ''
         _id: EoJMLSgiS8wxEl4p
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -16398,7 +16399,7 @@ scenes:
         levels: []
         name: ''
         _id: UUwweqzAHdNN2Okd
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -16473,7 +16474,7 @@ scenes:
         levels: []
         name: ''
         _id: 2P4X30RA9475FLNb
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -16548,7 +16549,7 @@ scenes:
         levels: []
         name: ''
         _id: XktjnTT2ywtZ2SFA
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -16623,7 +16624,7 @@ scenes:
         levels: []
         name: ''
         _id: xuslhripMKSg3RxI
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -16698,7 +16699,7 @@ scenes:
         levels: []
         name: ''
         _id: BgIK8fzpNNe2WWsv
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -16773,7 +16774,7 @@ scenes:
         levels: []
         name: ''
         _id: 6s4ZBFwjV0lMmCLC
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -16848,7 +16849,7 @@ scenes:
         levels: []
         name: ''
         _id: Ar2rb6ONppC1KB7v
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -16923,7 +16924,7 @@ scenes:
         levels: []
         name: ''
         _id: TqKAbJTzpEQYJyTd
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -16998,7 +16999,7 @@ scenes:
         levels: []
         name: ''
         _id: PQ2yN2fwaI3AFL6D
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -17073,7 +17074,7 @@ scenes:
         levels: []
         name: ''
         _id: i54hTygIy6DJ18gH
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -17148,7 +17149,7 @@ scenes:
         levels: []
         name: ''
         _id: XAdJJeEl5NLxmqVe
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -17223,7 +17224,7 @@ scenes:
         levels: []
         name: ''
         _id: B0UxK0etGdU2NqZJ
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -17298,7 +17299,7 @@ scenes:
         levels: []
         name: ''
         _id: DMVB2rYSfh5bk9pD
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -17373,7 +17374,7 @@ scenes:
         levels: []
         name: ''
         _id: a38iG1zdPHsNYuYC
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -17448,7 +17449,7 @@ scenes:
         levels: []
         name: ''
         _id: UhnazGpyJTVLu2hf
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -17523,7 +17524,7 @@ scenes:
         levels: []
         name: ''
         _id: N6XvpCadEOOzHAwr
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -17598,7 +17599,7 @@ scenes:
         levels: []
         name: ''
         _id: 28HS59unYP4512sc
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -17673,7 +17674,7 @@ scenes:
         levels: []
         name: ''
         _id: WEyXfknATTSqsQrQ
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 300
@@ -17748,7 +17749,7 @@ scenes:
         levels: []
         name: ''
         _id: bWg6n6ouzQAbPcvO
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 300
@@ -17823,7 +17824,7 @@ scenes:
         levels: []
         name: ''
         _id: 0Z1EoUPpV9T9tzPl
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 8
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -17859,7 +17860,7 @@ scenes:
         hidden: true
         locked: true
         flags: {}
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 8
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -17895,7 +17896,7 @@ scenes:
         hidden: true
         locked: true
         flags: {}
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 8
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -17931,7 +17932,7 @@ scenes:
         hidden: true
         locked: true
         flags: {}
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 8
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -17967,7 +17968,7 @@ scenes:
         hidden: true
         locked: true
         flags: {}
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
     tokens: []
     levels:
       - _id: defaultLevel0000
@@ -39597,7 +39598,7 @@ scenes:
     _stats:
       coreVersion: '14.365'
       systemId: dangerousgary
-      systemVersion: 1.3.6
+      systemVersion: '#{VERSION}#'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -39611,7 +39612,8 @@ scenes:
     _id: vWKaCoB2hvZw7X5y
     navigation: true
     navOrder: 0
-    thumb: worlds/dg-boite-bleue/assets/scenes/thumb-thUKHpbkBKVu72arTGnSQQ.webp
+    thumb: >-
+      modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/thumb-chambre-bleue.webp
     width: 3150
     height: 3600
     padding: 0.1
@@ -39709,7 +39711,7 @@ scenes:
         flags: {}
         name: ''
         text: ''
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 8
         strokeColor: '#013fa5'
         strokeAlpha: 1
@@ -39748,7 +39750,7 @@ scenes:
         flags: {}
         name: ''
         text: ''
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 8
         strokeColor: '#003fa2'
         strokeAlpha: 1
@@ -39787,7 +39789,7 @@ scenes:
         name: ''
         text: ''
         _id: 4j389kAetBwGw7nY
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 8
         strokeColor: '#003fa6'
         strokeAlpha: 1
@@ -39826,7 +39828,7 @@ scenes:
         flags: {}
         name: ''
         text: ''
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -39901,7 +39903,7 @@ scenes:
         levels: []
         name: ''
         _id: FSMraLuBV7qSdKra
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 225
@@ -39976,7 +39978,7 @@ scenes:
         levels: []
         name: ''
         _id: iVXBFtDb2fXeR3rV
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 225
@@ -40051,7 +40053,7 @@ scenes:
         levels: []
         name: ''
         _id: zE1pwWeppfvSbngs
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -40126,7 +40128,7 @@ scenes:
         levels: []
         name: ''
         _id: uIRJ31F8lYdpdASZ
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -40201,7 +40203,7 @@ scenes:
         levels: []
         name: ''
         _id: 7zMdnlwraNuPRbA3
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -40276,7 +40278,7 @@ scenes:
         levels: []
         name: ''
         _id: UxNia982VS6TAndQ
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 155
@@ -40351,7 +40353,7 @@ scenes:
         levels: []
         name: ''
         _id: uQm6SYK1KVOvep4w
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 8
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -40388,7 +40390,7 @@ scenes:
         hidden: true
         locked: true
         flags: {}
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 8
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -40425,7 +40427,7 @@ scenes:
         hidden: true
         locked: true
         flags: {}
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
     tokens: []
     levels:
       - _id: defaultLevel0000
@@ -41746,14 +41748,14 @@ scenes:
     journal: null
     journalEntryPage: null
     weather: ''
-    sort: 300000
+    sort: 50000
     ownership:
       default: 0
     flags: {}
     _stats:
       coreVersion: '14.365'
       systemId: dangerousgary
-      systemVersion: 1.3.6
+      systemVersion: '#{VERSION}#'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -41767,7 +41769,8 @@ scenes:
     _id: Ev0CUTsW2xjdu9z6
     navigation: true
     navOrder: 0
-    thumb: worlds/dg-boite-bleue/assets/scenes/thumb-KLlj62OpsfwZDqiE_841yw.webp
+    thumb: >-
+      modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/thumb-salle-cartes.webp
     width: 4700
     height: 3300
     padding: 0.2
@@ -41901,7 +41904,7 @@ scenes:
         levels: []
         _id: s0r6EzWqakxZlcHy
         name: ''
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -41976,7 +41979,7 @@ scenes:
         levels: []
         name: ''
         _id: dUISYgGjxfhtAV9X
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -42051,7 +42054,7 @@ scenes:
         levels: []
         name: ''
         _id: jpa3qWFv63bceJ59
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -42126,7 +42129,7 @@ scenes:
         levels: []
         name: ''
         _id: ES0treTYcKd7FgX0
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -42201,7 +42204,7 @@ scenes:
         levels: []
         name: ''
         _id: bEAqzHFabejxfyMK
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -42276,7 +42279,7 @@ scenes:
         levels: []
         name: ''
         _id: EZ1V2UsZtjGllxHy
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 8
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -42315,7 +42318,7 @@ scenes:
         locked: true
         flags: {}
         name: ''
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 8
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -42353,7 +42356,7 @@ scenes:
         hidden: true
         locked: true
         flags: {}
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
     tokens: []
     levels:
       - _id: defaultLevel0000
@@ -45492,14 +45495,14 @@ scenes:
     journal: null
     journalEntryPage: null
     weather: ''
-    sort: 500000
+    sort: 125000
     ownership:
       default: 0
     flags: {}
     _stats:
       coreVersion: '14.365'
       systemId: dangerousgary
-      systemVersion: 1.3.6
+      systemVersion: '#{VERSION}#'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -45513,7 +45516,8 @@ scenes:
     _id: AzloH5wnw7WGTJPe
     navigation: true
     navOrder: 0
-    thumb: worlds/dg-boite-bleue/assets/scenes/thumb-e-MJakl0BipUo0pc1Fx1mA.webp
+    thumb: >-
+      modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/thumb-monastere-sainte-barbe.webp
     width: 9300
     height: 6450
     padding: 0.2
@@ -45647,7 +45651,7 @@ scenes:
         levels: []
         name: ''
         _id: Tw9eZU988D1xW6fG
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 375
@@ -45722,7 +45726,7 @@ scenes:
         levels: []
         name: ''
         _id: SpQP4MriWxPEYyFE
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 150
@@ -45797,7 +45801,7 @@ scenes:
         levels: []
         name: ''
         _id: 7HNL1YcFDoM0HZ06
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 150
@@ -45872,7 +45876,7 @@ scenes:
         levels: []
         name: ''
         _id: a0eBuN5cXnGGbmVz
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 150
@@ -45947,7 +45951,7 @@ scenes:
         levels: []
         name: ''
         _id: XMP8K2g9sFJ6lnfV
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 150
@@ -46022,7 +46026,7 @@ scenes:
         levels: []
         name: ''
         _id: 9DJgUA0EF92Mhr1X
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 150
@@ -46097,7 +46101,7 @@ scenes:
         levels: []
         name: ''
         _id: Jb82cEVH0bjo5Tjb
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 150
@@ -46172,7 +46176,7 @@ scenes:
         levels: []
         name: ''
         _id: uIE43wpmFhUnbi1d
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 150
@@ -46247,7 +46251,7 @@ scenes:
         levels: []
         name: ''
         _id: dKqxtBjECBGgH3bN
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 1350
@@ -46322,7 +46326,7 @@ scenes:
         levels: []
         name: ''
         _id: 30nvIhBCluiLjICo
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 600
@@ -46397,7 +46401,7 @@ scenes:
         levels: []
         name: ''
         _id: lvwHbv5Wc4lDmzY8
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 150
@@ -46472,7 +46476,7 @@ scenes:
         levels: []
         name: ''
         _id: dCrTFWR2eBGaG0hp
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 150
@@ -46547,7 +46551,7 @@ scenes:
         levels: []
         name: ''
         _id: RyIKirmki3SgAXar
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 1350
@@ -46622,7 +46626,7 @@ scenes:
         levels: []
         name: ''
         _id: xao9098XIuqp4KrM
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 600
@@ -46697,7 +46701,7 @@ scenes:
         levels: []
         name: ''
         _id: NYUsy8Oyi5ATnr2a
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 8
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -46733,7 +46737,7 @@ scenes:
         hidden: true
         locked: true
         flags: {}
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 8
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -46771,7 +46775,7 @@ scenes:
         hidden: true
         locked: true
         flags: {}
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 1350
@@ -46846,7 +46850,7 @@ scenes:
         levels: []
         name: ''
         _id: 5uMKy56CuxlCbtXo
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 8
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -46885,7 +46889,7 @@ scenes:
         locked: true
         flags: {}
         name: ''
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 8
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -46923,7 +46927,7 @@ scenes:
         hidden: true
         locked: true
         flags: {}
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
     tokens: []
     levels:
       - _id: defaultLevel0000
@@ -54985,14 +54989,14 @@ scenes:
     journal: null
     journalEntryPage: null
     weather: ''
-    sort: 600000
+    sort: 150000
     ownership:
       default: 0
     flags: {}
     _stats:
       coreVersion: '14.365'
       systemId: dangerousgary
-      systemVersion: 1.3.6
+      systemVersion: '#{VERSION}#'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -55006,7 +55010,7 @@ scenes:
     _id: A8VS7cNb4jv4c6XG
     navigation: true
     navOrder: 0
-    thumb: null
+    thumb: modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/thumb-cathedrale.webp
     width: 15700
     height: 19600
     padding: 0.15
@@ -55140,7 +55144,7 @@ scenes:
         levels: []
         name: ''
         _id: SBeSiEyu3JnRSEoG
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 300
@@ -55215,7 +55219,7 @@ scenes:
         levels: []
         name: ''
         _id: dUwGIBuToKhZM1Mz
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -55290,7 +55294,7 @@ scenes:
         levels: []
         name: ''
         _id: W3gB6DhX4lWOgKeX
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -55365,7 +55369,7 @@ scenes:
         levels: []
         name: ''
         _id: d2d1WZ2P3aibpv3D
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -55440,7 +55444,7 @@ scenes:
         levels: []
         name: ''
         _id: enxZHsqJQcMMmDQh
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -55515,7 +55519,7 @@ scenes:
         levels: []
         name: ''
         _id: uHsTksXgbqYMn6aW
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -55590,7 +55594,7 @@ scenes:
         levels: []
         name: ''
         _id: 3XWImyFSSMnDEFmd
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -55665,7 +55669,7 @@ scenes:
         levels: []
         name: ''
         _id: Lz54xQPRJiRAE4P3
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -55740,7 +55744,7 @@ scenes:
         levels: []
         name: ''
         _id: tddyUEzgbDRXFh5l
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -55815,7 +55819,7 @@ scenes:
         levels: []
         name: ''
         _id: fxQHPizWleakCcMo
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -55890,7 +55894,7 @@ scenes:
         levels: []
         name: ''
         _id: LqTynazk1g38JJTz
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -55965,7 +55969,7 @@ scenes:
         levels: []
         name: ''
         _id: CD55t5HKXJ80jXR9
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -56040,7 +56044,7 @@ scenes:
         levels: []
         name: ''
         _id: xXvtCPC8t4Q8CrHZ
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -56115,7 +56119,7 @@ scenes:
         levels: []
         name: ''
         _id: bfo3RPVyjPbuz3D2
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -56190,7 +56194,7 @@ scenes:
         levels: []
         name: ''
         _id: dYwLQb4oDJ6sRTUf
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 625
@@ -56265,7 +56269,7 @@ scenes:
         levels: []
         name: ''
         _id: xeV6usKxs0wLSNPA
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 525
@@ -56340,7 +56344,7 @@ scenes:
         levels: []
         name: ''
         _id: I9LUK4HK5gYAEgwX
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 12
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -56379,7 +56383,7 @@ scenes:
         locked: true
         flags: {}
         name: ''
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 12
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -56418,7 +56422,7 @@ scenes:
         locked: true
         flags: {}
         name: ''
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 12
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -56457,7 +56461,7 @@ scenes:
         flags: {}
         name: ''
         _id: vJ3BU2hVYjAArYQ6
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 12
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -56496,7 +56500,7 @@ scenes:
         locked: true
         flags: {}
         name: ''
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 12
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -56535,7 +56539,7 @@ scenes:
         flags: {}
         name: ''
         _id: 3ult2hnsjDb8peIi
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 12
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -56574,7 +56578,7 @@ scenes:
         locked: true
         flags: {}
         name: ''
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 625
@@ -56649,7 +56653,7 @@ scenes:
         levels: []
         name: ''
         _id: hYAe7qjeEpzEjwIC
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 12
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -56688,7 +56692,7 @@ scenes:
         locked: true
         flags: {}
         name: ''
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 12
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -56727,7 +56731,7 @@ scenes:
         flags: {}
         name: ''
         _id: 0mpEEWmzUa2ALwtQ
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 625
@@ -56802,7 +56806,7 @@ scenes:
         levels: []
         name: ''
         _id: Gvc7fvOk2nCBzq06
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 12
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -56841,7 +56845,7 @@ scenes:
         flags: {}
         name: ''
         _id: 9RdTaIYJkhpGPCCX
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 12
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -56880,7 +56884,7 @@ scenes:
         flags: {}
         name: ''
         _id: mH7glORrmP3qGNWw
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 12
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -56919,7 +56923,7 @@ scenes:
         locked: true
         flags: {}
         name: ''
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 12
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -56958,7 +56962,7 @@ scenes:
         locked: true
         flags: {}
         name: ''
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 12
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -56997,7 +57001,7 @@ scenes:
         locked: true
         flags: {}
         name: ''
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 12
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -57036,7 +57040,7 @@ scenes:
         locked: true
         flags: {}
         name: ''
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
     tokens:
       - name: Personnage
         displayName: 0
@@ -57212,7 +57216,7 @@ scenes:
             _stats:
               coreVersion: '14.365'
               systemId: dangerousgary
-              systemVersion: 1.3.6
+              systemVersion: '#{VERSION}#'
               createdTime: null
               modifiedTime: null
               lastModifiedBy: null
@@ -57277,7 +57281,7 @@ scenes:
             _stats:
               coreVersion: '14.365'
               systemId: dangerousgary
-              systemVersion: 1.3.6
+              systemVersion: '#{VERSION}#'
               createdTime: null
               modifiedTime: null
               lastModifiedBy: null
@@ -83843,7 +83847,7 @@ scenes:
     _stats:
       coreVersion: '14.365'
       systemId: dangerousgary
-      systemVersion: 1.3.6
+      systemVersion: '#{VERSION}#'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -83856,7 +83860,7 @@ scenes:
     _id: 88nLZ8mpssFCd8vB
     navigation: true
     navOrder: 0
-    thumb: worlds/dg-boite-bleue/assets/scenes/thumb-9TPoSyAPj1D78-Wcw5t-0A.webp
+    thumb: modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/thumb-labyrinthe.webp
     width: 12000
     height: 9000
     padding: 0.15
@@ -83990,7 +83994,7 @@ scenes:
         levels: []
         name: ''
         _id: VJ96G85jwG43hjxm
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -84065,7 +84069,7 @@ scenes:
         levels: []
         name: ''
         _id: NIc4lduxJxEpZ4gg
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -84140,7 +84144,7 @@ scenes:
         levels: []
         name: ''
         _id: p0dHur70Ev4cok4j
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -84215,7 +84219,7 @@ scenes:
         levels: []
         name: ''
         _id: yH3p0lfgp0voLobc
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -84290,7 +84294,7 @@ scenes:
         levels: []
         name: ''
         _id: uM1YfihGCVJYObnX
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -84365,7 +84369,7 @@ scenes:
         levels: []
         name: ''
         _id: BMfzUNIZBnggIVmA
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 1700
@@ -84440,7 +84444,7 @@ scenes:
         levels: []
         name: ''
         _id: 4AxaWmqo0MqTx4dd
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 12
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -84478,7 +84482,7 @@ scenes:
         hidden: true
         locked: true
         flags: {}
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - strokeWidth: 12
         strokeColor: '#264ca0'
         strokeAlpha: 1
@@ -84514,7 +84518,7 @@ scenes:
         hidden: true
         locked: true
         flags: {}
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -84589,7 +84593,7 @@ scenes:
         levels: []
         name: ''
         _id: FULClnAye9hEyVjz
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -84664,7 +84668,7 @@ scenes:
         levels: []
         name: ''
         _id: mxsNDqnnC6wfNXYE
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -84739,7 +84743,7 @@ scenes:
         levels: []
         name: ''
         _id: 3xLz9DWilaCc9hNv
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -84814,7 +84818,7 @@ scenes:
         levels: []
         name: ''
         _id: Mu0sftFafYZytk9V
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 800
@@ -84889,7 +84893,7 @@ scenes:
         levels: []
         name: ''
         _id: JasL5xJWik5FFGG1
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -84964,7 +84968,7 @@ scenes:
         levels: []
         name: ''
         _id: CpWaDHQz5Bp9yxiG
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -85039,7 +85043,7 @@ scenes:
         levels: []
         name: ''
         _id: Qim1cHvPfkLrUr0Z
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -85114,7 +85118,7 @@ scenes:
         levels: []
         name: ''
         _id: rJOtdZSlyo6j5Pbe
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -85189,7 +85193,7 @@ scenes:
         levels: []
         name: ''
         _id: twDSZmyia9vlQAbG
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -85264,7 +85268,7 @@ scenes:
         levels: []
         name: ''
         _id: CmhIEEZIOuE2jVEo
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -85339,7 +85343,7 @@ scenes:
         levels: []
         name: ''
         _id: zysSRj8KWWOOSLXd
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -85414,7 +85418,7 @@ scenes:
         levels: []
         name: ''
         _id: 8tXGE0O1MHNZa1rZ
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -85489,7 +85493,7 @@ scenes:
         levels: []
         name: ''
         _id: v4pgMavgx29Z40Gm
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -85564,7 +85568,7 @@ scenes:
         levels: []
         name: ''
         _id: NaZeeDz3GNgk7S3g
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -85639,7 +85643,7 @@ scenes:
         levels: []
         name: ''
         _id: C01Bmo4SyR50BuIh
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -85714,7 +85718,7 @@ scenes:
         levels: []
         name: ''
         _id: vsxYBeBaLWwuzETi
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -85789,7 +85793,7 @@ scenes:
         levels: []
         name: ''
         _id: rLDhBnWO4PtzOC9c
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -85864,7 +85868,7 @@ scenes:
         levels: []
         name: ''
         _id: Uqxq2D9imtpDE0fI
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -85939,7 +85943,7 @@ scenes:
         levels: []
         name: ''
         _id: cwFL7xMGw4kjyi4W
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -86014,7 +86018,7 @@ scenes:
         levels: []
         name: ''
         _id: pqZHWA3BxfV99DX5
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
       - shape:
           type: r
           width: 100
@@ -86089,7 +86093,7 @@ scenes:
         levels: []
         name: ''
         _id: btWWx0rU1eV7Klsa
-        author: KvKa5yVwb8zGmszo
+        author: B0NeVx6n1JkKkfOD
     tokens: []
     levels:
       - _id: defaultLevel0000
@@ -92035,7 +92039,7 @@ scenes:
     _stats:
       coreVersion: '14.365'
       systemId: dangerousgary
-      systemVersion: 1.3.6
+      systemVersion: '#{VERSION}#'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -92051,9 +92055,9 @@ playlists: []
 folders:
   - type: Scene
     folder: null
-    name: Boite Bleue
+    name: Boite bleue
     color: null
-    sorting: a
+    sorting: m
     _id: AcdAdNXlOuMPUCRK
     description: ''
     sort: 0
@@ -92061,7 +92065,7 @@ folders:
     _stats:
       coreVersion: '14.365'
       systemId: dangerousgary
-      systemVersion: 1.3.6
+      systemVersion: '#{VERSION}#'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
@@ -92079,6 +92083,6 @@ _stats:
   systemId: dangerousgary
   systemVersion: '#{VERSION}#'
   createdTime: 1773686649405
-  modifiedTime: 1786061102433
-  lastModifiedBy: KvKa5yVwb8zGmszo
+  modifiedTime: 1786738905763
+  lastModifiedBy: B0NeVx6n1JkKkfOD
 _key: '!adventures!IkIrUNilB1Ai8YS1'
