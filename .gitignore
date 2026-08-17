@@ -4,3 +4,6 @@ node_modules/
 # Foundry VTT
 /packs
 style/**/*.css
+
+# Sources
+/sources
