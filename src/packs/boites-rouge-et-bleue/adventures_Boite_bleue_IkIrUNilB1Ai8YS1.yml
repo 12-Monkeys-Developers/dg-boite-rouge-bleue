@@ -5892,9 +5892,16 @@ journal:
         type: text
         text:
           content: >-
-            <p>Le décor général est celui d'un petit centre commercial des
-            années 1900-1920 (style Art nouveau) abandonné, plongé dans un froid
-            glacial avec des stalactites de glace.</p>
+            <p>Le Donjon a l’apparence d’un petit centre commercial en forme de
+            L, dont la galerie principale (2) mesure environ quatre-vingts
+            mètres. En raison de la température négative, des stalactites de
+            glace pendent des balustrades et de la verrière. De nombreux
+            éléments architecturaux s’inspirent du style Art nouveau, à la
+            manière du grand magasin parisien de la Samaritaine. L’endroit
+            semble avoir été pillé et déserté il y a des années. Sur les
+            enseignes, les noms des boutiques sont composés de lettres et de
+            chiffres qui s’enchaînent sans logique. Il émane de la verrière une
+            lueur spectrale. L’aquarium diffuse une lumière bleutée.</p>
           format: 1
         sort: 100000
         title:
@@ -5925,9 +5932,9 @@ journal:
         type: text
         text:
           content: >-
-            <p>Un escalier hélicoïdal en béton qui descend sur une dizaine de
-            mètres, flanqué de murs recouverts de plaques de plâtre
-            fissurées.</p>
+            <p>Le Passage s’ouvre sur un escalier hélicoïdal en béton descendant
+            sur une dizaine de mètres. Les murs sont recouverts de plaques de
+            plâtre fissurées.</p>
           format: 1
         sort: 200000
         title:
@@ -5958,16 +5965,20 @@ journal:
         type: text
         text:
           content: >-
-            <p>Un espace de huit mètres de large sur quatre-vingts de long. Le
-            sol est pavé de grands carreaux de ciment ornés de lys et de roses,
-            jonché de détritus gelés. Le plafond est une haute verrière (8
-            mètres) émettant une lueur spectrale, décorée d'une fresque
-            d'animaux multicolores et de pampres. Au premier étage, des
-            balustrades en fer forgé Art nouveau encadrent le vide. On y trouve
-            une cabine photomaton ancienne, une porte vitrée donnant sur un
-            parking enneigé la nuit, un escalier roulant rouillé, et un grand
-            bac en céramique où poussent des orchidées géantes aux tiges
-            épaisses et épineuses.</p>
+            <p>La galerie mesure huit mètres de large et un peu plus de
+            quatre-vingts mètres de long. Le plafond culmine à huit mètres et
+            prend la forme d’une verrière dans sa partie nord-est. Le sol,
+            composé de grands carreaux de ciment décorés de motifs végétaux
+            (lys, roses) est jonché de détritus que le froid a rendus cassants
+            comme du verre. Au premier étage, les balustrades sont en fer forgé
+            : tout en courbes, elles reprennent l’esthétique de l’Art nouveau.
+            Le plafond est agrémenté d’une fresque représentant une série
+            d’animaux au milieu de pampres tentaculaires. L’extrémité nord-est
+            de la galerie est fermée par une paroi de placoplâtre blanc, au
+            rez-de-chaussée comme au premier étage. Ce dernier est accessible
+            via un escalier roulant situé à proximité. Dans la partie sud, on
+            trouve un grand bac à plantes, une cabine photo et une grande porte
+            vitrée semblant s’ouvrir sur un parking enneigé.</p>
           format: 1
         sort: 300000
         title:
@@ -5998,8 +6009,8 @@ journal:
         type: text
         text:
           content: >-
-            <p>Une boutique dévastée dont les présentoirs sont renversés, avec
-            des livres éparpillés sur le sol.</p>
+            <p>La librairie est dévastée. Plusieurs présentoirs sont renversés
+            et les ouvrages jonchent le sol.</p>
           format: 1
         sort: 400000
         title:
@@ -6030,8 +6041,9 @@ journal:
         type: text
         text:
           content: >-
-            <p>Une pièce étroite derrière une porte à barre de poussée,
-            contenant un escalier hélicoïdal.</p>
+            <p>Derrière une porte dotée d’une barre de poussée, on accède à une
+            pièce étroite abritant un escalier hélicoïdal montant au premier
+            étage de la galerie.</p>
           format: 1
         sort: 500000
         title:
@@ -6061,7 +6073,9 @@ journal:
       - name: 5 - Le magasin de décoration
         type: text
         text:
-          content: <p>Une boutique classique avec des allées.</p>
+          content: >-
+            <p>Le cadavre de la Mère gît entre deux allées du magasin de
+            décoration.</p>
           format: 1
         sort: 600000
         title:
@@ -6091,7 +6105,9 @@ journal:
       - name: 6 - Le magasin de bricolage
         type: text
         text:
-          content: <p>Une boutique entièrement saccagée.</p>
+          content: >-
+            <p>Comme toutes les autres boutiques, le magasin de bricolage est
+            saccagé.</p>
           format: 1
         sort: 700000
         title:
@@ -6122,9 +6138,10 @@ journal:
         type: text
         text:
           content: >-
-            <p>Un diner américain avec son comptoir et ses banquettes. Les murs
-            arborent des affiches de style Mucha déchirées et tachées
-            d'humidité, ainsi qu'un immense miroir au lourd cadre de bois
+            <p>Le café est un diner à l’américaine, avec son comptoir et ses
+            banquettes traditionnelles. La décoration contient quelques éléments
+            Art nouveau : des affiches rappelant le style du graphiste
+            tchécoslovaque Alphonse Mucha et un immense miroir au cadre de bois
             sculpté.</p>
           format: 1
         sort: 800000
@@ -6155,7 +6172,7 @@ journal:
       - name: 8 - L'armurerie
         type: text
         text:
-          content: <p>Une boutique fermée par une grille métallique.</p>
+          content: <p>L’armurerie est fermée par une grille.</p>
           format: 1
         sort: 900000
         title:
@@ -6182,12 +6199,50 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-      - name: 10 & 11 - L'aquarium
+      - name: 9 - Le magasin d'habillement
         type: text
         text:
-          content: <p>Une pièce irradiant d'un chatoiement bleuâtre et hypnotique.</p>
+          content: >-
+            <p>Le magasin d’habillement est le plus vaste commerce du Donjon. Il
+            comprend de nombreux rayons et des cabines d’essayage. Des
+            mannequins en fibre de verre jalonnent les allées.</p>
           format: 1
         sort: 1000000
+        title:
+          show: true
+          level: 1
+        _id: d9T32kCeYtEohDHv
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: 10 - Les autres boutiques
+        type: text
+        text:
+          content: >-
+            <p>Le Mall contient de nombreuses autres boutiques (électroménager,
+            sous-vêtements, souvenirs, etc.). Toutes semblent avoir été pillées.
+            Une étude approfondie des magasins et de leurs marchandises laisse à
+            penser que le Mall reproduit un centre commercial du début des
+            années 1980.</p>
+          format: 1
+        sort: 1100000
         title:
           show: true
           level: 1
@@ -6212,16 +6267,94 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
+      - name: 11 - L'aquarium
+        type: text
+        text:
+          content: >-
+            <p>De l’autre côté du mur en placoplâtre s’ouvre un espace de six
+            mètres de profondeur comprenant l’ensemble de la galerie, premier
+            étage compris. Le fond de la pièce est occupé par un immense panneau
+            de verre de huit mètres de haut d’où émane une lumière ondoyante
+            d’un bleu violacé évoquant les nuances de l’océan profond. Il s’agit
+            d’un gigantesque aquarium. Au nord, une trappe est ouverte dans le
+            sol.</p>
+          format: 1
+        sort: 1200000
+        title:
+          show: true
+          level: 1
+        _id: zMx6bXPxBRsk5I63
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
       - name: 12 - Le réseau de conduits
         type: text
         text:
-          content: <p>D'étroits conduits en acier cylindriques.</p>
+          content: >-
+            <p>Le puits donne accès à un réseau d’étroits conduits en acier
+            circulant sous l’aquarium. On ne peut y pénétrer qu’en rampant, et
+            en file indienne – il est très difficile de se doubler. Avancer est
+            éprouvant et mieux vaut ne pas être claustrophobe !</p>
           format: 1
-        sort: 1100000
+        sort: 1300000
         title:
           show: true
           level: 1
         _id: UaYWZ1ZjFUUk1Zoe
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: 13 - La Bulle
+        type: text
+        text:
+          content: >-
+            <p>Le tunnel se termine par un nouveau puits et une échelle qui
+            monte. Au bout d’une vingtaine de mètres d’ascension, on émerge au
+            centre d’une pièce hémisphérique de cinq mètres de diamètre. Les
+            parois entièrement transparentes laissent filtrer l’éclat céruléen
+            des eaux de l’aquarium. Lola est assise, immobile, les yeux perdus
+            dans l’étendue bleutée qui semble se déployer à l’infinie autour
+            d’elle.</p>
+          format: 1
+        sort: 1400000
+        title:
+          show: true
+          level: 1
+        _id: t6RdWGKYEAFTxFhd
         system: {}
         image: {}
         video:
@@ -6265,8 +6398,9 @@ journal:
         type: text
         text:
           content: >-
-            <p>Un donjon dont l'esthétique imite un motel américain des années
-            1970/1980.</p>
+            <p>La décoration est celle d’un motel américain des années 1970 ou
+            du début des années 1980. Chaque pièce bénéficie d’un éclairage
+            électrique, même si la luminosité est inexplicablement faible.</p>
           format: 1
         sort: 100000
         title:
@@ -6297,14 +6431,16 @@ journal:
         type: text
         text:
           content: >-
-            <p>Pièce d'environ quinze mètres carrés. Les murs sont peints d'un
-            bleu pâle qui s'écaille. Elle contient un grand lit, une table de
-            nuit en bois sombre avec un vieux téléphone noir, et un téléviseur
-            antédiluvien diffusant de la « neige ». Une fenêtre est masquée par
-            un store vénitien (donnant sur des paysages nocturnes changeants) et
-            un lourd rideau bleu nuit à motifs géométriques cache une alcôve. Au
-            fond de l'alcôve se dresse une porte métallique sculptée d'entrelacs
-            et émettant une lueur verdâtre.</p>
+            <p>La chambre fait une quinzaine de mètres carrés. Sa décoration
+            spartiate rappelle les motels américains des années 1970 et 1980.
+            Les murs sont badigeonnés d’une peinture bleu pâle qui s’écaille par
+            endroit. À droite de l’entrée se dressent un grand lit et une table
+            de nuit en bois sombre, sur laquelle un téléphone en bakélite noir
+            est déposé. En face, un poste de télévision antédiluvien est vissé
+            au mur. Une fenêtre masquée par un store vénitien s’ouvre dans le
+            mur nord. Un rideau bleu nuit aux larges motifs géométriques
+            recouvre le reste de la paroi. À gauche, une porte en bois mène
+            vraisemblablement à la salle de bain.</p>
           format: 1
         sort: 200000
         title:
@@ -6335,8 +6471,12 @@ journal:
         type: text
         text:
           content: >-
-            <p>Pièce carrelée dotée d'une baignoire surmontée d'un grand miroir
-            embué.</p>
+            <p>Le sol et une partie des murs de la salle de bain sont recouverts
+            de petits carreaux bleus ébréchés. Le lavabo et les toilettes en
+            faïence ont connu des jours meilleurs. Détail incongru : il n’y a
+            apparemment pas de miroir dans la pièce. Un rideau en plastique
+            cache une alcôve dans laquelle on devine une baignoire sabot… d’où
+            proviennent des claquements réguliers et vaguement inquiétants.</p>
           format: 1
         sort: 300000
         title:
@@ -6366,7 +6506,17 @@ journal:
       - name: 3 - L'aquarium
         type: text
         text:
-          content: <p>Un vaste espace aquatique rempli d'eau turquoise.</p>
+          content: >-
+            <p>De l’autre côté du miroir s’étend un espace aquatique semblable à
+            celui de l’aquarium du Mall (cf. Module 5 : le Mall). L’eau y est
+            chaude et salée et la pression tout à fait supportable. Une lueur
+            turquoise à l’origine incertaine permet de se repérer. Vu de
+            l’aquarium, le miroir ressemble à une fenêtre rectangulaire,
+            argentée et vaguement lumineuse. Nager pendant quelques instants est
+            nécessaire pour remarquer une fenêtre équivalente, à distance. On
+            peut l’atteindre sans trop de difficulté en retenant son souffle, à
+            condition de ne pas être ralenti par de l’équipement ou de lourds
+            vêtements.</p>
           format: 1
         sort: 400000
         title:
@@ -6397,8 +6547,9 @@ journal:
         type: text
         text:
           content: >-
-            <p>La réplique exacte de la première salle de bain, mais la
-            baignoire est vide.</p>
+            <p>Les donjexeurs émergent par le miroir d’une salle de bain
+            apparemment identique à celle qu’ils viennent de quitter (cf.
+            supra). La baignoire y est vide.</p>
           format: 1
         sort: 500000
         title:
@@ -6429,9 +6580,12 @@ journal:
         type: text
         text:
           content: >-
-            <p>Pièce jumelle de la première chambre. Le rideau de l'alcôve
-            révèle une fausse porte métallique encastrée recouvrant un mur de
-            pierre.</p>
+            <p>La seconde chambre est la jumelle de celle visitée précédemment.
+            Elle n’a toutefois aucune issue autre que celle de la salle de bain.
+            Le rideau est tiré et des sosies des donjexeurs sont en train de
+            badigeonner de sang la Porte du Labyrinthe ! Le corps de l’un d’eux
+            – la doublure du PJ qui avait éventuellement répondu au téléphone
+            dans la première chambre (1) – gît sur le lit, éviscéré.</p>
           format: 1
         sort: 600000
         title:
@@ -6481,8 +6635,8 @@ journal:
         type: text
         text:
           content: >-
-            <p>Une architecture médiévale de style gothique, plongée dans
-            l'obscurité avec une forte odeur d'encens.</p>
+            <p>L’architecture est médiévale et de style gothique. Les lieux sont
+            plongés dans l’obscurité. Une odeur d’encens flotte dans l’air.</p>
           format: 1
         sort: 100000
         title:
@@ -6513,9 +6667,11 @@ journal:
         type: text
         text:
           content: >-
-            <p>Vaste pièce carrée avec un plafond en croisée d'ogives. Le sol
-            est en tomettes de terre cuite. Trois des murs sont couverts de
-            mosaïques d'or resplendissantes.</p>
+            <p>Le Passage donne directement dans le vestibule, une vaste pièce
+            carrée au plafond en croisée d’ogives. En face du Passage s’ouvre
+            une petite porte en bois bardée de métal. Le sol est constitué de
+            tomettes de terre cuite. Les murs nord, est et ouest sont décorés de
+            mosaïques d’or.</p>
           format: 1
         sort: 200000
         title:
@@ -6542,15 +6698,17 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-      - name: 2 - Les salles de lecture
+      - name: 2 - Les salles de lecture génériques
         type: text
         text:
           content: >-
-            <p>Salles octogonales de dix mètres de diamètre. Le plafond en
-            croisée d'ogives culmine à six mètres et sa clé de voûte est gravée
-            de caractères. Les murs sont masqués par des bibliothèques en chêne
-            sombre remplies de livres. Au centre trône une lourde table en chêne
-            aux pieds sculptés en pattes de lion.</p>
+            <p>Les salles de lecture font une vingtaine de mètres carrés et sont
+            de forme octogonale. Elles sont reliées les unes aux autres par des
+            passages de trois mètres de long. Leur décor est identique : un sol
+            recouvert de tomettes de terre cuite, des livres soigneusement
+            alignés dans des niches aménagées dans les murs et une table en bois
+            placée au centre de la pièce. Comme dans le vestibule (1), le
+            plafond est en croisée d’ogives.</p>
           format: 1
         sort: 300000
         title:
@@ -6581,9 +6739,9 @@ journal:
         type: text
         text:
           content: >-
-            <p>Identique aux autres salles de lecture, avec le cadavre momifié
-            d'un homme à tête d'ibis vêtu d'une robe de bure gisant au sol à
-            côté d'une hallebarde.</p>
+            <p>La salle de lecture hantée est identique aux salles de lectures
+            décrites plus haut (2), mais un corps revêtu d’une robe de bure gît
+            sur le sol. Une hallebarde est déposée à côté de lui.</p>
           format: 1
         sort: 400000
         title:
@@ -6614,9 +6772,9 @@ journal:
         type: text
         text:
           content: >-
-            <p>Identique aux autres mais dépourvue de table. Au centre, le sol
-            arbore une grande dalle sculptée en forme de rose des vents, divisée
-            en segments triangulaires.</p>
+            <p>Contrairement aux autres salles de lecture (2), la salle de
+            lecture piégée n’abrite pas de table. Une dalle en forme de rose des
+            vents est scellée sur le sol, au centre de la pièce.</p>
           format: 1
         sort: 500000
         title:
@@ -6643,15 +6801,82 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
+      - name: 5 - La salle des livres dévorés
+        type: text
+        text:
+          content: >-
+            <p>Dans cette salle de lecture, des centaines de livres ont été
+            rassemblés pêle-mêle sur le sol.</p>
+          format: 1
+        sort: 600000
+        title:
+          show: true
+          level: 1
+        _id: aOPQNwIOf5dZe57r
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: 6 - La salle de travail de « Guillaume »
+        type: text
+        text:
+          content: >-
+            <p>Dans cette salle de lecture, un homme vêtu d’une robe de bure est
+            assis sur un tabouret et compulse des ouvrages rassemblés sur la
+            table. Absorbé par sa lecture, il ne semble pas avoir remarqué les
+            PJ.</p>
+          format: 1
+        sort: 700000
+        title:
+          show: true
+          level: 1
+        _id: cTLcz1LgctB5dJLy
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
       - name: 7 - La salle de lecture de l'homme aux ailes blanches
         type: text
         text:
           content: >-
-            <p>Comporte une alcôve dont le mur présente une fresque médiévale
-            d'un homme nu aux ailes blanches et aux pieds en forme de
+            <p>Le mur nord de la salle de lecture comporte une alcôve dont le
+            mur du fond est décoré d’une fresque d’allure médiévale représentant
+            un homme nu aux ailes blanches. Ses pieds ont la forme de
             serpents.</p>
           format: 1
-        sort: 600000
+        sort: 800000
         title:
           show: true
           level: 1
@@ -6676,14 +6901,81 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
+      - name: 8 - La salle de lecture de l'homme aux ailes rouges
+        type: text
+        text:
+          content: >-
+            <p>Le mur est de la salle de lecture comporte une alcôve, dont le
+            mur du fond est décoré d’une fresque d’allure médiévale représentant
+            un homme nu et barbu aux ailes rouges.</p>
+          format: 1
+        sort: 900000
+        title:
+          show: true
+          level: 1
+        _id: OwFOhFhmSYvKuDUX
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: 9 - La salle de lecture de l'homme aux ailes vertes
+        type: text
+        text:
+          content: >-
+            <p>Le mur ouest de la salle de lecture comporte une alcôve dont le
+            mur du fond est décoré d’une fresque d’allure médiévale représentant
+            un jeune homme nu aux ailes vertes.</p>
+          format: 1
+        sort: 1000000
+        title:
+          show: true
+          level: 1
+        _id: 1oGFaAAnf1jWOmqZ
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
       - name: 10 - La salle de lecture de l'homme aux ailes bleues
         type: text
         text:
           content: >-
-            <p>Comporte une alcôve ornée d'une fresque représentant un homme
-            noir doté d'ailes bleues.</p>
+            <p>Le mur sud de la salle de lecture comporte une alcôve dont le mur
+            du fond est décoré d’une fresque d’allure médiévale représentant un
+            homme noir aux ailes bleues.</p>
           format: 1
-        sort: 700000
+        sort: 1100000
         title:
           show: true
           level: 1
@@ -6708,20 +7000,59 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-      - name: 11 ou 12 - Le scriptorium
+      - name: 11 - Le scriptorium
         type: text
         text:
           content: >-
-            <p>Une immense fresque murale inspirée de La Cène de Léonard de
-            Vinci couvre un mur. Un grand lutrin en chêne au pied sculpté en
-            patte de lion fait face à une rose des vents gravée sur une dalle au
-            sol.</p>
+            <p>Le scriptorium est une grande pièce rectangulaire d’une quinzaine
+            de mètres de côté. Son plafond, soutenu par une imposante charpente
+            de bois, culmine à cinq mètres de haut. Du côté ouest s’ouvrent les
+            arcatures d’anciennes fenêtres ogivales, aujourd’hui murées. Une
+            vingtaine de lutrins poussiéreux sont répartis dans la salle. Le mur
+            nord est décoré d’une immense fresque représentant la Cène.</p>
           format: 1
-        sort: 800000
+        sort: 1200000
         title:
           show: true
           level: 1
         _id: G2BkXxJ1fq5IEbB0
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: 12 - La salle secrète de la Bibliothèque
+        type: text
+        text:
+          content: >-
+            <p>La pièce secrète est octogonale et sa superficie est identique à
+            celle des salles de lecture. Une mosaïque d’or recouvre le plafond
+            voûté : elle représente le même personnage assis que sur la mosaïque
+            du vestibule (1). Sur le sol, on distingue une rose des vents
+            colorée rappelant celle de la salle de lecture piégée (4). Une lueur
+            bleutée caractéristique en émane. Un grand lutrin en bois est dressé
+            dans un coin de la pièce.</p>
+          format: 1
+        sort: 1300000
+        title:
+          show: true
+          level: 1
+        _id: XlGWT3qCtlOWOmzw
         system: {}
         image: {}
         video:
@@ -6761,16 +7092,57 @@ journal:
     folder: Wmwrl5JuJnnEhRmn
     sort: 400000
     pages:
+      - name: Ambiance générale
+        type: text
+        text:
+          content: >-
+            <p>Les murs de pierre sont recouverts d’un placage de bois sombre,
+            sur lesquels sont sculptés des motifs empruntés à la cartographie
+            (roses des vents, volutes, navires, astrolabes, etc.). Le sol est
+            constitué de dalles de pierre noire. On y remarque parfois des
+            traces de sang frais. Une odeur de chair en décomposition alourdit
+            l’atmosphère. Seul l’antre du tatoueur (6) est éclairé par des
+            torches.</p>
+          format: 1
+        sort: 100000
+        title:
+          show: true
+          level: 1
+        _id: VNbrb4FNwNHxlZsU
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
       - name: 1 - Le hall d'entrée
         type: text
         text:
           content: >-
-            <p>Pièce circulaire de huit mètres de diamètre. Les murs sont
-            recouverts de boiseries sombres sculptées de motifs cartographiques
-            (astrolabes, navires...). Le sol est en dalles de pierre noire avec
-            une rose des vents centrale.</p>
+            <p>Le hall d’entrée est une salle circulaire de huit mètres de
+            diamètre. Comme partout dans le Donjon, les murs sont recouverts de
+            panneaux de bois sombre, sculptés de roses des vents, de navires et
+            d’astrolabes. Au milieu de la pièce, une dalle en pierre figure une
+            rose des vents identique à celle de la salle secrète de la
+            Bibliothèque. Les donjexeurs entrant dans le Donjon sont transportés
+            à environ un mètre de la dalle centrale. Trois portes et un corridor
+            permettent de sortir du hall.</p>
           format: 1
-        sort: 100000
+        sort: 200000
         title:
           show: true
           level: 1
@@ -6799,11 +7171,13 @@ journal:
         type: text
         text:
           content: >-
-            <p>Pièce carrée de cinq mètres de côté. De nombreuses vitrines
-            exposent des coquillages étranges, des pierres étincelantes, des
-            coiffes à plumes et des tablettes d'argile.</p>
+            <p>Le cabinet de curiosité est une pièce carrée de cinq mètres sur
+            cinq. À l’intérieur de vitrines, des dizaines d’objets poussiéreux
+            sont exposés : coquillages étranges et multicolores, blocs de pierre
+            étincelants, tablettes d’argiles recouvertes de signes
+            incompréhensibles, coiffes à plumes, statuettes en argiles, etc.</p>
           format: 1
-        sort: 200000
+        sort: 300000
         title:
           show: true
           level: 1
@@ -6832,11 +7206,13 @@ journal:
         type: text
         text:
           content: >-
-            <p>Pièce carrée de neuf mètres de côté. Les parois de bois sont
-            tendues de peaux humaines tannées, couvertes de vastes tatouages
-            géométriques.</p>
+            <p>La salle des écorchés est une pièce carrée de neuf mètres sur
+            neuf. Des peaux humaines tannées sont tendues sur les panneaux de
+            bois recouvrant les murs. Sur chacune d’entre elles, on distingue de
+            grands tatouages représentant des lignes et des formes géométriques.
+            L’ensemble dégage une odeur écœurante.</p>
           format: 1
-        sort: 300000
+        sort: 400000
         title:
           show: true
           level: 1
@@ -6865,10 +7241,11 @@ journal:
         type: text
         text:
           content: >-
-            <p>Petite pièce carrée centrée autour d'un lutrin en bois portant un
-            livre gigantesque.</p>
+            <p>Le cabinet de l’atlas est une petite pièce carrée dont le centre
+            est occupé par un lutrin identique à celui de la salle secrète de la
+            Bibliothèque.</p>
           format: 1
-        sort: 400000
+        sort: 500000
         title:
           show: true
           level: 1
@@ -6897,10 +7274,12 @@ journal:
         type: text
         text:
           content: >-
-            <p>Dédale de corridors étroits dont les panneaux de bois muraux sont
-            violemment lacérés.</p>
+            <p>Les tunnels des goules forment un lacis de corridors. Les
+            panneaux de bois recouvrant les murs sont lacérés de coups de
+            griffes. La puanteur de chair en décomposition est presque
+            insoutenable.</p>
           format: 1
-        sort: 500000
+        sort: 600000
         title:
           show: true
           level: 1
@@ -6925,15 +7304,21 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-      - name: 6 - L'antre du tatoueur
+      - name: 6 - L'atelier du tatoueur de cartes
         type: text
         text:
           content: >-
-            <p>Pièce sombre couverte d'étagères branlantes empilant fioles de
-            verre coloré, pots, et cornues. Au fond trône une chaise métallique
-            terrifiante couverte de sang et hérissée d'aiguilles rouillées.</p>
+            <p>L’atelier est une pièce rectangulaire éclairée par une série de
+            torches. L’endroit relève à la fois du laboratoire de la sorcière et
+            de l’antre du tueur en série. Les murs sont masqués par des étagères
+            branlantes sur lesquelles s’agglutinent pots, récipients et fioles
+            de verre coloré. Une série de cornues occupe la partie sud de la
+            pièce. Au fond, on remarque ce qui s’apparente à un siège de
+            dentiste de cauchemar : une monstruosité métallique dégoulinante de
+            sang, hérissée de longues aiguilles rouillées. Le
+            tatoueur-cartographe se tient immobile dans la pénombre.</p>
           format: 1
-        sort: 600000
+        sort: 700000
         title:
           show: true
           level: 1
@@ -6981,8 +7366,12 @@ journal:
         type: text
         text:
           content: >-
-            <p>Un édifice mêlant styles roman et gothique, obscur et parfumé à
-            la cire chaude.</p>
+            <p>L’architecture est médiévale et mêle les styles roman et
+            gothique. Il flotte dans l’air un parfum âcre de cire chaude. De
+            temps en temps, on peut percevoir les échos lointains d’un lugubre
+            chant religieux. En dehors de quelques salles comme la nef (2),
+            vaguement éclairées par une lumière diffuse provenant des vitraux,
+            les lieux sont plongés dans l’obscurité.</p>
           format: 1
         sort: 100000
         title:
@@ -7013,10 +7402,13 @@ journal:
         type: text
         text:
           content: >-
-            <p>L'entrée est rythmée par deux massifs piliers de pierre. Les
-            vitraux dessinent de multiples yeux colorés. Les travées sont
-            remplies de statues d'onyx très réalistes (humanoïdes, animaux,
-            monstres) juchées sur des socles gravés.</p>
+            <p>Le Passage mène au narthex, un immense hall de cinquante mètres
+            de long, dont le plafond culmine à près de quinze mètres. Les murs
+            sont sculptés dans une pierre noire et très dure, semblable à du
+            granite. Au centre du mur sud se dresse une fausse porte en bronze.
+            Elle est encadrée de deux immenses statues féminines. Dans le mur
+            nord s’ouvre un arc surmonté d’un tympan sculpté, soutenu par quatre
+            larges pilastres.</p>
           format: 1
         sort: 200000
         title:
@@ -7043,15 +7435,89 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
+      - name: 2 - La nef
+        type: text
+        text:
+          content: >-
+            <p>La nef de la Cathédrale offre des dimensions cyclopéennes – près
+            de cinq cents mètres de long sur quatre-vingts de large –, reléguant
+            ainsi Saint-Pierre de Rome au rang de chapelle de province ! Les
+            arcs soutenant le plafond se croisent à plus de soixante mètres. La
+            lueur pâle provenant des immenses vitraux ne permet pas de chasser
+            les ténèbres qui s’accrochent aux murs et aux colonnes. Les
+            bas-côtés sont occupés par d’immenses tribunes de pierre en marches
+            d’escalier. Des centaines (peut-être des milliers) de statues d’un
+            noir luisant, de trois mètres de haut, y sont dressées, toutes
+            tournées vers l’allée centrale.</p>
+          format: 1
+        sort: 300000
+        title:
+          show: true
+          level: 1
+        _id: ls0NJLcfu4I9b6QM
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: 3 - Le chœur
+        type: text
+        text:
+          content: >-
+            <p>Au fond de la nef s’ouvre une gigantesque abside abritant quatre
+            autels de marbre noir. Les murs sont bruts et ne comportent aucune
+            décoration.</p>
+          format: 1
+        sort: 400000
+        title:
+          show: true
+          level: 1
+        _id: HIU4ILDgC9kGpH0K
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
       - name: 4 - La chapelle latérale
         type: text
         text:
           content: >-
-            <p>Séparée du reste par une lourde grille en fer forgé. Elle
-            contient quelques bancs en bois et un autel de marbre noir
-            supportant une châsse cubique en or.</p>
+            <p>Une grille en fer forgé sépare le transept oriental d’une petite
+            chapelle latérale. La chapelle abrite quelques bancs en bois et une
+            grande châsse (un reliquaire) en or posée sur un autel de marbre
+            noir.</p>
           format: 1
-        sort: 300000
+        sort: 500000
         title:
           show: true
           level: 1
@@ -7076,16 +7542,48 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
+      - name: 5 - Le clocher
+        type: text
+        text:
+          content: >-
+            <p>La porte du clocher, en bois et bardée de fer, est fermée et ne
+            comporte aucune serrure.</p>
+          format: 1
+        sort: 600000
+        title:
+          show: true
+          level: 1
+        _id: VIIKHZKU9Lqm04EI
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
       - name: 6 - L'observatoire
         type: text
         text:
           content: >-
-            <p>Salle circulaire surmontée d'un grand dôme paré de mosaïques
-            bleues et dorées figurant un ciel étoilé. Quatre grands trônes de
-            pierre décorés de signes astrologiques siègent sur un podium
-            central.</p>
+            <p>L’escalier hélicoïdal du clocher (5) mène à une nouvelle salle
+            circulaire, surmontée d’un dôme décoré d’une mosaïque bleue et
+            dorée. Quatre grands trônes en pierre sont installés sur un large
+            podium central.</p>
           format: 1
-        sort: 400000
+        sort: 700000
         title:
           show: true
           level: 1
@@ -7110,14 +7608,52 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
+      - name: 7 - Le cloître
+        type: text
+        text:
+          content: >-
+            <p>Le cloître mesure une quinzaine de mètres de côté et ressemble à
+            celui du mont Saint-Michel, avec son portique bordé de colonnettes
+            et ses voûtes en bois. Le sol de la partie centrale est recouvert de
+            grandes dalles de pierre décorées de motifs floraux, abîmés par le
+            temps. Au milieu, on distingue une petite fontaine de pierre. Le
+            plafond est constitué d’une coupole dont la surface est enduite d’un
+            badigeon d’un bleu profond.</p>
+          format: 1
+        sort: 800000
+        title:
+          show: true
+          level: 1
+        _id: MbXt6nDy2Psswo1B
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
       - name: 8 - Les cellules des chanoines
         type: text
         text:
           content: >-
-            <p>Des pièces très spartiates comprenant juste une couche, un
-            bureau, une lampe à huile et un coffre.</p>
+            <p>Les cellules des chanoines sont meublées de façon spartiate : une
+            couche, un bureau sur lequel est posée une lampe à huile et un
+            coffre posé sur le sol (vide).</p>
           format: 1
-        sort: 500000
+        sort: 900000
         title:
           show: true
           level: 1
@@ -7146,16 +7682,86 @@ journal:
         type: text
         text:
           content: >-
-            <p>Vaste salle circulaire aux murs nus. Au centre se béant un puits
-            de six mètres de diamètre et dix de profondeur, dont les parois sont
-            creusées de niches remplies d'ossements et de crânes gravés de
-            symboles.</p>
+            <p>L’ossuaire est une vaste salle circulaire aux murs nus. Un puits
+            de six mètres de diamètre et d’une dizaine de mètres de profondeur
+            en occupe le centre.</p>
           format: 1
-        sort: 600000
+        sort: 1000000
         title:
           show: true
           level: 1
         _id: vZYZRzjX0GKDr8mL
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: 10 - La salle capitulaire
+        type: text
+        text:
+          content: >-
+            <p>La porte en bois de la salle capitulaire est ouverte. La pièce
+            est rectangulaire et de dimension modeste. Elle n’abrite que
+            quelques bancs en pierre. Sur les murs, on devine des fragments de
+            fresques en grande partie effacés. À l’ouest, une lourde herse de
+            pierre ferme l’accès à un nouveau corridor.</p>
+          format: 1
+        sort: 1100000
+        title:
+          show: true
+          level: 1
+        _id: ZsEsg2R3Dttb3TQF
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: 11 - Le sanctuaire secret
+        type: text
+        text:
+          content: >-
+            <p>De l’autre côté de la herse de pierre s’ouvre un long passage
+            débouchant sur une grande salle triangulaire, dans laquelle se
+            dresse un extraordinaire monolithe de quartz de huit mètres de haut.
+            Un petit escalier métallique permet d’accéder à son sommet. Le
+            cristal pulse une lumière rosâtre, donnant au lieu une apparence
+            presque organique.</p>
+          format: 1
+        sort: 1200000
+        title:
+          show: true
+          level: 1
+        _id: KlN7t9lduZ1JcN4F
         system: {}
         image: {}
         video:
@@ -7199,11 +7805,8 @@ journal:
         type: text
         text:
           content: >-
-            <p>L'architecture défie la logique, les pièces épousant les formes
-            géométriques de dés polyédriques (carré, triangle, pentagone,
-            deltoïde). Toutes les portes sont en bois, numérotées en chiffres
-            romains, et s'ouvrent sur un néant noir et mordoré, d'aspect
-            gluant.</p>
+            <p>Le Labyrinthe est plongé dans l’obscurité et la température est
+            de seize degrés.</p>
           format: 1
         sort: 100000
         title:
@@ -7230,19 +7833,22 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-      - name: 1 - Le hall
+      - name: Le hall du Labyrinthe
         type: text
         text:
           content: >-
-            <p>Pièce carrée de cinq mètres de côté. Murs tapissés d'un papier à
-            fleurs déchiré. Une petite cheminée en marbre dont le linteau arbore
-            des spirales rectangulaires occupe un coin.</p>
+            <p>Le hall est la première pièce du Labyrinthe. Elle est carrée et
+            mesure cinq mètres de côté. Une tapisserie à fleurs, en partie
+            déchirée et tachée par l’humidité, recouvre les murs. Le coin
+            nord-ouest est occupé par une petite cheminée en marbre. La Porte
+            menant à la Chambre bleue s’ouvre dans le mur sud. Chacun des autres
+            murs comporte une porte en bois.</p>
           format: 1
         sort: 200000
         title:
           show: true
           level: 1
-        _id: eG8qBgc5WvFIAud8
+        _id: XNOEJUA45oQ0JPLS
         system: {}
         image: {}
         video:
@@ -7263,18 +7869,23 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-      - name: Les salles vides
+      - name: Une salle vide
         type: text
         text:
           content: >-
-            <p>Pièces aux formes diverses dont les murs sont faits de grandes
-            plaques de béton nues.</p>
+            <p>Le Labyrinthe abrite de nombreuses salles vides. Leur taille est
+            variable et leurs murs sont généralement constitués de grandes
+            plaques de béton. On y entend parfois des murmures ou les lointains
+            échos d’une conversation dans une langue inconnue. Si l’on y reste
+            plus de quelques minutes, des mouvements et des ombres se
+            manifestent, sans que l’on puisse vraiment en déterminer
+            l’origine.</p>
           format: 1
         sort: 300000
         title:
           show: true
           level: 1
-        _id: ps8snGzi5ExkP1Wz
+        _id: 6eNwb9PYkY4Eft75
         system: {}
         image: {}
         video:
@@ -7299,10 +7910,10 @@ journal:
         type: text
         text:
           content: >-
-            <p>Chambre d'enfant (quinze mètres carrés) aux murs étrangement
-            inclinés, générant un vertige visuel. Elle abrite un lit, un petit
-            bureau, une bibliothèque, des étagères et un coffre en bois
-            noir.</p>
+            <p>La salle est une grande chambre d’enfant d’une quinzaine de
+            mètres carrés, aux murs inclinés. On y trouve un lit, un petit
+            bureau, un coffre de bois noir, une bibliothèque et quelques
+            étagères.</p>
           format: 1
         sort: 400000
         title:
@@ -7333,8 +7944,12 @@ journal:
         type: text
         text:
           content: >-
-            <p>Vaste pièce de cinquante mètres carrés, murs de pierre nus,
-            dominée par deux grands trônes de bois noir.</p>
+            <p>La chambre des duellistes est une grande pièce d’une cinquantaine
+            de mètres carrés, aux murs de pierre entièrement nus. Deux grands
+            trônes de bois noir sont installés au centre de la pièce. Deux
+            silhouettes androgynes y sont assises : vêtues d’une étrange
+            combinaison noire et brillante, les cheveux entièrement rasés, elles
+            sont armées d’une rapière.</p>
           format: 1
         sort: 500000
         title:
@@ -7365,9 +7980,10 @@ journal:
         type: text
         text:
           content: >-
-            <p>Un petit salon doté d'un sofa, d'une console et d'un fauteuil.
-            Tous ces éléments sont formés d'une matière molle, collante et
-            instable.</p>
+            <p>Le salon mou est une petite pièce dont l’agencement ressemble au
+            salon de l’Appartement (cf. Module 2 : le Théâtre, dans La Boîte
+            rouge). On y retrouve des meubles analogues (mais pas identiques) :
+            un sofa, une console et un fauteuil.</p>
           format: 1
         sort: 600000
         title:
@@ -7398,8 +8014,9 @@ journal:
         type: text
         text:
           content: >-
-            <p>Espace gigantesque vaguement éclairé par un écran de projection
-            colossal, rempli d'étroites allées de fauteuils.</p>
+            <p>La salle de cinéma est immense et vaguement éclairée par l’écran
+            qui occupe tout un mur. Quelques allées étroites permettent –
+            difficilement – de circuler entre les fauteuils.</p>
           format: 1
         sort: 700000
         title:
@@ -7426,15 +8043,55 @@ journal:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
+      - name: L'armurerie
+        type: text
+        text:
+          content: >-
+            <p>L’armurerie est une grande pièce dont le sol est recouvert de
+            terre battue. Aux murs sont accrochées des dizaines d’armes
+            médiévales : épées, masses, hallebardes, fléaux, etc. Chacune des
+            portes, à l’exception de celle par laquelle les donjexeurs sont
+            entrés, est encadrée par deux armures noires.</p>
+          format: 1
+        sort: 800000
+        title:
+          show: true
+          level: 1
+        _id: nBrQlF264yCKPChF
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
       - name: La chambre prismatique
         type: text
         text:
           content: >-
-            <p>Vaste salle de cent mètres carrés tapissée de plaques de polymère
-            blanc et réfléchissant. Un nuage duveteux, coloré et électrique y
-            flotte.</p>
+            <p>La chambre prismatique fait une centaine de mètres carrés. Les
+            murs sont revêtus de plaques fabriquées dans une sorte de polymère
+            blanc et réfléchissant. Au milieu de la salle flotte un nuage
+            duveteux et vaguement électrique d’environ neuf mètres carrés,
+            prenant successivement les couleurs des classes de Talents (Barde :
+            orange, Clerc : rose, Druide : vert, Guerrier : rouge, Magicien :
+            bleu, Moine : jaune, Paladin : blanc, Rôdeur : brun, Voleur :
+            noir).</p>
           format: 1
-        sort: 800000
+        sort: 900000
         title:
           show: true
           level: 1
@@ -7463,12 +8120,14 @@ journal:
         type: text
         text:
           content: >-
-            <p>Décors de salle d'attente des années 1970 avec des carreaux de
-            céramique gris et des sièges en plastique orange. Le sol et les murs
-            sont percés de taches noires béantes, de véritables brèches
-            s'ouvrant sur le néant absolu.</p>
+            <p>La pièce ressemble à une vaste salle d’attente d’un aéroport ou
+            d’une gare des années 1970, avec ses murs tapissés de carreaux de
+            céramique gris et ses sièges de plastique orange. Les murs et le sol
+            sont mouchetés de grandes taches noires, dont la taille varie de
+            quelques centimètres à un bon mètre carré. Aussi étrange que cela
+            puisse paraître, certaines de ces taches flottent dans l’air.</p>
           format: 1
-        sort: 900000
+        sort: 1000000
         title:
           show: true
           level: 1
@@ -7497,10 +8156,12 @@ journal:
         type: text
         text:
           content: >-
-            <p>Espace impossible rappelant les œuvres d'Escher, saturé
-            d'escaliers qui s'entrecroisent sans logique.</p>
+            <p>En entrant dans la salle, les donjexeurs ont immédiatement
+            l’impression d’être immergés dans une œuvre de l’artiste néerlandais
+            Maurits Cornelis Escher : l’espace est empli d’escaliers
+            impossibles, partout, nulle part, à jamais…</p>
           format: 1
-        sort: 1000000
+        sort: 1100000
         title:
           show: true
           level: 1
@@ -7529,11 +8190,14 @@ journal:
         type: text
         text:
           content: >-
-            <p>Humide et crasseuse, sol couvert de paille. Murs en pierres
-            tendres sculptés d'innombrables lignes labyrinthiques d'où
-            jaillissent de petits filets d'eau.</p>
+            <p>La prison est une petite pièce humide et crasseuse. De la paille
+            recouvre le sol. Les murs, composés de grosses pierres tendres, sont
+            maladroitement sculptés d’un lacis de lignes parallèles et
+            labyrinthiques. Un enfant est recroquevillé dans un coin,
+            visiblement incommodé par la lumière des lampes des PJ. Il tient à
+            la main une tige métallique.</p>
           format: 1
-        sort: 1100000
+        sort: 1200000
         title:
           show: true
           level: 1
@@ -7562,14 +8226,17 @@ journal:
         type: text
         text:
           content: >-
-            <p>Pièce pentagonale de vingt mètres de diamètre. Le sol est pavé de
-            galets gris traçant un labyrinthe. Le plafond incurvé et les murs
-            sont incrustés de milliers de coquillages. Elle compte deux alcôves
-            rocheuses : l'une renferme un trône couvert de nacre et de
-            coquillages, l'autre une colossale fontaine en granite rouge ceinte
-            de dix statues de pierre surplombant une vasque en forme d'œil.</p>
+            <p>La chambre de la fontaine est pentagonale et mesure une vingtaine
+            de mètres de diamètre. Le sol est parsemé de petits galets gris
+            dessinant un labyrinthe. Les murs et le plafond incurvés sont
+            recouverts de coquillages, savamment scellés dans la paroi. À droite
+            de l’entrée, une alcôve en pierre sculptée à la manière d’une petite
+            grotte abrite une fontaine décorée de statues de pierre. En face,
+            une alcôve identique contient un trône incrusté lui aussi de
+            coquillages. Aucune autre issue que la porte par laquelle les
+            donjexeurs viennent d’entrer n’est visible.</p>
           format: 1
-        sort: 1200000
+        sort: 1300000
         title:
           show: true
           level: 1
@@ -11165,7 +11832,875 @@ scenes:
         sort: 0
         flags: {}
     lights: []
-    notes: []
+    notes:
+      - entryId: BjyCyR1KWuAjmWU7
+        pageId: qr9alz5KFtNwVCST
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1100
+        'y': 3054
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '1'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: 7au8ypTDoQwPcobV
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: BjyCyR1KWuAjmWU7
+        pageId: McPLPx1Jr90hA7DR
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1601
+        'y': 1404
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '3'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: wWE6SkkevnPscGpm
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: BjyCyR1KWuAjmWU7
+        pageId: yeG8jUytIP48P194
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 3851
+        'y': 1404
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '4'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: smWKTuLJZYlC385u
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: BjyCyR1KWuAjmWU7
+        pageId: aZHgnt9Tts4tliuE
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2201
+        'y': 1404
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '5'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: K6sE5DIshGLoRJKG
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: BjyCyR1KWuAjmWU7
+        pageId: rjT5PGx7oIj5MJ8j
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1101
+        'y': 2204
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '6'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: kuwsHqR6W0juB1SH
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: BjyCyR1KWuAjmWU7
+        pageId: sGhWaD4uTpyuJbWa
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2001
+        'y': 2304
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '7'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: YQvVot8HDtyTMGOQ
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: BjyCyR1KWuAjmWU7
+        pageId: pA1Yodh0NdeRzTI4
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 4251
+        'y': 5654
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '8'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: V4ENiRr0kg6s6fyU
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: BjyCyR1KWuAjmWU7
+        pageId: d9T32kCeYtEohDHv
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1100
+        'y': 5804
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '9'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: U0CqaZAbfBWOnDrY
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: BjyCyR1KWuAjmWU7
+        pageId: DHtfJB91DiNdXuAm
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1950
+        'y': 6804
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '10'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: jUkyW8grRGiIfVPf
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: BjyCyR1KWuAjmWU7
+        pageId: DHtfJB91DiNdXuAm
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1950
+        'y': 6204
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '10'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: gKErsqCMaeXAJa9x
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: BjyCyR1KWuAjmWU7
+        pageId: DHtfJB91DiNdXuAm
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2150
+        'y': 5654
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '10'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: 9lBT6rIEVgFFcdvR
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: BjyCyR1KWuAjmWU7
+        pageId: DHtfJB91DiNdXuAm
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 3300
+        'y': 5654
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '10'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: lWZEHqyx5Mk7XiZQ
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: BjyCyR1KWuAjmWU7
+        pageId: DHtfJB91DiNdXuAm
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 4300
+        'y': 4804
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '10'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: itEgBfUtFOgvZWWC
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: BjyCyR1KWuAjmWU7
+        pageId: DHtfJB91DiNdXuAm
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 3350
+        'y': 4804
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '10'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: KNI7maL2KgPVV5f3
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: BjyCyR1KWuAjmWU7
+        pageId: DHtfJB91DiNdXuAm
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2700
+        'y': 4804
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '10'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: L1m0m1GsJUbSMN5i
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: BjyCyR1KWuAjmWU7
+        pageId: DHtfJB91DiNdXuAm
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2150
+        'y': 4804
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '10'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: kiSYh4L9DXvoJuj6
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: BjyCyR1KWuAjmWU7
+        pageId: DHtfJB91DiNdXuAm
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1600
+        'y': 4804
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '10'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: OxnsUErXKLUBXXQf
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: BjyCyR1KWuAjmWU7
+        pageId: DHtfJB91DiNdXuAm
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 4350
+        'y': 2254
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '10'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: lywhpeRdN5aI44Qr
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: BjyCyR1KWuAjmWU7
+        pageId: DHtfJB91DiNdXuAm
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 3700
+        'y': 2254
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '10'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: HteLqN3rQgXfNVXM
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: BjyCyR1KWuAjmWU7
+        pageId: DHtfJB91DiNdXuAm
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2950
+        'y': 2254
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '10'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: uCRZza0UAFMXnXco
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: BjyCyR1KWuAjmWU7
+        pageId: DHtfJB91DiNdXuAm
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 3400
+        'y': 1404
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '10'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: j71Ke2gEgZHXVuTO
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: BjyCyR1KWuAjmWU7
+        pageId: DHtfJB91DiNdXuAm
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2800
+        'y': 1404
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '10'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: HYor3oC4U5HvTKtG
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: BjyCyR1KWuAjmWU7
+        pageId: DHtfJB91DiNdXuAm
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 4300
+        'y': 1404
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '10'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: NYOOhwkn7z4zpiSw
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: BjyCyR1KWuAjmWU7
+        pageId: DHtfJB91DiNdXuAm
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1950
+        'y': 3454
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '10'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: krRKfxUrYs7cmisM
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: BjyCyR1KWuAjmWU7
+        pageId: DHtfJB91DiNdXuAm
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1100
+        'y': 3454
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '10'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: F5puHa1QpS2LzZmt
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: BjyCyR1KWuAjmWU7
+        pageId: DHtfJB91DiNdXuAm
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1100
+        'y': 2704
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '10'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: X2aVpT1lZFCUSZk8
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: BjyCyR1KWuAjmWU7
+        pageId: zMx6bXPxBRsk5I63
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 4751
+        'y': 1804
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '11'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: D0vYzUTDcvVgGEeq
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: BjyCyR1KWuAjmWU7
+        pageId: GlD8Un2bQsXd1FxI
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1515
+        'y': 1810
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: 919Mtvu1z8u6B6Fc
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: BjyCyR1KWuAjmWU7
+        pageId: UaYWZ1ZjFUUk1Zoe
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 3701
+        'y': 3754
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '12'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: h6Rq3HsbUT25n1RL
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: BjyCyR1KWuAjmWU7
+        pageId: t6RdWGKYEAFTxFhd
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 5101
+        'y': 4054
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '13'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: gqOWos6A4wsFnnFw
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: BjyCyR1KWuAjmWU7
+        pageId: DHtfJB91DiNdXuAm
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1100
+        'y': 1554
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '10'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: m2kD7GzJ6gcFXXdH
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
     sounds: []
     regions:
       - name: 2 Escalator 1er
@@ -25603,7 +27138,1827 @@ scenes:
         sort: 0
         flags: {}
     lights: []
-    notes: []
+    notes:
+      - entryId: WATsjHHajR705n29
+        pageId: OtBdZrIHGkuwLiph
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2850
+        'y': 6825
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '1'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: E34sQszaFGCnTLJc
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2850
+        'y': 6025
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: 9lIsUngumplugCWQ
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 3450
+        'y': 6025
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: Sel3T8Q48P8hYWq8
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 4050
+        'y': 6025
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: 4MTlQLt916qqgu8C
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1650
+        'y': 6025
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: KesHrrXD0O8ivqGG
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2200
+        'y': 6025
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: RYvAoaXc2mxf3CLY
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1050
+        'y': 6025
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: 7r3kWRWfY9mBfrOn
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 4650
+        'y': 6025
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: 4g51D0ZOr2y9UtIX
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2850
+        'y': 5425
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: v482YSt4s3BG62kC
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 3450
+        'y': 5425
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: FlomHgWlIlee0hzv
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2250
+        'y': 5425
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: QE7w271cdTXxdxRQ
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1650
+        'y': 5425
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: seeyMnneFr7d2M8d
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 4050
+        'y': 5425
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: 0ICHc9KhrKuXEm1E
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1050
+        'y': 5425
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: TKagIDFr3A4RcSgD
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 4650
+        'y': 5425
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: L2XZOYfdSDt14jE6
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2850
+        'y': 4825
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: DnpdjMC6fZ58mrqm
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 3400
+        'y': 4825
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: 9ZorLxxWmTv7yAi0
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2250
+        'y': 4825
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: WEn2MWeP5xYXLUcB
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1600
+        'y': 4825
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: vyPfOD6dpwLhi2mn
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 4050
+        'y': 4825
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: Gq3yGUbI2QmXw9Xh
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1050
+        'y': 4825
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: 3DPJK2FYiVuP0vcQ
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 4650
+        'y': 4825
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: oLm3WkEyg5h78tzx
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: U5yqaHb7RctsPETW
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2850
+        'y': 4225
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '10'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: 8p5T1GeC4Z04chql
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: cTLcz1LgctB5dJLy
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 3450
+        'y': 4225
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '6'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: UDFTzqJbGj7Xb5Up
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2250
+        'y': 4225
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: UpNjBcRc8Azp5Fee
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1650
+        'y': 4225
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: ii9BTtsaoNBf7IFm
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 4000
+        'y': 4225
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: fs8oLSevNjeEW4UF
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: Ayst9Cq0GsPELtTz
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1050
+        'y': 4225
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '3'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: DALAe80NUtxu2Ytj
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 4650
+        'y': 4225
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: eW9Mddfnwmm9ahMQ
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: XlGWT3qCtlOWOmzw
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2850
+        'y': 3625
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '12'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: 2RaOebnHiTuut7qG
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: OwFOhFhmSYvKuDUX
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 3450
+        'y': 3625
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '8'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: EMsFE6nDjpEzOmQy
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1650
+        'y': 3625
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: q1V2r4FY29hVRd61
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: 1oGFaAAnf1jWOmqZ
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2250
+        'y': 3625
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '9'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: Doy8R36htRwJYAod
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 4050
+        'y': 3625
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: zm3yoYY01Vebvvki
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1050
+        'y': 3625
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: VMjGUYU5nXVrWnbh
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 4650
+        'y': 3625
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: 1CdnygD99VEKl0lP
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: l3NJwVsow30P5nfX
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2850
+        'y': 3025
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '7'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: jHZYn7nM78NGzeeK
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 3450
+        'y': 3025
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: 5tFRcrwTlFWfgRB3
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2250
+        'y': 3025
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: 8RRRv6wiBClKummV
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1650
+        'y': 3025
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: WwM5Ge4qxP4Xho4x
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 4050
+        'y': 3025
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: GZmECyqqf9ppfuvr
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1000
+        'y': 3025
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: Gk0p3ulZofejDPT7
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 4650
+        'y': 3025
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: kAJWvtjntFIMOFBj
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2850
+        'y': 2425
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: iJFryvBUY9XnDwja
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 3450
+        'y': 2425
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: ayweEaER2DduBi3j
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2250
+        'y': 2425
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: PaOi0E8lWcL2eOKa
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1650
+        'y': 2425
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: CZwyAN9lXeCFGXJh
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 4050
+        'y': 2425
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: XKMioNetb0lT6jRc
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1050
+        'y': 2425
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: FJcJB8ROvniADZIF
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 4650
+        'y': 2425
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: g9LwyFRr3wApH7np
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2850
+        'y': 1825
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: thHJJLCbyuTvokOe
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 3450
+        'y': 1825
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: ePwanIaZEwlGogqU
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2250
+        'y': 1825
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: fupLcUSDd910IfJW
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1650
+        'y': 1825
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: 4fl0y0CBgmF9eEuC
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 4050
+        'y': 1825
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: YeRGMUkCk9lARcHx
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1050
+        'y': 1825
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: 0zugg8yMpNcSGjiN
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 4650
+        'y': 1825
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: JL8lZz1qhVp5rOeg
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2850
+        'y': 1225
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: 9yAFpGFfiGrRHswf
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 3450
+        'y': 1225
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: LyxPcrsdUBE68RcT
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2250
+        'y': 1225
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: KSQ98RidKAzIzDX0
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1650
+        'y': 1225
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: cXwjcUwKXu4S8J8x
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 4050
+        'y': 1225
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: oxfp5RZzejtovGle
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1050
+        'y': 1225
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: AtHtTygmf87UFNiL
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: edcHsJ8XmtSim9xn
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 4600
+        'y': 1225
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: 6tDq9efMmmcHTDfa
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: WATsjHHajR705n29
+        pageId: G2BkXxJ1fq5IEbB0
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 5500
+        'y': 4225
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '11'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: CTWcsT3bhT8PJVAs
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
     sounds: []
     regions: []
     tiles:
@@ -48062,7 +51417,147 @@ scenes:
         sort: 0
         flags: {}
     lights: []
-    notes: []
+    notes:
+      - entryId: FnLO90LxJWszpLqk
+        pageId: A0mG4iQm8OOGf4nY
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2550
+        'y': 2354
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: iadEPQoTslIyZeGv
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: FnLO90LxJWszpLqk
+        pageId: FaGwXJcU4DZKQkxO
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2926
+        'y': 2354
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '1'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: jWjJXMlf3Ianf3M3
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: FnLO90LxJWszpLqk
+        pageId: lgChoquGx4eCGRtu
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1951
+        'y': 2054
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '3'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: 9afcodKGf33V1TGu
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: FnLO90LxJWszpLqk
+        pageId: yQBHGYttiAWdiQHz
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1651
+        'y': 1454
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '4'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: ddRO0nQADF8sFIAY
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: FnLO90LxJWszpLqk
+        pageId: MeCnvZjAb7oGQPsK
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1651
+        'y': 1079
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '5'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: TOLGNzPwwTnEmbAL
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
     sounds: []
     regions: []
     tiles:
@@ -50306,7 +53801,175 @@ scenes:
         locked: false
         flags: {}
         _id: mt5rYPjqPv5nRSd9
-    notes: []
+    notes:
+      - entryId: hF2e0UcUkkKE77FX
+        pageId: IzzcdPl6FPNhLqHr
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2250
+        'y': 2225
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '1'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: mp0MpkkYhAkqELV5
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: hF2e0UcUkkKE77FX
+        pageId: nvfVkJLsdR42HKzX
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1600
+        'y': 2225
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '3'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: DishoaKtAXWUWDOc
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: hF2e0UcUkkKE77FX
+        pageId: ZLOPkbG48wUGB8ws
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2250
+        'y': 1675
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: 4vuspZzdRlCINId0
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: hF2e0UcUkkKE77FX
+        pageId: 0UwV0et6eylTtCgB
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2250
+        'y': 2775
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '4'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: XqCiXHloZAcKiV5J
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: hF2e0UcUkkKE77FX
+        pageId: DvEuEzAymavEZjeU
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 3050
+        'y': 2225
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '5'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: bBfZRBxAxO58q0wy
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: hF2e0UcUkkKE77FX
+        pageId: wPdlSEM7sAayWKRQ
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 5150
+        'y': 2125
+        elevation: 0
+        sort: 0
+        iconSize: 40
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '6'
+        fontFamily: ''
+        fontSize: 24
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: iMbktF6qrd22LLg3
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
     sounds: []
     regions: []
     tiles:
@@ -64763,7 +68426,399 @@ scenes:
         sort: 0
         flags: {}
     lights: []
-    notes: []
+    notes:
+      - entryId: X02eT0BxDVTrTF2W
+        pageId: dsSStkqmk9pB7ohP
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 12700
+        'y': 21585
+        elevation: 0
+        sort: 0
+        iconSize: 80
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '1'
+        fontFamily: ''
+        fontSize: 42
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: kkFHkN6fT81FeF4y
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: X02eT0BxDVTrTF2W
+        pageId: ls0NJLcfu4I9b6QM
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 12700
+        'y': 17935
+        elevation: 0
+        sort: 0
+        iconSize: 80
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 42
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: 046zEM0gBRIUQLIl
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: X02eT0BxDVTrTF2W
+        pageId: HIU4ILDgC9kGpH0K
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 12700
+        'y': 4435
+        elevation: 0
+        sort: 0
+        iconSize: 80
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '3'
+        fontFamily: ''
+        fontSize: 42
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: rELWQvrDFCpvxCKC
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: X02eT0BxDVTrTF2W
+        pageId: oM4VMnrhBQSYiSjt
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 15850
+        'y': 6885
+        elevation: 0
+        sort: 0
+        iconSize: 80
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '4'
+        fontFamily: ''
+        fontSize: 42
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: vHHhVA2Mmuch8KeV
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: X02eT0BxDVTrTF2W
+        pageId: VIIKHZKU9Lqm04EI
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 17100
+        'y': 8435
+        elevation: 0
+        sort: 0
+        iconSize: 80
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '5'
+        fontFamily: ''
+        fontSize: 42
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: aFZBMdtWLwPWZ3R7
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: X02eT0BxDVTrTF2W
+        pageId: FVuBvz5Hj5AfK2Jm
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 17100
+        'y': 7385
+        elevation: 0
+        sort: 0
+        iconSize: 80
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '6'
+        fontFamily: ''
+        fontSize: 42
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: yGGuShKBFlrJnWGH
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: X02eT0BxDVTrTF2W
+        pageId: MbXt6nDy2Psswo1B
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 7100
+        'y': 7185
+        elevation: 0
+        sort: 0
+        iconSize: 80
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '7'
+        fontFamily: ''
+        fontSize: 42
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: eOCdwGLhYVgN8Rfx
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: X02eT0BxDVTrTF2W
+        pageId: GiYNsFXDOsoh69dN
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 7150
+        'y': 6185
+        elevation: 0
+        sort: 0
+        iconSize: 80
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '8'
+        fontFamily: ''
+        fontSize: 42
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: inDyVYUtrD5vX1SZ
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: X02eT0BxDVTrTF2W
+        pageId: GiYNsFXDOsoh69dN
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 7450
+        'y': 6185
+        elevation: 0
+        sort: 0
+        iconSize: 80
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '8'
+        fontFamily: ''
+        fontSize: 42
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: sN02t1609doEdFLH
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: X02eT0BxDVTrTF2W
+        pageId: GiYNsFXDOsoh69dN
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 7150
+        'y': 8585
+        elevation: 0
+        sort: 0
+        iconSize: 80
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '8'
+        fontFamily: ''
+        fontSize: 42
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: mKlETik0Cq4ElnEj
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: X02eT0BxDVTrTF2W
+        pageId: GiYNsFXDOsoh69dN
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 7450
+        'y': 8585
+        elevation: 0
+        sort: 0
+        iconSize: 80
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '8'
+        fontFamily: ''
+        fontSize: 42
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: D5nzxJFC1jRZRKQJ
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: X02eT0BxDVTrTF2W
+        pageId: vZYZRzjX0GKDr8mL
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 6800
+        'y': 4985
+        elevation: 0
+        sort: 0
+        iconSize: 80
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '9'
+        fontFamily: ''
+        fontSize: 42
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: s6HCC6DfMZE3FDzO
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: X02eT0BxDVTrTF2W
+        pageId: ZsEsg2R3Dttb3TQF
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 6100
+        'y': 7185
+        elevation: 0
+        sort: 0
+        iconSize: 80
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '10'
+        fontFamily: ''
+        fontSize: 42
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: LudfHjgG8KDM1WXj
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: X02eT0BxDVTrTF2W
+        pageId: KlN7t9lduZ1JcN4F
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 3600
+        'y': 7285
+        elevation: 0
+        sort: 0
+        iconSize: 80
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '11'
+        fontFamily: ''
+        fontSize: 42
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: jaCDg4b1U7aifYMp
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
     sounds: []
     regions:
       - color: '#cc4128'
