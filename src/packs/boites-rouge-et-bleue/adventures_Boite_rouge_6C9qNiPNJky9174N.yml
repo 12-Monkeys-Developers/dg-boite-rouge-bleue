@@ -4927,9 +4927,12 @@ journal:
         text:
           format: 1
           content: >-
-            <div><p>L'esthétique générale rappelle celle des banques américaines
-            du début du XXe siècle, mais plongée dans l'abandon, le froid et une
-            humidité constante.</p></div>
+            <p>L’obscurité est totale dans la plupart des pièces. Il flotte dans
+            l’air une vague odeur de pourriture et le taux d’hygrométrie est
+            élevé. De l’eau ruisselle sur les murs. De temps à autre, on entend
+            au loin des claquements métalliques, comme si on refermait
+            bruyamment les grilles d’une prison. Le mobilier présent semble
+            dater des années 1930.</p>
         video:
           controls: true
           volume: 0.5
@@ -4965,10 +4968,46 @@ journal:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-  - folder: mzBsD4FM83eRyFPG
+  - folder: z2gnWbG5hm59Rx5s
     name: L'Appartement
     _id: CWkk7YAE1CvvR7t7
     pages:
+      - name: Ambiance générale
+        type: text
+        text:
+          content: >-
+            <p>L’endroit ressemble à un appartement parisien des années 1960. Le
+            mobilier n’est pas en très bon état, mais a contrario de bien des
+            Donjons, les lieux ne semblent pas abandonnés depuis des décennies.
+            L’Appartement bénéficie d’un éclairage électrique. Les ampoules ne
+            diffusent toutefois qu’une lumière spectrale dessinant sur les murs
+            d’étranges ombres mouvantes.</p>
+          format: 1
+        sort: 50000
+        title:
+          show: true
+          level: 1
+        _id: OqiHm0wgLwFSOlL0
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
       - sort: 100000
         name: 1 - Le salon
         type: text
@@ -5102,10 +5141,50 @@ journal:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-  - folder: mzBsD4FM83eRyFPG
+  - folder: z2gnWbG5hm59Rx5s
     name: Le Théâtre
     _id: PNCg7qMZE4WYTzIP
     pages:
+      - name: Ambiance générale
+        type: text
+        text:
+          content: >-
+            <p>L’architecture du Théâtre ressemble à celle du Palais Garnier à
+            Paris. Le décor est de style baroque : plaquages de marbre,
+            trompe-l’œil, escaliers et balustrades lourdement sculptées, etc.
+            L’ensemble est en mauvais état : des fissures apparaissent sur les
+            murs et des taches d’humidité défigurent les peintures. Une odeur de
+            pourriture flotte dans l’air. Un grand silence règne dans le Donjon,
+            parfois interrompu par la rumeur lointaine d’une salve
+            d’applaudissements. L’obscurité est totale en dehors de la vague
+            lueur bleutée émanant des Portes. Les lustres de la salle de théâtre
+            (7) peuvent cependant être allumés.</p>
+          format: 1
+        sort: 50000
+        title:
+          show: true
+          level: 1
+        _id: Fs24UAFeRZfkc4sV
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
       - sort: 100000
         name: 1 - L'escalier de marbre
         type: text
@@ -5595,659 +5674,6 @@ journal:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-  - name: L'Appartement
-    folder: z2gnWbG5hm59Rx5s
-    sort: 200000
-    pages:
-      - name: Ambiance générale
-        type: text
-        text:
-          content: >-
-            <p>Un petit donjon dont la décoration générale est figée dans
-            l'esthétique des années 1960.</p>
-          format: 1
-        sort: 100000
-        title:
-          show: true
-          level: 1
-        _id: OqiHm0wgLwFSOlL0
-        system: {}
-        image: {}
-        video:
-          controls: true
-          volume: 0.5
-        src: null
-        category: null
-        ownership:
-          default: -1
-        flags: {}
-        _stats:
-          coreVersion: '14.367'
-          systemId: dangerousgary
-          systemVersion: '#{VERSION}#'
-          createdTime: null
-          modifiedTime: null
-          lastModifiedBy: null
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-      - name: 1 - Le salon
-        type: text
-        text:
-          content: >-
-            <p>Une pièce de trente mètres carrés aux murs couverts d'un papier
-            peint jaune et vert à motifs géométriques (par endroits déchiré). Le
-            sol présente un parquet à chevron couvert de tapis de mousseline
-            rouge. Des coussins de velours rouge garnissent une grande banquette
-            en bois au milieu de la pièce. Un grand lampadaire en bois peint
-            diffuse une faible lumière sur une table en verre et laiton où
-            repose une platine vinyle entourée d'une trentaine de pochettes de
-            disques monochromes.</p>
-          format: 1
-        sort: 200000
-        title:
-          show: true
-          level: 1
-        _id: UI0VrPMkHIoYzZiO
-        system: {}
-        image: {}
-        video:
-          controls: true
-          volume: 0.5
-        src: null
-        category: null
-        ownership:
-          default: -1
-        flags: {}
-        _stats:
-          coreVersion: '14.367'
-          systemId: dangerousgary
-          systemVersion: '#{VERSION}#'
-          createdTime: null
-          modifiedTime: null
-          lastModifiedBy: null
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-      - name: 2 - La chambre
-        type: text
-        text:
-          content: >-
-            <p>Une chambre occupée par un grand lit aux draps défaits sous un
-            plaid orange usé. Des dizaines de photographies représentant des
-            souterrains, mines et couloirs de métro sombres sont punaisées sur
-            les murs.</p>
-          format: 1
-        sort: 300000
-        title:
-          show: true
-          level: 1
-        _id: cvGQHCkn2J5nNTek
-        system: {}
-        image: {}
-        video:
-          controls: true
-          volume: 0.5
-        src: null
-        category: null
-        ownership:
-          default: -1
-        flags: {}
-        _stats:
-          coreVersion: '14.367'
-          systemId: dangerousgary
-          systemVersion: '#{VERSION}#'
-          createdTime: null
-          modifiedTime: null
-          lastModifiedBy: null
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-      - name: 3 - Les escaliers
-        type: text
-        text:
-          content: >-
-            <p>Une cage d'escalier sombre, ponctuée par une minuterie, dont les
-            murs de plâtre marron s'écaillent par plaques. L'escalier compte
-            trois étages au-dessus du palier et six en dessous. Au niveau le
-            plus bas se dresse une lourde porte en bois à double battant,
-            surmontée d'un fronton de marbre soutenu par deux statues féminines
-            drapées à l'antique, l'une tenant un masque comique et l'autre un
-            masque tragique, le tout irradiant d'une lueur bleutée.</p>
-          format: 1
-        sort: 400000
-        title:
-          show: true
-          level: 1
-        _id: wBeM69KdgSdbuCCA
-        system: {}
-        image: {}
-        video:
-          controls: true
-          volume: 0.5
-        src: null
-        category: null
-        ownership:
-          default: -1
-        flags: {}
-        _stats:
-          coreVersion: '14.367'
-          systemId: dangerousgary
-          systemVersion: '#{VERSION}#'
-          createdTime: null
-          modifiedTime: null
-          lastModifiedBy: null
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-    _id: 84LEJxrux5cf6yR7
-    categories: []
-    ownership:
-      default: 0
-    flags: {}
-    _stats:
-      coreVersion: '14.367'
-      systemId: dangerousgary
-      systemVersion: '#{VERSION}#'
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-      compendiumSource: null
-      duplicateSource: null
-      exportSource: null
-  - name: Le Théâtre
-    folder: z2gnWbG5hm59Rx5s
-    sort: 300000
-    pages:
-      - name: Ambiance générale
-        type: text
-        text:
-          content: >-
-            <p>Un donjon intérieur baroque dont l'architecture grandiose
-            rappelle le Palais Garnier à Paris, mais dans un état de délabrement
-            avancé (fissures, humidité, odeur de pourriture et obscurité totale
-            en dehors de la lueur des Portes).</p>
-          format: 1
-        sort: 100000
-        title:
-          show: true
-          level: 1
-        _id: Fs24UAFeRZfkc4sV
-        system: {}
-        image: {}
-        video:
-          controls: true
-          volume: 0.5
-        src: null
-        category: null
-        ownership:
-          default: -1
-        flags: {}
-        _stats:
-          coreVersion: '14.367'
-          systemId: dangerousgary
-          systemVersion: '#{VERSION}#'
-          createdTime: null
-          modifiedTime: null
-          lastModifiedBy: null
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-      - name: 1 - L'escalier de marbre
-        type: text
-        text:
-          content: >-
-            <p>Un escalier de marbre blanc et gris, étroit et abrupt, qui
-            descend dans l'obscurité depuis la Porte d'entrée.</p>
-          format: 1
-        sort: 200000
-        title:
-          show: true
-          level: 1
-        _id: iL9GKGd4VhXostSI
-        system: {}
-        image: {}
-        video:
-          controls: true
-          volume: 0.5
-        src: null
-        category: null
-        ownership:
-          default: -1
-        flags: {}
-        _stats:
-          coreVersion: '14.367'
-          systemId: dangerousgary
-          systemVersion: '#{VERSION}#'
-          createdTime: null
-          modifiedTime: null
-          lastModifiedBy: null
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-      - name: 2 - Le vestibule
-        type: text
-        text:
-          content: >-
-            <p>Une pièce immense aux parois recouvertes de plaques de marbre
-            multicolores séparées par de fins pilastres. Le plafond culmine à
-            huit mètres sous forme de coupoles d'où pendent des lustres de
-            cristal poussiéreux. À l'est, deux grandes portes de bois à double
-            battant sont closes.</p>
-          format: 1
-        sort: 300000
-        title:
-          show: true
-          level: 1
-        _id: fXFw0TwZR5Fm0Ixc
-        system: {}
-        image: {}
-        video:
-          controls: true
-          volume: 0.5
-        src: null
-        category: null
-        ownership:
-          default: -1
-        flags: {}
-        _stats:
-          coreVersion: '14.367'
-          systemId: dangerousgary
-          systemVersion: '#{VERSION}#'
-          createdTime: null
-          modifiedTime: null
-          lastModifiedBy: null
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-      - name: 3 - Le hall
-        type: text
-        text:
-          content: >-
-            <p>Une vaste salle de marbre occupée au centre par deux imposantes
-            statues de femmes assises drapées à l'antique.</p>
-          format: 1
-        sort: 400000
-        title:
-          show: true
-          level: 1
-        _id: fFGJmx2DJtXJfSag
-        system: {}
-        image: {}
-        video:
-          controls: true
-          volume: 0.5
-        src: null
-        category: null
-        ownership:
-          default: -1
-        flags: {}
-        _stats:
-          coreVersion: '14.367'
-          systemId: dangerousgary
-          systemVersion: '#{VERSION}#'
-          createdTime: null
-          modifiedTime: null
-          lastModifiedBy: null
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-      - name: 4 - Le foyer
-        type: text
-        text:
-          content: >-
-            <p>Une salle de même taille que le hall, décorée de fresques murales
-            d'inspiration médiévale. Elle abrite une grande table en bois sombre
-            supportant deux corbeilles de marbre, ainsi qu'un lourd braséro de
-            bronze posé au centre.</p>
-          format: 1
-        sort: 500000
-        title:
-          show: true
-          level: 1
-        _id: ZHsksEpPxlhhIaWk
-        system: {}
-        image: {}
-        video:
-          controls: true
-          volume: 0.5
-        src: null
-        category: null
-        ownership:
-          default: -1
-        flags: {}
-        _stats:
-          coreVersion: '14.367'
-          systemId: dangerousgary
-          systemVersion: '#{VERSION}#'
-          createdTime: null
-          modifiedTime: null
-          lastModifiedBy: null
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-      - name: 5 - Le cabinet des miroirs
-        type: text
-        text:
-          content: >-
-            <p>Une salle octogonale entièrement vide de meubles, dont les parois
-            de six mètres de haut sont tapissées de miroirs de toutes formes et
-            dimensions. Un grand miroir oblong, doté d'un cadre sculpté de
-            motifs d'araignées, n'affiche pas le reflet du cabinet mais une
-            pièce tendue de noir.</p>
-          format: 1
-        sort: 600000
-        title:
-          show: true
-          level: 1
-        _id: VtnqIyAApFmsbGxf
-        system: {}
-        image: {}
-        video:
-          controls: true
-          volume: 0.5
-        src: null
-        category: null
-        ownership:
-          default: -1
-        flags: {}
-        _stats:
-          coreVersion: '14.367'
-          systemId: dangerousgary
-          systemVersion: '#{VERSION}#'
-          createdTime: null
-          modifiedTime: null
-          lastModifiedBy: null
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-      - name: 6 - La salle du générateur
-        type: text
-        text:
-          content: >-
-            <p>Une petite pièce abritant une machinerie complexe d'engrenages de
-            cuivre et d'acier, de tuyaux et de cadrans. Une étroite fenêtre
-            rectangulaire donne sur la salle de spectacle située en
-            contrebas.</p>
-          format: 1
-        sort: 700000
-        title:
-          show: true
-          level: 1
-        _id: xjzfFB17CGyL0qsL
-        system: {}
-        image: {}
-        video:
-          controls: true
-          volume: 0.5
-        src: null
-        category: null
-        ownership:
-          default: -1
-        flags: {}
-        _stats:
-          coreVersion: '14.367'
-          systemId: dangerousgary
-          systemVersion: '#{VERSION}#'
-          createdTime: null
-          modifiedTime: null
-          lastModifiedBy: null
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-      - name: 7 - La salle de théâtre
-        type: text
-        text:
-          content: >-
-            <p>Une grande salle de spectacle à l'italienne. Les fauteuils du
-            parterre sont rongés par la moisissure et les parois ruissellent
-            d'humidité sous de grands lustres éteints.</p>
-          format: 1
-        sort: 800000
-        title:
-          show: true
-          level: 1
-        _id: OUorSu0ZW5G5O1fR
-        system: {}
-        image: {}
-        video:
-          controls: true
-          volume: 0.5
-        src: null
-        category: null
-        ownership:
-          default: -1
-        flags: {}
-        _stats:
-          coreVersion: '14.367'
-          systemId: dangerousgary
-          systemVersion: '#{VERSION}#'
-          createdTime: null
-          modifiedTime: null
-          lastModifiedBy: null
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-      - name: 8 - L'escalier des balcons
-        type: text
-        text:
-          content: >-
-            <p>Un escalier hélicoïdal étroit menant aux étages des balcons. Les
-            portes en bois des loges sont sculptées de bas-reliefs : l'une
-            représente un jardin à l'antique, l'autre l'arc de triomphe du
-            Carrousel.</p>
-          format: 1
-        sort: 900000
-        title:
-          show: true
-          level: 1
-        _id: hEyNuKtyZP0V2YOd
-        system: {}
-        image: {}
-        video:
-          controls: true
-          volume: 0.5
-        src: null
-        category: null
-        ownership:
-          default: -1
-        flags: {}
-        _stats:
-          coreVersion: '14.367'
-          systemId: dangerousgary
-          systemVersion: '#{VERSION}#'
-          createdTime: null
-          modifiedTime: null
-          lastModifiedBy: null
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-      - name: 9 - La scène
-        type: text
-        text:
-          content: >-
-            <p>Une scène en bois surmontant la salle de spectacle. Le décor
-            représente un chalet de montagne avec une table et cinq chaises en
-            bois rustiques. Au fond, une fenêtre s'ouvre sur une forêt sombre et
-            un pic montagneux figés sous une nuit sans étoiles. Deux portes
-            métalliques encadrées de runes lumineuses dorées se trouvent de
-            chaque côté des coulisses.</p>
-          format: 1
-        sort: 1000000
-        title:
-          show: true
-          level: 1
-        _id: Er9rdRpcZgSNyDYX
-        system: {}
-        image: {}
-        video:
-          controls: true
-          volume: 0.5
-        src: null
-        category: null
-        ownership:
-          default: -1
-        flags: {}
-        _stats:
-          coreVersion: '14.367'
-          systemId: dangerousgary
-          systemVersion: '#{VERSION}#'
-          createdTime: null
-          modifiedTime: null
-          lastModifiedBy: null
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-      - name: 10 - La salle des costumes
-        type: text
-        text:
-          content: >-
-            <p>Une pièce rectangulaire abritant une soixantaine de mannequins en
-            bois habillés de tenues médiévales monochromes (déclinées dans les
-            couleurs des classes de Talent). Un mannequin en bois sombre porte
-            un costume vert de druide.</p>
-          format: 1
-        sort: 1100000
-        title:
-          show: true
-          level: 1
-        _id: VA6q7xlE9quNk4yC
-        system: {}
-        image: {}
-        video:
-          controls: true
-          volume: 0.5
-        src: null
-        category: null
-        ownership:
-          default: -1
-        flags: {}
-        _stats:
-          coreVersion: '14.367'
-          systemId: dangerousgary
-          systemVersion: '#{VERSION}#'
-          createdTime: null
-          modifiedTime: null
-          lastModifiedBy: null
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-      - name: 11 - La salle des accessoires
-        type: text
-        text:
-          content: >-
-            <p>Une grande pièce encombrée d'un amoncellement désordonné de vieux
-            meubles, d'accessoires de théâtre et de fragments de décors
-            brisés.</p>
-          format: 1
-        sort: 1200000
-        title:
-          show: true
-          level: 1
-        _id: X5ASXIpctEzBQrlU
-        system: {}
-        image: {}
-        video:
-          controls: true
-          volume: 0.5
-        src: null
-        category: null
-        ownership:
-          default: -1
-        flags: {}
-        _stats:
-          coreVersion: '14.367'
-          systemId: dangerousgary
-          systemVersion: '#{VERSION}#'
-          createdTime: null
-          modifiedTime: null
-          lastModifiedBy: null
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-      - name: 12 - La chambre de velours noir
-        type: text
-        text:
-          content: >-
-            <p>Une salle circulaire de dix mètres de diamètre entièrement
-            tapissée de velours noir, dominée au centre par un grand lit à
-            baldaquin lui aussi tendu de noir. Une Porte masquée par un rideau
-            d'énergie rouge vacille à côté du lit.</p>
-          format: 1
-        sort: 1300000
-        title:
-          show: true
-          level: 1
-        _id: l4ZqN7u1yTOfOG9u
-        system: {}
-        image: {}
-        video:
-          controls: true
-          volume: 0.5
-        src: null
-        category: null
-        ownership:
-          default: -1
-        flags: {}
-        _stats:
-          coreVersion: '14.367'
-          systemId: dangerousgary
-          systemVersion: '#{VERSION}#'
-          createdTime: null
-          modifiedTime: null
-          lastModifiedBy: null
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-      - name: 13 - La loge
-        type: text
-        text:
-          content: >-
-            <p>Une petite pièce octogonale cachée derrière une lourde tenture.
-            Les parois sont en marbre noir et l'endroit est meublé d'une
-            coiffeuse de porphyre rouge surmontée d'un miroir octogonal au cadre
-            doré sculpté de flammèches.</p>
-          format: 1
-        sort: 1400000
-        title:
-          show: true
-          level: 1
-        _id: xs5y7KTajOnga5YA
-        system: {}
-        image: {}
-        video:
-          controls: true
-          volume: 0.5
-        src: null
-        category: null
-        ownership:
-          default: -1
-        flags: {}
-        _stats:
-          coreVersion: '14.367'
-          systemId: dangerousgary
-          systemVersion: '#{VERSION}#'
-          createdTime: null
-          modifiedTime: null
-          lastModifiedBy: null
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-    _id: 170juKJUO0PHrXqS
-    categories: []
-    ownership:
-      default: 0
-    flags: {}
-    _stats:
-      coreVersion: '14.367'
-      systemId: dangerousgary
-      systemVersion: '#{VERSION}#'
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-      compendiumSource: null
-      duplicateSource: null
-      exportSource: null
   - name: La Citerne
     folder: z2gnWbG5hm59Rx5s
     sort: 400000
@@ -6256,10 +5682,12 @@ journal:
         type: text
         text:
           content: >-
-            <p>Un environnement entièrement inondé par un mètre cinquante d'eau
-            boueuse et froide, imitant une citerne antique (comme la Citerne
-            Basilique d'Istanbul) aux parois badigeonnées d'enduit étanche et
-            aux grandes voûtes de brique.</p>
+            <p>Un univers souterrain ressemblant à celui d’une citerne antique,
+            comme la Citerne Basilique d’Istanbul. Les parois sont maçonnées et
+            badigeonnées d’un enduit hydrofuge. D’immenses colonnes ou pilastres
+            supportent des arcs et des voûtes de brique. L’obscurité est totale.
+            Le Donjon est immergé dans 1,5 mètre d’eau et le sol est recouvert
+            d’une couche de boue noire particulièrement glissante.</p>
           format: 1
         sort: 100000
         title:
@@ -6290,9 +5718,9 @@ journal:
         type: text
         text:
           content: >-
-            <p>Un réseau de galeries inondées de trois mètres de large sur cinq
-            de haut, rythmées par des arcs de brique et des pilastres de pierre
-            tous les six mètres.</p>
+            <p>Plusieurs galeries inondées courent sur une centaine de mètres.
+            Chacune fait un peu plus de trois de large sur cinq de haut. Des
+            pilastres de pierre supportent des arcs tous les six mètres.</p>
           format: 1
         sort: 200000
         title:
@@ -6323,11 +5751,11 @@ journal:
         type: text
         text:
           content: >-
-            <p>Une immense salle inondée de soixante mètres de côté où une forêt
-            de colonnes de pierre supporte un plafond de brique à huit mètres de
-            hauteur. Au centre, douze colonnes sont surmontées de grands
-            chapiteaux de style égyptien représentant un visage féminin, gravés
-            chacun d'un signe astrologique différent.</p>
+            <p>La salle hypostyle est une véritable cathédrale : elle mesure
+            environ soixante mètres de côté et une forêt de colonnes de pierre
+            supporte un plafond situé à huit mètres. Au centre, douze colonnes
+            sont surmontées de grands chapiteaux sculptés de style égyptien
+            représentant le visage d’une femme.</p>
           format: 1
         sort: 300000
         title:
@@ -6358,9 +5786,10 @@ journal:
         type: text
         text:
           content: >-
-            <p>Une vaste caverne rocheuse naturelle et non maçonnée d'une
-            quarantaine de mètres de long, accessible par un boyau de trois
-            mètres de côté.</p>
+            <p>L’antre du serpent est une caverne d’une quarantaine de mètres de
+            long – les murs ne sont pas maçonnés. On y accède par un boyau de
+            trois mètres sur trois. Une odeur musquée et écœurante sature l’air
+            dès l’entrée du conduit.</p>
           format: 1
         sort: 400000
         title:
@@ -6391,11 +5820,12 @@ journal:
         type: text
         text:
           content: >-
-            <p>Une galerie inondée de six mètres de large se terminant par une
-            grande porte de bronze circulaire de deux mètres de diamètre
-            (sculptée d'un serpent se mordant la queue). De chaque côté sont
-            alignés douze hauts-reliefs de pierre représentant un visage de
-            femme dont la bouche est un orifice étroit.</p>
+            <p>La galerie du zodiaque mesure six mètres de large et se termine
+            par une grande porte de bronze. De chaque côté sont alignés six
+            hauts-reliefs représentant un visage féminin d’un peu plus d’un
+            mètre de circonférence. Ils ressemblent à celui des chapiteaux des
+            colonnes de la salle hypostyle (2). Leur bouche est un étroit
+            orifice dans lequel on peut glisser un bras.</p>
           format: 1
         sort: 500000
         title:
@@ -6426,11 +5856,13 @@ journal:
         type: text
         text:
           content: >-
-            <p>Une pièce circulaire d'une dizaine de mètres de diamètre sous un
-            plafond voûté de neuf mètres de hauteur. Au centre se dresse un
-            autel de pierre étroit où est déposée une sphère de cristal au
-            tourbillon violet (l'Œil du serpent) devant une seconde porte de
-            bronze circulaire close.</p>
+            <p>En franchissant la porte de bronze, on pénètre dans la chambre de
+            l’œil, une salle circulaire d’une dizaine de mètres de
+            circonférence. Le plafond voûté culmine à neuf mètres de haut. Un
+            étroit autel de pierre occupe le centre de la pièce : un objet
+            circulaire y est déposé. Une porte identique à celle que les PJ
+            viennent d’ouvrir ferme un passage de l’autre côté de l’autel. Elle
+            irradie une lumière bleutée.</p>
           format: 1
         sort: 600000
         title:
@@ -6480,8 +5912,12 @@ journal:
         type: text
         text:
           content: >-
-            <p>Un casino des années 1930 abandonné et plongé dans une lueur
-            faible diffusée par des appliques Art déco en laiton.</p>
+            <p>L’architecture et la décoration sont celles d’un casino des
+            années 1930 abandonné depuis longtemps. Il flotte dans l’air une
+            vague odeur marine. La rumeur lointaine d’éclats de rires ou
+            d’applaudissements se fait parfois entendre. Chaque pièce est
+            éclairée par une série d’appliques Art déco en laiton. La lumière
+            est ténue et dessine des ombres étranges sur les murs.</p>
           format: 1
         sort: 100000
         title:
@@ -6512,8 +5948,9 @@ journal:
         type: text
         text:
           content: >-
-            <p>Un escalier de pierre blanche recouvert d'un tapis rouge délavé
-            et usé par l'humidité.</p>
+            <p>Le Passage donne sur un étroit escalier de pierre blanche, dont
+            les marches sont recouvertes d’un tapis rouge dévoré par
+            l’humidité.</p>
           format: 1
         sort: 200000
         title:
@@ -6544,13 +5981,14 @@ journal:
         type: text
         text:
           content: >-
-            <p>Une immense salle hexagonale de quatre cents mètres carrés sous
-            un plafond de six mètres. Les murs grisâtres sont flanqués de
-            pilastres Art déco et le sol est pavé de marbre noir et blanc. Une
-            frise en stuc sculptée de motifs végétaux et de visages de femmes
-            dissimulés fait le tour de la pièce. Une vingtaine de tables de jeu
-            (roulettes, blackjack) sont recouvertes de grands draps blancs. Une
-            machine à sous est encastrée dans le mur du fond.</p>
+            <p>La salle des tables de jeu est une immense pièce hexagonale de
+            quatre cents mètres carrés, dont le plafond culmine à six mètres de
+            hauteur. Les murs grisâtres sont décorés de pilastres art déco et le
+            sol est pavé de marbre blanc et noir. Une frise en stuc fait le tour
+            de la salle. Une vingtaine de tables de jeu (roulette, blackjack,
+            baccara, etc.) sont recouvertes de grandes toiles blanches. Une
+            porte s’ouvre au milieu de chacun des murs. Glissée dans
+            l’encadrement de celle du fond, on distingue une machine à sous.</p>
           format: 1
         sort: 300000
         title:
@@ -6581,8 +6019,9 @@ journal:
         type: text
         text:
           content: >-
-            <p>Une petite pièce sombre située derrière une porte en bois noir
-            sans ornements laissée entrouverte.</p>
+            <p>Le repaire du chat noir est une salle circulaire de neuf mètres
+            de diamètre, encombrée de chaises, de vieilles machines à sous et de
+            meubles abîmés.</p>
           format: 1
         sort: 400000
         title:
@@ -6613,11 +6052,13 @@ journal:
         type: text
         text:
           content: >-
-            <p>Une pièce circulaire aux murs blancs décorés de moulures
-            géométriques Art déco. Une armure médiévale en acier brillant est
-            installée sur un trône en pierre au centre. La porte en bois noir
-            menant à la pièce est ornée de trois fleurs en pâte de verre rose,
-            rouge et blanche.</p>
+            <p>La salle du jeu de la Force est circulaire et mesure vingt mètres
+            de diamètre. Les murs sont en pierre et ne comportent aucune
+            décoration. Un escalier situé à droite de l’unique porte permet
+            d’accéder à une galerie à l’étage. Au centre de la salle, une armure
+            médiévale particulièrement élaborée est assise sur un trône de
+            pierre. Un dôme d’énergie miroitant protège une zone de cinq mètres
+            de diamètre autour de l’armure.</p>
           format: 1
         sort: 500000
         title:
@@ -6648,10 +6089,11 @@ journal:
         type: text
         text:
           content: >-
-            <p>Une pièce identique à la précédente, mais l'armure assise au
-            centre est en laque noire de style samouraï et possède quatre bras
-            tenant chacun un katana. La porte en bois noir est ornée de fleurs
-            en pâte de verre vertes, jaunes et noires.</p>
+            <p>La salle du jeu de la Dextérité est presque identique à la pièce
+            précédente. Au centre, l’armure assise sur le trône est noire et
+            laquée, à la manière de celle d’un samouraï. Elle comporte quatre
+            bras, tenant chacun un long katana. Le casque est ouvert et un jeton
+            de casino argenté brille légèrement à l’intérieur.</p>
           format: 1
         sort: 600000
         title:
@@ -6682,11 +6124,14 @@ journal:
         type: text
         text:
           content: >-
-            <p>Une grande pièce rectangulaire de vingt mètres de long sur cinq
-            de large. Deux trônes de pierre se font face aux extrémités : celui
-            de gauche abrite une armure en acier damassé bleuâtre, tandis que
-            celui de droite est vide. Une sphère bleue étincelante flotte au
-            centre à deux mètres du sol.</p>
+            <p>La salle du jeu de la Volonté est une grande pièce rectangulaire
+            d’une vingtaine de mètres de long sur cinq de large. Un trône de
+            pierre est installé à chacune des extrémités. Celui situé à gauche
+            est occupé par une armure en acier damassé bleuâtre, de laquelle
+            émane un bourdonnement sourd et inquiétant. Celui de droite est
+            vide. Au milieu de la pièce, une sphère de la taille d’un ballon de
+            football et d’un bleu étincelant flotte à deux mètres au-dessus sol.
+            Des arcs électriques s’en échappent par intermittence.</p>
           format: 1
         sort: 700000
         title:
@@ -6717,9 +6162,17 @@ journal:
         type: text
         text:
           content: >-
-            <p>Une porte métallique en laiton de trois mètres de haut
-            (ressemblant à une porte d'ascenseur) marquée des mots « Bar – Le
-            Pendu » donne accès à un bar feutré et vintage des années 1930.</p>
+            <p>La porte s’ouvre sur le bar du Pendu : une vaste salle lambrissée
+            abritant une trentaine de tables. Un immense bar en palissandre en
+            occupe le côté droit. Des dizaines de photographies, soigneusement
+            disposées dans de petits cadres noirs, recouvrent en partie le mur
+            situé derrière lui. Une soixantaine de personnes sont attablées et
+            conversent bruyamment. Trois serveurs effectuent des allées et
+            venues entre le bar et les groupes de clients. Au fond, sur une
+            estrade, Mordenkainen et une femme sirotent un cocktail coloré. Le
+            couple est entouré d’une demi-douzaine de « chiens », dont « Ludovic
+            Zimmer ». En levant les yeux, on remarque le superbe plafond en
+            charpente.</p>
           format: 1
         sort: 800000
         title:
@@ -6769,8 +6222,8 @@ journal:
         type: text
         text:
           content: >-
-            <p>Un donjon intérieur accessible depuis la salle des coffres de la
-            Banque.</p>
+            <p>Il n’y a aucune source d’éclairage. Une forte odeur d’ozone
+            sature l’air, comme après un orage.</p>
           format: 1
         sort: 100000
         title:
@@ -6801,9 +6254,13 @@ journal:
         type: text
         text:
           content: >-
-            <p>Une longue rampe d'accès aux parois recouvertes de plaques de
-            cuivre martelé mène à une unique pièce cubique entièrement
-            métallique, plongée dans les ténèbres absolues.</p>
+            <p>La rampe descend en pente douce sur une trentaine de mètres. Les
+            murs sont recouverts de plaques de cuivre martelé réfractant
+            étrangement la lumière. Les sons se propagent également de manière
+            erratique : échos lointains et gémissements gutturaux se mêlent de
+            manière inexplicable et inquiétante. La rampe conduit à une unique
+            pièce, semblable à un cube métallique, plongée dans les ténèbres. La
+            pièce est entièrement vide et ne comporte aucune sortie.</p>
           format: 1
         sort: 200000
         title:
@@ -6845,7 +6302,7 @@ journal:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-  - name: La Banque - Variante
+  - name: La Banque v2
     folder: z2gnWbG5hm59Rx5s
     sort: 700000
     pages:
@@ -6853,8 +6310,12 @@ journal:
         type: text
         text:
           content: >-
-            <p>Une version alternative du donjon de la Banque arpentée lors du
-            module 4.</p>
+            <p>L’obscurité est totale dans la plupart des pièces. Il flotte dans
+            l’air une vague odeur de pourriture et le taux d’hygrométrie est
+            élevé. De l’eau ruisselle sur les murs. De temps à autre, on entend
+            au loin des claquements métalliques, comme si on refermait
+            bruyamment les grilles d’une prison. Le mobilier présent semble
+            dater des années 1930.</p>
           format: 1
         sort: 100000
         title:
@@ -6885,8 +6346,8 @@ journal:
         type: text
         text:
           content: >-
-            <p>Un étroit escalier de deux cents marches très humides et
-            glissantes.</p>
+            <p>L’étroit escalier en béton comporte environ deux cents marches
+            très glissantes en raison de l’humidité.</p>
           format: 1
         sort: 200000
         title:
@@ -6917,9 +6378,11 @@ journal:
         type: text
         text:
           content: >-
-            <p>Une petite pièce vide aux murs de béton nu, abritant uniquement
-            une montre à gousset en argent posée au sol, indiquant cinq
-            heures.</p>
+            <p>La pièce secrète est située à l’exact emplacement de la salle
+            d’attente à l’intérieur de laquelle les PJ ont découvert le cadavre
+            de Betty. L’entrée est dissimulée par un panneau pivotant autour
+            d’un axe. La salle est vide et ses murs sont nus, hormis une montre
+            à gousset en argent posée sur le sol.</p>
           format: 1
         sort: 300000
         title:
@@ -6950,9 +6413,13 @@ journal:
         type: text
         text:
           content: >-
-            <p>La grande salle circulaire de marbre blanc Art déco, mais dont la
-            fresque du dôme présente une anomalie visuelle : un emplacement vide
-            est visible sur le fond doré entre le clerc et le voleur.</p>
+            <p>La rotonde est une immense salle circulaire d’une trentaine de
+            mètres de diamètre. Les murs sont recouverts de plaques de marbre
+            blanc, flanquées de pilastres Art déco. Des comptoirs en marbre noir
+            sont disposés le long des murs. Comme durant la précédente visite
+            des PJ, le sol est jonché de centaines de feuilles de papier. À
+            l’est, un grand escalier d’une vingtaine de marches conduit à une
+            galerie surplombant la salle.</p>
           format: 1
         sort: 400000
         title:
@@ -6983,11 +6450,14 @@ journal:
         type: text
         text:
           content: >-
-            <p>Une grande pièce rectangulaire aux murs blancs ornés de moulures
-            Art déco. Douze cadavres momifiés en costumes élimés sont assis
-            autour d'une grande table en noyer dont le pied unique est en forme
-            de « U ». Les dossiers des chaises sont en galuchat figurant une
-            serrure.</p>
+            <p>La salle de réunion est une grande pièce rectangulaire dont les
+            murs blancs sont décorés de moulures géométriques de style Art déco.
+            Douze cadavres momifiés revêtus de costumes mangés par l’humidité
+            sont assis autour d’une grande table en noyer, au pied unique en
+            forme de « U ». Les dossiers des chaises sont décorés d’un placage
+            de galuchat (des écailles de poisson) et d’ivoire représentant une
+            serrure. Au milieu du mur ouest, une lourde porte de bois est
+            fermée.</p>
           format: 1
         sort: 500000
         title:
@@ -7018,11 +6488,14 @@ journal:
         type: text
         text:
           content: >-
-            <p>Un grand bureau à cylindre du XVIIIe siècle en marqueterie
-            installé dans une pièce propre et rangée. Un portrait d'un homme en
-            costume gris au sourire carnassier surplombe le bureau. L'un de ses
-            tiroirs contient une montre à gousset en or indiquant dix
-            heures.</p>
+            <p>Le bureau du directeur est une pièce rectangulaire d’une
+            quinzaine de mètres carrés. On y trouve un magnifique bureau à
+            cylindre semblant dater du XVIIIe siècle. Le motif de ses
+            marqueteries est identique à celui des chaises de la salle
+            précédente. Un portrait en pied d’un homme vêtu d’un costume à la
+            mode des années 1930 est accroché sur l’un des murs. L’endroit est
+            étonnamment propre et bien rangé. Une forte odeur de tabac flotte
+            dans l’air.</p>
           format: 1
         sort: 600000
         title:
@@ -7053,10 +6526,11 @@ journal:
         type: text
         text:
           content: >-
-            <p>Une pièce carrée de neuf mètres de côté entièrement recouverte de
-            marbre blanc, soutenue par quatre statues féminines en cuivre de
-            trois mètres de haut tenant chacune une clé. L'une des statues porte
-            une boucle de ceinture en forme de montre indiquant une heure.</p>
+            <p>La salle des caryatides est une pièce carrée de neuf mètres de
+            côté, dont les parois sont entièrement recouvertes de plaques de
+            marbre blanc. Quatre statues féminines en cuivre de près de trois
+            mètres de haut font office de colonnes. Un passage dans le mur nord
+            ouvre sur une galerie.</p>
           format: 1
         sort: 700000
         title:
@@ -7087,9 +6561,10 @@ journal:
         type: text
         text:
           content: >-
-            <p>Une galerie de béton menant à une pièce aux parois métalliques
-            fermée par une lourde porte blindée circulaire dotée de trois
-            volants gravés « Au », « Ar » et « Cu ».</p>
+            <p>Le passage dans la salle des caryatides donne sur une galerie aux
+            murs de béton, qui débouche au bout d’une vingtaine de mètres sur
+            une vaste pièce aux murs métalliques. Une lourde porte blindée
+            circulaire est intégrée dans la paroi nord.</p>
           format: 1
         sort: 800000
         title:
@@ -7120,10 +6595,10 @@ journal:
         type: text
         text:
           content: >-
-            <p>Une pièce métallique carrée de dix mètres de côté contenant des
-            rangées de coffres métalliques ouverts et vides, et une seconde
-            porte blindée circulaire d'où émane un sifflement et une lueur
-            bleue.</p>
+            <p>La salle des coffres mesure environ dix mètres de côtés.
+            Plusieurs centaines de coffres sont rangés dans des armoires
+            métalliques. Une autre porte blindée circulaire est intégrée dans le
+            mur d’en face.</p>
           format: 1
         sort: 900000
         title:
@@ -24759,8 +24234,8 @@ scenes:
     tokens: []
     lights: []
     notes:
-      - entryId: 84LEJxrux5cf6yR7
-        pageId: UI0VrPMkHIoYzZiO
+      - entryId: CWkk7YAE1CvvR7t7
+        pageId: Ux0rJ3vr2j8pF8e6
         global: false
         levels:
           - defaultLevel0000
@@ -24787,8 +24262,8 @@ scenes:
         locked: false
         flags: {}
         author: 4gHATZ23KTYDYi5c
-      - entryId: 84LEJxrux5cf6yR7
-        pageId: cvGQHCkn2J5nNTek
+      - entryId: CWkk7YAE1CvvR7t7
+        pageId: cNkpcTvbt1p63QMc
         global: false
         levels:
           - defaultLevel0000
@@ -24815,8 +24290,8 @@ scenes:
         locked: false
         flags: {}
         author: 4gHATZ23KTYDYi5c
-      - entryId: 84LEJxrux5cf6yR7
-        pageId: wBeM69KdgSdbuCCA
+      - entryId: CWkk7YAE1CvvR7t7
+        pageId: 2HDr5uxS3zR4rFBk
         global: false
         levels:
           - defaultLevel0000
@@ -29844,8 +29319,8 @@ scenes:
         levels: []
         locked: false
     notes:
-      - entryId: 170juKJUO0PHrXqS
-        pageId: iL9GKGd4VhXostSI
+      - entryId: PNCg7qMZE4WYTzIP
+        pageId: D937RguCycSa5qfD
         global: false
         levels:
           - defaultLevel0000
@@ -29872,8 +29347,8 @@ scenes:
         locked: false
         flags: {}
         author: 4gHATZ23KTYDYi5c
-      - entryId: 170juKJUO0PHrXqS
-        pageId: fXFw0TwZR5Fm0Ixc
+      - entryId: PNCg7qMZE4WYTzIP
+        pageId: Vjx509GuiIFhY2K1
         global: false
         levels:
           - defaultLevel0000
@@ -29900,8 +29375,8 @@ scenes:
         locked: false
         flags: {}
         author: 4gHATZ23KTYDYi5c
-      - entryId: 170juKJUO0PHrXqS
-        pageId: fFGJmx2DJtXJfSag
+      - entryId: PNCg7qMZE4WYTzIP
+        pageId: amXhMAOmDxaVq6CJ
         global: false
         levels:
           - defaultLevel0000
@@ -29928,8 +29403,8 @@ scenes:
         locked: false
         flags: {}
         author: 4gHATZ23KTYDYi5c
-      - entryId: 170juKJUO0PHrXqS
-        pageId: ZHsksEpPxlhhIaWk
+      - entryId: PNCg7qMZE4WYTzIP
+        pageId: DTtnZ4Dpghma6iKB
         global: false
         levels:
           - defaultLevel0000
@@ -29956,8 +29431,8 @@ scenes:
         locked: false
         flags: {}
         author: 4gHATZ23KTYDYi5c
-      - entryId: 170juKJUO0PHrXqS
-        pageId: xjzfFB17CGyL0qsL
+      - entryId: PNCg7qMZE4WYTzIP
+        pageId: VGQPKftkLnf4JzDE
         global: false
         levels:
           - defaultLevel0000
@@ -29984,8 +29459,8 @@ scenes:
         locked: false
         flags: {}
         author: 4gHATZ23KTYDYi5c
-      - entryId: 170juKJUO0PHrXqS
-        pageId: VtnqIyAApFmsbGxf
+      - entryId: PNCg7qMZE4WYTzIP
+        pageId: PZv8Ofc98VcuqQgq
         global: false
         levels:
           - defaultLevel0000
@@ -30012,8 +29487,8 @@ scenes:
         locked: false
         flags: {}
         author: 4gHATZ23KTYDYi5c
-      - entryId: 170juKJUO0PHrXqS
-        pageId: OUorSu0ZW5G5O1fR
+      - entryId: PNCg7qMZE4WYTzIP
+        pageId: 6IzaN9uhKNFbEApy
         global: false
         levels:
           - defaultLevel0000
@@ -30040,8 +29515,8 @@ scenes:
         locked: false
         flags: {}
         author: 4gHATZ23KTYDYi5c
-      - entryId: 170juKJUO0PHrXqS
-        pageId: Er9rdRpcZgSNyDYX
+      - entryId: PNCg7qMZE4WYTzIP
+        pageId: PVz2opPkZqxeVETm
         global: false
         levels:
           - defaultLevel0000
@@ -30068,8 +29543,8 @@ scenes:
         locked: false
         flags: {}
         author: 4gHATZ23KTYDYi5c
-      - entryId: 170juKJUO0PHrXqS
-        pageId: hEyNuKtyZP0V2YOd
+      - entryId: PNCg7qMZE4WYTzIP
+        pageId: WlcHK1URrhDTk5fj
         global: false
         levels:
           - defaultLevel0000
@@ -30096,8 +29571,8 @@ scenes:
         locked: false
         flags: {}
         author: 4gHATZ23KTYDYi5c
-      - entryId: 170juKJUO0PHrXqS
-        pageId: VA6q7xlE9quNk4yC
+      - entryId: PNCg7qMZE4WYTzIP
+        pageId: H7jnk7UoEuxWoGpa
         global: false
         levels:
           - defaultLevel0000
@@ -30124,8 +29599,8 @@ scenes:
         locked: false
         flags: {}
         author: 4gHATZ23KTYDYi5c
-      - entryId: 170juKJUO0PHrXqS
-        pageId: X5ASXIpctEzBQrlU
+      - entryId: PNCg7qMZE4WYTzIP
+        pageId: r8C9qlpCwBeJbzZB
         global: false
         levels:
           - defaultLevel0000
@@ -30152,8 +29627,8 @@ scenes:
         locked: false
         flags: {}
         author: 4gHATZ23KTYDYi5c
-      - entryId: 170juKJUO0PHrXqS
-        pageId: xs5y7KTajOnga5YA
+      - entryId: PNCg7qMZE4WYTzIP
+        pageId: 0ZoZxP3MsuV9wGGJ
         global: false
         levels:
           - defaultLevel0000
@@ -30180,8 +29655,8 @@ scenes:
         locked: false
         flags: {}
         author: 4gHATZ23KTYDYi5c
-      - entryId: 170juKJUO0PHrXqS
-        pageId: l4ZqN7u1yTOfOG9u
+      - entryId: PNCg7qMZE4WYTzIP
+        pageId: mfQmHCLcgfS19xEt
         global: false
         levels:
           - defaultLevel0000
@@ -71733,7 +71208,259 @@ scenes:
         _id: 9VqScXj44H0fsJK0
         levels: []
         locked: false
-    notes: []
+    notes:
+      - entryId: UgCKi98obb4Y7YKo
+        pageId: 291v6OPOGyH9YHZF
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2775
+        'y': 9375
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '1'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: FABmk790WAUe44Ee
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: UgCKi98obb4Y7YKo
+        pageId: 3ln1zKhW4bQxyOag
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 3150
+        'y': 8475
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: mAybDGUrU23PkBPG
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: UgCKi98obb4Y7YKo
+        pageId: G15mvd6N8x0MCQAw
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2775
+        'y': 6225
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '3'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: BG8ZhgGDLGg5cSFR
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: UgCKi98obb4Y7YKo
+        pageId: 7f2FlDTUDfIkRhPK
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 5025
+        'y': 6225
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '6'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: Y3qlZBny6UVXxs0a
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: UgCKi98obb4Y7YKo
+        pageId: 2QfVLVc3FFqoIRKX
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 2775
+        'y': 4050
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '4'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: HgRJsWjGu9SblVBI
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: UgCKi98obb4Y7YKo
+        pageId: rp2njqhfHG7HIOm7
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 1725
+        'y': 4050
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '5'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: vAyQwPP6AiqkLiCt
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: UgCKi98obb4Y7YKo
+        pageId: eCAAXoCJyJv5uJus
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 5025
+        'y': 3300
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '7'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: LHNK7IUPkSNGqG7g
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: UgCKi98obb4Y7YKo
+        pageId: diyFZ5I4EqByDpnD
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 5025
+        'y': 2400
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '8'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: SLEphcVV9xxEBpdu
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: bFdLIx9JDzXlsVsM
+        pageId: PuqlH7GJdIx5aaWI
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 3825
+        'y': 2250
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '1'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: GCiTZvaBGD3UcCXQ
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
     sounds: []
     regions:
       - name: Salle des coffres
@@ -75909,25 +75636,6 @@ folders:
     flags: {}
     _stats:
       compendiumSource: Folder.40Sy1HIb6Mpb5pWf
-      coreVersion: '14.367'
-      systemId: dangerousgary
-      systemVersion: '#{VERSION}#'
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-      duplicateSource: null
-      exportSource: null
-  - type: JournalEntry
-    folder: null
-    name: Boite rouge
-    color: '#f61e1e'
-    sorting: m
-    _id: mzBsD4FM83eRyFPG
-    description: ''
-    sort: 0
-    flags: {}
-    _stats:
-      compendiumSource: null
       coreVersion: '14.367'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
