@@ -1,3 +1,7 @@
+## 0.6.0
+- Boite rouge : ajout de la scène d'accueil
+- Boite bleue : ajout des notes sur les scènes
+
 ## 0.5.0
 - Boite rouge : ajout des notes sur les scènes, ajout des rencontres, ajout des artefacts
 - Boite bleue : ajout des scènes, ajout des rencontres, ajout des artefacts

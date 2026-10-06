@@ -141,7 +141,7 @@ actors:
           cdG04md5pZWgalAO: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -165,7 +165,7 @@ actors:
           cdG04md5pZWgalAO: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -181,7 +181,7 @@ actors:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -318,7 +318,7 @@ actors:
           cdG04md5pZWgalAO: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -333,7 +333,7 @@ actors:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -467,7 +467,7 @@ actors:
           cdG04md5pZWgalAO: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -482,7 +482,7 @@ actors:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -623,7 +623,7 @@ actors:
           cdG04md5pZWgalAO: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -638,7 +638,7 @@ actors:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -774,7 +774,7 @@ actors:
           4gHATZ23KTYDYi5c: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -801,7 +801,7 @@ actors:
           4gHATZ23KTYDYi5c: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -815,7 +815,7 @@ actors:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -956,7 +956,7 @@ actors:
           4gHATZ23KTYDYi5c: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -970,7 +970,7 @@ actors:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -1108,7 +1108,7 @@ actors:
           4gHATZ23KTYDYi5c: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -1134,7 +1134,7 @@ actors:
           4gHATZ23KTYDYi5c: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -1148,7 +1148,7 @@ actors:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -1283,7 +1283,7 @@ actors:
           4gHATZ23KTYDYi5c: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -1297,7 +1297,7 @@ actors:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -1431,7 +1431,7 @@ actors:
           4gHATZ23KTYDYi5c: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -1460,7 +1460,7 @@ actors:
           4gHATZ23KTYDYi5c: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -1486,7 +1486,7 @@ actors:
           4gHATZ23KTYDYi5c: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -1500,7 +1500,7 @@ actors:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -1634,7 +1634,7 @@ actors:
           4gHATZ23KTYDYi5c: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -1648,7 +1648,7 @@ actors:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -1780,7 +1780,7 @@ actors:
           4gHATZ23KTYDYi5c: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -1809,7 +1809,7 @@ actors:
           4gHATZ23KTYDYi5c: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -1823,7 +1823,7 @@ actors:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -1961,7 +1961,7 @@ actors:
           4gHATZ23KTYDYi5c: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -1985,7 +1985,7 @@ actors:
           4gHATZ23KTYDYi5c: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -1999,7 +1999,7 @@ actors:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -2135,7 +2135,7 @@ actors:
           4gHATZ23KTYDYi5c: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -2161,7 +2161,7 @@ actors:
           4gHATZ23KTYDYi5c: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -2175,7 +2175,7 @@ actors:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -2311,7 +2311,7 @@ actors:
           4gHATZ23KTYDYi5c: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -2325,7 +2325,7 @@ actors:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -2463,7 +2463,7 @@ actors:
           4gHATZ23KTYDYi5c: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -2487,7 +2487,7 @@ actors:
           4gHATZ23KTYDYi5c: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -2501,7 +2501,7 @@ actors:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -2640,7 +2640,7 @@ actors:
           4gHATZ23KTYDYi5c: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -2654,7 +2654,7 @@ actors:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -2805,7 +2805,7 @@ actors:
           4gHATZ23KTYDYi5c: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -2819,7 +2819,7 @@ actors:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -2957,7 +2957,7 @@ actors:
           4gHATZ23KTYDYi5c: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -2986,7 +2986,7 @@ actors:
           4gHATZ23KTYDYi5c: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -3000,7 +3000,7 @@ actors:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -3137,7 +3137,7 @@ actors:
           4gHATZ23KTYDYi5c: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -3151,7 +3151,7 @@ actors:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -3288,7 +3288,7 @@ actors:
           4gHATZ23KTYDYi5c: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -3314,7 +3314,7 @@ actors:
           4gHATZ23KTYDYi5c: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -3328,7 +3328,7 @@ actors:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -3365,7 +3365,7 @@ items:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -3394,7 +3394,7 @@ items:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -3435,7 +3435,7 @@ items:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -3481,7 +3481,7 @@ items:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -3518,7 +3518,7 @@ items:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -3555,7 +3555,7 @@ items:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -3597,7 +3597,7 @@ items:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -3629,7 +3629,7 @@ items:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -3669,7 +3669,7 @@ items:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -3704,7 +3704,7 @@ items:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -3742,7 +3742,7 @@ items:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -3791,7 +3791,7 @@ items:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -3828,7 +3828,7 @@ items:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -3865,7 +3865,7 @@ items:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -3897,7 +3897,7 @@ items:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -3940,7 +3940,7 @@ journal:
         flags: {}
         _stats:
           compendiumSource: null
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           lastModifiedBy: null
@@ -3976,7 +3976,7 @@ journal:
         flags: {}
         _stats:
           compendiumSource: null
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           lastModifiedBy: null
@@ -4009,7 +4009,7 @@ journal:
         flags: {}
         _stats:
           compendiumSource: null
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           lastModifiedBy: null
@@ -4044,7 +4044,7 @@ journal:
         flags: {}
         _stats:
           compendiumSource: null
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           lastModifiedBy: null
@@ -4079,7 +4079,7 @@ journal:
         flags: {}
         _stats:
           compendiumSource: null
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           lastModifiedBy: null
@@ -4116,7 +4116,7 @@ journal:
         flags: {}
         _stats:
           compendiumSource: null
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           lastModifiedBy: null
@@ -4149,7 +4149,7 @@ journal:
         flags: {}
         _stats:
           compendiumSource: null
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           lastModifiedBy: null
@@ -4182,7 +4182,7 @@ journal:
         flags: {}
         _stats:
           compendiumSource: null
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           lastModifiedBy: null
@@ -4218,7 +4218,7 @@ journal:
         flags: {}
         _stats:
           compendiumSource: null
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           lastModifiedBy: null
@@ -4250,7 +4250,7 @@ journal:
         flags: {}
         _stats:
           compendiumSource: null
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           lastModifiedBy: null
@@ -4284,7 +4284,7 @@ journal:
         flags: {}
         _stats:
           compendiumSource: null
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           lastModifiedBy: null
@@ -4316,7 +4316,7 @@ journal:
         flags: {}
         _stats:
           compendiumSource: null
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           lastModifiedBy: null
@@ -4354,7 +4354,7 @@ journal:
         flags: {}
         _stats:
           compendiumSource: null
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           lastModifiedBy: null
@@ -4391,7 +4391,7 @@ journal:
         flags: {}
         _stats:
           compendiumSource: null
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           lastModifiedBy: null
@@ -4406,7 +4406,7 @@ journal:
     flags: {}
     _stats:
       compendiumSource: null
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -4446,7 +4446,7 @@ journal:
           cdG04md5pZWgalAO: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -4483,7 +4483,7 @@ journal:
           cdG04md5pZWgalAO: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -4520,7 +4520,7 @@ journal:
           cdG04md5pZWgalAO: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -4567,7 +4567,7 @@ journal:
           cdG04md5pZWgalAO: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -4607,7 +4607,7 @@ journal:
           cdG04md5pZWgalAO: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -4648,7 +4648,7 @@ journal:
           cdG04md5pZWgalAO: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -4682,7 +4682,7 @@ journal:
           cdG04md5pZWgalAO: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -4723,7 +4723,7 @@ journal:
           cdG04md5pZWgalAO: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -4759,7 +4759,7 @@ journal:
           cdG04md5pZWgalAO: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -4796,7 +4796,7 @@ journal:
           cdG04md5pZWgalAO: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -4829,7 +4829,7 @@ journal:
           cdG04md5pZWgalAO: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -4869,7 +4869,7 @@ journal:
           cdG04md5pZWgalAO: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -4906,7 +4906,7 @@ journal:
           cdG04md5pZWgalAO: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -4943,7 +4943,7 @@ journal:
           4gHATZ23KTYDYi5c: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -4959,7 +4959,7 @@ journal:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -4999,7 +4999,7 @@ journal:
           default: -1
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -5039,7 +5039,7 @@ journal:
           Ulflv2WY2wcJ69LV: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -5074,7 +5074,7 @@ journal:
           Ulflv2WY2wcJ69LV: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -5117,7 +5117,7 @@ journal:
           Ulflv2WY2wcJ69LV: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -5132,7 +5132,7 @@ journal:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -5176,7 +5176,7 @@ journal:
           default: -1
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -5209,7 +5209,7 @@ journal:
           Ulflv2WY2wcJ69LV: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -5249,7 +5249,7 @@ journal:
           Ulflv2WY2wcJ69LV: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -5284,7 +5284,7 @@ journal:
           Ulflv2WY2wcJ69LV: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -5320,7 +5320,7 @@ journal:
           Ulflv2WY2wcJ69LV: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -5355,7 +5355,7 @@ journal:
           Ulflv2WY2wcJ69LV: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -5393,7 +5393,7 @@ journal:
           Ulflv2WY2wcJ69LV: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -5428,7 +5428,7 @@ journal:
           Ulflv2WY2wcJ69LV: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -5462,7 +5462,7 @@ journal:
           Ulflv2WY2wcJ69LV: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -5503,7 +5503,7 @@ journal:
           Ulflv2WY2wcJ69LV: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -5540,7 +5540,7 @@ journal:
           Ulflv2WY2wcJ69LV: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -5575,7 +5575,7 @@ journal:
           Ulflv2WY2wcJ69LV: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -5614,7 +5614,7 @@ journal:
           Ulflv2WY2wcJ69LV: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -5650,7 +5650,7 @@ journal:
           Ulflv2WY2wcJ69LV: 3
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -5665,7 +5665,7 @@ journal:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -5705,7 +5705,7 @@ journal:
           default: -1
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -5738,7 +5738,7 @@ journal:
           default: -1
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -5773,7 +5773,7 @@ journal:
           default: -1
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -5807,7 +5807,7 @@ journal:
           default: -1
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -5843,7 +5843,7 @@ journal:
           default: -1
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -5880,7 +5880,7 @@ journal:
           default: -1
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -5895,7 +5895,7 @@ journal:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -5935,7 +5935,7 @@ journal:
           default: -1
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -5968,7 +5968,7 @@ journal:
           default: -1
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -6006,7 +6006,7 @@ journal:
           default: -1
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -6039,7 +6039,7 @@ journal:
           default: -1
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -6076,7 +6076,7 @@ journal:
           default: -1
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -6111,7 +6111,7 @@ journal:
           default: -1
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -6149,7 +6149,7 @@ journal:
           default: -1
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -6190,7 +6190,7 @@ journal:
           default: -1
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -6205,7 +6205,7 @@ journal:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -6241,7 +6241,7 @@ journal:
           default: -1
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -6278,7 +6278,7 @@ journal:
           default: -1
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -6293,7 +6293,7 @@ journal:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -6333,7 +6333,7 @@ journal:
           default: -1
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -6365,7 +6365,7 @@ journal:
           default: -1
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -6400,7 +6400,7 @@ journal:
           default: -1
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -6437,7 +6437,7 @@ journal:
           default: -1
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -6475,7 +6475,7 @@ journal:
           default: -1
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -6513,7 +6513,7 @@ journal:
           default: -1
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -6548,7 +6548,7 @@ journal:
           default: -1
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -6582,7 +6582,7 @@ journal:
           default: -1
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -6616,7 +6616,7 @@ journal:
           default: -1
         flags: {}
         _stats:
-          coreVersion: '14.367'
+          coreVersion: '14.368'
           systemId: dangerousgary
           systemVersion: '#{VERSION}#'
           createdTime: null
@@ -6631,7 +6631,7 @@ journal:
       default: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -8695,7 +8695,7 @@ scenes:
             system:
               choice: false
               destinations:
-                - Scene.G0ERf77GSwW0nkvB.Region.F1aDfWW3gyF1o7SK
+                - ..F1aDfWW3gyF1o7SK
               placement: random
               snap: true
               revealed: false
@@ -8709,7 +8709,7 @@ scenes:
             flags: {}
             _stats:
               compendiumSource: null
-              coreVersion: '14.367'
+              coreVersion: '14.368'
               systemId: dangerousgary
               systemVersion: '#{VERSION}#'
               lastModifiedBy: null
@@ -16905,7 +16905,7 @@ scenes:
     flags: {}
     _stats:
       compendiumSource: Compendium.dg-boite-rouge-bleue.donjons.Scene.Fvk6Kh97rFIcNVI0
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -18836,7 +18836,7 @@ scenes:
             system:
               choice: false
               destinations:
-                - Scene.53mjbACcLgTiaFom.Region.ZmxR2MGRfhD1Q2ZA
+                - ..ZmxR2MGRfhD1Q2ZA
               placement: random
               snap: true
               revealed: false
@@ -18850,7 +18850,7 @@ scenes:
             flags: {}
             _stats:
               compendiumSource: null
-              coreVersion: '14.367'
+              coreVersion: '14.368'
               systemId: dangerousgary
               systemVersion: '#{VERSION}#'
               lastModifiedBy: null
@@ -18899,7 +18899,7 @@ scenes:
             system:
               choice: false
               destinations:
-                - Scene.53mjbACcLgTiaFom.Region.f3NT9hTGxQCdTNQG
+                - ..f3NT9hTGxQCdTNQG
               placement: random
               snap: true
               revealed: false
@@ -18913,7 +18913,7 @@ scenes:
             flags: {}
             _stats:
               compendiumSource: null
-              coreVersion: '14.367'
+              coreVersion: '14.368'
               systemId: dangerousgary
               systemVersion: '#{VERSION}#'
               lastModifiedBy: null
@@ -18964,7 +18964,7 @@ scenes:
             system:
               choice: false
               destinations:
-                - Scene.53mjbACcLgTiaFom.Region.cBI4ndCC0LmTe3iB
+                - ..cBI4ndCC0LmTe3iB
               placement: random
               snap: true
               revealed: false
@@ -18978,7 +18978,7 @@ scenes:
             flags: {}
             _stats:
               compendiumSource: null
-              coreVersion: '14.367'
+              coreVersion: '14.368'
               systemId: dangerousgary
               systemVersion: '#{VERSION}#'
               lastModifiedBy: null
@@ -19029,7 +19029,7 @@ scenes:
             system:
               choice: false
               destinations:
-                - Scene.53mjbACcLgTiaFom.Region.UHlAhjgR5X2OzJkY
+                - ..UHlAhjgR5X2OzJkY
               placement: random
               snap: true
               revealed: false
@@ -19043,7 +19043,7 @@ scenes:
             flags: {}
             _stats:
               compendiumSource: null
-              coreVersion: '14.367'
+              coreVersion: '14.368'
               systemId: dangerousgary
               systemVersion: '#{VERSION}#'
               lastModifiedBy: null
@@ -23190,7 +23190,7 @@ scenes:
     flags: {}
     _stats:
       compendiumSource: Compendium.dg-boite-rouge-bleue.donjons.Scene.Kpwadb44D2KvWuFD
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -24347,7 +24347,7 @@ scenes:
             system:
               choice: false
               destinations:
-                - Scene.7HOXzj3flvYgbE83.Region.rdQREWjstrEfxl1H
+                - ..rdQREWjstrEfxl1H
               placement: random
               snap: true
               revealed: false
@@ -24361,7 +24361,7 @@ scenes:
             flags: {}
             _stats:
               compendiumSource: null
-              coreVersion: '14.367'
+              coreVersion: '14.368'
               systemId: dangerousgary
               systemVersion: '#{VERSION}#'
               lastModifiedBy: null
@@ -24412,7 +24412,7 @@ scenes:
             system:
               choice: false
               destinations:
-                - Scene.7HOXzj3flvYgbE83.Region.jC71uxSoZgcPVdp0
+                - ..jC71uxSoZgcPVdp0
               placement: random
               snap: true
               revealed: false
@@ -24426,7 +24426,7 @@ scenes:
             flags: {}
             _stats:
               compendiumSource: null
-              coreVersion: '14.367'
+              coreVersion: '14.368'
               systemId: dangerousgary
               systemVersion: '#{VERSION}#'
               lastModifiedBy: null
@@ -24477,7 +24477,7 @@ scenes:
             system:
               choice: false
               destinations:
-                - Scene.7HOXzj3flvYgbE83.Region.CatNeb3QIpuzKuZ2
+                - ..CatNeb3QIpuzKuZ2
               placement: random
               snap: true
               revealed: false
@@ -24491,7 +24491,7 @@ scenes:
             flags: {}
             _stats:
               compendiumSource: null
-              coreVersion: '14.367'
+              coreVersion: '14.368'
               systemId: dangerousgary
               systemVersion: '#{VERSION}#'
               lastModifiedBy: null
@@ -24542,7 +24542,7 @@ scenes:
             system:
               choice: false
               destinations:
-                - Scene.7HOXzj3flvYgbE83.Region.EFdt3XP6huk74P31
+                - ..EFdt3XP6huk74P31
               placement: random
               snap: true
               revealed: false
@@ -24556,7 +24556,7 @@ scenes:
             flags: {}
             _stats:
               compendiumSource: null
-              coreVersion: '14.367'
+              coreVersion: '14.368'
               systemId: dangerousgary
               systemVersion: '#{VERSION}#'
               lastModifiedBy: null
@@ -24607,7 +24607,7 @@ scenes:
             system:
               choice: false
               destinations:
-                - Scene.7HOXzj3flvYgbE83.Region.TolXF9LGJUZQ1UK8
+                - ..TolXF9LGJUZQ1UK8
               placement: random
               snap: true
               revealed: false
@@ -24621,7 +24621,7 @@ scenes:
             flags: {}
             _stats:
               compendiumSource: null
-              coreVersion: '14.367'
+              coreVersion: '14.368'
               systemId: dangerousgary
               systemVersion: '#{VERSION}#'
               lastModifiedBy: null
@@ -24672,7 +24672,7 @@ scenes:
             system:
               choice: false
               destinations:
-                - Scene.7HOXzj3flvYgbE83.Region.JYzwcdilTRmiBEl8
+                - ..JYzwcdilTRmiBEl8
               placement: random
               snap: true
               revealed: false
@@ -24686,7 +24686,7 @@ scenes:
             flags: {}
             _stats:
               compendiumSource: null
-              coreVersion: '14.367'
+              coreVersion: '14.368'
               systemId: dangerousgary
               systemVersion: '#{VERSION}#'
               lastModifiedBy: null
@@ -24737,7 +24737,7 @@ scenes:
             system:
               choice: false
               destinations:
-                - Scene.7HOXzj3flvYgbE83.Region.B7VN7hC3BwVctvST
+                - ..B7VN7hC3BwVctvST
               placement: random
               snap: true
               revealed: false
@@ -24751,7 +24751,7 @@ scenes:
             flags: {}
             _stats:
               compendiumSource: null
-              coreVersion: '14.367'
+              coreVersion: '14.368'
               systemId: dangerousgary
               systemVersion: '#{VERSION}#'
               lastModifiedBy: null
@@ -24802,7 +24802,7 @@ scenes:
             system:
               choice: false
               destinations:
-                - Scene.7HOXzj3flvYgbE83.Region.WmazChrRBIAeP3hM
+                - ..WmazChrRBIAeP3hM
               placement: random
               snap: true
               revealed: false
@@ -24816,7 +24816,7 @@ scenes:
             flags: {}
             _stats:
               compendiumSource: null
-              coreVersion: '14.367'
+              coreVersion: '14.368'
               systemId: dangerousgary
               systemVersion: '#{VERSION}#'
               lastModifiedBy: null
@@ -24867,7 +24867,7 @@ scenes:
             system:
               choice: false
               destinations:
-                - Scene.7HOXzj3flvYgbE83.Region.w0A64yO5Qv9x3N5N
+                - ..w0A64yO5Qv9x3N5N
               placement: random
               snap: true
               revealed: false
@@ -24881,7 +24881,7 @@ scenes:
             flags: {}
             _stats:
               compendiumSource: null
-              coreVersion: '14.367'
+              coreVersion: '14.368'
               systemId: dangerousgary
               systemVersion: '#{VERSION}#'
               lastModifiedBy: null
@@ -24932,7 +24932,7 @@ scenes:
             system:
               choice: false
               destinations:
-                - Scene.7HOXzj3flvYgbE83.Region.caCpnicHxn9pSAH9
+                - ..caCpnicHxn9pSAH9
               placement: random
               snap: true
               revealed: false
@@ -24946,7 +24946,7 @@ scenes:
             flags: {}
             _stats:
               compendiumSource: null
-              coreVersion: '14.367'
+              coreVersion: '14.368'
               systemId: dangerousgary
               systemVersion: '#{VERSION}#'
               lastModifiedBy: null
@@ -24997,7 +24997,7 @@ scenes:
             system:
               choice: false
               destinations:
-                - Scene.7HOXzj3flvYgbE83.Region.6YTUj3vr8iSIckyO
+                - ..6YTUj3vr8iSIckyO
               placement: random
               snap: true
               revealed: false
@@ -25011,7 +25011,7 @@ scenes:
             flags: {}
             _stats:
               compendiumSource: null
-              coreVersion: '14.367'
+              coreVersion: '14.368'
               systemId: dangerousgary
               systemVersion: '#{VERSION}#'
               lastModifiedBy: null
@@ -25062,7 +25062,7 @@ scenes:
             system:
               choice: false
               destinations:
-                - Scene.7HOXzj3flvYgbE83.Region.7HYqt7ZXp10aY65G
+                - ..7HYqt7ZXp10aY65G
               placement: random
               snap: true
               revealed: false
@@ -25076,7 +25076,7 @@ scenes:
             flags: {}
             _stats:
               compendiumSource: null
-              coreVersion: '14.367'
+              coreVersion: '14.368'
               systemId: dangerousgary
               systemVersion: '#{VERSION}#'
               lastModifiedBy: null
@@ -25127,7 +25127,7 @@ scenes:
             system:
               choice: false
               destinations:
-                - Scene.7HOXzj3flvYgbE83.Region.UUxTK5b0OLZZynLl
+                - ..UUxTK5b0OLZZynLl
               placement: random
               snap: true
               revealed: false
@@ -25141,7 +25141,7 @@ scenes:
             flags: {}
             _stats:
               compendiumSource: null
-              coreVersion: '14.367'
+              coreVersion: '14.368'
               systemId: dangerousgary
               systemVersion: '#{VERSION}#'
               lastModifiedBy: null
@@ -25192,7 +25192,7 @@ scenes:
             system:
               choice: false
               destinations:
-                - Scene.7HOXzj3flvYgbE83.Region.RtQrXqpnIVYZid4j
+                - ..RtQrXqpnIVYZid4j
               placement: random
               snap: true
               revealed: false
@@ -25206,7 +25206,7 @@ scenes:
             flags: {}
             _stats:
               compendiumSource: null
-              coreVersion: '14.367'
+              coreVersion: '14.368'
               systemId: dangerousgary
               systemVersion: '#{VERSION}#'
               lastModifiedBy: null
@@ -25257,7 +25257,7 @@ scenes:
             system:
               choice: false
               destinations:
-                - Scene.7HOXzj3flvYgbE83.Region.zrPOwjbmUMqq8gOn
+                - ..zrPOwjbmUMqq8gOn
               placement: random
               snap: true
               revealed: false
@@ -25271,7 +25271,7 @@ scenes:
             flags: {}
             _stats:
               compendiumSource: null
-              coreVersion: '14.367'
+              coreVersion: '14.368'
               systemId: dangerousgary
               systemVersion: '#{VERSION}#'
               lastModifiedBy: null
@@ -25322,7 +25322,7 @@ scenes:
             system:
               choice: false
               destinations:
-                - Scene.7HOXzj3flvYgbE83.Region.lPQ8MOCwgWoHic7y
+                - ..lPQ8MOCwgWoHic7y
               placement: random
               snap: true
               revealed: false
@@ -25336,7 +25336,7 @@ scenes:
             flags: {}
             _stats:
               compendiumSource: null
-              coreVersion: '14.367'
+              coreVersion: '14.368'
               systemId: dangerousgary
               systemVersion: '#{VERSION}#'
               lastModifiedBy: null
@@ -25387,7 +25387,7 @@ scenes:
             system:
               choice: false
               destinations:
-                - Scene.7HOXzj3flvYgbE83.Region.WAzAVs74GB0y1tR4
+                - ..WAzAVs74GB0y1tR4
               placement: random
               snap: true
               revealed: false
@@ -25401,7 +25401,7 @@ scenes:
             flags: {}
             _stats:
               compendiumSource: null
-              coreVersion: '14.367'
+              coreVersion: '14.368'
               systemId: dangerousgary
               systemVersion: '#{VERSION}#'
               lastModifiedBy: null
@@ -25452,7 +25452,7 @@ scenes:
             system:
               choice: false
               destinations:
-                - Scene.7HOXzj3flvYgbE83.Region.iYcan7xODakwLdsN
+                - ..iYcan7xODakwLdsN
               placement: random
               snap: true
               revealed: false
@@ -25466,7 +25466,7 @@ scenes:
             flags: {}
             _stats:
               compendiumSource: null
-              coreVersion: '14.367'
+              coreVersion: '14.368'
               systemId: dangerousgary
               systemVersion: '#{VERSION}#'
               lastModifiedBy: null
@@ -27795,7 +27795,7 @@ scenes:
     flags: {}
     _stats:
       compendiumSource: Compendium.dg-boite-rouge-bleue.donjons.Scene.ayYWEM8f2ndDm3Yw
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -34956,7 +34956,7 @@ scenes:
     flags: {}
     _stats:
       compendiumSource: null
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -64387,7 +64387,7 @@ scenes:
     flags: {}
     _stats:
       compendiumSource: null
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -70139,7 +70139,7 @@ scenes:
     flags: {}
     _stats:
       compendiumSource: null
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -71490,7 +71490,7 @@ scenes:
             system:
               choice: false
               destinations:
-                - Scene.LppTFSCymycvEqtX.Region.5H7C0HLX0ZSnMrsp
+                - ..5H7C0HLX0ZSnMrsp
               placement: random
               snap: true
               revealed: false
@@ -71504,7 +71504,7 @@ scenes:
             flags: {}
             _stats:
               compendiumSource: null
-              coreVersion: '14.367'
+              coreVersion: '14.368'
               systemId: dangerousgary
               systemVersion: '#{VERSION}#'
               createdTime: null
@@ -71563,7 +71563,7 @@ scenes:
             system:
               choice: false
               destinations:
-                - Scene.LppTFSCymycvEqtX.Region.eHtHN9zlYGsRQAKp
+                - ..eHtHN9zlYGsRQAKp
               placement: random
               snap: true
               revealed: false
@@ -71577,7 +71577,7 @@ scenes:
             flags: {}
             _stats:
               compendiumSource: null
-              coreVersion: '14.367'
+              coreVersion: '14.368'
               systemId: dangerousgary
               systemVersion: '#{VERSION}#'
               createdTime: null
@@ -75571,7 +75571,7 @@ scenes:
     flags: {}
     _stats:
       compendiumSource: Scene.LppTFSCymycvEqtX
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -75620,6 +75620,129 @@ scenes:
     ownership:
       default: 0
     active: false
+  - name: Accueil
+    _id: GjEkqJt3b5y9iA0n
+    navigation: true
+    navOrder: 0
+    thumb: modules/dg-boite-rouge-bleue/assets/dg-scenes/thumbs/thumb-accueil.webp
+    width: 1536
+    height: 2798
+    padding: 0.1
+    shiftX: 0
+    shiftY: 0
+    initial:
+      x: null
+      'y': null
+      scale: null
+    initialLevel: defaultLevel0000
+    grid:
+      type: 0
+      size: 100
+      style: solidLines
+      thickness: 1
+      color: '#000000'
+      alpha: 0.2
+      distance: 1.5
+      units: m
+    tokenVision: true
+    fog:
+      mode: 1
+      colors:
+        explored: null
+        unexplored: null
+    environment:
+      darknessLevel: 0
+      darknessLock: false
+      globalLight:
+        enabled: false
+        alpha: 0.5
+        bright: false
+        color: null
+        coloration: 1
+        luminosity: 0
+        saturation: 0
+        contrast: 0
+        shadows: 0
+        darkness:
+          min: 0
+          max: 1
+      cycle: true
+      base:
+        hue: 0
+        intensity: 0
+        luminosity: 0
+        saturation: 0
+        shadows: 0
+      dark:
+        hue: 0.7138888888888889
+        intensity: 0
+        luminosity: -0.25
+        saturation: 0
+        shadows: 0
+    transition:
+      type: null
+      duration: 1500
+      activeOnly: false
+    drawings: []
+    tokens: []
+    levels:
+      - _id: defaultLevel0000
+        name: Niveau
+        elevation:
+          top: 6
+          bottom: 0
+        background:
+          color: '#999999'
+          src: modules/dg-boite-rouge-bleue/assets/dg-scenes/accueil.webp
+          tint: '#ffffff'
+          alphaThreshold: 0.75
+        foreground:
+          src: null
+          tint: '#ffffff'
+          alphaThreshold: 0.75
+        fog:
+          src: null
+        textures:
+          anchorX: 0.5
+          anchorY: 0.5
+          offsetX: 0
+          offsetY: 0
+          fit: fill
+          scaleX: 1
+          scaleY: 1
+          rotation: 0
+        visibility:
+          levels: []
+        sort: 0
+        flags: {}
+    lights: []
+    notes: []
+    sounds: []
+    regions: []
+    tiles: []
+    walls: []
+    playlist: null
+    playlistSound: null
+    journal: null
+    journalEntryPage: null
+    weather: ''
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: dangerousgary
+      systemVersion: '#{VERSION}#'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    navName: ''
+    active: true
 tables: []
 macros: []
 cards: []
@@ -75636,7 +75759,7 @@ folders:
     flags: {}
     _stats:
       compendiumSource: Folder.40Sy1HIb6Mpb5pWf
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -75654,7 +75777,7 @@ folders:
     sort: 200000
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -75673,7 +75796,7 @@ folders:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -75692,7 +75815,7 @@ folders:
     sort: 0
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -75711,7 +75834,7 @@ folders:
     color: null
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -75730,7 +75853,7 @@ folders:
     color: null
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -75749,7 +75872,7 @@ folders:
     color: null
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -75768,7 +75891,7 @@ folders:
     color: null
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -75787,7 +75910,7 @@ folders:
     color: null
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -75806,7 +75929,7 @@ folders:
     color: null
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -75825,7 +75948,7 @@ folders:
     color: null
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -75844,7 +75967,7 @@ folders:
     color: null
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -75863,7 +75986,7 @@ folders:
     color: null
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -75882,7 +76005,7 @@ folders:
     color: null
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -75901,7 +76024,7 @@ folders:
     color: '#f61e1e'
     flags: {}
     _stats:
-      coreVersion: '14.367'
+      coreVersion: '14.368'
       systemId: dangerousgary
       systemVersion: '#{VERSION}#'
       createdTime: null
@@ -75917,10 +76040,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.367'
+  coreVersion: '14.368'
   systemId: dangerousgary
   systemVersion: '#{VERSION}#'
   createdTime: 1773686639098
-  modifiedTime: 1788812510341
+  modifiedTime: 1791317455431
   lastModifiedBy: 4gHATZ23KTYDYi5c
 _key: '!adventures!6C9qNiPNJky9174N'
