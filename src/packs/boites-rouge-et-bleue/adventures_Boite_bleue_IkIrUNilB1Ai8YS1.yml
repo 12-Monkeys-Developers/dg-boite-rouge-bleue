@@ -8276,6 +8276,382 @@ journal:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
+  - name: Le Monastère Sainte-Barbe
+    folder: Wmwrl5JuJnnEhRmn
+    sort: 450000
+    pages:
+      - name: Description générale
+        type: text
+        text:
+          content: >-
+            <p>Le monastère bénédictin de Sainte-Barbe a été édifié au XIIIe
+            siècle, mais la plupart des bâtiments datent du XVIIe. C’est
+            aujourd’hui une structure quadrangulaire aux façades sévères,
+            percées de hautes fenêtres. Seule la chapelle a gardé une
+            architecture médiévale. Abandonnée par ses derniers moines au
+            lendemain de la Seconde Guerre mondiale, l’abbaye est restée fermée
+            durant plusieurs décennies. L’Église catholique l’a finalement mise
+            en vente en 1996. Jonas Bruckner s’en est alors porté acquéreur,
+            avant même de fonder la fraternité Saint-Minos. Tous les membres de
+            cette dernière– une douzaine de donjexeurs – y logent, même si un
+            tiers d’entre eux sont généralement « en mission » dans les
+            Donjons.</p>
+          format: 1
+        sort: 100000
+        title:
+          show: true
+          level: 1
+        _id: xSzurNGI7IYZWyAX
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: 1 - Le parc
+        type: text
+        text:
+          content: >-
+            <p>Un haut mur en marque la limite. Le monastère est construit en
+            fond d’une petite dépression, entourée d’un bois touffu d’une
+            dizaine d’hectares. Un grand jardin potager aux allées de gravier
+            soigneusement entretenues jouxte la partie sud du bâtiment : les
+            Frères y travaillent une partie de l’année.</p>
+          format: 1
+        sort: 200000
+        title:
+          show: true
+          level: 1
+        _id: BQIwlT0mButCfyPG
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: 2 - Le chenil
+        type: text
+        text:
+          content: >-
+            <p>Une petite structure en béton abrite les quatre chiens du
+            frère-portier.</p>
+          format: 1
+        sort: 300000
+        title:
+          show: true
+          level: 1
+        _id: KI4iZkXkeD2GYQeV
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: 3 - Le porche
+        type: text
+        text:
+          content: >-
+            <p>Le porche forme une avancée rectangulaire. Le portail est encadré
+            par quatre pilastres surmontés d’un fronton triangulaire, sur lequel
+            est représentée sainte Barbe : une jeune fille tenant une tour à
+            trois fenêtres et un éclair. Une caméra filme les allées et
+            venues.</p>
+          format: 1
+        sort: 400000
+        title:
+          show: true
+          level: 1
+        _id: zLHZQPvIfBAOzF21
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: 4 - Le cloître
+        type: text
+        text:
+          content: >-
+            <p>La cour centrale du cloître est agrémentée de parterres de
+            fleurs, au milieu desquels se dresse une petite fontaine octogonale.
+            Les galeries couvertes sont soutenues par des arcades reposant sur
+            d’élégantes colonnettes décorées de motifs floraux. Une caméra est
+            disposée dans l’angle sud-ouest.</p>
+          format: 1
+        sort: 500000
+        title:
+          show: true
+          level: 1
+        _id: vIHSou1m3L2AKHAX
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: 5 - L'aile est
+        type: text
+        text:
+          content: >-
+            <p>L’aile accueille les salles de travail, la bibliothèque et les
+            archives de la Fraternité.</p>
+          format: 1
+        sort: 600000
+        title:
+          show: true
+          level: 1
+        _id: xcRDaazKwZB04XvD
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: 6 - L'aile sud
+        type: text
+        text:
+          content: >-
+            <p>L’aile sud regroupe les cellules des Frères, la cuisine, le
+            réfectoire, une salle de réunion (salle capitulaire) et le petit PC
+            de sécurité centralisant la vidéosurveillance de l’abbaye.</p>
+          format: 1
+        sort: 700000
+        title:
+          show: true
+          level: 1
+        _id: dBgRDS0SWMvAtsj1
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: 7 - L'aile ouest
+        type: text
+        text:
+          content: >-
+            <p>Cette partie du bâtiment semble être inutilisée. Elle abrite
+            cependant l’entrée des caves aménagées à grands frais en salles
+            d’entraînement. On y trouve notamment un stand de tir et une
+            armurerie. L’accès à l’escalier est fermé par une porte blindée
+            protégée par à un digicode. Une caméra en assure la
+            surveillance.</p>
+          format: 1
+        sort: 800000
+        title:
+          show: true
+          level: 1
+        _id: GfxjFPFzY1v2HjWl
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: 8 - La chapelle
+        type: text
+        text:
+          content: >-
+            <p>La chapelle occupe l’essentiel de l’aile nord. On y accède par
+            une petite cour jouxtant le cloître. Curieusement, l’édifice a été
+            conservé tel quel lors de la rénovation du monastère au XVIIe
+            siècle. De dimension réduite, elle est pourvue d’une façade romane
+            sculptée évoquant la Genèse. La pénombre règne à l’intérieur. Une
+            dizaine de grands tableaux peints par Juste de Solsac (cf. Module 7
+            : la Bibliothèque) sont accrochés sur les murs de la nef. Ils ont
+            pour thème le mythe de Thésée et du Minotaure, et sont réalisés dans
+            un style renaissance rappelant celui de La Légende crétoise du
+            Maître de Cassoni Campana. Une grande croix métallique est suspendue
+            au-dessus d’un autel de marbre.</p>
+          format: 1
+        sort: 900000
+        title:
+          show: true
+          level: 1
+        _id: uqHZt1f80NUsD0Bh
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+      - name: 9 - La sacristie
+        type: text
+        text:
+          content: >-
+            <p>On accède à la sacristie par une petite porte située dans la
+            chapelle. L’endroit est à peine éclairé par une étroite fenêtre
+            donnant sur le cloître. Les murs, sans aucune décoration, sont
+            simplement recouverts de chaux. Seuls un lit, une chaise et un
+            étroit bureau meublent la pièce. Le Passage vers la Cathédrale
+            s’ouvre à gauche de l’entrée.</p>
+          format: 1
+        sort: 1000000
+        title:
+          show: true
+          level: 1
+        _id: ObIGaxyMnMDz0kkG
+        system: {}
+        image: {}
+        video:
+          controls: true
+          volume: 0.5
+        src: null
+        category: null
+        ownership:
+          default: -1
+        flags: {}
+        _stats:
+          coreVersion: '14.367'
+          systemId: dangerousgary
+          systemVersion: '#{VERSION}#'
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+    _id: V2mnKFvRizHspDdz
+    categories: []
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.367'
+      systemId: dangerousgary
+      systemVersion: '#{VERSION}#'
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
 scenes:
   - name: Le Mall
     _id: 3kaXhBuWhTSBMC9g
@@ -58226,7 +58602,287 @@ scenes:
         sort: 0
         flags: {}
     lights: []
-    notes: []
+    notes:
+      - entryId: V2mnKFvRizHspDdz
+        pageId: zLHZQPvIfBAOzF21
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 4800
+        'y': 4460
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '3'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: uXDGKCauaCNYVsou
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: V2mnKFvRizHspDdz
+        pageId: GfxjFPFzY1v2HjWl
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 5100
+        'y': 5735
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '7'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: BCYmZFuEhmfAxHVk
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: V2mnKFvRizHspDdz
+        pageId: GfxjFPFzY1v2HjWl
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 5100
+        'y': 3110
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '7'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: CBGdWHbovGAj4inu
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: V2mnKFvRizHspDdz
+        pageId: uqHZt1f80NUsD0Bh
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 8550
+        'y': 2885
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '8'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: 0TvgghLSbSH9W63T
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: V2mnKFvRizHspDdz
+        pageId: ObIGaxyMnMDz0kkG
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 8850
+        'y': 3860
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '9'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: 15DALp62EAkmpcAI
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: V2mnKFvRizHspDdz
+        pageId: xcRDaazKwZB04XvD
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 9075
+        'y': 5285
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '5'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: JGgpQdvDvsUO1JDI
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: V2mnKFvRizHspDdz
+        pageId: dBgRDS0SWMvAtsj1
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 7050
+        'y': 5960
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '6'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: yqwpVENa1Ey2q7Uf
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: V2mnKFvRizHspDdz
+        pageId: vIHSou1m3L2AKHAX
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 6600
+        'y': 4460
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '4'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: 7rP4OJX4DvDSqvrP
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: V2mnKFvRizHspDdz
+        pageId: BQIwlT0mButCfyPG
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 3075
+        'y': 3710
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '1'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: Xw5M0VgTfnOJSiJ3
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
+      - entryId: V2mnKFvRizHspDdz
+        pageId: KI4iZkXkeD2GYQeV
+        global: false
+        levels:
+          - defaultLevel0000
+        x: 4239
+        'y': 5539
+        elevation: 0
+        sort: 0
+        iconSize: 60
+        texture:
+          tint: '#ffffff'
+          src: icons/svg/book.svg
+          anchorX: 0.5
+          anchorY: 0.5
+          fit: contain
+          scaleX: 1
+          scaleY: 1
+          alphaThreshold: 0
+        text: '2'
+        fontFamily: ''
+        fontSize: 32
+        textColor: '#ffffff'
+        textAnchor: 1
+        _id: TvOpawOCF4ZDeyuh
+        locked: false
+        flags: {}
+        author: 4gHATZ23KTYDYi5c
     sounds: []
     regions: []
     tiles:
