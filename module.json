@@ -7,7 +7,7 @@
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#",
   "compatibility": {
-    "minimum": 13,
+    "minimum": 14,
     "maximum": 14,
     "verified": 14
   },
@@ -15,7 +15,12 @@
     "systems": [
       {
         "id": "dangerousgary",
-        "type": "system"
+        "type": "system",
+        "manifest": "https://github.com/12-Monkeys-Developers/dangerousgary/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "1.4.0",
+          "verified": "1.4.0"
+        }
       }
     ]
   },
