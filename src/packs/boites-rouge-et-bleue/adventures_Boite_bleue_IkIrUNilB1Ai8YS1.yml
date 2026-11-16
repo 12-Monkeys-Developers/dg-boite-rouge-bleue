@@ -10,8 +10,8 @@ actors:
     sort: 1100000
     system:
       description: >-
-        <p>Nuées d'insectes xylophages dévorant le papier et se jetant en
-        grappes agressives sur les intrus dans les salles de lecture.</p>
+        <p>Nuées d'insectes xylophages dévorant le papier et se jetant en grappes agressives sur les
+        intrus dans les salles de lecture.</p>
       hp:
         value: 1
         max: 1
@@ -27,9 +27,13 @@ actors:
           max: 2
       armour: 0
       powers: >-
-        <ul><li><p><strong>Attaque précise</strong> : Les morsures passent outre
-        les points d'Armure de la victime, à moins que celle-ci ne dispose d'une
-        protection totalement étanche, visage et mains inclus.</p></li></ul>
+        <ul><li><p><strong>Attaque précise</strong> : Les morsures passent outre les points d'Armure de
+        la victime, à moins que celle-ci ne dispose d'une protection totalement étanche, visage et mains
+        inclus.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: Cancrelivre
       displayName: 0
@@ -116,10 +120,21 @@ actors:
         type: attack
         system:
           description: >-
-            <p>Les mandibules injectent un poison paralysant : la victime doit
-            réussir une sauvegarde de Force sous peine de perdre 1 point de
-            Dextérité.</p>
+            <p>Les mandibules injectent un poison paralysant : la victime doit réussir une sauvegarde de
+            Force sous peine de perdre 1 point de Dextérité.</p>
           damageFormula: 1d4
+          criticalDamage: false
+          ignoreArmour: true
+          triggers:
+            '1':
+              name: Poison paralysant
+              min: null
+              max: null
+              save: str
+              effect: dex
+              formula: '1'
+              ongoing: false
+              text: Si protection totalement étanche, désactiver Ignore l’armure avant le jet.
         _id: a09Kt2poMbMUXzKW
         img: icons/svg/sword.svg
         effects: []
@@ -594,10 +609,9 @@ actors:
     sort: 1000000
     system:
       description: >-
-        <p>Silhouette invisible et incorporelle hantant les couloirs de la
-        Bibliothèque. Il ne poursuit pas les donjexeurs à l'extérieur de sa
-        salle. Intangible, ses Force, Dextérité et points de vie sont nuls :
-        c'est sa Volonté qui tient lieu de jauge de vie.</p>
+        <p>Silhouette invisible et incorporelle hantant les couloirs de la Bibliothèque. Il ne poursuit
+        pas les donjexeurs à l'extérieur de sa salle. Intangible, ses Force, Dextérité et points de vie
+        sont nuls : c'est sa Volonté qui tient lieu de jauge de vie.</p>
       hp:
         value: 0
         max: 0
@@ -613,12 +627,15 @@ actors:
           max: 14
       armour: 0
       powers: >-
-        <ul><li><p><strong>Éthéré</strong> : Totalement insensible aux attaques
-        physiques conventionnelles. Les attaques portées avec des Artefacts lui
-        infligent [[/r 1d4]] points de dégâts. Les Talents magiques, Capacités
-        d'Artefacts ou Pouvoirs lui infligent des dégâts normaux, déduits
-        directement de sa <strong>Volonté</strong>. Il se dissipe définitivement
+        <ul><li><p><strong>Éthéré</strong> : Totalement insensible aux attaques physiques
+        conventionnelles. Les attaques portées avec des Artefacts lui infligent [[/r 1d4]] points de
+        dégâts. Les Talents magiques, Capacités d'Artefacts ou Pouvoirs lui infligent des dégâts
+        normaux, déduits directement de sa <strong>Volonté</strong>. Il se dissipe définitivement
         lorsque sa Volonté tombe à 0.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: Le Poltergeist
       displayName: 0
@@ -704,10 +721,11 @@ actors:
       - name: Projection de livres
         type: attack
         system:
-          description: >-
-            <p>Il peut attaquer jusqu'à [[/r 1d6]] cibles différentes lors de
-            son tour.</p>
+          description: <p>Il peut attaquer jusqu'à [[/r 1d6]] cibles différentes lors de son tour.</p>
           damageFormula: 1d4
+          criticalDamage: false
+          ignoreArmour: false
+          triggers: {}
         _id: 80YdngaxjCcwwYol
         img: icons/svg/sword.svg
         effects: []
@@ -731,11 +749,24 @@ actors:
         type: attack
         system:
           description: >-
-            <p>Au lieu d'attaquer. Il projette violemment un adversaire contre
-            un mur. La victime doit réussir une sauvegarde de Force ou être
-            étourdie pour tout le round : attaques contraintes et pénalité de -3
-            à toutes ses sauvegardes.</p>
+            <p>Au lieu d'attaquer. Il projette violemment un adversaire contre un mur. La victime doit
+            réussir une sauvegarde de Force ou être étourdie pour tout le round : attaques contraintes
+            et pénalité de -3 à toutes ses sauvegardes.</p>
           damageFormula: 1d8
+          criticalDamage: false
+          ignoreArmour: false
+          triggers:
+            '1':
+              name: Étourdissement
+              min: null
+              max: null
+              save: str
+              effect: none
+              formula: ''
+              ongoing: false
+              text: >-
+                Pour tout le round : attaques contraintes et -3 à toutes les sauvegardes, à gérer par le
+                MJ.
         _id: tmI4d6ahSDZQ16N2
         img: icons/svg/sword.svg
         effects: []
@@ -775,10 +806,9 @@ actors:
     sort: 900000
     system:
       description: >-
-        <p>Monstres errants de la Bibliothèque : créatures nues flottant en
-        silence à quelques centimètres du sol, entièrement recouvertes de
-        lettres et de chiffres. Leurs yeux, leurs dents et leurs griffes ont la
-        couleur noire et visqueuse du pétrole. Ils murmurent de funestes énigmes
+        <p>Monstres errants de la Bibliothèque : créatures nues flottant en silence à quelques
+        centimètres du sol, entièrement recouvertes de lettres et de chiffres. Leurs yeux, leurs dents
+        et leurs griffes ont la couleur noire et visqueuse du pétrole. Ils murmurent de funestes énigmes
         à l'approche des donjexeurs.</p>
       hp:
         value: 6
@@ -795,17 +825,18 @@ actors:
           max: 13
       armour: 0
       powers: >-
-        <ul><li><p><strong>Nouvelle page</strong> : Au lieu d'attaquer. Sa peau
-        se détache comme la mue d'un serpent, révélant un épiderme intact :
-        l'homme-livre regagne immédiatement l'intégralité de ses points de
-        vie.</p></li><li><p><strong>Jet d'encre noire</strong> : Au lieu
-        d'attaquer. Il vomit un jet d'encre sur une cible au corps à corps. Lors
-        du prochain tour de la victime, lancez [[/r 1d6]] : sur
-        <strong>1-2</strong> son attaque éventuelle est contrainte ce round ;
-        sur <strong>3-4</strong> elle commence à psalmodier une phrase lugubre
-        et ne peut entreprendre aucune action ; sur <strong>5-6</strong> elle ne
-        peut rien faire et perd immédiatement [[/r 1d6]] points de
-        Volonté.</p></li></ul>
+        <ul><li><p><strong>Nouvelle page</strong> : Au lieu d'attaquer. Sa peau se détache comme la mue
+        d'un serpent, révélant un épiderme intact : l'homme-livre regagne immédiatement l'intégralité de
+        ses points de vie.</p></li><li><p><strong>Jet d'encre noire</strong> : Au lieu d'attaquer. Il
+        vomit un jet d'encre sur une cible au corps à corps. Lors du prochain tour de la victime, lancez
+        [[/r 1d6]] : sur <strong>1-2</strong> son attaque éventuelle est contrainte ce round ; sur
+        <strong>3-4</strong> elle commence à psalmodier une phrase lugubre et ne peut entreprendre
+        aucune action ; sur <strong>5-6</strong> elle ne peut rien faire et perd immédiatement [[/r
+        1d6]] points de Volonté.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: Homme-Livre
       displayName: 0
@@ -893,6 +924,9 @@ actors:
         system:
           description: ''
           damageFormula: 1d6
+          criticalDamage: false
+          ignoreArmour: false
+          triggers: {}
         _id: 3cQQunpUPaUEIVWM
         img: icons/svg/sword.svg
         effects: []
@@ -1132,10 +1166,9 @@ actors:
     sort: 1200000
     system:
       description: >-
-        <p>Liche doppelgänger de la salle 6 : copie conforme de Guillaume
-        Cavalier, le frère jumeau disparu de Baptiste, assis silencieusement à
-        une table d'étude en robe de bure. Si les donjexeurs s'éloignent, il
-        s'anime et attaque avec ferveur.</p>
+        <p>Liche doppelgänger de la salle 6 : copie conforme de Guillaume Cavalier, le frère jumeau
+        disparu de Baptiste, assis silencieusement à une table d'étude en robe de bure. Si les
+        donjexeurs s'éloignent, il s'anime et attaque avec ferveur.</p>
       hp:
         value: 16
         max: 16
@@ -1151,13 +1184,15 @@ actors:
           max: 14
       armour: 0
       powers: >-
-        <ul><li><p><strong>Cécité violette</strong> : Au lieu d'attaquer. Les
-        mains de Guillaume s'entourent d'une aura violacée et il touche un
-        donjexeur, sans infliger de dégât. La victime doit réussir une
-        sauvegarde de Dextérité : en cas d'échec elle perd totalement la vue
-        durant [[/r 1d6]] heures — le mal se dissipe dès qu'elle quitte le
-        Donjon ; en cas de réussite sa vue est troublée et son attaque ce round
-        est contrainte.</p></li></ul>
+        <ul><li><p><strong>Cécité violette</strong> : Au lieu d'attaquer. Les mains de Guillaume
+        s'entourent d'une aura violacée et il touche un donjexeur, sans infliger de dégât. La victime
+        doit réussir une sauvegarde de Dextérité : en cas d'échec elle perd totalement la vue durant
+        [[/r 1d6]] heures — le mal se dissipe dès qu'elle quitte le Donjon ; en cas de réussite sa vue
+        est troublée et son attaque ce round est contrainte.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: « Guillaume »
       displayName: 0
@@ -1240,11 +1275,41 @@ actors:
     _id: Bjr4kmclMkZHNGat
     img: icons/svg/mystery-man.svg
     items:
+      - _id: 365f97a283913216
+        img: icons/svg/sword.svg
+        effects: []
+        folder: null
+        sort: 0
+        flags: {}
+        name: Cécité violette
+        type: attack
+        system:
+          description: >-
+            <p>Au lieu d’attaquer : touche un donjexeur, sans dégâts. Voir aussi le pouvoir Cécité
+            violette.</p>
+          damageFormula: '0'
+          criticalDamage: false
+          ignoreArmour: false
+          triggers:
+            '1':
+              name: Cécité violette
+              min: null
+              max: null
+              save: dex
+              effect: none
+              formula: ''
+              ongoing: false
+              text: >-
+                Échec : aveugle pendant 1d6 heures ou jusqu’à la sortie du Donjon. Réussite : vue
+                troublée, attaque contrainte ce round. États et durée à gérer par le MJ.
       - name: Poignard
         type: attack
         system:
           description: ''
           damageFormula: 1d6
+          criticalDamage: false
+          ignoreArmour: false
+          triggers: {}
         _id: 6Rn90XMSKm92gWyx
         img: icons/svg/sword.svg
         effects: []
@@ -1487,8 +1552,8 @@ actors:
     sort: 1500000
     system:
       description: >-
-        <p>Monstre volant du Clocher, dissimulé dans l'ombre des marches de la
-        tour et attaquant à partir de 18 mètres de hauteur.</p>
+        <p>Monstre volant du Clocher, dissimulé dans l'ombre des marches de la tour et attaquant à
+        partir de 18 mètres de hauteur.</p>
       hp:
         value: 3
         max: 3
@@ -1504,8 +1569,12 @@ actors:
           max: 9
       armour: 0
       powers: >-
-        <ul><li><p><strong>Vol</strong> : Toutes les attaques de mêlée ou au
-        corps à corps menées contre lui sont contraintes.</p></li></ul>
+        <ul><li><p><strong>Vol</strong> : Toutes les attaques de mêlée ou au corps à corps menées contre
+        lui sont contraintes.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: Le Sombre Séraphin
       displayName: 0
@@ -1593,6 +1662,9 @@ actors:
         system:
           description: ''
           damageFormula: 1d4
+          criticalDamage: false
+          ignoreArmour: false
+          triggers: {}
         _id: hcVhJdAx56YvUfeT
         img: icons/svg/sword.svg
         effects: []
@@ -1616,10 +1688,21 @@ actors:
         type: attack
         system:
           description: >-
-            <p>Sur un résultat de <strong>4-6</strong>, il inocule un venin
-            paralysant qui fait perdre [[/r 1d4]] points de Dextérité, une
-            sauvegarde de Force permettant d'y résister.</p>
+            <p>Sur un résultat de <strong>4-6</strong>, il inocule un venin paralysant qui fait perdre
+            [[/r 1d4]] points de Dextérité, une sauvegarde de Force permettant d'y résister.</p>
           damageFormula: 1d6
+          criticalDamage: false
+          ignoreArmour: false
+          triggers:
+            '1':
+              name: Venin paralysant
+              min: 4
+              max: 6
+              save: str
+              effect: dex
+              formula: 1d4
+              ongoing: false
+              text: ''
         _id: L3EWkoVX5d37oYAd
         img: icons/svg/sword.svg
         effects: []
@@ -1643,10 +1726,12 @@ actors:
         type: attack
         system:
           description: >-
-            <p>Le séraphin cherche à précipiter les donjexeurs dans le vide. Une
-            sauvegarde de Dextérité réussie permet de diviser ces dégâts par
-            deux.</p>
+            <p>Le séraphin cherche à précipiter les donjexeurs dans le vide. Une sauvegarde de Dextérité
+            réussie permet de diviser ces dégâts par deux.</p>
           damageFormula: 1d20+18
+          criticalDamage: false
+          ignoreArmour: false
+          triggers: {}
         _id: aViXa0BBtwp3p0aU
         img: icons/svg/sword.svg
         effects: []
@@ -1686,9 +1771,8 @@ actors:
     sort: 1600000
     system:
       description: >-
-        <p>Garde de la Fraternité, dans la réalité : quatre mastiffs colossaux
-        nommés Asmodée, Belzébuth, Azazel et Malphas, lâchés la nuit dans le
-        parc de l'abbaye.</p>
+        <p>Garde de la Fraternité, dans la réalité : quatre mastiffs colossaux nommés Asmodée,
+        Belzébuth, Azazel et Malphas, lâchés la nuit dans le parc de l'abbaye.</p>
       hp:
         value: 2
         max: 2
@@ -1704,6 +1788,10 @@ actors:
           max: 4
       armour: 0
       powers: ''
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: Chien du Monastère
       displayName: 0
@@ -1790,38 +1878,23 @@ actors:
         type: attack
         system:
           description: >-
-            <p>Si le résultat du dé est un <strong>6</strong>, le mastiff mord
-            et s'accroche solidement à sa cible : il lui inflige automatiquement
-            sa <em>Morsure accrochée</em> au début de chaque round suivant, sans
-            avoir besoin de relancer son attaque.</p>
+            <p>Si le résultat du dé est un <strong>6</strong>, le mastiff mord et s'accroche solidement
+            à sa cible : il lui inflige automatiquement sa <em>Morsure accrochée</em> au début de chaque
+            round suivant, sans avoir besoin de relancer son attaque.</p>
           damageFormula: 1d6
+          criticalDamage: false
+          ignoreArmour: false
+          triggers:
+            '1':
+              name: Morsure accrochée
+              min: 6
+              max: 6
+              save: ''
+              effect: damage
+              formula: 1d8
+              ongoing: true
+              text: Au début de chaque round suivant, tant que le mastiff reste accroché.
         _id: o0BuFQK9Yif6hxGG
-        img: icons/svg/sword.svg
-        effects: []
-        folder: null
-        sort: 0
-        ownership:
-          default: 0
-          4gHATZ23KTYDYi5c: 3
-        flags: {}
-        _stats:
-          coreVersion: '14.367'
-          systemId: dangerousgary
-          systemVersion: '#{VERSION}#'
-          createdTime: null
-          modifiedTime: null
-          lastModifiedBy: null
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-      - name: Morsure accrochée
-        type: attack
-        system:
-          description: >-
-            <p>Dégâts automatiques infligés à chaque round à une cible sur
-            laquelle le mastiff s'est accroché.</p>
-          damageFormula: 1d8
-        _id: mjm1SnDoZXjMNmuK
         img: icons/svg/sword.svg
         effects: []
         folder: null
@@ -1860,11 +1933,10 @@ actors:
     sort: 600000
     system:
       description: >-
-        <p>Prédateur aquatique : grand poisson de 2 mètres de long recouvert de
-        plaques osseuses et de nageoires barbelées multicolores. Il hante les
-        miroirs inondés reliant la première et la seconde salle de bain du
-        motel. Ses plaques osseuses sont déjà prises en compte dans ses points
-        de vie : son Armure reste à 0.</p>
+        <p>Prédateur aquatique : grand poisson de 2 mètres de long recouvert de plaques osseuses et de
+        nageoires barbelées multicolores. Il hante les miroirs inondés reliant la première et la seconde
+        salle de bain du motel. Ses plaques osseuses sont déjà prises en compte dans ses points de vie :
+        son Armure reste à 0.</p>
       hp:
         value: 8
         max: 8
@@ -1880,12 +1952,15 @@ actors:
           max: 4
       armour: 0
       powers: >-
-        <ul><li><p><strong>Combat sous l'eau</strong> : Sans masque ni
-        bouteilles (4 points d'équipement), au début de chaque round sous l'eau
-        le donjexeur doit réussir une sauvegarde de Dextérité — un échec rend
-        son attaque contrainte ce round — et une sauvegarde de Force — un échec
-        lui fait subir [[/r 1d6]] points de dégâts, avec un malus cumulatif de
-        -2 par round après le premier.</p></li></ul>
+        <ul><li><p><strong>Combat sous l'eau</strong> : Sans masque ni bouteilles (4 points
+        d'équipement), au début de chaque round sous l'eau le donjexeur doit réussir une sauvegarde de
+        Dextérité — un échec rend son attaque contrainte ce round — et une sauvegarde de Force — un
+        échec lui fait subir [[/r 1d6]] points de dégâts, avec un malus cumulatif de -2 par round après
+        le premier.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: L'Horreur des Profondeurs
       displayName: 0
@@ -1972,10 +2047,23 @@ actors:
         type: attack
         system:
           description: >-
-            <p>Chaque morsure oblige la cible à effectuer une sauvegarde de
-            Dextérité pour éviter d'être éraflée par les nageoires
-            barbelées.</p>
+            <p>Chaque morsure oblige la cible à effectuer une sauvegarde de Dextérité pour éviter d'être
+            éraflée par les nageoires barbelées.</p>
           damageFormula: 1d6
+          criticalDamage: false
+          ignoreArmour: false
+          triggers:
+            '1':
+              name: Piquants venimeux
+              min: null
+              max: null
+              save: dex
+              effect: none
+              formula: ''
+              ongoing: false
+              text: >-
+                En cas d’échec, utiliser l’attaque Piquants venimeux (1d4 dégâts et sauvegarde de Force
+                contre le venin).
         _id: e4suV2Ex6icRT1Xb
         img: icons/svg/sword.svg
         effects: []
@@ -1999,11 +2087,22 @@ actors:
         type: attack
         system:
           description: >-
-            <p>Dégâts subis par la cible qui a raté sa sauvegarde de Dextérité.
-            Elle doit en outre réussir une sauvegarde de Force pour ne pas
-            perdre [[/r 1d6]] points de Dextérité, effet paralysant du
-            venin.</p>
+            <p>Dégâts subis par la cible qui a raté sa sauvegarde de Dextérité. Elle doit en outre
+            réussir une sauvegarde de Force pour ne pas perdre [[/r 1d6]] points de Dextérité, effet
+            paralysant du venin.</p>
           damageFormula: 1d4
+          criticalDamage: false
+          ignoreArmour: false
+          triggers:
+            '1':
+              name: Venin paralysant
+              min: null
+              max: null
+              save: str
+              effect: dex
+              formula: 1d6
+              ongoing: false
+              text: ''
         _id: 8eAXWBXGdtNB8iJ1
         img: icons/svg/sword.svg
         effects: []
@@ -2043,10 +2142,9 @@ actors:
     sort: 800000
     system:
       description: >-
-        <p>Gardienne du Labyrinthe, boss récurrent : l'une des entités majeures
-        les plus redoutées de l'univers de Dangerous Gary.</p><p>Elle traque les
-        intrus de donjon en donjon sous différentes apparences cosmétiques :
-        robe de chambre noire brodée de labyrinthes dans l'Appartement, costume
+        <p>Gardienne du Labyrinthe, boss récurrent : l'une des entités majeures les plus redoutées de
+        l'univers de Dangerous Gary.</p><p>Elle traque les intrus de donjon en donjon sous différentes
+        apparences cosmétiques : robe de chambre noire brodée de labyrinthes dans l'Appartement, costume
         croisé noir avec cravate texane bolo dans la Chambre bleue.</p>
       hp:
         value: 18
@@ -2063,13 +2161,15 @@ actors:
           max: 18
       armour: 0
       powers: >-
-        <ul><li><p><strong>Aura de terreur (5)</strong> : En sa présence, tous
-        les donjexeurs de niveau 1 à 5 sont terrorisés et leurs attaques sont
-        contraintes.</p></li><li><p><strong>Insensibilité à la douleur</strong>
-        : La liche ne subit jamais de choc lors de sa perte de
-        Force.</p></li><li><p><strong>Maîtresse des Monstres</strong> : Elle
-        contrôle mentalement et dirige tous les Monstres ordinaires situés à
-        proximité.</p></li></ul>
+        <ul><li><p><strong>Aura de terreur (5)</strong> : En sa présence, tous les donjexeurs de niveau
+        1 à 5 sont terrorisés et leurs attaques sont contraintes.</p></li><li><p><strong>Insensibilité à
+        la douleur</strong> : La liche ne subit jamais de choc lors de sa perte de
+        Force.</p></li><li><p><strong>Maîtresse des Monstres</strong> : Elle contrôle mentalement et
+        dirige tous les Monstres ordinaires situés à proximité.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 5
+      regeneration: ''
     prototypeToken:
       name: La Liche
       displayName: 0
@@ -2157,6 +2257,9 @@ actors:
         system:
           description: ''
           damageFormula: 1d8
+          criticalDamage: false
+          ignoreArmour: false
+          triggers: {}
         _id: IgJ3PcSEXoZLebIf
         img: icons/svg/sword.svg
         effects: []
@@ -2180,12 +2283,23 @@ actors:
         type: attack
         system:
           description: >-
-            <p>Au lieu de porter une attaque. D'un simple mouvement de tête, la
-            liche projette violemment à plusieurs mètres tous ses adversaires au
-            corps à corps. Ils doivent réussir une sauvegarde de Force sous
-            peine d'être étourdis : leur attaque au prochain tour sera
+            <p>Au lieu de porter une attaque. D'un simple mouvement de tête, la liche projette
+            violemment à plusieurs mètres tous ses adversaires au corps à corps. Ils doivent réussir une
+            sauvegarde de Force sous peine d'être étourdis : leur attaque au prochain tour sera
             contrainte.</p>
           damageFormula: 1d6
+          criticalDamage: false
+          ignoreArmour: false
+          triggers:
+            '1':
+              name: Étourdissement
+              min: null
+              max: null
+              save: str
+              effect: none
+              formula: ''
+              ongoing: false
+              text: 'Étourdi : attaque contrainte au prochain tour (état à poser et retirer par le MJ).'
         _id: Jh84nK7SYJkfmp2j
         img: icons/svg/sword.svg
         effects: []
@@ -2225,10 +2339,9 @@ actors:
     sort: 500000
     system:
       description: >-
-        <p>Gardien de la Porte. Créature humanoïde de 2,5 mètres, nue, à la peau
-        bleuâtre. Sa tête possède une imposante crinière turquoise et tient à la
-        fois du lion et de la chauve-souris. Ses bras excessivement longs
-        traînent au sol et de petites ailes d'ivoire battent dans son
+        <p>Gardien de la Porte. Créature humanoïde de 2,5 mètres, nue, à la peau bleuâtre. Sa tête
+        possède une imposante crinière turquoise et tient à la fois du lion et de la chauve-souris. Ses
+        bras excessivement longs traînent au sol et de petites ailes d'ivoire battent dans son
         dos.</p><p>Il apparaît dès que le Carillon d'ouverture retentit.</p>
       hp:
         value: 16
@@ -2245,11 +2358,14 @@ actors:
           max: 14
       armour: 0
       powers: >-
-        <ul><li><p><strong>Sang acide</strong> : Le sang du monstre est un acide
-        corrosif d'un bleu profond. Lorsque le Lion Bleu prend des dégâts, tous
-        les donjexeurs effectuant des attaques de mêlée ou au corps à corps
-        contre lui doivent réussir une sauvegarde de Dextérité sous peine d'être
-        aspergés et de subir [[/r 1d6]] points de dégâts d'acide.</p></li></ul>
+        <ul><li><p><strong>Sang acide</strong> : Le sang du monstre est un acide corrosif d'un bleu
+        profond. Lorsque le Lion Bleu prend des dégâts, tous les donjexeurs effectuant des attaques de
+        mêlée ou au corps à corps contre lui doivent réussir une sauvegarde de Dextérité sous peine
+        d'être aspergés et de subir [[/r 1d6]] points de dégâts d'acide.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: Le Lion Bleu
       displayName: 0
@@ -2336,11 +2452,22 @@ actors:
         type: attack
         system:
           description: >-
-            <p>Sur un résultat de <strong>5-6</strong>, le lion saisit sa proie.
-            La victime doit immédiatement réussir une sauvegarde de Force pour
-            se dégager ; en cas d'échec, elle subit automatiquement une morsure
-            au début du round suivant.</p>
+            <p>Sur un résultat de <strong>5-6</strong>, le lion saisit sa proie. La victime doit
+            immédiatement réussir une sauvegarde de Force pour se dégager ; en cas d'échec, elle subit
+            automatiquement une morsure au début du round suivant.</p>
           damageFormula: 1d6
+          criticalDamage: false
+          ignoreArmour: false
+          triggers:
+            '1':
+              name: Proie saisie
+              min: 5
+              max: 6
+              save: str
+              effect: none
+              formula: ''
+              ongoing: false
+              text: 'En cas d’échec : utiliser Morsure du saisi au début du round suivant, une seule fois.'
         _id: tkezykU43l5N1FL0
         img: icons/svg/sword.svg
         effects: []
@@ -2364,9 +2491,12 @@ actors:
         type: attack
         system:
           description: >-
-            <p>Dégâts supplémentaires infligés automatiquement à une proie
-            saisie qui n'a pas réussi à se dégager.</p>
+            <p>Dégâts supplémentaires infligés automatiquement à une proie saisie qui n'a pas réussi à
+            se dégager.</p>
           damageFormula: 1d8
+          criticalDamage: false
+          ignoreArmour: false
+          triggers: {}
         _id: o55INrDqr9mYgqOk
         img: icons/svg/sword.svg
         effects: []
@@ -2406,11 +2536,10 @@ actors:
     sort: 700000
     system:
       description: >-
-        <p>Doppelgängers de la Chambre bleue : ces monstres prennent l'apparence
-        physique exacte des personnages joueurs, vêtements, armes et équipement
-        compris. Ils cherchent impitoyablement à éliminer et remplacer leurs
-        modèles. Leur Armure est identique à l'équipement porté par le donjexeur
-        copié : ajustez-la au cas par cas.</p>
+        <p>Doppelgängers de la Chambre bleue : ces monstres prennent l'apparence physique exacte des
+        personnages joueurs, vêtements, armes et équipement compris. Ils cherchent impitoyablement à
+        éliminer et remplacer leurs modèles. Leur Armure est identique à l'équipement porté par le
+        donjexeur copié : ajustez-la au cas par cas.</p>
       hp:
         value: 8
         max: 8
@@ -2426,10 +2555,13 @@ actors:
           max: 10
       armour: 0
       powers: >-
-        <ul><li><p><strong>Écho analogique</strong> : Un lien magique absolu
-        relie les doublures aux donjexeurs. Tout Talent magique ciblant une
-        doublure affecte de la même manière son modèle donjexeur, et
-        inversement.</p></li></ul>
+        <ul><li><p><strong>Écho analogique</strong> : Un lien magique absolu relie les doublures aux
+        donjexeurs. Tout Talent magique ciblant une doublure affecte de la même manière son modèle
+        donjexeur, et inversement.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: Doublure
       displayName: 0
@@ -2516,10 +2648,12 @@ actors:
         type: attack
         system:
           description: >-
-            <p>La doublure dispose des mêmes types d'armes physiques et des
-            mêmes dégâts que son modèle. <strong>Formule à renseigner</strong> :
-            recopiez celle de l'arme du donjexeur copié.</p>
+            <p>La doublure dispose des mêmes types d'armes physiques et des mêmes dégâts que son modèle.
+            <strong>Formule à renseigner</strong> : recopiez celle de l'arme du donjexeur copié.</p>
           damageFormula: ''
+          criticalDamage: false
+          ignoreArmour: false
+          triggers: {}
         _id: lMVUf9FsFfO35GEv
         img: icons/svg/sword.svg
         effects: []
@@ -2559,8 +2693,8 @@ actors:
     sort: 1300000
     system:
       description: >-
-        <p>Mort-vivant décharné surgissant des cloisons sculptées en bois sombre
-        de la Salle des cartes.</p>
+        <p>Mort-vivant décharné surgissant des cloisons sculptées en bois sombre de la Salle des
+        cartes.</p>
       hp:
         value: 7
         max: 7
@@ -2576,12 +2710,15 @@ actors:
           max: 11
       armour: 0
       powers: >-
-        <ul><li><p><strong>Cri de la banshee</strong> : Au lieu d'attaquer. Elle
-        pousse un long hurlement : tous les donjexeurs à moins de 10 mètres
-        doivent réussir une sauvegarde de Volonté sous peine de voir leurs
-        attaques contraintes durant ce round.</p></li><li><p><strong>Toucher
-        paralysant</strong> : Ses griffures infectées font perdre [[/r 1d6]]
-        points de Dextérité à la victime.</p></li></ul>
+        <ul><li><p><strong>Cri de la banshee</strong> : Au lieu d'attaquer. Elle pousse un long
+        hurlement : tous les donjexeurs à moins de 10 mètres doivent réussir une sauvegarde de Volonté
+        sous peine de voir leurs attaques contraintes durant ce round.</p></li><li><p><strong>Toucher
+        paralysant</strong> : Ses griffures infectées font perdre [[/r 1d6]] points de Dextérité à la
+        victime.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: La Goule
       displayName: 0
@@ -2664,13 +2801,46 @@ actors:
     _id: lYgce7fY4WvCDX8E
     img: icons/svg/mystery-man.svg
     items:
+      - _id: fbd692bf764a9141
+        img: icons/svg/sword.svg
+        effects: []
+        folder: null
+        sort: 0
+        flags: {}
+        name: Cri de la banshee
+        type: attack
+        system:
+          description: <p>Au lieu d’attaquer, cible tous les donjexeurs à moins de 10 mètres.</p>
+          damageFormula: '0'
+          criticalDamage: false
+          ignoreArmour: false
+          triggers:
+            '1':
+              name: Cri de la banshee
+              min: null
+              max: null
+              save: wil
+              effect: none
+              formula: ''
+              ongoing: false
+              text: Attaques contraintes durant ce round en cas d’échec ; état à gérer par le MJ.
       - name: Griffes
         type: attack
         system:
-          description: >-
-            <p>Ses griffures infectées font perdre [[/r 1d6]] points de
-            Dextérité à la victime.</p>
+          description: <p>Ses griffures infectées font perdre [[/r 1d6]] points de Dextérité à la victime.</p>
           damageFormula: 1d6
+          criticalDamage: false
+          ignoreArmour: false
+          triggers:
+            '1':
+              name: Toucher paralysant
+              min: null
+              max: null
+              save: ''
+              effect: dex
+              formula: 1d6
+              ongoing: false
+              text: ''
         _id: PBbLi6HKX2JkAfKa
         img: icons/svg/sword.svg
         effects: []
@@ -2710,9 +2880,8 @@ actors:
     sort: 1400000
     system:
       description: >-
-        <p>Boss de la Salle des cartes (salle 6) : gigantesque monstre défiguré
-        effectuant d'étranges rituels de tatouages sur les parois de cuir du
-        Donjon.</p>
+        <p>Boss de la Salle des cartes (salle 6) : gigantesque monstre défiguré effectuant d'étranges
+        rituels de tatouages sur les parois de cuir du Donjon.</p>
       hp:
         value: 17
         max: 17
@@ -2728,10 +2897,13 @@ actors:
           max: 14
       armour: 0
       powers: >-
-        <ul><li><p><strong>Aura de terreur (3)</strong> : Toutes les attaques
-        des donjexeurs de niveau 1 à 3 sont contraintes en sa
-        présence.</p></li><li><p><strong>Insensibilité à la douleur</strong> :
-        Il ne subit jamais de choc.</p></li></ul>
+        <ul><li><p><strong>Aura de terreur (3)</strong> : Toutes les attaques des donjexeurs de niveau 1
+        à 3 sont contraintes en sa présence.</p></li><li><p><strong>Insensibilité à la douleur</strong>
+        : Il ne subit jamais de choc.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 3
+      regeneration: ''
     prototypeToken:
       name: Le Tatoueur-Cartographe
       displayName: 0
@@ -2819,6 +2991,9 @@ actors:
         system:
           description: ''
           damageFormula: 1d6
+          criticalDamage: false
+          ignoreArmour: false
+          triggers: {}
         _id: r1VjCqAbj0nikiQy
         img: icons/svg/sword.svg
         effects: []
@@ -2843,6 +3018,9 @@ actors:
         system:
           description: ''
           damageFormula: 1d6
+          criticalDamage: false
+          ignoreArmour: false
+          triggers: {}
         _id: tQaI7ZnMCpWdZZXE
         img: icons/svg/sword.svg
         effects: []
@@ -2882,9 +3060,9 @@ actors:
     sort: 1800000
     system:
       description: >-
-        <p>Le donjexeur bidimensionnel : explorateur errant dans le Labyrinthe à
-        la recherche de la fontaine centrale. Il possède la particularité
-        physique d'être plat — vu de profil, il disparaît complètement.</p>
+        <p>Le donjexeur bidimensionnel : explorateur errant dans le Labyrinthe à la recherche de la
+        fontaine centrale. Il possède la particularité physique d'être plat — vu de profil, il disparaît
+        complètement.</p>
       hp:
         value: 10
         max: 10
@@ -2900,9 +3078,12 @@ actors:
           max: 7
       armour: 0
       powers: >-
-        <ul><li><p><strong>Bidimensionnalité</strong> : En raison de sa
-        structure bidimensionnelle, toutes les attaques physiques portées contre
-        Jared sont contraintes.</p></li></ul>
+        <ul><li><p><strong>Bidimensionnalité</strong> : En raison de sa structure bidimensionnelle,
+        toutes les attaques physiques portées contre Jared sont contraintes.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: Jared
       displayName: 0
@@ -2988,37 +3169,12 @@ actors:
       - name: Pistolet
         type: attack
         system:
-          description: >-
-            <p>Sur un résultat de <strong>8</strong>, la balle perfore un organe
-            vital.</p>
+          description: <p>Sur un résultat de <strong>8</strong>, la balle perfore un organe vital.</p>
           damageFormula: 1d8
+          criticalDamage: true
+          ignoreArmour: false
+          triggers: {}
         _id: g4ihDYUa5IsaTJSc
-        img: icons/svg/sword.svg
-        effects: []
-        folder: null
-        sort: 0
-        ownership:
-          default: 0
-          4gHATZ23KTYDYi5c: 3
-        flags: {}
-        _stats:
-          coreVersion: '14.367'
-          systemId: dangerousgary
-          systemVersion: '#{VERSION}#'
-          createdTime: null
-          modifiedTime: null
-          lastModifiedBy: null
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-      - name: Organe vital perforé
-        type: attack
-        system:
-          description: >-
-            <p>Dégâts supplémentaires infligés lorsque la balle perfore un
-            organe vital.</p>
-          damageFormula: 1d8
-        _id: lSEhuM6yLkrHpwC6
         img: icons/svg/sword.svg
         effects: []
         folder: null
@@ -3057,9 +3213,8 @@ actors:
     sort: 2000000
     system:
       description: >-
-        <p>Jeune garçonnet terrorisé dont les lèvres sont cousues par de lourdes
-        agrafes de fer. Il trace patiemment des motifs de coupes d'eau sur les
-        dalles de pierre.</p>
+        <p>Jeune garçonnet terrorisé dont les lèvres sont cousues par de lourdes agrafes de fer. Il
+        trace patiemment des motifs de coupes d'eau sur les dalles de pierre.</p>
       hp:
         value: 2
         max: 2
@@ -3075,13 +3230,15 @@ actors:
           max: 14
       armour: 0
       powers: >-
-        <ul><li><p><strong>Langage de mort</strong> : Si les donjexeurs retirent
-        ses agrafes de fer — une pince est nécessaire —, le garçonnet hurle une
-        mélodie discordante qui génère une tempête synesthésique dans le
-        cerveau. Tous les donjexeurs perdent instantanément [[/r 1d8]] points de
-        vie, se retrouvent incapables d'activer leurs Talents ou Capacités
-        d'Artefacts, et toutes leurs attaques deviennent
-        contraintes.</p></li></ul>
+        <ul><li><p><strong>Langage de mort</strong> : Si les donjexeurs retirent ses agrafes de fer —
+        une pince est nécessaire —, le garçonnet hurle une mélodie discordante qui génère une tempête
+        synesthésique dans le cerveau. Tous les donjexeurs perdent instantanément [[/r 1d8]] points de
+        vie, se retrouvent incapables d'activer leurs Talents ou Capacités d'Artefacts, et toutes leurs
+        attaques deviennent contraintes.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: L'Enfant-qui-ne-pouvait-pas-parler
       displayName: 0
@@ -3169,6 +3326,9 @@ actors:
         system:
           description: ''
           damageFormula: 1d4
+          criticalDamage: false
+          ignoreArmour: false
+          triggers: {}
         _id: f7j7Ioh2sQwCAIZR
         img: icons/svg/sword.svg
         effects: []
@@ -3208,9 +3368,9 @@ actors:
     sort: 1900000
     system:
       description: >-
-        <p>Humanoïde reptilien de près de deux mètres de haut au corps recouvert
-        d'écailles grises (Armure 1), doté d'une collerette osseuse se déployant
-        autour de son cou. Sa Force diminue de 2 points à chaque division.</p>
+        <p>Humanoïde reptilien de près de deux mètres de haut au corps recouvert d'écailles grises
+        (Armure 1), doté d'une collerette osseuse se déployant autour de son cou. Sa Force diminue de 2
+        points à chaque division.</p>
       hp:
         value: 14
         max: 14
@@ -3226,15 +3386,16 @@ actors:
           max: 8
       armour: 1
       powers: >-
-        <ul><li><p><strong>Peau prismatique</strong> : Lorsqu'il est ciblé par
-        un Talent, sa peau prend la couleur associée à la classe du Talent : il
-        devient alors définitivement insensible à tous les Talents de cette
-        classe.</p></li><li><p><strong>Gigogne</strong> : Mis hors d'état de
-        nuire — mort ou choc —, son cadavre se déchire sur le sol et un nouveau
-        caméléon-gigogne plus petit, à la Force diminuée de 2 points, s'en
-        extirpe immédiatement pour poursuivre le combat. Le monstre n'est
-        détruit qu'une fois vaincu 6 fois, lorsque sa Force tombe à
-        0.</p></li></ul>
+        <ul><li><p><strong>Peau prismatique</strong> : Lorsqu'il est ciblé par un Talent, sa peau prend
+        la couleur associée à la classe du Talent : il devient alors définitivement insensible à tous
+        les Talents de cette classe.</p></li><li><p><strong>Gigogne</strong> : Mis hors d'état de nuire
+        — mort ou choc —, son cadavre se déchire sur le sol et un nouveau caméléon-gigogne plus petit, à
+        la Force diminuée de 2 points, s'en extirpe immédiatement pour poursuivre le combat. Le monstre
+        n'est détruit qu'une fois vaincu 6 fois, lorsque sa Force tombe à 0.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: Le Caméléon-Gigogne
       displayName: 0
@@ -3322,6 +3483,9 @@ actors:
         system:
           description: ''
           damageFormula: 1d6
+          criticalDamage: false
+          ignoreArmour: false
+          triggers: {}
         _id: cbU8irUfSkXTXbFv
         img: icons/svg/sword.svg
         effects: []
@@ -3361,12 +3525,10 @@ actors:
     sort: 1700000
     system:
       description: >-
-        <p>Humanoïdes géants de plus de deux mètres de haut et extrêmement
-        minces, vêtus d'une combinaison brillante de plongée caoutchouteuse
-        (Armure 2). Visages pâles, imberbes, yeux exorbités.</p><p>Le premier
-        attaque, le second s'éveille dès que le premier tombe. L'arme du premier
-        est l'Artefact <em>La Rapière de l'ultime duel</em>, non détaillé par le
-        codex.</p>
+        <p>Humanoïdes géants de plus de deux mètres de haut et extrêmement minces, vêtus d'une
+        combinaison brillante de plongée caoutchouteuse (Armure 2). Visages pâles, imberbes, yeux
+        exorbités.</p><p>Le premier attaque, le second s'éveille dès que le premier tombe. L'arme du
+        premier est l'Artefact <em>La Rapière de l'ultime duel</em>, non détaillé par le codex.</p>
       hp:
         value: 15
         max: 15
@@ -3382,11 +3544,14 @@ actors:
           max: 13
       armour: 2
       powers: >-
-        <ul><li><p><strong>Apprentissage gémellaire</strong> : Les jumeaux
-        partagent leur expérience du combat : toute attaque physique — avec un
-        type d'arme précis —, Talent, Pouvoir ou Capacité d'Artefact ayant
-        blessé ou affecté l'un des duellistes devient totalement inefficace
-        contre son jumeau.</p></li></ul>
+        <ul><li><p><strong>Apprentissage gémellaire</strong> : Les jumeaux partagent leur expérience du
+        combat : toute attaque physique — avec un type d'arme précis —, Talent, Pouvoir ou Capacité
+        d'Artefact ayant blessé ou affecté l'un des duellistes devient totalement inefficace contre son
+        jumeau.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: Duelliste jumeau
       displayName: 0
@@ -3474,6 +3639,9 @@ actors:
         system:
           description: ''
           damageFormula: 1d8
+          criticalDamage: false
+          ignoreArmour: false
+          triggers: {}
         _id: qIKlOpV4Tuw3Ymbf
         img: icons/svg/sword.svg
         effects: []
@@ -3744,10 +3912,9 @@ actors:
     sort: 200000
     system:
       description: >-
-        <p>Corps longiligne recouvert d'écailles vertes et bras dotés d'une
-        articulation surnaturelle supplémentaire. Elle est nue et dissimulée par
-        sa longue chevelure blonde dans la librairie (3). Sa peau écailleuse lui
-        confère une Armure de 1.</p>
+        <p>Corps longiligne recouvert d'écailles vertes et bras dotés d'une articulation surnaturelle
+        supplémentaire. Elle est nue et dissimulée par sa longue chevelure blonde dans la librairie (3).
+        Sa peau écailleuse lui confère une Armure de 1.</p>
       hp:
         value: 12
         max: 12
@@ -3763,9 +3930,13 @@ actors:
           max: 9
       armour: 1
       powers: >-
-        <ul><li><p><strong>Camouflage optique</strong> : Sa peau change de
-        couleur en quelques secondes (effet caméléon) pour s'assimiler au décor,
-        la rendant invisible tant qu'elle est statique.</p></li></ul>
+        <ul><li><p><strong>Camouflage optique</strong> : Sa peau change de couleur en quelques secondes
+        (effet caméléon) pour s'assimiler au décor, la rendant invisible tant qu'elle est
+        statique.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: La Fille
       displayName: 0
@@ -3852,13 +4023,14 @@ actors:
         type: attack
         system:
           description: >-
-            <p>Elle se rue sur le premier donjexeur à portée. La cible doit
-            réussir une sauvegarde de Dextérité ; en cas d'échec, elle subit
-            instantanément les dégâts du monstre et la Fille peut effectuer une
-            deuxième attaque gratuite à la fin du premier round. <strong>Formule
-            à renseigner</strong> : le codex ne chiffre pas les dégâts de ce
-            monstre.</p>
+            <p>Elle se rue sur le premier donjexeur à portée. La cible doit réussir une sauvegarde de
+            Dextérité ; en cas d'échec, elle subit instantanément les dégâts du monstre et la Fille peut
+            effectuer une deuxième attaque gratuite à la fin du premier round. <strong>Formule à
+            renseigner</strong> : le codex ne chiffre pas les dégâts de ce monstre.</p>
           damageFormula: ''
+          criticalDamage: false
+          ignoreArmour: false
+          triggers: {}
         _id: 8wRkqPbd5PkmwBgG
         img: icons/svg/sword.svg
         effects: []
@@ -3897,9 +4069,7 @@ actors:
     folder: Sb515lO7eBbU4QpR
     sort: 400000
     system:
-      description: >-
-        <p>Insecte-oiseau suceur de sang hantant les conduits et les zones
-        humides du Mall.</p>
+      description: <p>Insecte-oiseau suceur de sang hantant les conduits et les zones humides du Mall.</p>
       hp:
         value: 3
         max: 3
@@ -3915,14 +4085,17 @@ actors:
           max: 5
       armour: 0
       powers: >-
-        <ul><li><p><strong>Trompe aspiratrice</strong> : Sur un résultat
-        d'attaque de <strong>4</strong>, la strige plante sa trompe dans le
-        corps de sa victime, qui perd immédiatement [[/r 1d4]] points de Force
-        par round. Tant que le contact est maintenu, la strige est collée à sa
-        victime et vulnérable : les attaques physiques au corps à corps contre
-        elle ne sont plus contraintes.</p></li><li><p><strong>Vol</strong> :
-        Lorsqu'elle est dans les airs, toutes les attaques physiques au corps à
-        corps ou de mêlée portées contre elle sont contraintes.</p></li></ul>
+        <ul><li><p><strong>Trompe aspiratrice</strong> : Sur un résultat d'attaque de
+        <strong>4</strong>, la strige plante sa trompe dans le corps de sa victime, qui perd
+        immédiatement [[/r 1d4]] points de Force par round. Tant que le contact est maintenu, la strige
+        est collée à sa victime et vulnérable : les attaques physiques au corps à corps contre elle ne
+        sont plus contraintes.</p></li><li><p><strong>Vol</strong> : Lorsqu'elle est dans les airs,
+        toutes les attaques physiques au corps à corps ou de mêlée portées contre elle sont
+        contraintes.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: La Strige
       displayName: 0
@@ -4010,6 +4183,30 @@ actors:
         system:
           description: ''
           damageFormula: 1d4
+          criticalDamage: false
+          ignoreArmour: false
+          triggers:
+            '1':
+              name: 'Trompe : perte immédiate'
+              min: 4
+              max: 4
+              save: ''
+              effect: str
+              formula: 1d4
+              ongoing: false
+              text: ''
+            '2':
+              name: Trompe aspiratrice
+              min: 4
+              max: 4
+              save: ''
+              effect: str
+              formula: 1d4
+              ongoing: true
+              text: >-
+                À chaque round suivant tant que le contact est maintenu. Mettre fin à l’effet au
+                détachement ; les attaques de mêlée contre la strige ne sont plus contraintes pendant le
+                contact.
         _id: pekmUeNBdaQV9h7b
         img: icons/svg/sword.svg
         effects: []
@@ -4049,9 +4246,9 @@ actors:
     sort: 300000
     system:
       description: >-
-        <p>Monstre reptilien doté d'un cou extensible et préhensile, posté en
-        embuscade dans les conduits d'acier étroits circulant sous l'aquarium
-        (12). Sa peau écailleuse lui confère une Armure de 1.</p>
+        <p>Monstre reptilien doté d'un cou extensible et préhensile, posté en embuscade dans les
+        conduits d'acier étroits circulant sous l'aquarium (12). Sa peau écailleuse lui confère une
+        Armure de 1.</p>
       hp:
         value: 8
         max: 8
@@ -4067,13 +4264,15 @@ actors:
           max: 8
       armour: 1
       powers: >-
-        <ul><li><p><strong>Embuscade des conduits</strong> : Il attaque depuis
-        le plafond ou les intersections. Le combat se déroulant en file
-        indienne, seul le premier donjexeur de la file peut répliquer et ses
-        attaques de mêlée ou au corps à corps sont contraintes. Les donjexeurs
-        derrière lui peuvent toutefois utiliser leurs Talents ou Capacités
-        d'Artefacts. Si le premier subit un choc, le second peut le déplacer
-        pour prendre le combat à sa charge.</p></li></ul>
+        <ul><li><p><strong>Embuscade des conduits</strong> : Il attaque depuis le plafond ou les
+        intersections. Le combat se déroulant en file indienne, seul le premier donjexeur de la file
+        peut répliquer et ses attaques de mêlée ou au corps à corps sont contraintes. Les donjexeurs
+        derrière lui peuvent toutefois utiliser leurs Talents ou Capacités d'Artefacts. Si le premier
+        subit un choc, le second peut le déplacer pour prendre le combat à sa charge.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: Le Fils
       displayName: 0
@@ -4161,6 +4360,9 @@ actors:
         system:
           description: ''
           damageFormula: 1d8
+          criticalDamage: false
+          ignoreArmour: false
+          triggers: {}
         _id: Yu42k3MmKUMLyKWh
         img: icons/svg/sword.svg
         effects: []
@@ -4200,10 +4402,9 @@ actors:
     sort: 100000
     system:
       description: >-
-        <p>L'un des monstres phares de la Famille hantant le Mall. Humanoïde
-        reptilien féroce recouvert d'écailles, ne s'exprimant que par
-        d'inquiétants sifflements. Sa peau écailleuse lui confère une Armure de
-        1.</p>
+        <p>L'un des monstres phares de la Famille hantant le Mall. Humanoïde reptilien féroce recouvert
+        d'écailles, ne s'exprimant que par d'inquiétants sifflements. Sa peau écailleuse lui confère une
+        Armure de 1.</p>
       hp:
         value: 12
         max: 12
@@ -4219,8 +4420,12 @@ actors:
           max: 9
       armour: 1
       powers: >-
-        <ul><li><p><strong>Régénération</strong> : Le Père régénère 3 points de
-        vie au début de chacun de ses tours de combat.</p></li></ul>
+        <ul><li><p><strong>Régénération</strong> : Le Père régénère 3 points de vie au début de chacun
+        de ses tours de combat.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: '3'
     prototypeToken:
       name: Le Père
       displayName: 0
@@ -4306,37 +4511,12 @@ actors:
       - name: Fusil
         type: attack
         system:
-          description: >-
-            <p>Sur un résultat de <strong>10</strong>, la balle perfore un
-            organe vital.</p>
+          description: <p>Sur un résultat de <strong>10</strong>, la balle perfore un organe vital.</p>
           damageFormula: 1d10
+          criticalDamage: true
+          ignoreArmour: false
+          triggers: {}
         _id: EdTHuuVO5qglCvlZ
-        img: icons/svg/sword.svg
-        effects: []
-        folder: null
-        sort: 0
-        ownership:
-          default: 0
-          4gHATZ23KTYDYi5c: 3
-        flags: {}
-        _stats:
-          coreVersion: '14.367'
-          systemId: dangerousgary
-          systemVersion: '#{VERSION}#'
-          createdTime: null
-          modifiedTime: null
-          lastModifiedBy: null
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-      - name: Organe vital perforé
-        type: attack
-        system:
-          description: >-
-            <p>Dégâts supplémentaires infligés lorsque la balle perfore un
-            organe vital.</p>
-          damageFormula: 1d10
-        _id: zJCQ2IZMqvRPwAUZ
         img: icons/svg/sword.svg
         effects: []
         folder: null
@@ -4360,6 +4540,9 @@ actors:
         system:
           description: ''
           damageFormula: 1d6
+          criticalDamage: false
+          ignoreArmour: false
+          triggers: {}
         _id: YgifQveZkY89XWaR
         img: icons/svg/sword.svg
         effects: []

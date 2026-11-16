@@ -38,12 +38,14 @@ actors:
           max: 4
       armour: 0
       powers: >-
-        <ul><li><p><strong>Aura de cynophobie</strong> : combattre les
-        chiens-hyènes fait ressurgir de vieux souvenirs d’enfance (réels ou
-        imaginaires) dans lesquels le personnage est attaqué par des chiens
-        écumants. Au début de chaque round, l’adversaire du Monstre est soumis à
-        une sauvegarde de Volonté pour éviter de perdre [[/r 1d4]] points de
-        Volonté.</p></li></ul>
+        <ul><li><p><strong>Aura de cynophobie</strong> : combattre les chiens-hyènes fait ressurgir de
+        vieux souvenirs d’enfance (réels ou imaginaires) dans lesquels le personnage est attaqué par des
+        chiens écumants. Au début de chaque round, l’adversaire du Monstre est soumis à une sauvegarde
+        de Volonté pour éviter de perdre [[/r 1d4]] points de Volonté.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: Chien-Hyène
       displayName: 0
@@ -127,9 +129,13 @@ actors:
       - type: attack
         system:
           description: >-
-            <p>Le Monstre ne lâche pas sa proie et lui inflige désormais 1D8
-            points de dégâts</p>
+            <p>Le Monstre ne lâche pas sa proie et lui inflige désormais 1D8 points de dégâts</p><p>La
+            source de l’aventure ne précise pas de seuil de dé pour l’agrippement : le MJ détermine
+            quand utiliser Morsure agrippée.</p>
           damageFormula: 1d6
+          criticalDamage: false
+          ignoreArmour: false
+          triggers: {}
         name: Morsure
         _id: ND4KCWcnfUXfkmmQ
         img: icons/svg/sword.svg
@@ -152,8 +158,13 @@ actors:
           exportSource: null
       - type: attack
         system:
-          description: ''
+          description: >-
+            <p>Le Monstre ne lâche pas sa proie. Utiliser cette attaque lorsqu’il est agrippé ; la
+            source ne précise ni seuil de déclenchement ni fréquence par round.</p>
           damageFormula: 1d8
+          criticalDamage: false
+          ignoreArmour: false
+          triggers: {}
         name: Morsure agrippée
         _id: Avz3AmDb5M2jqOTd
         img: icons/svg/sword.svg
@@ -174,6 +185,32 @@ actors:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
+      - _id: 4f72f6268a628a7c
+        img: icons/svg/sword.svg
+        effects: []
+        folder: null
+        sort: 0
+        flags: {}
+        name: Aura de cynophobie
+        type: attack
+        system:
+          description: >-
+            <p>Au début de chaque round, cibler les adversaires qui combattent le Chien-Hyène et lancer
+            cette action en mode normal. Une sauvegarde de Volonté évite la perte de 1d4 VOL. Il ne
+            s’agit pas d’une action supplémentaire du Monstre.</p>
+          damageFormula: '0'
+          criticalDamage: false
+          ignoreArmour: false
+          triggers:
+            '1':
+              name: Aura de cynophobie
+              min: null
+              max: null
+              save: wil
+              effect: wil
+              formula: 1d4
+              ongoing: false
+              text: 'À relancer au début de chaque round : une nouvelle sauvegarde est requise à chaque fois.'
     effects: []
     folder: 0ZCSfew2xWYTIvuW
     sort: 100000
@@ -197,10 +234,9 @@ actors:
     img: icons/svg/mystery-man.svg
     system:
       description: >-
-        <p>Les surendettés sont des cadavres animés en état de putréfaction,
-        vêtus de lambeaux de costumes gris. Leur bouche est garnie de crocs
-        redoutables. Ils cherchent à mettre en pièces toute personne descendant
-        dans le puits.</p>
+        <p>Les surendettés sont des cadavres animés en état de putréfaction, vêtus de lambeaux de
+        costumes gris. Leur bouche est garnie de crocs redoutables. Ils cherchent à mettre en pièces
+        toute personne descendant dans le puits.</p>
       hp:
         value: 4
         max: 4
@@ -216,13 +252,16 @@ actors:
           max: 4
       armour: 0
       powers: >-
-        <ul><li><p><strong>Surprise du mort-vivant</strong> : la manière la plus
-        simple de se débarrasser de ces Monstres est de les abattre à distance.
-        À 0 points de vie, ils s’effondrent et ne bougent plus… mais se relèvent
-        dès qu’on s’approche d’eux. Si les PJ continuent à les canarder alors
-        qu’ils sont immobiles (attaques exaltées : maximum de points de dégâts),
-        soustrayez les points de dégâts de leur Force. À 0, les surendettés sont
-        hors d’état de nuire.</p></li></ul>
+        <ul><li><p><strong>Surprise du mort-vivant</strong> : la manière la plus simple de se
+        débarrasser de ces Monstres est de les abattre à distance. À 0 points de vie, ils s’effondrent
+        et ne bougent plus… mais se relèvent dès qu’on s’approche d’eux. Si les PJ continuent à les
+        canarder alors qu’ils sont immobiles (attaques exaltées : maximum de points de dégâts),
+        soustrayez les points de dégâts de leur Force. À 0, les surendettés sont hors d’état de
+        nuire.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: Surendetté
       displayName: 0
@@ -307,6 +346,9 @@ actors:
         system:
           description: ''
           damageFormula: 1d6
+          criticalDamage: false
+          ignoreArmour: false
+          triggers: {}
         name: Griffes & morsure
         _id: iDwnB9MXzd0EmX3M
         img: icons/svg/sword.svg
@@ -349,12 +391,11 @@ actors:
     img: icons/svg/mystery-man.svg
     system:
       description: >-
-        <p>L’ombre du gardien est semi-intangible et dégage un froid
-        intense.</p><p>Matérialisée, elle ne peut plus quitter le vestibule
-        blanc.</p>
+        <p>L’ombre du gardien est semi-intangible et dégage un froid intense.</p><p>Matérialisée, elle
+        ne peut plus quitter le vestibule blanc.</p>
       hp:
         value: 6
-        max: 106
+        max: 6
       abilities:
         str:
           value: 6
@@ -367,11 +408,13 @@ actors:
           max: 6
       armour: 0
       powers: >-
-        <ul><li><p><strong>Insensibilité à la douleur</strong> : l’Ombre ne
-        subit pas de choc si elle perd tous ses points de
-        vie.</p></li><li><p><strong>Semi-intangible</strong> : les attaques
-        effectuées avec des armes physiques (sauf les Artefacts) sont
-        contraintes.</p></li></ul>
+        <ul><li><p><strong>Insensibilité à la douleur</strong> : l’Ombre ne subit pas de choc si elle
+        perd tous ses points de vie.</p></li><li><p><strong>Semi-intangible</strong> : les attaques
+        effectuées avec des armes physiques (sauf les Artefacts) sont contraintes.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: L’ombre du gardien
       displayName: 0
@@ -456,6 +499,9 @@ actors:
         system:
           description: ''
           damageFormula: 1d6
+          criticalDamage: false
+          ignoreArmour: false
+          triggers: {}
         name: Toucher glacial
         _id: RfwvcUar6P2MxzFv
         img: icons/svg/sword.svg
@@ -498,11 +544,10 @@ actors:
     img: icons/svg/mystery-man.svg
     system:
       description: >-
-        <p>Les pièces d’or répandues sur le sol commencent à rouler et à
-        s’élever lentement dans les airs ! Encore une minute et leur mouvement
-        s’accélère brutalement. Elles finissent par s’assembler en un dangereux
-        tourbillon.</p><p>Quelques secondes plus tard, l’agglomérat prend une
-        forme humanoïde</p>
+        <p>Les pièces d’or répandues sur le sol commencent à rouler et à s’élever lentement dans les
+        airs ! Encore une minute et leur mouvement s’accélère brutalement. Elles finissent par
+        s’assembler en un dangereux tourbillon.</p><p>Quelques secondes plus tard, l’agglomérat prend
+        une forme humanoïde</p>
       hp:
         value: 12
         max: 12
@@ -518,16 +563,17 @@ actors:
           max: 6
       armour: 0
       powers: >-
-        <ul><li><p><strong>Insensibilité à la douleur</strong> : le golem ne
-        subit pas de choc s’il perd tous ses points de
-        vie.</p></li><li><p><strong>Protection contre les attaques à
-        distance</strong> : les attaques effectuées avec des armes à distance
-        sont contraintes.</p></li><li><p><strong>Tourbillon de pièces
-        d’or</strong> : un donjexeur portant une attaque au corps à corps contre
-        le Golem subit 1D4 points de dégâts en raison des pièces d’or qui
-        tourbillonnent autour de lui. Si c’est une attaque de mêlée, il peut
-        éviter les dégâts en réussissant une sauvegarde de
-        Dextérité.</p></li></ul>
+        <ul><li><p><strong>Insensibilité à la douleur</strong> : le golem ne subit pas de choc s’il perd
+        tous ses points de vie.</p></li><li><p><strong>Protection contre les attaques à
+        distance</strong> : les attaques effectuées avec des armes à distance sont
+        contraintes.</p></li><li><p><strong>Tourbillon de pièces d’or</strong> : un donjexeur portant
+        une attaque au corps à corps contre le Golem subit 1D4 points de dégâts en raison des pièces
+        d’or qui tourbillonnent autour de lui. Si c’est une attaque de mêlée, il peut éviter les dégâts
+        en réussissant une sauvegarde de Dextérité.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: Le golem d’or
       displayName: 0
@@ -612,6 +658,9 @@ actors:
         system:
           description: ''
           damageFormula: 1d6
+          criticalDamage: false
+          ignoreArmour: false
+          triggers: {}
         name: Coup
         _id: uyT24XNrX88FXr2n
         img: icons/svg/sword.svg
@@ -632,6 +681,48 @@ actors:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
+      - _id: 3094e2a3847af51a
+        img: icons/svg/sword.svg
+        effects: []
+        folder: null
+        sort: 0
+        flags: {}
+        name: Tourbillon de pièces d’or — corps à corps
+        type: attack
+        system:
+          description: >-
+            <p>Réaction à une attaque au corps à corps contre le Golem : cibler son agresseur et lui
+            infliger ces dégâts, sans sauvegarde. Ne pas ajouter à ses attaques ordinaires.</p>
+          damageFormula: 1d4
+          criticalDamage: false
+          ignoreArmour: false
+          triggers: {}
+      - _id: 65a0fa1c7a05062c
+        img: icons/svg/sword.svg
+        effects: []
+        folder: null
+        sort: 0
+        flags: {}
+        name: Tourbillon de pièces d’or — mêlée
+        type: attack
+        system:
+          description: >-
+            <p>Réaction à une attaque de mêlée contre le Golem : cibler son agresseur et lancer en mode
+            normal. La sauvegarde de Dextérité évite les 1d4 dégâts. Ne pas utiliser en plus de la
+            variante corps à corps.</p>
+          damageFormula: '0'
+          criticalDamage: false
+          ignoreArmour: false
+          triggers:
+            '1':
+              name: Tourbillon de pièces d’or
+              min: null
+              max: null
+              save: dex
+              effect: damage
+              formula: 1d4
+              ongoing: false
+              text: Réaction à une attaque de mêlée uniquement.
     effects: []
     sort: 125000
     ownership:
@@ -653,11 +744,10 @@ actors:
     sort: 100000
     system:
       description: >-
-        <p>Il ressemble à un homme d'une soixantaine d'années, au ventre
-        proéminent, habillé d'un survêtement écarlate. Ses yeux sont entièrement
-        noirs et il émet un inexplicable bourdonnement. Face à un intrus, son
-        corps se fend brusquement comme une feuille de papier, laissant
-        entrevoir un abîme de noirceur d'où émane un froid glacial.</p>
+        <p>Il ressemble à un homme d'une soixantaine d'années, au ventre proéminent, habillé d'un
+        survêtement écarlate. Ses yeux sont entièrement noirs et il émet un inexplicable bourdonnement.
+        Face à un intrus, son corps se fend brusquement comme une feuille de papier, laissant entrevoir
+        un abîme de noirceur d'où émane un froid glacial.</p>
       hp:
         value: 10
         max: 10
@@ -673,6 +763,10 @@ actors:
           max: 9
       armour: 0
       powers: ''
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: Le Voisin
       displayName: 0
@@ -759,11 +853,24 @@ actors:
         type: attack
         system:
           description: >-
-            <p>Si le résultat du dé de dégâts est un <strong>6</strong>, le
-            Monstre recouvre entièrement sa proie. La victime doit immédiatement
-            réussir une sauvegarde de Dextérité, faute de quoi elle est
-            engloutie dans la déchirure dimensionnelle et disparaît.</p>
+            <p>Si le résultat du dé de dégâts est un <strong>6</strong>, le Monstre recouvre entièrement
+            sa proie. La victime doit immédiatement réussir une sauvegarde de Dextérité, faute de quoi
+            elle est engloutie dans la déchirure dimensionnelle et disparaît.</p>
           damageFormula: 1d6
+          criticalDamage: false
+          ignoreArmour: false
+          triggers:
+            '1':
+              name: Déchirure dimensionnelle
+              min: 6
+              max: 6
+              save: dex
+              effect: none
+              formula: ''
+              ongoing: false
+              text: >-
+                La victime disparaît et subit 1d10 dégâts à son retour quelques minutes plus tard
+                (attaque séparée, à appliquer au retour).
         _id: lVfo3kLV7tn4Cyiy
         img: icons/svg/sword.svg
         effects: []
@@ -787,10 +894,12 @@ actors:
         type: attack
         system:
           description: >-
-            <p>Dégâts subis par la victime engloutie. Elle réapparaît dans le
-            Donjon quelques minutes plus tard, grelottante, après avoir subi ces
-            dégâts supplémentaires.</p>
+            <p>Dégâts subis par la victime engloutie. Elle réapparaît dans le Donjon quelques minutes
+            plus tard, grelottante, après avoir subi ces dégâts supplémentaires.</p>
           damageFormula: 1d10
+          criticalDamage: false
+          ignoreArmour: false
+          triggers: {}
         _id: 2dOOfMj3D5j11Hpq
         img: icons/svg/sword.svg
         effects: []
@@ -830,11 +939,9 @@ actors:
     sort: 1500000
     system:
       description: >-
-        <p>Créatures serpentiformes et écailleuses d'un mètre de long, dotées
-        d'une gueule en entonnoir bordée d'yeux pédonculés. Elles sont
-        semi-éthérées et flottent paresseusement dans les airs. Elles
-        s'attaquent prioritairement aux personnages possédant des points
-        d'expérience.</p>
+        <p>Créatures serpentiformes et écailleuses d'un mètre de long, dotées d'une gueule en entonnoir
+        bordée d'yeux pédonculés. Elles sont semi-éthérées et flottent paresseusement dans les airs.
+        Elles s'attaquent prioritairement aux personnages possédant des points d'expérience.</p>
       hp:
         value: 5
         max: 5
@@ -850,9 +957,12 @@ actors:
           max: 4
       armour: 0
       powers: >-
-        <ul><li><p><strong>Semi-intangible</strong> : Les attaques physiques
-        conventionnelles, hors Artefacts, portées contre elles sont
-        contraintes.</p></li></ul>
+        <ul><li><p><strong>Semi-intangible</strong> : Les attaques physiques conventionnelles, hors
+        Artefacts, portées contre elles sont contraintes.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: Suceuse de mémoire
       displayName: 0
@@ -939,13 +1049,25 @@ actors:
         type: attack
         system:
           description: >-
-            <p>Sur un résultat de <strong>3 ou 4</strong>, la suceuse s'accroche
-            à la victime et lui vole 1 point d'expérience au début de chacun de
-            ses rounds. Elle lâche prise et cherche une autre cible dès que sa
-            victime n'a plus d'XP. Les attaques des donjexeurs contre une
-            suceuse en train de se nourrir sont exaltées : elles infligent le
-            maximum de dégâts.</p>
+            <p>Sur un résultat de <strong>3 ou 4</strong>, la suceuse s'accroche à la victime et lui
+            vole 1 point d'expérience au début de chacun de ses rounds. Elle lâche prise et cherche une
+            autre cible dès que sa victime n'a plus d'XP. Les attaques des donjexeurs contre une suceuse
+            en train de se nourrir sont exaltées : elles infligent le maximum de dégâts.</p>
           damageFormula: 1d4
+          criticalDamage: false
+          ignoreArmour: false
+          triggers:
+            '1':
+              name: Vol de mémoire
+              min: 3
+              max: 4
+              save: ''
+              effect: xp
+              formula: '1'
+              ongoing: true
+              text: >-
+                Arrêter à 0 XP. Pendant qu’elle se nourrit, régler les attaques contre la suceuse sur
+                exaltées ; restaurer ensuite les défenses.
         _id: CuD2cDR8CkkdOUAY
         img: icons/svg/sword.svg
         effects: []
@@ -985,9 +1107,8 @@ actors:
     sort: 800000
     system:
       description: >-
-        <p>Monstrueux spécimen de 4 mètres de long et 15 cm de large, présentant
-        les mêmes caractéristiques physiques que ses congénères plus
-        petites.</p>
+        <p>Monstrueux spécimen de 4 mètres de long et 15 cm de large, présentant les mêmes
+        caractéristiques physiques que ses congénères plus petites.</p>
       hp:
         value: 2
         max: 2
@@ -1003,9 +1124,12 @@ actors:
           max: 1
       armour: 0
       powers: >-
-        <ul><li><p><strong>Protection contre les attaques à distance</strong> :
-        Toutes les attaques à distance portées contre elle sont
-        contraintes.</p></li></ul>
+        <ul><li><p><strong>Protection contre les attaques à distance</strong> : Toutes les attaques à
+        distance portées contre elle sont contraintes.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: Algue vampire géante
       displayName: 0
@@ -1092,39 +1216,26 @@ actors:
         type: attack
         system:
           description: >-
-            <p>Si le dé indique un <strong>6</strong>, l'algue s'enroule autour
-            d'un membre de la cible : elle lui inflige automatiquement les
-            dégâts de <em>Constriction</em> à chaque round suivant. L'algue ne
-            peut plus attaquer d'autre cible tant que deux donjexeurs sont
-            soumis à cette constriction.</p>
+            <p>Si le dé indique un <strong>6</strong>, l'algue s'enroule autour d'un membre de la cible
+            : elle lui inflige automatiquement les dégâts de <em>Constriction</em> à chaque round
+            suivant. L'algue ne peut plus attaquer d'autre cible tant que deux donjexeurs sont soumis à
+            cette constriction.</p>
           damageFormula: 1d6
+          criticalDamage: false
+          ignoreArmour: false
+          triggers:
+            '1':
+              name: Constriction
+              min: 6
+              max: 6
+              save: ''
+              effect: damage
+              formula: 1d8
+              ongoing: true
+              text: >-
+                À chaque round suivant. Maximum deux victimes ; mettre fin à l’effet lorsque la victime
+                est libérée.
         _id: 9xHBFjxPev4bPOWx
-        img: icons/svg/sword.svg
-        effects: []
-        folder: null
-        sort: 0
-        ownership:
-          default: 0
-          4gHATZ23KTYDYi5c: 3
-        flags: {}
-        _stats:
-          coreVersion: '14.368'
-          systemId: dangerousgary
-          systemVersion: '#{VERSION}#'
-          createdTime: null
-          modifiedTime: null
-          lastModifiedBy: null
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-      - name: Constriction
-        type: attack
-        system:
-          description: >-
-            <p>Dégâts automatiques infligés à chaque round à une cible
-            enroulée.</p>
-          damageFormula: 1d8
-        _id: JMzW5PkAykqn4yjS
         img: icons/svg/sword.svg
         effects: []
         folder: null
@@ -1163,10 +1274,9 @@ actors:
     sort: 700000
     system:
       description: >-
-        <p>Rubans de 50 cm de long sur 8 cm de large, de couleur bleu profond.
-        Leur chair grumeleuse est tapissée de micro-dents leur permettant de se
-        fixer à leurs proies pour déchiqueter les chairs. Elles s'attaquent en
-        groupe dans l'eau boueuse de la Citerne.</p>
+        <p>Rubans de 50 cm de long sur 8 cm de large, de couleur bleu profond. Leur chair grumeleuse est
+        tapissée de micro-dents leur permettant de se fixer à leurs proies pour déchiqueter les chairs.
+        Elles s'attaquent en groupe dans l'eau boueuse de la Citerne.</p>
       hp:
         value: 1
         max: 1
@@ -1182,10 +1292,13 @@ actors:
           max: 1
       armour: 0
       powers: >-
-        <ul><li><p><strong>Protection contre les attaques à distance</strong> :
-        En raison de leur immersion et de leur petite taille, toutes les
-        attaques à distance contre les algues vampires sont
-        contraintes.</p></li></ul>
+        <ul><li><p><strong>Protection contre les attaques à distance</strong> : En raison de leur
+        immersion et de leur petite taille, toutes les attaques à distance contre les algues vampires
+        sont contraintes.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: Algue vampire
       displayName: 0
@@ -1273,6 +1386,9 @@ actors:
         system:
           description: ''
           damageFormula: 1d4
+          criticalDamage: false
+          ignoreArmour: false
+          triggers: {}
         _id: FriAX2LnidtOjWSK
         img: icons/svg/sword.svg
         effects: []
@@ -1312,10 +1428,9 @@ actors:
     sort: 1000000
     system:
       description: >-
-        <p>Immense reptile blanc de 12 mètres de long et 1 mètre de
-        circonférence. Ses yeux étincellent d'un bleu turquoise intense et sa
-        tête est surmontée d'une excroissance osseuse en forme de couronne. Son
-        corps écailleux lui confère une Armure de 1.</p>
+        <p>Immense reptile blanc de 12 mètres de long et 1 mètre de circonférence. Ses yeux étincellent
+        d'un bleu turquoise intense et sa tête est surmontée d'une excroissance osseuse en forme de
+        couronne. Son corps écailleux lui confère une Armure de 1.</p>
       hp:
         value: 20
         max: 20
@@ -1331,9 +1446,12 @@ actors:
           max: 10
       armour: 1
       powers: >-
-        <ul><li><p><strong>Aura de terreur (2)</strong> : En présence du
-        Serpent, tous les donjexeurs de niveau 1 ou 2 sont terrorisés et leurs
-        attaques sont contraintes.</p></li></ul>
+        <ul><li><p><strong>Aura de terreur (2)</strong> : En présence du Serpent, tous les donjexeurs de
+        niveau 1 ou 2 sont terrorisés et leurs attaques sont contraintes.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 2
+      regeneration: ''
     prototypeToken:
       name: Le Serpent de la Citerne
       displayName: 0
@@ -1421,6 +1539,9 @@ actors:
         system:
           description: ''
           damageFormula: 1d6
+          criticalDamage: false
+          ignoreArmour: false
+          triggers: {}
         _id: iuh3PQ3WKq51DwwQ
         img: icons/svg/sword.svg
         effects: []
@@ -1444,39 +1565,26 @@ actors:
         type: attack
         system:
           description: >-
-            <p>Si le dé indique un <strong>6</strong>, le serpent s'enroule et
-            broie sa proie : elle subit automatiquement les dégâts de
-            <em>Broyage</em> à chaque round suivant, ses attaques sont
-            contraintes, et elle doit réussir une sauvegarde de Force à son tour
-            pour espérer se dégager.</p>
+            <p>Si le dé indique un <strong>6</strong>, le serpent s'enroule et broie sa proie : elle
+            subit automatiquement les dégâts de <em>Broyage</em> à chaque round suivant, ses attaques
+            sont contraintes, et elle doit réussir une sauvegarde de Force à son tour pour espérer se
+            dégager.</p>
           damageFormula: 1d6
+          criticalDamage: false
+          ignoreArmour: false
+          triggers:
+            '1':
+              name: Broyage
+              min: 6
+              max: 6
+              save: ''
+              effect: damage
+              formula: 1d8
+              ongoing: true
+              text: >-
+                Attaques de la victime contraintes. Sauvegarde de Force à son tour pour se dégager ;
+                mettre fin à l’effet après libération.
         _id: AEnwk84ilqnNPuVd
-        img: icons/svg/sword.svg
-        effects: []
-        folder: null
-        sort: 0
-        ownership:
-          default: 0
-          4gHATZ23KTYDYi5c: 3
-        flags: {}
-        _stats:
-          coreVersion: '14.368'
-          systemId: dangerousgary
-          systemVersion: '#{VERSION}#'
-          createdTime: null
-          modifiedTime: null
-          lastModifiedBy: null
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-      - name: Broyage
-        type: attack
-        system:
-          description: >-
-            <p>Dégâts automatiques infligés à chaque round à une proie
-            enroulée.</p>
-          damageFormula: 1d8
-        _id: 59V0yNSrscYdbyGT
         img: icons/svg/sword.svg
         effects: []
         folder: null
@@ -1515,8 +1623,8 @@ actors:
     sort: 900000
     system:
       description: >-
-        <p>Cadavres putréfiés animés par l'énergie résiduelle du Donjon, vêtus
-        de treillis militaires en lambeaux.</p>
+        <p>Cadavres putréfiés animés par l'énergie résiduelle du Donjon, vêtus de treillis militaires en
+        lambeaux.</p>
       hp:
         value: 4
         max: 4
@@ -1532,8 +1640,12 @@ actors:
           max: 4
       armour: 0
       powers: >-
-        <ul><li><p><strong>Insensibilité à la douleur</strong> : Les noyés ne
-        subissent pas de choc si leurs points de vie tombent à 0.</p></li></ul>
+        <ul><li><p><strong>Insensibilité à la douleur</strong> : Les noyés ne subissent pas de choc si
+        leurs points de vie tombent à 0.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: Noyé
       displayName: 0
@@ -1620,10 +1732,22 @@ actors:
         type: attack
         system:
           description: >-
-            <p>Si le dé indique un <strong>6</strong>, une petite algue vampire
-            s'est décrochée de la paroi et s'est fixée sur le donjexeur : elle
-            lui inflige les effets d'une algue vampire standard.</p>
+            <p>Si le dé indique un <strong>6</strong>, une petite algue vampire s'est décrochée de la
+            paroi et s'est fixée sur le donjexeur : elle lui inflige les effets d'une algue vampire
+            standard.</p>
           damageFormula: 1d6
+          criticalDamage: false
+          ignoreArmour: false
+          triggers:
+            '1':
+              name: Algue vampire
+              min: 6
+              max: 6
+              save: ''
+              effect: none
+              formula: ''
+              ongoing: false
+              text: 'Une algue vampire standard se fixe à la victime : la gérer séparément.'
         _id: oX2K6cfz7vtmQFUe
         img: icons/svg/sword.svg
         effects: []
@@ -1663,11 +1787,10 @@ actors:
     sort: 600000
     system:
       description: >-
-        <p>Adepte humain du Dragon Rouge, infirmier à l'EHPAD du Jardin des
-        Acacias, fanatique à son service. Crâne rasé, yeux noirs fixes,
-        silhouette voûtée mais dotée d'une grande force. Un serpent est tatoué
-        sur son bras gauche. Sa voix est calme mais devient sifflante et
-        maniaque lors de ses crises.</p>
+        <p>Adepte humain du Dragon Rouge, infirmier à l'EHPAD du Jardin des Acacias, fanatique à son
+        service. Crâne rasé, yeux noirs fixes, silhouette voûtée mais dotée d'une grande force. Un
+        serpent est tatoué sur son bras gauche. Sa voix est calme mais devient sifflante et maniaque
+        lors de ses crises.</p>
       hp:
         value: 9
         max: 9
@@ -1683,6 +1806,10 @@ actors:
           max: 8
       armour: 0
       powers: ''
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: Yann Lamie
       displayName: 0
@@ -1770,6 +1897,9 @@ actors:
         system:
           description: ''
           damageFormula: 1d6
+          criticalDamage: false
+          ignoreArmour: false
+          triggers: {}
         _id: MSSqM0vwpmxJiAmT
         img: icons/svg/sword.svg
         effects: []
@@ -1793,12 +1923,34 @@ actors:
         type: attack
         system:
           description: >-
-            <p>Sur un résultat de <strong>3 ou 4</strong>, la cible est
-            paralysée et perd [[/r 1d8]] points de Dextérité ; une sauvegarde de
-            Force est requise pour éviter d'être mis hors d'état de combattre et
-            de se déplacer pour toute la scène. Le taser dispose de 2 charges
-            avant de devoir être rechargé.</p>
+            <p>Sur un résultat de <strong>3 ou 4</strong>, la cible est paralysée et perd [[/r 1d8]]
+            points de Dextérité ; une sauvegarde de Force est requise pour éviter d'être mis hors d'état
+            de combattre et de se déplacer pour toute la scène. Le taser dispose de 2 charges avant de
+            devoir être rechargé.</p>
           damageFormula: 1d4
+          criticalDamage: false
+          ignoreArmour: false
+          triggers:
+            '1':
+              name: Décharge paralysante
+              min: 3
+              max: 4
+              save: ''
+              effect: dex
+              formula: 1d8
+              ongoing: false
+              text: ''
+            '2':
+              name: Paralysie
+              min: 3
+              max: 4
+              save: str
+              effect: none
+              formula: ''
+              ongoing: false
+              text: >-
+                Hors d’état de combattre et de se déplacer pour la scène. Deux charges, à suivre
+                manuellement.
         _id: fFyErFuCNHrBqqoI
         img: icons/svg/sword.svg
         effects: []
@@ -1838,10 +1990,9 @@ actors:
     sort: 1100000
     system:
       description: >-
-        <p>Félin colossal de la taille d'un tigre, au pelage noir de jais et aux
-        yeux vert émeraude. Il s'exprime d'une voix douce et chuintante, se
-        prétendant le gardien du Casino. Il est extrêmement fourbe et attend que
-        les donjexeurs soient affaiblis par les jeux pour les attaquer.</p>
+        <p>Félin colossal de la taille d'un tigre, au pelage noir de jais et aux yeux vert émeraude. Il
+        s'exprime d'une voix douce et chuintante, se prétendant le gardien du Casino. Il est extrêmement
+        fourbe et attend que les donjexeurs soient affaiblis par les jeux pour les attaquer.</p>
       hp:
         value: 13
         max: 13
@@ -1857,10 +2008,13 @@ actors:
           max: 12
       armour: 0
       powers: >-
-        <ul><li><p><strong>Aura de malchance</strong> : Tant que le Chat Noir
-        est en combat, le sort s'acharne sur les joueurs : pour chaque jet
-        d'attaque ou de sauvegarde, ils lancent deux dés (2d20) et conservent le
-        résultat le plus défavorable.</p></li></ul>
+        <ul><li><p><strong>Aura de malchance</strong> : Tant que le Chat Noir est en combat, le sort
+        s'acharne sur les joueurs : pour chaque jet d'attaque ou de sauvegarde, ils lancent deux dés
+        (2d20) et conservent le résultat le plus défavorable.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: Le Chat Noir
       displayName: 0
@@ -1947,35 +2101,22 @@ actors:
         type: attack
         system:
           description: >-
-            <p>Sur un <strong>5 ou 6</strong>, la cible est jetée au sol si elle
-            rate une sauvegarde de Dextérité ; le chat noir lui inflige alors
-            immédiatement son <em>Coup de dents</em>.</p>
+            <p>Sur un <strong>5 ou 6</strong>, la cible est jetée au sol si elle rate une sauvegarde de
+            Dextérité ; le chat noir lui inflige alors immédiatement son <em>Coup de dents</em>.</p>
           damageFormula: 1d6
+          criticalDamage: false
+          ignoreArmour: false
+          triggers:
+            '1':
+              name: Coup de dents
+              min: 5
+              max: 6
+              save: dex
+              effect: damage
+              formula: 1d8
+              ongoing: false
+              text: La victime est également renversée en cas d’échec.
         _id: RHoztwHRkZacQENs
-        img: icons/svg/sword.svg
-        effects: []
-        folder: null
-        sort: 0
-        ownership:
-          default: 0
-          4gHATZ23KTYDYi5c: 3
-        flags: {}
-        _stats:
-          coreVersion: '14.368'
-          systemId: dangerousgary
-          systemVersion: '#{VERSION}#'
-          createdTime: null
-          modifiedTime: null
-          lastModifiedBy: null
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-      - name: Coup de dents
-        type: attack
-        system:
-          description: <p>Dégâts supplémentaires immédiats contre une cible renversée.</p>
-          damageFormula: 1d8
-        _id: 9L7VivqVGouPXiYo
         img: icons/svg/sword.svg
         effects: []
         folder: null
@@ -2014,10 +2155,9 @@ actors:
     sort: 1400000
     system:
       description: >-
-        <p>Meute de six serviteurs humains (quatre hommes, deux femmes) aux
-        pupilles dorées qui jappent et grognent comme des canidés. L'un d'eux a
-        les traits de Ludovic Zimmer : un homme voûté de 50 ans, aux longs
-        cheveux gris.</p>
+        <p>Meute de six serviteurs humains (quatre hommes, deux femmes) aux pupilles dorées qui jappent
+        et grognent comme des canidés. L'un d'eux a les traits de Ludovic Zimmer : un homme voûté de 50
+        ans, aux longs cheveux gris.</p>
       hp:
         value: 6
         max: 6
@@ -2033,9 +2173,12 @@ actors:
           max: 1
       armour: 0
       powers: >-
-        <ul><li><p><strong>Insensibilité à la douleur</strong> : Ces créatures
-        ne subissent pas de choc lorsqu'elles tombent à 0 point de
-        vie.</p></li></ul>
+        <ul><li><p><strong>Insensibilité à la douleur</strong> : Ces créatures ne subissent pas de choc
+        lorsqu'elles tombent à 0 point de vie.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: Chien de Mordenkainen
       displayName: 0
@@ -2122,36 +2265,22 @@ actors:
         type: attack
         system:
           description: >-
-            <p>Sur un résultat de <strong>4</strong>, la cible doit réussir une
-            sauvegarde de Force pour éviter de se faire mordre.</p>
+            <p>Sur un résultat de <strong>4</strong>, la cible doit réussir une sauvegarde de Force pour
+            éviter de se faire mordre.</p>
           damageFormula: 1d4
+          criticalDamage: false
+          ignoreArmour: false
+          triggers:
+            '1':
+              name: Morsure
+              min: 4
+              max: 4
+              save: str
+              effect: damage
+              formula: 1d4
+              ongoing: false
+              text: ''
         _id: yvjnJITSOgKnm37j
-        img: icons/svg/sword.svg
-        effects: []
-        folder: null
-        sort: 0
-        ownership:
-          default: 0
-          4gHATZ23KTYDYi5c: 3
-        flags: {}
-        _stats:
-          coreVersion: '14.368'
-          systemId: dangerousgary
-          systemVersion: '#{VERSION}#'
-          createdTime: null
-          modifiedTime: null
-          lastModifiedBy: null
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-      - name: Morsure
-        type: attack
-        system:
-          description: >-
-            <p>Dégâts supplémentaires infligés à une cible qui a raté sa
-            sauvegarde de Force.</p>
-          damageFormula: 1d4
-        _id: TNmSMZbkyEyP2ESw
         img: icons/svg/sword.svg
         effects: []
         folder: null
@@ -2190,11 +2319,10 @@ actors:
     sort: 1200000
     system:
       description: >-
-        <p>Zoltan Brankovic, boss du Casino. PNJ légendaire sous la forme d'un
-        jeune homme mince et brun à la mâchoire carrée. Ses yeux sombres luisent
-        d'un éclat spectral. Vêtu d'un pantalon noir ajusté et d'une veste à col
-        mao lui donnant l'allure d'un clergyman britannique.</p><p>Voix grave
-        qui déraille s'il s'emporte. Il est joueur, cruel et manipulateur.</p>
+        <p>Zoltan Brankovic, boss du Casino. PNJ légendaire sous la forme d'un jeune homme mince et brun
+        à la mâchoire carrée. Ses yeux sombres luisent d'un éclat spectral. Vêtu d'un pantalon noir
+        ajusté et d'une veste à col mao lui donnant l'allure d'un clergyman britannique.</p><p>Voix
+        grave qui déraille s'il s'emporte. Il est joueur, cruel et manipulateur.</p>
       hp:
         value: 12
         max: 12
@@ -2210,6 +2338,10 @@ actors:
           max: 17
       armour: 0
       powers: ''
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: Mordenkainen
       displayName: 0
@@ -2296,11 +2428,22 @@ actors:
         type: attack
         system:
           description: >-
-            <p>Long pistolet argenté tirant des billes d'énergie dorée. Sur un
-            résultat de <strong>8</strong>, la cible doit réussir une sauvegarde
-            de Volonté sous peine de perdre immédiatement connaissance jusqu'à
-            la fin de la scène.</p>
+            <p>Long pistolet argenté tirant des billes d'énergie dorée. Sur un résultat de
+            <strong>8</strong>, la cible doit réussir une sauvegarde de Volonté sous peine de perdre
+            immédiatement connaissance jusqu'à la fin de la scène.</p>
           damageFormula: 1d8
+          criticalDamage: false
+          ignoreArmour: false
+          triggers:
+            '1':
+              name: Inconscience
+              min: 8
+              max: 8
+              save: wil
+              effect: none
+              formula: ''
+              ongoing: false
+              text: Perd connaissance jusqu’à la fin de la scène.
         _id: ZtfEUQevsIJy5epW
         img: icons/svg/sword.svg
         effects: []
@@ -2340,9 +2483,8 @@ actors:
     sort: 1300000
     system:
       description: >-
-        <p>Compagne de Mordenkainen, capable de se transformer en un gigantesque
-        félin blanc identique au chat noir, mais doté de facultés de
-        régénération.</p>
+        <p>Compagne de Mordenkainen, capable de se transformer en un gigantesque félin blanc identique
+        au chat noir, mais doté de facultés de régénération.</p>
       hp:
         value: 15
         max: 15
@@ -2358,11 +2500,14 @@ actors:
           max: 14
       armour: 0
       powers: >-
-        <ul><li><p><strong>Aura de malchance</strong> : Même effet que le Chat
-        Noir : les joueurs lancent deux dés (2d20) sur leurs jets d'attaque et
-        de sauvegarde et gardent le pire
-        score.</p></li><li><p><strong>Régénération</strong> : Rudd récupère [[/r
-        1d6]] points de vie au début de chacun de ses tours.</p></li></ul>
+        <ul><li><p><strong>Aura de malchance</strong> : Même effet que le Chat Noir : les joueurs
+        lancent deux dés (2d20) sur leurs jets d'attaque et de sauvegarde et gardent le pire
+        score.</p></li><li><p><strong>Régénération</strong> : Rudd récupère [[/r 1d6]] points de vie au
+        début de chacun de ses tours.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: 1d6
     prototypeToken:
       name: Rudd / Le Chat Blanc
       displayName: 0
@@ -2449,35 +2594,22 @@ actors:
         type: attack
         system:
           description: >-
-            <p>Sur un <strong>5 ou 6</strong>, la cible est jetée au sol si elle
-            rate une sauvegarde de Dextérité, subissant alors immédiatement sa
-            <em>Morsure</em>.</p>
+            <p>Sur un <strong>5 ou 6</strong>, la cible est jetée au sol si elle rate une sauvegarde de
+            Dextérité, subissant alors immédiatement sa <em>Morsure</em>.</p>
           damageFormula: 1d6
+          criticalDamage: false
+          ignoreArmour: false
+          triggers:
+            '1':
+              name: Morsure
+              min: 5
+              max: 6
+              save: dex
+              effect: damage
+              formula: 1d8
+              ongoing: false
+              text: La victime est également renversée en cas d’échec.
         _id: gX9Y1xZXOjlmF0i0
-        img: icons/svg/sword.svg
-        effects: []
-        folder: null
-        sort: 0
-        ownership:
-          default: 0
-          4gHATZ23KTYDYi5c: 3
-        flags: {}
-        _stats:
-          coreVersion: '14.368'
-          systemId: dangerousgary
-          systemVersion: '#{VERSION}#'
-          createdTime: null
-          modifiedTime: null
-          lastModifiedBy: null
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-      - name: Morsure
-        type: attack
-        system:
-          description: <p>Dégâts supplémentaires immédiats contre une cible renversée.</p>
-          damageFormula: 1d8
-        _id: sYwZcMzOboy6nqtZ
         img: icons/svg/sword.svg
         effects: []
         folder: null
@@ -2516,10 +2648,9 @@ actors:
     sort: 300000
     system:
       description: >-
-        <p>Des chiens dotés de quatre paires de pattes, entièrement noirs, faits
-        de ténèbres solidifiées. Leur gueule, entourée de petits yeux brillants,
-        est un sphincter muni de crocs redoutables qui produit d'horribles
-        bruits de succion.</p>
+        <p>Des chiens dotés de quatre paires de pattes, entièrement noirs, faits de ténèbres
+        solidifiées. Leur gueule, entourée de petits yeux brillants, est un sphincter muni de crocs
+        redoutables qui produit d'horribles bruits de succion.</p>
       hp:
         value: 2
         max: 2
@@ -2535,11 +2666,14 @@ actors:
           max: 4
       armour: 0
       powers: >-
-        <ul><li><p><strong>Insensibilité à la douleur</strong> : Le ghast ne
-        subit pas de choc lorsqu'il perd tous ses points de
-        vie.</p></li><li><p><strong>Créature des ombres</strong> : Dans
-        l'obscurité totale de la salle de spectacle, toutes les attaques des
-        donjexeurs contre les ghasts sont contraintes.</p></li></ul>
+        <ul><li><p><strong>Insensibilité à la douleur</strong> : Le ghast ne subit pas de choc lorsqu'il
+        perd tous ses points de vie.</p></li><li><p><strong>Créature des ombres</strong> : Dans
+        l'obscurité totale de la salle de spectacle, toutes les attaques des donjexeurs contre les
+        ghasts sont contraintes.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: Ghast
       displayName: 0
@@ -2626,10 +2760,21 @@ actors:
         type: attack
         system:
           description: >-
-            <p>Si le résultat du dé est un <strong>4</strong>, le ghast inocule
-            un venin paralysant qui fait perdre à la cible [[/r 1d4]] points de
-            Dextérité.</p>
+            <p>Si le résultat du dé est un <strong>4</strong>, le ghast inocule un venin paralysant qui
+            fait perdre à la cible [[/r 1d4]] points de Dextérité.</p>
           damageFormula: 1d4
+          criticalDamage: false
+          ignoreArmour: false
+          triggers:
+            '1':
+              name: Venin paralysant
+              min: 4
+              max: 4
+              save: ''
+              effect: dex
+              formula: 1d4
+              ongoing: false
+              text: ''
         _id: tV8jvCkU3cF4l7zC
         img: icons/svg/sword.svg
         effects: []
@@ -2669,10 +2814,9 @@ actors:
     sort: 400000
     system:
       description: >-
-        <p>Aline Wehrlen, boss du Théâtre. Silhouette hybride mi-humaine
-        mi-monstre, sous l'emprise physique du Beholder. Elle hante les dédales,
-        terrifiante et pathétique.</p><p>Ses mains se terminent par des ergots
-        chitineux et son corps est protégé par des plaques de chitine (Armure
+        <p>Aline Wehrlen, boss du Théâtre. Silhouette hybride mi-humaine mi-monstre, sous l'emprise
+        physique du Beholder. Elle hante les dédales, terrifiante et pathétique.</p><p>Ses mains se
+        terminent par des ergots chitineux et son corps est protégé par des plaques de chitine (Armure
         2).</p>
       hp:
         value: 16
@@ -2689,22 +2833,22 @@ actors:
           max: 16
       armour: 2
       powers: >-
-        <ul><li><p><strong>Aura de terreur (4)</strong> : En présence de la
-        Guenaude, tous les donjexeurs de niveau 1 à 4 sont terrorisés et leurs
-        attaques sont contraintes.</p></li><li><p><strong>Phéromones</strong> :
-        Prend 1 action à la place d'une attaque. Génère un désir sexuel
-        incontrôlable dans un rayon de 10 mètres. Tous les donjexeurs perdent
-        [[/r 1d6]] points de Volonté et doivent réussir une sauvegarde de
-        Volonté pour pouvoir agir à leur prochain tour. À 0 point de Volonté,
-        ils deviennent des esclaves volontaires de la créature jusqu'à regagner
-        au moins 1 point de Volonté.</p></li><li><p><strong>Digestion</strong> :
-        Si une cible soumise aux <em>Phéromones</em> tombe à 0 point de Volonté,
-        la Guenaude lui ordonne de s'approcher et sécrète par la bouche un fil
-        de soie gluant. Emprisonnée dans ce cocon, la victime subit 1 point de
-        dégât par minute.</p></li><li><p><strong>Sauvegarde du Beholder</strong>
-        : Dès qu'elle perd son dernier point de vie, elle est instantanément
-        téléportée en sécurité dans un autre Donjon ou un placard
-        dimensionnel.</p></li></ul>
+        <ul><li><p><strong>Aura de terreur (4)</strong> : En présence de la Guenaude, tous les
+        donjexeurs de niveau 1 à 4 sont terrorisés et leurs attaques sont
+        contraintes.</p></li><li><p><strong>Phéromones</strong> : Prend 1 action à la place d'une
+        attaque. Génère un désir sexuel incontrôlable dans un rayon de 10 mètres. Tous les donjexeurs
+        perdent [[/r 1d6]] points de Volonté et doivent réussir une sauvegarde de Volonté pour pouvoir
+        agir à leur prochain tour. À 0 point de Volonté, ils deviennent des esclaves volontaires de la
+        créature jusqu'à regagner au moins 1 point de Volonté.</p></li><li><p><strong>Digestion</strong>
+        : Si une cible soumise aux <em>Phéromones</em> tombe à 0 point de Volonté, la Guenaude lui
+        ordonne de s'approcher et sécrète par la bouche un fil de soie gluant. Emprisonnée dans ce
+        cocon, la victime subit 1 point de dégât par minute.</p></li><li><p><strong>Sauvegarde du
+        Beholder</strong> : Dès qu'elle perd son dernier point de vie, elle est instantanément
+        téléportée en sécurité dans un autre Donjon ou un placard dimensionnel.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 4
+      regeneration: ''
     prototypeToken:
       name: La Guenaude
       displayName: 0
@@ -2787,14 +2931,60 @@ actors:
     _id: zhavR8pATbf1sHKT
     img: icons/svg/mystery-man.svg
     items:
+      - _id: bc5095e407fdde0c
+        img: icons/svg/sword.svg
+        effects: []
+        folder: null
+        sort: 0
+        flags: {}
+        name: Phéromones
+        type: attack
+        system:
+          description: >-
+            <p>Une action, rayon de 10 mètres. Perte de Volonté inconditionnelle ; la sauvegarde permet
+            seulement d’agir au prochain tour. À 0 VOL : esclavage volontaire jusqu’à regagner au moins
+            1 VOL.</p>
+          damageFormula: '0'
+          criticalDamage: false
+          ignoreArmour: false
+          triggers:
+            '1':
+              name: Phéromones
+              min: null
+              max: null
+              save: ''
+              effect: wil
+              formula: 1d6
+              ongoing: false
+              text: ''
+            '2':
+              name: Désir incontrôlable
+              min: null
+              max: null
+              save: wil
+              effect: none
+              formula: ''
+              ongoing: false
+              text: Ne peut pas agir au prochain tour en cas d’échec.
       - name: Ergots
         type: attack
         system:
           description: >-
-            <p>Sur un résultat de <strong>5 ou 6</strong>, elle inocule un venin
-            paralysant qui fait perdre [[/r 1d10]] points de Dextérité à la
-            victime.</p>
+            <p>Sur un résultat de <strong>5 ou 6</strong>, elle inocule un venin paralysant qui fait
+            perdre [[/r 1d10]] points de Dextérité à la victime.</p>
           damageFormula: 1d6
+          criticalDamage: false
+          ignoreArmour: false
+          triggers:
+            '1':
+              name: Venin paralysant
+              min: 5
+              max: 6
+              save: ''
+              effect: dex
+              formula: 1d10
+              ongoing: false
+              text: ''
         _id: ridtJsS5Cf4fVZjh
         img: icons/svg/sword.svg
         effects: []
@@ -2834,12 +3024,10 @@ actors:
     sort: 500000
     system:
       description: >-
-        <p>Jeune femme blonde, à la peau très pâle, s'exprimant avec un léger
-        accent britannique. Elle porte un jean et un vieux t-shirt à l'effigie
-        du mage Raistlin (Dragonlance). C'est une projection mémorielle
-        adjuvante programmée pour aider les
-        donjexeurs.</p><p><em>Caractéristiques laissées aux valeurs par défaut :
-        le codex n'en fournit aucune.</em></p>
+        <p>Jeune femme blonde, à la peau très pâle, s'exprimant avec un léger accent britannique. Elle
+        porte un jean et un vieux t-shirt à l'effigie du mage Raistlin (Dragonlance). C'est une
+        projection mémorielle adjuvante programmée pour aider les donjexeurs.</p><p><em>Caractéristiques
+        laissées aux valeurs par défaut : le codex n'en fournit aucune.</em></p>
       hp:
         value: 10
         max: 10
@@ -2855,9 +3043,12 @@ actors:
           max: 10
       armour: 0
       powers: >-
-        <ul><li><p><strong>Protection contre les Pouvoirs</strong> : Tenser est
-        totalement insensible aux Pouvoirs des Monstres, comme les phéromones ou
-        l'aura de la Guenaude.</p></li></ul>
+        <ul><li><p><strong>Protection contre les Pouvoirs</strong> : Tenser est totalement insensible
+        aux Pouvoirs des Monstres, comme les phéromones ou l'aura de la Guenaude.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: Tenser
       displayName: 0
@@ -2943,10 +3134,11 @@ actors:
       - name: Glaive
         type: attack
         system:
-          description: >-
-            <p>Arme de mêlée conventionnelle : dégâts physiques normaux, ce
-            n'est pas un Artefact.</p>
+          description: '<p>Arme de mêlée conventionnelle : dégâts physiques normaux, ce n''est pas un Artefact.</p>'
           damageFormula: 1d6
+          criticalDamage: false
+          ignoreArmour: false
+          triggers: {}
         _id: h4ugX6xwxu8P94QZ
         img: icons/svg/sword.svg
         effects: []
@@ -2970,12 +3162,25 @@ actors:
         type: attack
         system:
           description: >-
-            <p>Prend 1 action. Tenser tend ses mains pour projeter des éclairs
-            bleutés sur une cible à moins de 10 mètres. La cible perd en outre
-            [[/r 1d8]] points de Dextérité : les donjexeurs ont droit à une
-            sauvegarde de Volonté pour annuler la perte de caractéristique, mais
-            pas les Monstres.</p>
+            <p>Prend 1 action. Tenser tend ses mains pour projeter des éclairs bleutés sur une cible à
+            moins de 10 mètres. La cible perd en outre [[/r 1d8]] points de Dextérité : les donjexeurs
+            ont droit à une sauvegarde de Volonté pour annuler la perte de caractéristique, mais pas les
+            Monstres.</p>
           damageFormula: 1d12
+          criticalDamage: false
+          ignoreArmour: false
+          triggers:
+            '1':
+              name: 'Éclair : perte de Dextérité'
+              min: null
+              max: null
+              save: wil
+              effect: dex
+              formula: 1d8
+              ongoing: false
+              text: >-
+                Pas de sauvegarde pour les Monstres : appliquer manuellement la perte de Dextérité. Les
+                donjexeurs seuls ont droit à une sauvegarde de Volonté.
         _id: IJefIN2EepnkL5RN
         img: icons/svg/sword.svg
         effects: []
@@ -3015,11 +3220,10 @@ actors:
     sort: 200000
     system:
       description: >-
-        <p>Elles ressemblent à des cadavres de femme sanglés de cuir et bardés
-        de métal. Leur visage décharné est recouvert d'une cagoule noire qui ne
-        laisse apparaître que des yeux morts. Des lames de rasoir sont greffées
-        au bout de leurs doigts osseux. Elles tiennent un calice doré maculé de
-        sang et portent une petite clé de bronze autour du cou.</p>
+        <p>Elles ressemblent à des cadavres de femme sanglés de cuir et bardés de métal. Leur visage
+        décharné est recouvert d'une cagoule noire qui ne laisse apparaître que des yeux morts. Des
+        lames de rasoir sont greffées au bout de leurs doigts osseux. Elles tiennent un calice doré
+        maculé de sang et portent une petite clé de bronze autour du cou.</p>
       hp:
         value: 10
         max: 10
@@ -3035,11 +3239,14 @@ actors:
           max: 5
       armour: 0
       powers: >-
-        <ul><li><p><strong>Organisme artificiel</strong> : Si elles subissent un
-        choc (perte de Force après 0 point de vie), elles ne tombent pas
-        inconscientes mais sont simplement ralenties. Elles perdent
-        temporairement 10 points de Dextérité et leurs attaques suivantes
-        deviennent contraintes.</p></li></ul>
+        <ul><li><p><strong>Organisme artificiel</strong> : Si elles subissent un choc (perte de Force
+        après 0 point de vie), elles ne tombent pas inconscientes mais sont simplement ralenties. Elles
+        perdent temporairement 10 points de Dextérité et leurs attaques suivantes deviennent
+        contraintes.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: Terrible ouvreuse
       displayName: 0
@@ -3127,6 +3334,9 @@ actors:
         system:
           description: ''
           damageFormula: 1d6
+          criticalDamage: false
+          ignoreArmour: false
+          triggers: {}
         _id: bZxPkQlh74IXPywV
         img: icons/svg/sword.svg
         effects: []
@@ -3166,11 +3376,10 @@ actors:
     sort: 1600000
     system:
       description: >-
-        <p>Réplique vivante de Betty Lenoir façonnée par le Donjon du Trésor en
-        fusionnant un fragment de son esprit avec la Betty idéalisée par Ludovic
-        Zimmer.</p><p>Elle possède une personnalité complexe et cherche
-        désespérément à vivre, terrorisée à l'idée de disparaître si le Donjon
-        se referme.</p>
+        <p>Réplique vivante de Betty Lenoir façonnée par le Donjon du Trésor en fusionnant un fragment
+        de son esprit avec la Betty idéalisée par Ludovic Zimmer.</p><p>Elle possède une personnalité
+        complexe et cherche désespérément à vivre, terrorisée à l'idée de disparaître si le Donjon se
+        referme.</p>
       hp:
         value: 10
         max: 10
@@ -3186,11 +3395,14 @@ actors:
           max: 16
       armour: 0
       powers: >-
-        <ul><li><p><strong>Immortalité du Trésor</strong> : Tant qu'elle reste à
-        l'intérieur de l'unique pièce du Trésor, Betty ne peut pas perdre de
-        points de Force : elle est virtuellement indestructible dans son antre.
-        Elle se désintégrera instantanément si elle franchit le Passage vers le
-        monde réel.</p></li></ul>
+        <ul><li><p><strong>Immortalité du Trésor</strong> : Tant qu'elle reste à l'intérieur de l'unique
+        pièce du Trésor, Betty ne peut pas perdre de points de Force : elle est virtuellement
+        indestructible dans son antre. Elle se désintégrera instantanément si elle franchit le Passage
+        vers le monde réel.</p></li></ul>
+      attacksAgainst: normal
+      damageReduction: none
+      terror: 0
+      regeneration: ''
     prototypeToken:
       name: Le Clone de Betty
       displayName: 0
@@ -3278,33 +3490,10 @@ actors:
         system:
           description: <p>Sur un <strong>8</strong>, la balle perfore un organe vital.</p>
           damageFormula: 1d8
+          criticalDamage: true
+          ignoreArmour: false
+          triggers: {}
         _id: c88YaOJrQYsFxuS0
-        img: icons/svg/sword.svg
-        effects: []
-        folder: null
-        sort: 0
-        ownership:
-          default: 0
-          4gHATZ23KTYDYi5c: 3
-        flags: {}
-        _stats:
-          coreVersion: '14.368'
-          systemId: dangerousgary
-          systemVersion: '#{VERSION}#'
-          createdTime: null
-          modifiedTime: null
-          lastModifiedBy: null
-          compendiumSource: null
-          duplicateSource: null
-          exportSource: null
-      - name: Organe vital perforé
-        type: attack
-        system:
-          description: >-
-            <p>Dégâts supplémentaires infligés lorsque la balle perfore un
-            organe vital.</p>
-          damageFormula: 1d8
-        _id: PgOmrPMnFx8dx0GR
         img: icons/svg/sword.svg
         effects: []
         folder: null
