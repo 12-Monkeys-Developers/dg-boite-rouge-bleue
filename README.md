@@ -7,7 +7,12 @@ Adaptation de la campagne en deux parties de **Dangerous Gary**, éditées par *
 - **Foundry VTT version 14**.
 - Le système [Dangerous Gary](https://github.com/12-Monkeys-Developers/dangerousgary), **version 1.4.0 minimum**.
 
-Les rencontres utilisent les capacités du système 1.4.0 : effets spéciaux d’attaque, dégâts critiques, effets continus, auras de terreur et régénération. Pour utiliser les classes, les talents et les capacités des artefacts, activer l’option correspondante dans les réglages du système.
+Les rencontres utilisent les capacités du système 1.4.0 : effets spéciaux d’attaque, dégâts critiques, effets continus, défenses, auras de terreur et régénération.
+
+Deux réglages du système concernent ce module :
+
+- **Classe et talents** : à activer pour que les joueurs voient les classes, les talents et les artefacts de leurs personnages ;
+- **Dévoiler les capacités des artefacts** : désactivé par défaut, un joueur ne voit que les capacités d’artefact dont son personnage a le niveau ; à activer pour qu’il les voie toutes.
 
 ## Contenu
 
@@ -18,24 +23,24 @@ Un compendium **« Boites rouge et bleue »** rassemble deux aventures à import
 | Boite rouge | 8 | 8 | 18 | 21 | 15 |
 | Boite bleue | 7 | 7 | 26 | 16 | 24 |
 
-- Scènes illustrées et notes donnant accès aux descriptions des lieux.
+- Scènes illustrées et notes donnant accès aux descriptions partielles des lieux : juste la description de la salle.
 - Journaux de description des donjons.
-- Rencontres avec caractéristiques, attaques et pouvoirs
-- 81 profils de créatures et PNJ, vérifiés directement sur les PDF : les protagonistes des donjons, des intersections et du final sont inclus.
-- Fiches Personnage pour les PNJ humains, dont Tenser avec ses caractéristiques du livre ; classes et spécialités renseignées lorsqu’elles sont fournies. Les talents ordinaires sont ajoutés comme objets sur les Personnages jusqu’au niveau de chaque classe. Les talents d’Assassin sont créés directement sur les PNJ concernés, sans compendium dédié, et affichés dans le bloc Assassin réservé au MJ. Leur sauvegarde utilise la moyenne des maxima de FOR, DEX et VOL, arrondie à l’inférieur ; ses jets restent privés MJ.
-- Valeurs courantes et maximales distinguées pour Baptiste Cavalier et les Amoureux. Chaque fiche indique le livre et la page imprimée de son profil.
-- La Guenaude garde une fiche Rencontre pour ses pouvoirs de Monstre ; son statut hybride et ses niveaux Druide 9 et Voleur 9 sont indiqués dans ses pouvoirs.
+- Rencontres avec caractéristiques, attaques et pouvoirs.
+- 81 profils de créatures et PNJ : les protagonistes des donjons, des intersections et du final sont inclus.
+- Fiches Personnage pour les PNJ donjexeurs et humanoïdes.
 - Artefacts et équipements associés.
 
-Les effets pris en charge par le système sont renseignés sur les fiches. Les armes des Personnages ne prennent pas en charge les déclencheurs des attaques de Rencontre : leurs effets spéciaux restent en description. La morsure supplémentaire de Rudd dispose de sa propre arme ; sa régénération est conservée sous forme d’effet continu de soin. Les pouvoirs comportant des conditions particulières, des immunités ou des effets narratifs restent décrits pour être gérés par le MJ.
+Les effets pris en charge par le système sont renseignés sur les fiches. Les armes des Personnages ne prennent pas en charge les déclencheurs des attaques de Rencontre : leurs effets spéciaux restent en description. Les pouvoirs comportant des conditions particulières, des immunités ou des effets narratifs restent décrits pour être gérés par le MJ.
 
 ## Installation
+
+En attendant la validation par Foundry.
 
 1. Installer le système **Dangerous Gary 1.4.0 ou supérieur**.
 2. Dans l’écran de configuration de Foundry, ouvrir **Modules complémentaires**, puis **Installer un module** et utiliser cette URL de manifeste :
 
    ```text
-   https://github.com/12-Monkeys-Developers/dg-boite-rouge-bleue/releases/latest/download/module.json
+   https://github.com/12-Monkeys-Developers/dg-boite-rouge-bleue/releases/download/0.7.0/module.json
    ```
 
 3. Ouvrir un monde utilisant Dangerous Gary et activer le module **Dangerous Gary : Boites rouge et bleue** dans **Gérer les modules**.
@@ -58,6 +63,8 @@ La marque Les XII Singes est la propriété de ReSpell ©, 5 bis avenue des Clai
 Les marques Dungeons & Dragons © et Mordenkainen © sont la propriété de Wizards of the Coast © et sont utilisées au titre des droits de citation, de création transformative et d’hommage sans autre exploitation de leur contenu. Les termes Tenser et Robilar sont la propriété de leurs créateurs et ayants droit et sont utilisés au titre des droits de citation, de création transformative et d’hommage sans autre exploitation de leur contenu.
 
 Les visuels utilisés sur Foundry VTT sont réalisés par [Maxime Plasse](https://www.maxsmaps.com/). Ils sont fournis pour l’utilisation de Foundry VTT. Toute autre utilisation ou reproduction d’image doit obtenir l’accord de ReSpell / Les XII Singes.
+
+Les cartes et la configuration des scènes ont été réalisées par **l’Alchimiste**.
 
 Adaptation Foundry VTT : **Kristov** et **l’Alchimiste**.
 
