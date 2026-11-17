@@ -1,5 +1,10 @@
 ## À paraître
-- Boites rouge et bleue : mise à jour des 40 rencontres pour Dangerous Gary 1.4.0 (déclencheurs d’attaque, critiques, effets continus, défenses, terreur et régénération), y compris les quatre créatures de La Banque ; identifiants des acteurs et des attaques conservées inchangés
+- Artefacts : Les Yeux du serpent et L’Amoureux incluent la classe Assassin ; cette association reste masquée aux joueurs par le système
+- Personnages : ajout des 642 objets Talent correspondant à leurs niveaux dans les neuf classes du système ; 21 talents d’Assassin créés directement sur Yann Lamie, Benjamin Kurtz et Nicolas Aspairt depuis le livre de base p. 102–103, avec accès dans le bloc Assassin réservé au MJ et sauvegarde de classe privée
+- Vérification des profils directement sur les PDF des deux boîtes : 81 acteurs (39 rouges, 42 bleus), dont 33 profils ajoutés ; identifiants des acteurs et des attaques conservées inchangés
+- Correction des caractéristiques de Tenser et des Sombres Séraphins, de l’armure du Tatoueur-Cartographe, des niveaux et spécialités de Yann Lamie, des scores courants de Baptiste et des Amoureux, et des attaques, pouvoirs et seuils relevés lors de l’audit
+- Tenser utilise une fiche Personnage ; la Guenaude conserve ses capacités de Monstre et ses niveaux de donjexeur en description. Assassin utilise désormais sa classe native dans le système, avec les niveaux 4, 8 et 9 des trois PNJ et leurs 21 talents embarqués
+- Rencontre : auras, critiques, déclencheurs et effets continus renseignés selon les capacités du système 1.4.0 ; les règles conditionnelles et les effets des armes de Personnage restent décrits pour le MJ
 
 ## 0.6.0
 - Boite rouge : ajout de la scène d'accueil
