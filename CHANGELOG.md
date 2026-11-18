@@ -1,3 +1,6 @@
+# 0.7.2
+- Release technique : mise à jour de la CI
+
 ## 0.7.1
 - Publication : la release 0.7.0 n’a pas pu être construite (fichier de verrouillage npm incompatible avec la nouvelle image GitHub) ; la 0.7.1 en reprend tout le contenu
 
