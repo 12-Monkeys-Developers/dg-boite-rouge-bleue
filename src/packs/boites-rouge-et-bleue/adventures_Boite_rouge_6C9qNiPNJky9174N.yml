@@ -2042,25 +2042,16 @@ actors:
         name: Ventriloquie
         type: talent
         system:
-          talentClass: assassin
-          level: 1
-          special: false
           description: >-
-            <p>Altère l’ouïe des autres donjexeurs à moins d’environ 10 mètres : sons, voix et bruits
-            peuvent être créés ou modifiés durant toute la scène. Une cible qui soupçonne l’illusion
-            peut y mettre fin en réussissant une sauvegarde de Volonté.</p><p><strong>Classe
-            Assassin</strong> — talent de niveau 1, réservé aux PNJ.</p><p>Moyenne arrondie à
-            l’inférieur des scores initiaux de FOR, DEX et VOL. Ces talents ciblent les donjexeurs. En
-            cas d’échec de la sauvegarde de classe, appliquer la perte de PV prévue par les règles
-            d’utilisation d’un Talent.</p><p><em>Source : Dangerous Gary — livre de base, p.
-            102–103.</em></p>
-        flags:
-          dg-boite-rouge-bleue:
-            npcClass: assassin
-            source: Dangerous Gary
-            sourcePages:
-              - 102
-              - 103
+            Altère l’ouïe des autres donjexeurs à moins d’environ 10 mètres : sons, voix et bruits peuvent
+            être créés ou modifiés durant toute la scène. Une cible qui soupçonne l’illusion peut y mettre
+            fin en réussissant une sauvegarde de Volonté.
+          level: 1
+          talentClass: assassin
+          special: false
+        flags: {}
+        _stats:
+          compendiumSource: Compendium.dangerousgary.talents-mj.Item.dc7ebccef2d479be
       - _id: bc4cc1a885623677
         img: icons/svg/sun.svg
         effects: []
@@ -2069,24 +2060,16 @@ actors:
         name: Apparence illusoire
         type: talent
         system:
-          talentClass: assassin
-          level: 2
-          special: false
           description: >-
-            <p>Altère la vue des autres donjexeurs à moins d’environ 10 mètres, leur faisant percevoir
-            des objets, formes ou êtres vivants durant la scène. Une cible qui soupçonne l’illusion peut
-            y mettre fin par une sauvegarde de Volonté réussie.</p><p><strong>Classe Assassin</strong> —
-            talent de niveau 2, réservé aux PNJ.</p><p>Moyenne arrondie à l’inférieur des scores
-            initiaux de FOR, DEX et VOL. Ces talents ciblent les donjexeurs. En cas d’échec de la
-            sauvegarde de classe, appliquer la perte de PV prévue par les règles d’utilisation d’un
-            Talent.</p><p><em>Source : Dangerous Gary — livre de base, p. 102–103.</em></p>
-        flags:
-          dg-boite-rouge-bleue:
-            npcClass: assassin
-            source: Dangerous Gary
-            sourcePages:
-              - 102
-              - 103
+            Altère la vue des autres donjexeurs à moins d’environ 10 mètres, leur faisant percevoir des
+            objets, formes ou êtres vivants durant la scène. Une cible qui soupçonne l’illusion peut y
+            mettre fin par une sauvegarde de Volonté réussie.
+          level: 2
+          talentClass: assassin
+          special: false
+        flags: {}
+        _stats:
+          compendiumSource: Compendium.dangerousgary.talents-mj.Item.bc4cc1a885623677
       - _id: 9a2261b89dc1a51c
         img: icons/svg/sun.svg
         effects: []
@@ -2095,25 +2078,17 @@ actors:
         name: Trouble
         type: talent
         system:
-          talentClass: assassin
-          level: 3
-          special: false
           description: >-
-            <p>La prochaine sauvegarde d’un donjexeur à moins d’environ 10 mètres est un échec.
-            Impossible de réutiliser ce Talent sur cette cible avant qu’elle ait raté une sauvegarde. Si
-            elle n’est soumise à aucune sauvegarde pendant la scène, l’effet s’achève. L’effet peut
-            persister après la sortie des Donjons.</p><p><strong>Classe Assassin</strong> — talent de
-            niveau 3, réservé aux PNJ.</p><p>Moyenne arrondie à l’inférieur des scores initiaux de FOR,
-            DEX et VOL. Ces talents ciblent les donjexeurs. En cas d’échec de la sauvegarde de classe,
-            appliquer la perte de PV prévue par les règles d’utilisation d’un Talent.</p><p><em>Source :
-            Dangerous Gary — livre de base, p. 102–103.</em></p>
-        flags:
-          dg-boite-rouge-bleue:
-            npcClass: assassin
-            source: Dangerous Gary
-            sourcePages:
-              - 102
-              - 103
+            La prochaine sauvegarde d’un donjexeur à moins d’environ 10 mètres est un échec. Impossible de
+            réutiliser ce Talent sur cette cible avant qu’elle ait raté une sauvegarde. Si elle n’est
+            soumise à aucune sauvegarde pendant la scène, l’effet s’achève. L’effet peut persister après
+            la sortie des Donjons.
+          level: 3
+          talentClass: assassin
+          special: false
+        flags: {}
+        _stats:
+          compendiumSource: Compendium.dangerousgary.talents-mj.Item.9a2261b89dc1a51c
       - _id: 87a3a893295679cc
         img: icons/svg/sun.svg
         effects: []
@@ -2122,25 +2097,17 @@ actors:
         name: Douleur
         type: talent
         system:
-          talentClass: assassin
-          level: 4
-          special: false
           description: >-
-            <p>Un donjexeur à moins d’environ 10 mètres subit une douleur incapacitante. Ses dégâts
-            d’attaque sont diminués de 2, avec un minimum de 1, et ses sauvegardes subissent également
-            un malus de 2. Durée : autant de rounds que le niveau d’Assassin de l’utilisateur. Cet effet
-            persiste même si la victime quitte les Donjons.</p><p><strong>Classe Assassin</strong> —
-            talent de niveau 4, réservé aux PNJ.</p><p>Moyenne arrondie à l’inférieur des scores
-            initiaux de FOR, DEX et VOL. Ces talents ciblent les donjexeurs. En cas d’échec de la
-            sauvegarde de classe, appliquer la perte de PV prévue par les règles d’utilisation d’un
-            Talent.</p><p><em>Source : Dangerous Gary — livre de base, p. 102–103.</em></p>
-        flags:
-          dg-boite-rouge-bleue:
-            npcClass: assassin
-            source: Dangerous Gary
-            sourcePages:
-              - 102
-              - 103
+            Un donjexeur à moins d’environ 10 mètres subit une douleur incapacitante. Ses dégâts d’attaque
+            sont diminués de 2, avec un minimum de 1, et ses sauvegardes subissent également un malus de
+            2. Durée : autant de rounds que le niveau d’Assassin de l’utilisateur. Cet effet persiste même
+            si la victime quitte les Donjons.
+          level: 4
+          talentClass: assassin
+          special: false
+        flags: {}
+        _stats:
+          compendiumSource: Compendium.dangerousgary.talents-mj.Item.87a3a893295679cc
     effects: []
     ownership:
       default: 0
@@ -7096,25 +7063,16 @@ actors:
         name: Ventriloquie
         type: talent
         system:
-          talentClass: assassin
-          level: 1
-          special: false
           description: >-
-            <p>Altère l’ouïe des autres donjexeurs à moins d’environ 10 mètres : sons, voix et bruits
-            peuvent être créés ou modifiés durant toute la scène. Une cible qui soupçonne l’illusion
-            peut y mettre fin en réussissant une sauvegarde de Volonté.</p><p><strong>Classe
-            Assassin</strong> — talent de niveau 1, réservé aux PNJ.</p><p>Moyenne arrondie à
-            l’inférieur des scores initiaux de FOR, DEX et VOL. Ces talents ciblent les donjexeurs. En
-            cas d’échec de la sauvegarde de classe, appliquer la perte de PV prévue par les règles
-            d’utilisation d’un Talent.</p><p><em>Source : Dangerous Gary — livre de base, p.
-            102–103.</em></p>
-        flags:
-          dg-boite-rouge-bleue:
-            npcClass: assassin
-            source: Dangerous Gary
-            sourcePages:
-              - 102
-              - 103
+            Altère l’ouïe des autres donjexeurs à moins d’environ 10 mètres : sons, voix et bruits peuvent
+            être créés ou modifiés durant toute la scène. Une cible qui soupçonne l’illusion peut y mettre
+            fin en réussissant une sauvegarde de Volonté.
+          level: 1
+          talentClass: assassin
+          special: false
+        flags: {}
+        _stats:
+          compendiumSource: Compendium.dangerousgary.talents-mj.Item.dc7ebccef2d479be
       - _id: bc4cc1a885623677
         img: icons/svg/sun.svg
         effects: []
@@ -7123,24 +7081,16 @@ actors:
         name: Apparence illusoire
         type: talent
         system:
-          talentClass: assassin
-          level: 2
-          special: false
           description: >-
-            <p>Altère la vue des autres donjexeurs à moins d’environ 10 mètres, leur faisant percevoir
-            des objets, formes ou êtres vivants durant la scène. Une cible qui soupçonne l’illusion peut
-            y mettre fin par une sauvegarde de Volonté réussie.</p><p><strong>Classe Assassin</strong> —
-            talent de niveau 2, réservé aux PNJ.</p><p>Moyenne arrondie à l’inférieur des scores
-            initiaux de FOR, DEX et VOL. Ces talents ciblent les donjexeurs. En cas d’échec de la
-            sauvegarde de classe, appliquer la perte de PV prévue par les règles d’utilisation d’un
-            Talent.</p><p><em>Source : Dangerous Gary — livre de base, p. 102–103.</em></p>
-        flags:
-          dg-boite-rouge-bleue:
-            npcClass: assassin
-            source: Dangerous Gary
-            sourcePages:
-              - 102
-              - 103
+            Altère la vue des autres donjexeurs à moins d’environ 10 mètres, leur faisant percevoir des
+            objets, formes ou êtres vivants durant la scène. Une cible qui soupçonne l’illusion peut y
+            mettre fin par une sauvegarde de Volonté réussie.
+          level: 2
+          talentClass: assassin
+          special: false
+        flags: {}
+        _stats:
+          compendiumSource: Compendium.dangerousgary.talents-mj.Item.bc4cc1a885623677
       - _id: 9a2261b89dc1a51c
         img: icons/svg/sun.svg
         effects: []
@@ -7149,25 +7099,17 @@ actors:
         name: Trouble
         type: talent
         system:
-          talentClass: assassin
-          level: 3
-          special: false
           description: >-
-            <p>La prochaine sauvegarde d’un donjexeur à moins d’environ 10 mètres est un échec.
-            Impossible de réutiliser ce Talent sur cette cible avant qu’elle ait raté une sauvegarde. Si
-            elle n’est soumise à aucune sauvegarde pendant la scène, l’effet s’achève. L’effet peut
-            persister après la sortie des Donjons.</p><p><strong>Classe Assassin</strong> — talent de
-            niveau 3, réservé aux PNJ.</p><p>Moyenne arrondie à l’inférieur des scores initiaux de FOR,
-            DEX et VOL. Ces talents ciblent les donjexeurs. En cas d’échec de la sauvegarde de classe,
-            appliquer la perte de PV prévue par les règles d’utilisation d’un Talent.</p><p><em>Source :
-            Dangerous Gary — livre de base, p. 102–103.</em></p>
-        flags:
-          dg-boite-rouge-bleue:
-            npcClass: assassin
-            source: Dangerous Gary
-            sourcePages:
-              - 102
-              - 103
+            La prochaine sauvegarde d’un donjexeur à moins d’environ 10 mètres est un échec. Impossible de
+            réutiliser ce Talent sur cette cible avant qu’elle ait raté une sauvegarde. Si elle n’est
+            soumise à aucune sauvegarde pendant la scène, l’effet s’achève. L’effet peut persister après
+            la sortie des Donjons.
+          level: 3
+          talentClass: assassin
+          special: false
+        flags: {}
+        _stats:
+          compendiumSource: Compendium.dangerousgary.talents-mj.Item.9a2261b89dc1a51c
       - _id: 87a3a893295679cc
         img: icons/svg/sun.svg
         effects: []
@@ -7176,25 +7118,17 @@ actors:
         name: Douleur
         type: talent
         system:
-          talentClass: assassin
-          level: 4
-          special: false
           description: >-
-            <p>Un donjexeur à moins d’environ 10 mètres subit une douleur incapacitante. Ses dégâts
-            d’attaque sont diminués de 2, avec un minimum de 1, et ses sauvegardes subissent également
-            un malus de 2. Durée : autant de rounds que le niveau d’Assassin de l’utilisateur. Cet effet
-            persiste même si la victime quitte les Donjons.</p><p><strong>Classe Assassin</strong> —
-            talent de niveau 4, réservé aux PNJ.</p><p>Moyenne arrondie à l’inférieur des scores
-            initiaux de FOR, DEX et VOL. Ces talents ciblent les donjexeurs. En cas d’échec de la
-            sauvegarde de classe, appliquer la perte de PV prévue par les règles d’utilisation d’un
-            Talent.</p><p><em>Source : Dangerous Gary — livre de base, p. 102–103.</em></p>
-        flags:
-          dg-boite-rouge-bleue:
-            npcClass: assassin
-            source: Dangerous Gary
-            sourcePages:
-              - 102
-              - 103
+            Un donjexeur à moins d’environ 10 mètres subit une douleur incapacitante. Ses dégâts d’attaque
+            sont diminués de 2, avec un minimum de 1, et ses sauvegardes subissent également un malus de
+            2. Durée : autant de rounds que le niveau d’Assassin de l’utilisateur. Cet effet persiste même
+            si la victime quitte les Donjons.
+          level: 4
+          talentClass: assassin
+          special: false
+        flags: {}
+        _stats:
+          compendiumSource: Compendium.dangerousgary.talents-mj.Item.87a3a893295679cc
       - _id: b76a279fa99f04de
         img: icons/svg/sun.svg
         effects: []
@@ -7203,25 +7137,16 @@ actors:
         name: Poigne du nécrophage
         type: talent
         system:
-          talentClass: assassin
-          level: 5
-          special: false
           description: >-
-            <p>Pendant autant de rounds que son niveau d’Assassin, les attaques au corps à corps de
-            l’utilisateur font perdre à leur victime un niveau de Talent choisi par celle-ci. La perte
-            est définitive ; seul le Talent Restauration du Clerc permet d’y
-            remédier.</p><p><strong>Classe Assassin</strong> — talent de niveau 5, réservé aux
-            PNJ.</p><p>Moyenne arrondie à l’inférieur des scores initiaux de FOR, DEX et VOL. Ces
-            talents ciblent les donjexeurs. En cas d’échec de la sauvegarde de classe, appliquer la
-            perte de PV prévue par les règles d’utilisation d’un Talent.</p><p><em>Source : Dangerous
-            Gary — livre de base, p. 102–103.</em></p>
-        flags:
-          dg-boite-rouge-bleue:
-            npcClass: assassin
-            source: Dangerous Gary
-            sourcePages:
-              - 102
-              - 103
+            Pendant autant de rounds que son niveau d’Assassin, les attaques au corps à corps de
+            l’utilisateur font perdre à leur victime un niveau de Talent choisi par celle-ci. La perte est
+            définitive ; seul le Talent Restauration du Clerc permet d’y remédier.
+          level: 5
+          talentClass: assassin
+          special: false
+        flags: {}
+        _stats:
+          compendiumSource: Compendium.dangerousgary.talents-mj.Item.b76a279fa99f04de
       - _id: fc454c988ab98a31
         img: icons/svg/sun.svg
         effects: []
@@ -7230,24 +7155,15 @@ actors:
         name: Malédiction du profane
         type: talent
         system:
-          talentClass: assassin
-          level: 6
-          special: false
           description: >-
-            <p>Cible un donjexeur à moins d’environ 10 mètres qui a utilisé un Talent à son tour
-            précédent. Durant toute la scène, la victime ne peut plus utiliser aucun Talent de cette
-            classe.</p><p><strong>Classe Assassin</strong> — talent de niveau 6, réservé aux
-            PNJ.</p><p>Moyenne arrondie à l’inférieur des scores initiaux de FOR, DEX et VOL. Ces
-            talents ciblent les donjexeurs. En cas d’échec de la sauvegarde de classe, appliquer la
-            perte de PV prévue par les règles d’utilisation d’un Talent.</p><p><em>Source : Dangerous
-            Gary — livre de base, p. 102–103.</em></p>
-        flags:
-          dg-boite-rouge-bleue:
-            npcClass: assassin
-            source: Dangerous Gary
-            sourcePages:
-              - 102
-              - 103
+            Cible un donjexeur à moins d’environ 10 mètres qui a utilisé un Talent à son tour précédent.
+            Durant toute la scène, la victime ne peut plus utiliser aucun Talent de cette classe.
+          level: 6
+          talentClass: assassin
+          special: false
+        flags: {}
+        _stats:
+          compendiumSource: Compendium.dangerousgary.talents-mj.Item.fc454c988ab98a31
       - _id: 459e628841289798
         img: icons/svg/sun.svg
         effects: []
@@ -7256,26 +7172,18 @@ actors:
         name: Suggestion
         type: talent
         system:
-          talentClass: assassin
-          level: 7
-          special: false
           description: >-
-            <p>Après quelques minutes de conversation, la cible effectue une sauvegarde de Volonté. En
-            cas d’échec, une action programmée se déclenchera à un mot ou une situation déterminée.
-            L’action peut être violente, mais ne peut être délibérément dirigée contre la victime
-            elle-même. La suggestion disparaît après autant de jours que le niveau d’Assassin de
-            l’utilisateur ; quitter les Donjons ne l’annule pas.</p><p><strong>Classe Assassin</strong>
-            — talent de niveau 7, réservé aux PNJ.</p><p>Moyenne arrondie à l’inférieur des scores
-            initiaux de FOR, DEX et VOL. Ces talents ciblent les donjexeurs. En cas d’échec de la
-            sauvegarde de classe, appliquer la perte de PV prévue par les règles d’utilisation d’un
-            Talent.</p><p><em>Source : Dangerous Gary — livre de base, p. 102–103.</em></p>
-        flags:
-          dg-boite-rouge-bleue:
-            npcClass: assassin
-            source: Dangerous Gary
-            sourcePages:
-              - 102
-              - 103
+            Après quelques minutes de conversation, la cible effectue une sauvegarde de Volonté. En cas
+            d’échec, une action programmée se déclenchera à un mot ou une situation déterminée. L’action
+            peut être violente, mais ne peut être délibérément dirigée contre la victime elle-même. La
+            suggestion disparaît après autant de jours que le niveau d’Assassin de l’utilisateur ; quitter
+            les Donjons ne l’annule pas.
+          level: 7
+          talentClass: assassin
+          special: false
+        flags: {}
+        _stats:
+          compendiumSource: Compendium.dangerousgary.talents-mj.Item.459e628841289798
       - _id: b21390626a5f93c2
         img: icons/svg/sun.svg
         effects: []
@@ -7284,25 +7192,16 @@ actors:
         name: Marionnettiste
         type: talent
         system:
-          talentClass: assassin
-          level: 8
-          special: false
           description: >-
-            <p>Un donjexeur à moins d’environ 10 mètres effectue une sauvegarde de Volonté. En cas
-            d’échec, l’utilisateur le contrôle pendant autant de rounds que son niveau d’Assassin, et
-            peut lui ordonner toute action, y compris de se blesser.</p><p><strong>Classe
-            Assassin</strong> — talent de niveau 8, réservé aux PNJ.</p><p>Moyenne arrondie à
-            l’inférieur des scores initiaux de FOR, DEX et VOL. Ces talents ciblent les donjexeurs. En
-            cas d’échec de la sauvegarde de classe, appliquer la perte de PV prévue par les règles
-            d’utilisation d’un Talent.</p><p><em>Source : Dangerous Gary — livre de base, p.
-            102–103.</em></p>
-        flags:
-          dg-boite-rouge-bleue:
-            npcClass: assassin
-            source: Dangerous Gary
-            sourcePages:
-              - 102
-              - 103
+            Un donjexeur à moins d’environ 10 mètres effectue une sauvegarde de Volonté. En cas d’échec,
+            l’utilisateur le contrôle pendant autant de rounds que son niveau d’Assassin, et peut lui
+            ordonner toute action, y compris de se blesser.
+          level: 8
+          talentClass: assassin
+          special: false
+        flags: {}
+        _stats:
+          compendiumSource: Compendium.dangerousgary.talents-mj.Item.b21390626a5f93c2
     effects: []
     prototypeToken:
       name: Benjamin Kurtz alias Zag
@@ -8687,25 +8586,16 @@ actors:
         name: Ventriloquie
         type: talent
         system:
-          talentClass: assassin
-          level: 1
-          special: false
           description: >-
-            <p>Altère l’ouïe des autres donjexeurs à moins d’environ 10 mètres : sons, voix et bruits
-            peuvent être créés ou modifiés durant toute la scène. Une cible qui soupçonne l’illusion
-            peut y mettre fin en réussissant une sauvegarde de Volonté.</p><p><strong>Classe
-            Assassin</strong> — talent de niveau 1, réservé aux PNJ.</p><p>Moyenne arrondie à
-            l’inférieur des scores initiaux de FOR, DEX et VOL. Ces talents ciblent les donjexeurs. En
-            cas d’échec de la sauvegarde de classe, appliquer la perte de PV prévue par les règles
-            d’utilisation d’un Talent.</p><p><em>Source : Dangerous Gary — livre de base, p.
-            102–103.</em></p>
-        flags:
-          dg-boite-rouge-bleue:
-            npcClass: assassin
-            source: Dangerous Gary
-            sourcePages:
-              - 102
-              - 103
+            Altère l’ouïe des autres donjexeurs à moins d’environ 10 mètres : sons, voix et bruits peuvent
+            être créés ou modifiés durant toute la scène. Une cible qui soupçonne l’illusion peut y mettre
+            fin en réussissant une sauvegarde de Volonté.
+          level: 1
+          talentClass: assassin
+          special: false
+        flags: {}
+        _stats:
+          compendiumSource: Compendium.dangerousgary.talents-mj.Item.dc7ebccef2d479be
       - _id: bc4cc1a885623677
         img: icons/svg/sun.svg
         effects: []
@@ -8714,24 +8604,16 @@ actors:
         name: Apparence illusoire
         type: talent
         system:
-          talentClass: assassin
-          level: 2
-          special: false
           description: >-
-            <p>Altère la vue des autres donjexeurs à moins d’environ 10 mètres, leur faisant percevoir
-            des objets, formes ou êtres vivants durant la scène. Une cible qui soupçonne l’illusion peut
-            y mettre fin par une sauvegarde de Volonté réussie.</p><p><strong>Classe Assassin</strong> —
-            talent de niveau 2, réservé aux PNJ.</p><p>Moyenne arrondie à l’inférieur des scores
-            initiaux de FOR, DEX et VOL. Ces talents ciblent les donjexeurs. En cas d’échec de la
-            sauvegarde de classe, appliquer la perte de PV prévue par les règles d’utilisation d’un
-            Talent.</p><p><em>Source : Dangerous Gary — livre de base, p. 102–103.</em></p>
-        flags:
-          dg-boite-rouge-bleue:
-            npcClass: assassin
-            source: Dangerous Gary
-            sourcePages:
-              - 102
-              - 103
+            Altère la vue des autres donjexeurs à moins d’environ 10 mètres, leur faisant percevoir des
+            objets, formes ou êtres vivants durant la scène. Une cible qui soupçonne l’illusion peut y
+            mettre fin par une sauvegarde de Volonté réussie.
+          level: 2
+          talentClass: assassin
+          special: false
+        flags: {}
+        _stats:
+          compendiumSource: Compendium.dangerousgary.talents-mj.Item.bc4cc1a885623677
       - _id: 9a2261b89dc1a51c
         img: icons/svg/sun.svg
         effects: []
@@ -8740,25 +8622,17 @@ actors:
         name: Trouble
         type: talent
         system:
-          talentClass: assassin
-          level: 3
-          special: false
           description: >-
-            <p>La prochaine sauvegarde d’un donjexeur à moins d’environ 10 mètres est un échec.
-            Impossible de réutiliser ce Talent sur cette cible avant qu’elle ait raté une sauvegarde. Si
-            elle n’est soumise à aucune sauvegarde pendant la scène, l’effet s’achève. L’effet peut
-            persister après la sortie des Donjons.</p><p><strong>Classe Assassin</strong> — talent de
-            niveau 3, réservé aux PNJ.</p><p>Moyenne arrondie à l’inférieur des scores initiaux de FOR,
-            DEX et VOL. Ces talents ciblent les donjexeurs. En cas d’échec de la sauvegarde de classe,
-            appliquer la perte de PV prévue par les règles d’utilisation d’un Talent.</p><p><em>Source :
-            Dangerous Gary — livre de base, p. 102–103.</em></p>
-        flags:
-          dg-boite-rouge-bleue:
-            npcClass: assassin
-            source: Dangerous Gary
-            sourcePages:
-              - 102
-              - 103
+            La prochaine sauvegarde d’un donjexeur à moins d’environ 10 mètres est un échec. Impossible de
+            réutiliser ce Talent sur cette cible avant qu’elle ait raté une sauvegarde. Si elle n’est
+            soumise à aucune sauvegarde pendant la scène, l’effet s’achève. L’effet peut persister après
+            la sortie des Donjons.
+          level: 3
+          talentClass: assassin
+          special: false
+        flags: {}
+        _stats:
+          compendiumSource: Compendium.dangerousgary.talents-mj.Item.9a2261b89dc1a51c
       - _id: 87a3a893295679cc
         img: icons/svg/sun.svg
         effects: []
@@ -8767,25 +8641,17 @@ actors:
         name: Douleur
         type: talent
         system:
-          talentClass: assassin
-          level: 4
-          special: false
           description: >-
-            <p>Un donjexeur à moins d’environ 10 mètres subit une douleur incapacitante. Ses dégâts
-            d’attaque sont diminués de 2, avec un minimum de 1, et ses sauvegardes subissent également
-            un malus de 2. Durée : autant de rounds que le niveau d’Assassin de l’utilisateur. Cet effet
-            persiste même si la victime quitte les Donjons.</p><p><strong>Classe Assassin</strong> —
-            talent de niveau 4, réservé aux PNJ.</p><p>Moyenne arrondie à l’inférieur des scores
-            initiaux de FOR, DEX et VOL. Ces talents ciblent les donjexeurs. En cas d’échec de la
-            sauvegarde de classe, appliquer la perte de PV prévue par les règles d’utilisation d’un
-            Talent.</p><p><em>Source : Dangerous Gary — livre de base, p. 102–103.</em></p>
-        flags:
-          dg-boite-rouge-bleue:
-            npcClass: assassin
-            source: Dangerous Gary
-            sourcePages:
-              - 102
-              - 103
+            Un donjexeur à moins d’environ 10 mètres subit une douleur incapacitante. Ses dégâts d’attaque
+            sont diminués de 2, avec un minimum de 1, et ses sauvegardes subissent également un malus de
+            2. Durée : autant de rounds que le niveau d’Assassin de l’utilisateur. Cet effet persiste même
+            si la victime quitte les Donjons.
+          level: 4
+          talentClass: assassin
+          special: false
+        flags: {}
+        _stats:
+          compendiumSource: Compendium.dangerousgary.talents-mj.Item.87a3a893295679cc
       - _id: b76a279fa99f04de
         img: icons/svg/sun.svg
         effects: []
@@ -8794,25 +8660,16 @@ actors:
         name: Poigne du nécrophage
         type: talent
         system:
-          talentClass: assassin
-          level: 5
-          special: false
           description: >-
-            <p>Pendant autant de rounds que son niveau d’Assassin, les attaques au corps à corps de
-            l’utilisateur font perdre à leur victime un niveau de Talent choisi par celle-ci. La perte
-            est définitive ; seul le Talent Restauration du Clerc permet d’y
-            remédier.</p><p><strong>Classe Assassin</strong> — talent de niveau 5, réservé aux
-            PNJ.</p><p>Moyenne arrondie à l’inférieur des scores initiaux de FOR, DEX et VOL. Ces
-            talents ciblent les donjexeurs. En cas d’échec de la sauvegarde de classe, appliquer la
-            perte de PV prévue par les règles d’utilisation d’un Talent.</p><p><em>Source : Dangerous
-            Gary — livre de base, p. 102–103.</em></p>
-        flags:
-          dg-boite-rouge-bleue:
-            npcClass: assassin
-            source: Dangerous Gary
-            sourcePages:
-              - 102
-              - 103
+            Pendant autant de rounds que son niveau d’Assassin, les attaques au corps à corps de
+            l’utilisateur font perdre à leur victime un niveau de Talent choisi par celle-ci. La perte est
+            définitive ; seul le Talent Restauration du Clerc permet d’y remédier.
+          level: 5
+          talentClass: assassin
+          special: false
+        flags: {}
+        _stats:
+          compendiumSource: Compendium.dangerousgary.talents-mj.Item.b76a279fa99f04de
       - _id: fc454c988ab98a31
         img: icons/svg/sun.svg
         effects: []
@@ -8821,24 +8678,15 @@ actors:
         name: Malédiction du profane
         type: talent
         system:
-          talentClass: assassin
-          level: 6
-          special: false
           description: >-
-            <p>Cible un donjexeur à moins d’environ 10 mètres qui a utilisé un Talent à son tour
-            précédent. Durant toute la scène, la victime ne peut plus utiliser aucun Talent de cette
-            classe.</p><p><strong>Classe Assassin</strong> — talent de niveau 6, réservé aux
-            PNJ.</p><p>Moyenne arrondie à l’inférieur des scores initiaux de FOR, DEX et VOL. Ces
-            talents ciblent les donjexeurs. En cas d’échec de la sauvegarde de classe, appliquer la
-            perte de PV prévue par les règles d’utilisation d’un Talent.</p><p><em>Source : Dangerous
-            Gary — livre de base, p. 102–103.</em></p>
-        flags:
-          dg-boite-rouge-bleue:
-            npcClass: assassin
-            source: Dangerous Gary
-            sourcePages:
-              - 102
-              - 103
+            Cible un donjexeur à moins d’environ 10 mètres qui a utilisé un Talent à son tour précédent.
+            Durant toute la scène, la victime ne peut plus utiliser aucun Talent de cette classe.
+          level: 6
+          talentClass: assassin
+          special: false
+        flags: {}
+        _stats:
+          compendiumSource: Compendium.dangerousgary.talents-mj.Item.fc454c988ab98a31
       - _id: 459e628841289798
         img: icons/svg/sun.svg
         effects: []
@@ -8847,26 +8695,18 @@ actors:
         name: Suggestion
         type: talent
         system:
-          talentClass: assassin
-          level: 7
-          special: false
           description: >-
-            <p>Après quelques minutes de conversation, la cible effectue une sauvegarde de Volonté. En
-            cas d’échec, une action programmée se déclenchera à un mot ou une situation déterminée.
-            L’action peut être violente, mais ne peut être délibérément dirigée contre la victime
-            elle-même. La suggestion disparaît après autant de jours que le niveau d’Assassin de
-            l’utilisateur ; quitter les Donjons ne l’annule pas.</p><p><strong>Classe Assassin</strong>
-            — talent de niveau 7, réservé aux PNJ.</p><p>Moyenne arrondie à l’inférieur des scores
-            initiaux de FOR, DEX et VOL. Ces talents ciblent les donjexeurs. En cas d’échec de la
-            sauvegarde de classe, appliquer la perte de PV prévue par les règles d’utilisation d’un
-            Talent.</p><p><em>Source : Dangerous Gary — livre de base, p. 102–103.</em></p>
-        flags:
-          dg-boite-rouge-bleue:
-            npcClass: assassin
-            source: Dangerous Gary
-            sourcePages:
-              - 102
-              - 103
+            Après quelques minutes de conversation, la cible effectue une sauvegarde de Volonté. En cas
+            d’échec, une action programmée se déclenchera à un mot ou une situation déterminée. L’action
+            peut être violente, mais ne peut être délibérément dirigée contre la victime elle-même. La
+            suggestion disparaît après autant de jours que le niveau d’Assassin de l’utilisateur ; quitter
+            les Donjons ne l’annule pas.
+          level: 7
+          talentClass: assassin
+          special: false
+        flags: {}
+        _stats:
+          compendiumSource: Compendium.dangerousgary.talents-mj.Item.459e628841289798
       - _id: b21390626a5f93c2
         img: icons/svg/sun.svg
         effects: []
@@ -8875,25 +8715,16 @@ actors:
         name: Marionnettiste
         type: talent
         system:
-          talentClass: assassin
-          level: 8
-          special: false
           description: >-
-            <p>Un donjexeur à moins d’environ 10 mètres effectue une sauvegarde de Volonté. En cas
-            d’échec, l’utilisateur le contrôle pendant autant de rounds que son niveau d’Assassin, et
-            peut lui ordonner toute action, y compris de se blesser.</p><p><strong>Classe
-            Assassin</strong> — talent de niveau 8, réservé aux PNJ.</p><p>Moyenne arrondie à
-            l’inférieur des scores initiaux de FOR, DEX et VOL. Ces talents ciblent les donjexeurs. En
-            cas d’échec de la sauvegarde de classe, appliquer la perte de PV prévue par les règles
-            d’utilisation d’un Talent.</p><p><em>Source : Dangerous Gary — livre de base, p.
-            102–103.</em></p>
-        flags:
-          dg-boite-rouge-bleue:
-            npcClass: assassin
-            source: Dangerous Gary
-            sourcePages:
-              - 102
-              - 103
+            Un donjexeur à moins d’environ 10 mètres effectue une sauvegarde de Volonté. En cas d’échec,
+            l’utilisateur le contrôle pendant autant de rounds que son niveau d’Assassin, et peut lui
+            ordonner toute action, y compris de se blesser.
+          level: 8
+          talentClass: assassin
+          special: false
+        flags: {}
+        _stats:
+          compendiumSource: Compendium.dangerousgary.talents-mj.Item.b21390626a5f93c2
       - _id: 459b15297c5ba815
         img: icons/svg/sun.svg
         effects: []
@@ -8902,25 +8733,16 @@ actors:
         name: Crise cardiaque
         type: talent
         system:
-          talentClass: assassin
-          level: 9
-          special: false
           description: >-
-            <p>Un donjexeur à moins d’environ 10 mètres est frappé d’une crise cardiaque et doit réussir
-            une sauvegarde de Force. En cas d’échec, il meurt. En cas de réussite, ses attaques sont
-            contraintes pendant un nombre de rounds égal au résultat de son D20.</p><p><strong>Classe
-            Assassin</strong> — talent de niveau 9, réservé aux PNJ.</p><p>Moyenne arrondie à
-            l’inférieur des scores initiaux de FOR, DEX et VOL. Ces talents ciblent les donjexeurs. En
-            cas d’échec de la sauvegarde de classe, appliquer la perte de PV prévue par les règles
-            d’utilisation d’un Talent.</p><p><em>Source : Dangerous Gary — livre de base, p.
-            102–103.</em></p>
-        flags:
-          dg-boite-rouge-bleue:
-            npcClass: assassin
-            source: Dangerous Gary
-            sourcePages:
-              - 102
-              - 103
+            Un donjexeur à moins d’environ 10 mètres est frappé d’une crise cardiaque et doit réussir une
+            sauvegarde de Force. En cas d’échec, il meurt. En cas de réussite, ses attaques sont
+            contraintes pendant un nombre de rounds égal au résultat de son D20.
+          level: 9
+          talentClass: assassin
+          special: false
+        flags: {}
+        _stats:
+          compendiumSource: Compendium.dangerousgary.talents-mj.Item.459b15297c5ba815
     effects: []
     prototypeToken:
       name: Nicolas Aspairt alias le Dragon rouge

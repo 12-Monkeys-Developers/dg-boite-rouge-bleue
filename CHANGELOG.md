@@ -1,5 +1,6 @@
 # 0.7.2
 - Release technique : mise à jour de la CI
+- Assassin : les 21 talents d’Assassin de Yann Lamie, Benjamin Kurtz et Nicolas Aspairt sont des copies du compendium « Talents (MJ) » du système Dangerous Gary (1.4.3), comme s’ils y avaient été pris : texte du livre de base, identifiants conservés
 
 ## 0.7.1
 - Publication : la release 0.7.0 n’a pas pu être construite (fichier de verrouillage npm incompatible avec la nouvelle image GitHub) ; la 0.7.1 en reprend tout le contenu
