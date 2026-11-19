@@ -5,7 +5,7 @@ Adaptation de la campagne en deux parties de **Dangerous Gary**, éditées par *
 ## Prérequis
 
 - **Foundry VTT version 14**.
-- Le système [Dangerous Gary](https://github.com/12-Monkeys-Developers/dangerousgary), **version 1.4.0 minimum**.
+- Le système [Dangerous Gary](https://github.com/12-Monkeys-Developers/dangerousgary), **version 1.4.3 minimum**.
 
 Les rencontres utilisent les capacités du système 1.4.0 : effets spéciaux d’attaque, dégâts critiques, effets continus, défenses, auras de terreur et régénération.
 
@@ -36,7 +36,7 @@ Les effets pris en charge par le système sont renseignés sur les fiches. Les a
 
 En attendant la validation par Foundry.
 
-1. Installer le système **Dangerous Gary 1.4.0 ou supérieur**.
+1. Installer le système **Dangerous Gary 1.4.3 ou supérieur**.
 2. Dans l’écran de configuration de Foundry, ouvrir **Modules complémentaires**, puis **Installer un module** et utiliser cette URL de manifeste :
 
    ```text

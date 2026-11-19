@@ -1,4 +1,5 @@
 # 0.7.2
+- Prérequis : système Dangerous Gary 1.4.3 minimum (talents d’Assassin repris du compendium « Talents (MJ) »)
 - Release technique : mise à jour de la CI
 - Assassin : les 21 talents d’Assassin de Yann Lamie, Benjamin Kurtz et Nicolas Aspairt sont des copies du compendium « Talents (MJ) » du système Dangerous Gary (1.4.3), comme s’ils y avaient été pris : texte du livre de base, identifiants conservés
 
