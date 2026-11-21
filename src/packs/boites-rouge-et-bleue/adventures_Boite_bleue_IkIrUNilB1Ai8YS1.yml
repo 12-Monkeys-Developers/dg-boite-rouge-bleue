@@ -10647,38 +10647,9 @@ items:
             sauvegarde de Volonté pour l'attaquer, et le donjexeur conserve la
             liberté d'effectuer une attaque ou d'utiliser un Talent à son
             tour.</p>
-    _id: JS9lVJ2TRGxdSlmZ
-    img: icons/svg/item-bag.svg
-    effects: []
-    ownership:
-      default: 0
-    flags: {}
-    _stats:
-      coreVersion: '14.367'
-      systemId: dangerousgary
-      systemVersion: '#{VERSION}#'
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-      compendiumSource: null
-      duplicateSource: null
-      exportSource: null
-  - name: Lame de la Hallebarde de la sainte
-    type: equipment
-    folder: EjVIiMEfxSZfDCzo
-    sort: 550000
-    system:
-      subType: weapon
-      weaponCategory: other
-      description: >-
-        <p>Dégâts considérés comme générés par un Artefact.</p><p>L'arme est
-        Encombrante.</p>
-      armour: 0
-      equipped: false
-      bulky: true
-      criticalDamage: false
       damageFormula: 1d8
-    _id: GVv7tgE7OISanjwW
+      criticalDamage: false
+    _id: JS9lVJ2TRGxdSlmZ
     img: icons/svg/item-bag.svg
     effects: []
     ownership:

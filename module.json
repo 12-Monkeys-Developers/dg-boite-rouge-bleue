@@ -18,8 +18,8 @@
         "type": "system",
         "manifest": "https://github.com/12-Monkeys-Developers/dangerousgary/releases/latest/download/system.json",
         "compatibility": {
-          "minimum": "1.4.3",
-          "verified": "1.4.3"
+          "minimum": "1.4.4",
+          "verified": "1.4.4"
         }
       }
     ]

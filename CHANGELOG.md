@@ -1,3 +1,7 @@
+# 0.7.3
+- Artefacts : les dégâts sont portés par les artefacts eux-mêmes (système Dangerous Gary 1.4.4) — Hallebarde de la sainte et Épée du greffier 1d8, Pistolet de collection {1d6,1d12}kl ; capacités : Collier de chien 1d6, Baguette écarlate ceil(@vol/2) au niveau 1 et @volmax au niveau 6. Les cinq équipements « arme » qui portaient ces dégâts sont retirés
+- Prérequis : système Dangerous Gary 1.4.4 minimum
+
 # 0.7.2
 - Prérequis : système Dangerous Gary 1.4.3 minimum (talents d’Assassin repris du compendium « Talents (MJ) »)
 - Release technique : mise à jour de la CI

@@ -11043,41 +11043,15 @@ items:
       artefactCapacities:
         '1':
           level: 1
+          damageFormula: 1d6
           description: >-
             <p>Un donjexeur le passant autour de son cou voit sa mâchoire se
             déformer pour ressembler à la gueule d’un animal aux crocs démesurés
             (1D6 points de dégâts considérés comme générés par un Artefact). Le
             donjexeur ne peut alors plus parler et n’émet que des
             grognements.</p>
-    effects: []
-    sort: 0
-    ownership:
-      default: 0
-    flags: {}
-    _stats:
-      coreVersion: '14.368'
-      systemId: dangerousgary
-      systemVersion: '#{VERSION}#'
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-      compendiumSource: null
-      duplicateSource: null
-      exportSource: null
-  - folder: U2oXYzgu0ciZKfdc
-    name: Morsure du collier de chien
-    type: equipment
-    _id: 08d4W2RIgKOc7NCK
-    img: icons/svg/item-bag.svg
-    system:
-      subType: weapon
-      weaponCategory: other
-      description: <p>Dégâts considérés comme générés par un Artefact.</p>
-      armour: 0
-      equipped: false
-      bulky: false
+      damageFormula: ''
       criticalDamage: false
-      damageFormula: 1d6
     effects: []
     sort: 0
     ownership:
@@ -11196,6 +11170,8 @@ items:
             cette arme, il peut immédiatement porter une seconde attaque durant
             son tour de combat. Cette seconde attaque est obligatoirement
             contrainte.</p>
+      damageFormula: 1d8
+      criticalDamage: false
     _id: 34EQS85KZRS4quIf
     img: icons/svg/item-bag.svg
     effects: []
@@ -11265,6 +11241,7 @@ items:
       artefactCapacities:
         '1':
           level: 1
+          damageFormula: 'ceil(@vol/2)'
           description: >-
             <p>Le donjexeur pointe la baguette vers une cible à moins de 10
             mètres. L'objet émet un rayon incandescent qui inflige des points de
@@ -11272,42 +11249,13 @@ items:
             donjexeur, arrondie au supérieur.</p>
         '2':
           level: 6
+          damageFormula: '@volmax'
           description: >-
             <p>Même effet, mais le rayon inflige des points de dégâts égaux à la
             <strong>Volonté totale (initiale)</strong> du donjexeur.</p>
-    _id: bg3b5WhPcJY8D6sb
-    img: icons/svg/item-bag.svg
-    effects: []
-    ownership:
-      default: 0
-    flags: {}
-    _stats:
-      coreVersion: '14.368'
-      systemId: dangerousgary
-      systemVersion: '#{VERSION}#'
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-      compendiumSource: null
-      duplicateSource: null
-      exportSource: null
-  - name: Lame de l'Épée du greffier
-    type: equipment
-    folder: vrGUEKoCe66RHE8u
-    sort: 850000
-    system:
-      subType: weapon
-      weaponCategory: other
-      description: >-
-        <p>Dégâts considérés comme générés par un Artefact.</p><p>La seconde
-        attaque du même tour se lance avec l'option « Contrainte » du dialogue
-        de dégâts.</p>
-      armour: 0
-      equipped: false
-      bulky: false
+      damageFormula: ''
       criticalDamage: false
-      damageFormula: 1d8
-    _id: H73iIuSsAvPJgfzF
+    _id: bg3b5WhPcJY8D6sb
     img: icons/svg/item-bag.svg
     effects: []
     ownership:
@@ -11348,41 +11296,6 @@ items:
             sa concentration : il ne peut alors ni attaquer, ni utiliser un
             Talent ou un autre artefact.</p>
     _id: sEqzOKcwPZEzbiwf
-    img: icons/svg/item-bag.svg
-    effects: []
-    ownership:
-      default: 0
-    flags: {}
-    _stats:
-      coreVersion: '14.368'
-      systemId: dangerousgary
-      systemVersion: '#{VERSION}#'
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-      compendiumSource: null
-      duplicateSource: null
-      exportSource: null
-  - name: Rayon de la Baguette écarlate
-    type: equipment
-    folder: vrGUEKoCe66RHE8u
-    sort: 950000
-    system:
-      subType: weapon
-      weaponCategory: other
-      description: >-
-        <p>Dégâts considérés comme générés par un
-        Artefact.</p><p><strong>Formule à renseigner</strong> : la moitié de
-        votre Volonté arrondie au supérieur (par exemple <code>5</code> pour une
-        VOL de 9), ou votre Volonté initiale complète à partir du niveau 6. Le
-        système ne résout pas les caractéristiques dans les formules de
-        dégâts.</p>
-      armour: 0
-      equipped: false
-      bulky: false
-      criticalDamage: false
-      damageFormula: ''
-    _id: O4M6HjOVKHCNd9T0
     img: icons/svg/item-bag.svg
     effects: []
     ownership:
@@ -11543,39 +11456,9 @@ items:
             arme, le joueur lance simultanément un [[/r 1d6]] et un [[/r 1d12]].
             Le dé indiquant le score le plus faible détermine les dégâts
             infligés par la balle lors de ce round.</p>
-    _id: 9vRfCODwl5p4ZXJI
-    img: icons/svg/item-bag.svg
-    effects: []
-    ownership:
-      default: 0
-    flags: {}
-    _stats:
-      coreVersion: '14.368'
-      systemId: dangerousgary
-      systemVersion: '#{VERSION}#'
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-      compendiumSource: null
-      duplicateSource: null
-      exportSource: null
-  - name: Tir du pistolet de collection
-    type: equipment
-    folder: uEOvmjqcBl2nASvE
-    sort: 450000
-    system:
-      subType: weapon
-      weaponCategory: other
-      description: >-
-        <p>Dégâts considérés comme générés par un Artefact.</p><p>La formule
-        lance un 1d6 et un 1d12 et conserve le plus faible des deux, comme le
-        prévoit l'artefact.</p>
-      armour: 0
-      equipped: false
-      bulky: false
-      criticalDamage: false
       damageFormula: '{1d6,1d12}kl'
-    _id: nIvdMlYKL4FPEd1n
+      criticalDamage: false
+    _id: 9vRfCODwl5p4ZXJI
     img: icons/svg/item-bag.svg
     effects: []
     ownership:

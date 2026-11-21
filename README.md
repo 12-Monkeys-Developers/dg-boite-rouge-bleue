@@ -5,7 +5,7 @@ Adaptation de la campagne en deux parties de **Dangerous Gary**, éditées par *
 ## Prérequis
 
 - **Foundry VTT version 14**.
-- Le système [Dangerous Gary](https://github.com/12-Monkeys-Developers/dangerousgary), **version 1.4.3 minimum**.
+- Le système [Dangerous Gary](https://github.com/12-Monkeys-Developers/dangerousgary), **version 1.4.4 minimum**.
 
 Les rencontres utilisent les capacités du système 1.4.0 : effets spéciaux d’attaque, dégâts critiques, effets continus, défenses, auras de terreur et régénération.
 
@@ -20,15 +20,15 @@ Un compendium **« Boites rouge et bleue »** rassemble deux aventures à import
 
 | Aventure | Scènes | Journaux | Fiches Rencontre | Fiches Personnage | Objets et artefacts |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Boite rouge | 8 | 8 | 18 | 21 | 15 |
-| Boite bleue | 7 | 7 | 26 | 16 | 24 |
+| Boite rouge | 8 | 8 | 18 | 21 | 11 |
+| Boite bleue | 7 | 7 | 26 | 16 | 23 |
 
 - Scènes illustrées et notes donnant accès aux descriptions partielles des lieux : juste la description de la salle.
 - Journaux de description des donjons.
 - Rencontres avec caractéristiques, attaques et pouvoirs.
 - 81 profils de créatures et PNJ : les protagonistes des donjons, des intersections et du final sont inclus.
 - Fiches Personnage pour les PNJ donjexeurs et humanoïdes.
-- Artefacts et équipements associés.
+- Artefacts, dont ceux qui infligent des dégâts comme arme ou par une capacité.
 
 Les effets pris en charge par le système sont renseignés sur les fiches. Les armes des Personnages ne prennent pas en charge les déclencheurs des attaques de Rencontre : leurs effets spéciaux restent en description. Les pouvoirs comportant des conditions particulières, des immunités ou des effets narratifs restent décrits pour être gérés par le MJ.
 
@@ -36,7 +36,7 @@ Les effets pris en charge par le système sont renseignés sur les fiches. Les a
 
 En attendant la validation par Foundry.
 
-1. Installer le système **Dangerous Gary 1.4.3 ou supérieur**.
+1. Installer le système **Dangerous Gary 1.4.4 ou supérieur**.
 2. Dans l’écran de configuration de Foundry, ouvrir **Modules complémentaires**, puis **Installer un module** et utiliser cette URL de manifeste :
 
    ```text
